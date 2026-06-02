@@ -236,122 +236,145 @@
       "meaning": "The mirror: he was the mechanism, and he stops cleaning"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "slug": "INT. PELL SCIENCE HALL - MAIN CORRIDOR - NIGHT"
+      },
       "id": "b-buff",
       "kind": "beat",
-      "manifestation": "He ran the buffer until the corridor came up shining and his own face moved in the floor beneath him.",
+      "manifestation": "He runs the buffer until the corridor comes up shining and his own face moves in the floor beneath him.",
       "meaning": "Pride in a surface no one notices"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "slug": "INT. B-WING - SEALED LAB - NIGHT"
+      },
       "id": "b-choice",
       "kind": "beat",
-      "manifestation": "",
+      "manifestation": "He stands over the dark shape with the roller loaded. For a long time, he does not move.",
       "meaning": "The choice: carry it away once more, or set it down"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "character": "SUPERVISOR",
+        "dialogue": "Don't you worry about B-wing, Walt. Maintenance has that one covered now.",
+        "parenthetical": "easy, friendly",
+        "slug": "INT. MAINTENANCE OFFICE - DAY"
+      },
       "id": "b-cleaned-him",
       "kind": "beat",
-      "manifestation": "His supervisor put a hand on his shoulder, mentioned a raise, and said not to worry about B-wing. Maintenance had that one covered now.",
+      "manifestation": "His supervisor finds him at the time clock, sets a hand on his shoulder, mentions a raise.",
       "meaning": "The institution begins to clean him"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "slug": "EXT. CAMPUS GATE - DAY"
+      },
       "id": "b-cost",
       "kind": "beat",
-      "manifestation": "Two weeks later they collected his keys at the gate.",
+      "manifestation": "Two weeks later, they collect his keys at the gate.",
       "meaning": "Cost: to refuse to carry refuse is to become it"
     },
     {
       "attributes": {},
       "id": "b-door",
       "kind": "beat",
-      "manifestation": "He held the door. Forty-one of them went through. The forty-second said thanks to the door.",
+      "manifestation": "He holds the door. Forty-one of them go through. The forty-second thanks the door.",
       "meaning": "He is looked through"
     },
     {
       "attributes": {},
       "id": "b-drain",
       "kind": "beat",
-      "manifestation": "The drain backed up. He reached past the trap and brought out a student ID, swollen, the photo still readable. The name under it was Mara Okafor.",
+      "manifestation": "The drain backs up. He reaches past the trap and lifts out a student ID, swollen, the photo still readable. The name under it is MARA OKAFOR.",
       "meaning": "The erased name surfaces"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "slug": "INT. B-WING - SEALED LAB - NIGHT"
+      },
       "id": "b-drywall",
       "kind": "beat",
-      "manifestation": "Behind the new drywall the old doorframe was still there, painted over. The floor inside was a fresh sheet of grey.",
+      "manifestation": "Behind the new drywall, the old doorframe is still there, painted over. The floor inside is a fresh sheet of grey.",
       "meaning": "A room hidden inside a renovation"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "slug": "INT. PELL SCIENCE HALL - LOBBY - EVENING"
+      },
       "id": "b-empty",
       "kind": "beat",
-      "manifestation": "At six the last of them filed out and the building became his.",
+      "manifestation": "At six, the last of them file out, and the building becomes WALT's.",
       "meaning": "He has the building once the seen people leave"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "slug": "INT. PELL SCIENCE HALL - MAIN CORRIDOR - DAY"
+      },
       "id": "b-final-floor",
       "kind": "beat",
-      "manifestation": "He never buffed that corridor again. The floor went dull, and his face stopped coming up in it.",
+      "manifestation": "No one buffs that corridor again. The floor goes dull, and his face stops coming up in it.",
       "meaning": "Payoff: he declines to disappear into the surface"
     },
     {
       "attributes": {},
       "id": "b-light",
       "kind": "beat",
-      "manifestation": "On his way out he left the wing's lights burning.",
+      "manifestation": "On his way out, he leaves the wing's lights burning.",
       "meaning": "He lets the truth stay visible"
     },
     {
       "attributes": {},
       "id": "b-name-tape",
       "kind": "beat",
-      "manifestation": "Pell. Vance. Holloway, cut into the stone over each door. His own name was a strip of masking tape on locker 12, re-inked where it had worn.",
+      "manifestation": "He passes the doors -- PELL, VANCE, HOLLOWAY -- cut into the stone above each one. Nowhere in the building is his own name cut into anything.",
       "meaning": "The names that count and the name that does not"
     },
     {
       "attributes": {},
       "id": "b-recognize",
       "kind": "beat",
-      "manifestation": "He knew the room by the way the mop had dragged. He had worked it once, on overtime, signed for the hours, and never asked whose night it had been.",
+      "manifestation": "He knows the room by the way the mop drags. He worked it once, on overtime, signed for the hours, and never asked whose night it had been.",
       "meaning": "Complicity: he was here before"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "slug": "INT. PELL SCIENCE HALL - B-WING DOORS - NIGHT"
+      },
       "id": "b-sealed-intro",
       "kind": "beat",
-      "manifestation": "His ring opened every door in the building. One it never opened: the wing they had posted for asbestos eight years ago and never touched.",
+      "manifestation": "His ring opens every door in the building. One it does not: the wing posted for asbestos eight years ago and never touched.",
       "meaning": "Every door but one"
     },
     {
       "attributes": {},
       "id": "b-stain-returns",
       "kind": "beat",
-      "manifestation": "He had painted the floor three times. Each morning the dark came back up through the newest grey, a little east of where he had centered it.",
+      "manifestation": "He has painted the floor three times. Each morning the dark comes back up through the newest grey, a little east of where he centered it.",
       "meaning": "The thing he is paid to make disappear"
     },
     {
       "attributes": {},
       "id": "b-stop-paint",
       "kind": "beat",
-      "manifestation": "He set the roller down in the tray and left the floor the way it was.",
+      "manifestation": "He sets the roller down in the tray and leaves the floor the way it is.",
       "meaning": "He stops cleaning"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "slug": "INT. STAFF LOCKER ROOM - NIGHT"
+      },
       "id": "b-tape-id",
       "kind": "beat",
-      "manifestation": "He taped Mara Okafor's ID to locker 12, beside the strip with his own name. The only two names in the building that had not been paid for.",
+      "manifestation": "He tapes MARA OKAFOR's ID to locker 12, beside the strip with his own name -- the only two names in the building no one paid to carve.",
       "meaning": "Payoff: he files her name where his own is kept"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "slug": "INT. MAINTENANCE OFFICE - MORNING"
+      },
       "id": "b-work-order",
       "kind": "beat",
-      "manifestation": "The work order said PREP B-WING FOR DEMO. Clipped beneath it was a key he had never been issued.",
+      "manifestation": "The work order reads PREP B-WING FOR DEMO. Clipped beneath it is a key he has never been issued.",
       "meaning": "Inciting: he is sent in"
     },
     {
@@ -425,7 +448,12 @@
       "meaning": "The dark that comes back through the paint"
     },
     {
-      "attributes": {},
+      "attributes": {
+        "author": "brehon",
+        "credit": "written by",
+        "source": "generated from a metaphor DAG",
+        "title": "The Night Shift"
+      },
       "id": "three-act",
       "kind": "three-act",
       "manifestation": "",

@@ -59,8 +59,10 @@ story.save("story.json")
 | --- | --- |
 | `brehon/metaphor.py` | `Metaphor` — the atomic unit. |
 | `brehon/story.py` | `Story` — the DAG, with `instantiate`/`link`, traversal, cycle protection, and canonical serialization. |
-| `brehon/render.py` | The rendering seam (words). Ships a deterministic outline view; the real surface layer (LLM vs. template) is **not yet decided**. |
+| `brehon/render.py` | The rendering seam (words). `OutlineRenderer` (debug view of the whole DAG) and `FountainRenderer` (a real screenplay in [Fountain](https://fountain.io) format, walking only the structural spine). |
 | `examples/three_act.py` | A tiny end-to-end story graph. |
+| `examples/janitor.py` | A full generated story: builds the DAG, renders the screenplay, saves the seed. |
+| `stories/` | Stored seeds (`*.json`) and rendered scripts (`*.fountain`). |
 | `tests/` | The DAG and determinism guarantees. |
 
 ## Develop
@@ -73,5 +75,8 @@ python -m examples.three_act
 
 ## Status
 
-Foundation: the metaphor DAG and its deterministic serialization. Still open:
-how leaves become screenplay text (the deliberately non-deterministic layer).
+The metaphor DAG, its deterministic serialization, and a deterministic
+`FountainRenderer` that turns a stored seed into a screenplay. Still open: the
+*fuzzy* render layer — paraphrasing a beat's wording (e.g. via an LLM) while
+keeping the metaphor stack fixed, so the core elements survive even when the
+sentences change.
