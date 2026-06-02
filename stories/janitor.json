@@ -1,0 +1,475 @@
+{
+  "edges": [
+    {
+      "child": "b-empty",
+      "parent": "act1"
+    },
+    {
+      "child": "b-door",
+      "parent": "act1"
+    },
+    {
+      "child": "b-buff",
+      "parent": "act1"
+    },
+    {
+      "child": "b-name-tape",
+      "parent": "act1"
+    },
+    {
+      "child": "b-sealed-intro",
+      "parent": "act1"
+    },
+    {
+      "child": "b-work-order",
+      "parent": "act1"
+    },
+    {
+      "child": "b-drywall",
+      "parent": "act2"
+    },
+    {
+      "child": "b-stain-returns",
+      "parent": "act2"
+    },
+    {
+      "child": "b-drain",
+      "parent": "act2"
+    },
+    {
+      "child": "b-recognize",
+      "parent": "act2"
+    },
+    {
+      "child": "b-cleaned-him",
+      "parent": "act2"
+    },
+    {
+      "child": "b-choice",
+      "parent": "act3"
+    },
+    {
+      "child": "b-stop-paint",
+      "parent": "act3"
+    },
+    {
+      "child": "b-light",
+      "parent": "act3"
+    },
+    {
+      "child": "b-tape-id",
+      "parent": "act3"
+    },
+    {
+      "child": "b-cost",
+      "parent": "act3"
+    },
+    {
+      "child": "b-final-floor",
+      "parent": "act3"
+    },
+    {
+      "child": "stain",
+      "parent": "buried"
+    },
+    {
+      "child": "sealed-wing",
+      "parent": "buried"
+    },
+    {
+      "child": "b-drywall",
+      "parent": "buried"
+    },
+    {
+      "child": "b-empty",
+      "parent": "dark"
+    },
+    {
+      "child": "b-light",
+      "parent": "dark"
+    },
+    {
+      "child": "stain",
+      "parent": "dirt"
+    },
+    {
+      "child": "mirror-floor",
+      "parent": "dirt"
+    },
+    {
+      "child": "b-cleaned-him",
+      "parent": "dirt"
+    },
+    {
+      "child": "b-name-tape",
+      "parent": "door-names"
+    },
+    {
+      "child": "b-tape-id",
+      "parent": "door-names"
+    },
+    {
+      "child": "b-sealed-intro",
+      "parent": "keys"
+    },
+    {
+      "child": "b-drain",
+      "parent": "mara-id"
+    },
+    {
+      "child": "b-tape-id",
+      "parent": "mara-id"
+    },
+    {
+      "child": "b-buff",
+      "parent": "mirror-floor"
+    },
+    {
+      "child": "b-final-floor",
+      "parent": "mirror-floor"
+    },
+    {
+      "child": "door-names",
+      "parent": "names"
+    },
+    {
+      "child": "mara-id",
+      "parent": "names"
+    },
+    {
+      "child": "b-sealed-intro",
+      "parent": "sealed-wing"
+    },
+    {
+      "child": "b-work-order",
+      "parent": "sealed-wing"
+    },
+    {
+      "child": "b-stain-returns",
+      "parent": "stain"
+    },
+    {
+      "child": "b-recognize",
+      "parent": "stain"
+    },
+    {
+      "child": "b-stop-paint",
+      "parent": "stain"
+    },
+    {
+      "child": "act1",
+      "parent": "three-act"
+    },
+    {
+      "child": "act2",
+      "parent": "three-act"
+    },
+    {
+      "child": "act3",
+      "parent": "three-act"
+    },
+    {
+      "child": "dirt",
+      "parent": "three-act"
+    },
+    {
+      "child": "unseen",
+      "parent": "three-act"
+    },
+    {
+      "child": "buried",
+      "parent": "three-act"
+    },
+    {
+      "child": "dark",
+      "parent": "three-act"
+    },
+    {
+      "child": "names",
+      "parent": "three-act"
+    },
+    {
+      "child": "b-choice",
+      "parent": "three-act"
+    },
+    {
+      "child": "keys",
+      "parent": "unseen"
+    },
+    {
+      "child": "sealed-wing",
+      "parent": "unseen"
+    },
+    {
+      "child": "mara-id",
+      "parent": "unseen"
+    },
+    {
+      "child": "b-door",
+      "parent": "unseen"
+    },
+    {
+      "child": "b-cost",
+      "parent": "unseen"
+    }
+  ],
+  "metaphors": [
+    {
+      "attributes": {},
+      "id": "act1",
+      "kind": "act",
+      "manifestation": "",
+      "meaning": "Keeper of surfaces: the building belongs to him, and no one sees him"
+    },
+    {
+      "attributes": {},
+      "id": "act2",
+      "kind": "act",
+      "manifestation": "",
+      "meaning": "The buried: sent behind the sealed door, his cleanliness was a cover"
+    },
+    {
+      "attributes": {},
+      "id": "act3",
+      "kind": "act",
+      "manifestation": "",
+      "meaning": "The mirror: he was the mechanism, and he stops cleaning"
+    },
+    {
+      "attributes": {
+        "slug": "INT. PELL SCIENCE HALL - MAIN CORRIDOR - NIGHT"
+      },
+      "id": "b-buff",
+      "kind": "beat",
+      "manifestation": "He runs the buffer until the corridor comes up shining and his own face moves in the floor beneath him.",
+      "meaning": "Pride in a surface no one notices"
+    },
+    {
+      "attributes": {
+        "slug": "INT. B-WING - SEALED LAB - NIGHT"
+      },
+      "id": "b-choice",
+      "kind": "beat",
+      "manifestation": "He stands over the dark shape with the roller loaded. For a long time, he does not move.",
+      "meaning": "The choice: carry it away once more, or set it down"
+    },
+    {
+      "attributes": {
+        "character": "SUPERVISOR",
+        "dialogue": "Don't you worry about B-wing, Walt. Maintenance has that one covered now.",
+        "parenthetical": "easy, friendly",
+        "slug": "INT. MAINTENANCE OFFICE - DAY"
+      },
+      "id": "b-cleaned-him",
+      "kind": "beat",
+      "manifestation": "His supervisor finds him at the time clock, sets a hand on his shoulder, mentions a raise.",
+      "meaning": "The institution begins to clean him"
+    },
+    {
+      "attributes": {
+        "slug": "EXT. CAMPUS GATE - DAY"
+      },
+      "id": "b-cost",
+      "kind": "beat",
+      "manifestation": "Two weeks later, they collect his keys at the gate.",
+      "meaning": "Cost: to refuse to carry refuse is to become it"
+    },
+    {
+      "attributes": {},
+      "id": "b-door",
+      "kind": "beat",
+      "manifestation": "He holds the door. Forty-one of them go through. The forty-second thanks the door.",
+      "meaning": "He is looked through"
+    },
+    {
+      "attributes": {},
+      "id": "b-drain",
+      "kind": "beat",
+      "manifestation": "The drain backs up. He reaches past the trap and lifts out a student ID, swollen, the photo still readable. The name under it is MARA OKAFOR.",
+      "meaning": "The erased name surfaces"
+    },
+    {
+      "attributes": {
+        "slug": "INT. B-WING - SEALED LAB - NIGHT"
+      },
+      "id": "b-drywall",
+      "kind": "beat",
+      "manifestation": "Behind the new drywall, the old doorframe is still there, painted over. The floor inside is a fresh sheet of grey.",
+      "meaning": "A room hidden inside a renovation"
+    },
+    {
+      "attributes": {
+        "slug": "INT. PELL SCIENCE HALL - LOBBY - EVENING"
+      },
+      "id": "b-empty",
+      "kind": "beat",
+      "manifestation": "At six, the last of them file out, and the building becomes WALT's.",
+      "meaning": "He has the building once the seen people leave"
+    },
+    {
+      "attributes": {
+        "slug": "INT. PELL SCIENCE HALL - MAIN CORRIDOR - DAY"
+      },
+      "id": "b-final-floor",
+      "kind": "beat",
+      "manifestation": "No one buffs that corridor again. The floor goes dull, and his face stops coming up in it.",
+      "meaning": "Payoff: he declines to disappear into the surface"
+    },
+    {
+      "attributes": {},
+      "id": "b-light",
+      "kind": "beat",
+      "manifestation": "On his way out, he leaves the wing's lights burning.",
+      "meaning": "He lets the truth stay visible"
+    },
+    {
+      "attributes": {},
+      "id": "b-name-tape",
+      "kind": "beat",
+      "manifestation": "He passes the doors -- PELL, VANCE, HOLLOWAY -- cut into the stone above each one. Nowhere in the building is his own name cut into anything.",
+      "meaning": "The names that count and the name that does not"
+    },
+    {
+      "attributes": {},
+      "id": "b-recognize",
+      "kind": "beat",
+      "manifestation": "He knows the room by the way the mop drags. He worked it once, on overtime, signed for the hours, and never asked whose night it had been.",
+      "meaning": "Complicity: he was here before"
+    },
+    {
+      "attributes": {
+        "slug": "INT. PELL SCIENCE HALL - B-WING DOORS - NIGHT"
+      },
+      "id": "b-sealed-intro",
+      "kind": "beat",
+      "manifestation": "His ring opens every door in the building. One it does not: the wing posted for asbestos eight years ago and never touched.",
+      "meaning": "Every door but one"
+    },
+    {
+      "attributes": {},
+      "id": "b-stain-returns",
+      "kind": "beat",
+      "manifestation": "He has painted the floor three times. Each morning the dark comes back up through the newest grey, a little east of where he centered it.",
+      "meaning": "The thing he is paid to make disappear"
+    },
+    {
+      "attributes": {},
+      "id": "b-stop-paint",
+      "kind": "beat",
+      "manifestation": "He sets the roller down in the tray and leaves the floor the way it is.",
+      "meaning": "He stops cleaning"
+    },
+    {
+      "attributes": {
+        "slug": "INT. STAFF LOCKER ROOM - NIGHT"
+      },
+      "id": "b-tape-id",
+      "kind": "beat",
+      "manifestation": "He tapes MARA OKAFOR's ID to locker 12, beside the strip with his own name -- the only two names in the building no one paid to carve.",
+      "meaning": "Payoff: he files her name where his own is kept"
+    },
+    {
+      "attributes": {
+        "slug": "INT. MAINTENANCE OFFICE - MORNING"
+      },
+      "id": "b-work-order",
+      "kind": "beat",
+      "manifestation": "The work order reads PREP B-WING FOR DEMO. Clipped beneath it is a key he has never been issued.",
+      "meaning": "Inciting: he is sent in"
+    },
+    {
+      "attributes": {},
+      "id": "buried",
+      "kind": "theme",
+      "manifestation": "",
+      "meaning": "What is sealed away and discarded"
+    },
+    {
+      "attributes": {},
+      "id": "dark",
+      "kind": "theme",
+      "manifestation": "",
+      "meaning": "Truth is visible only on the night shift"
+    },
+    {
+      "attributes": {},
+      "id": "dirt",
+      "kind": "theme",
+      "manifestation": "",
+      "meaning": "What will not come out"
+    },
+    {
+      "attributes": {},
+      "id": "door-names",
+      "kind": "motif",
+      "manifestation": "",
+      "meaning": "Donor names in stone; his own in masking tape"
+    },
+    {
+      "attributes": {},
+      "id": "keys",
+      "kind": "motif",
+      "manifestation": "",
+      "meaning": "The keys of the invisible man"
+    },
+    {
+      "attributes": {},
+      "id": "mara-id",
+      "kind": "motif",
+      "manifestation": "",
+      "meaning": "The student ID with the erased name"
+    },
+    {
+      "attributes": {},
+      "id": "mirror-floor",
+      "kind": "motif",
+      "manifestation": "",
+      "meaning": "The floor you can see your face in"
+    },
+    {
+      "attributes": {},
+      "id": "names",
+      "kind": "theme",
+      "manifestation": "",
+      "meaning": "Names carved, taped, or erased"
+    },
+    {
+      "attributes": {},
+      "id": "sealed-wing",
+      "kind": "motif",
+      "manifestation": "",
+      "meaning": "The one door his ring will not open"
+    },
+    {
+      "attributes": {},
+      "id": "stain",
+      "kind": "motif",
+      "manifestation": "",
+      "meaning": "The dark that comes back through the paint"
+    },
+    {
+      "attributes": {
+        "author": "brehon",
+        "cast": {
+          "SUPERVISOR": "am_adam"
+        },
+        "credit": "written by",
+        "narrator_voice": "af_heart",
+        "source": "generated from a metaphor DAG",
+        "title": "The Night Shift"
+      },
+      "id": "three-act",
+      "kind": "three-act",
+      "manifestation": "",
+      "meaning": "An institution stays clean only because someone is paid to carry away what it refuses to admit"
+    },
+    {
+      "attributes": {},
+      "id": "unseen",
+      "kind": "theme",
+      "manifestation": "",
+      "meaning": "Looked through; the keys of the invisible"
+    }
+  ],
+  "root_id": "three-act"
+}
