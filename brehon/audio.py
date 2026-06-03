@@ -25,7 +25,7 @@ from __future__ import annotations
 import re
 import wave
 from dataclasses import dataclass
-from typing import Optional, Protocol
+from typing import Iterator, Optional, Protocol
 
 from brehon.story import Story
 
@@ -86,24 +86,37 @@ class AudioRenderer:
         cast, narrator = self._resolve_voices(story)
         root = story.get(story.root_id)
         out: list[Utterance] = []
-        acts = [m for m in story.children(root.id) if m.kind == "act"]
-        for act in acts:
-            for beat in story.children(act.id):
-                beat = story.get(beat.id)
-                attrs = beat.attributes
-                if self.speak_slugs and attrs.get("slug"):
-                    out.append(Utterance(narrator, _for_speech(attrs["slug"]), beat.id))
-                if beat.manifestation:
-                    out.append(
-                        Utterance(narrator, _for_speech(beat.manifestation), beat.id)
-                    )
-                character = attrs.get("character")
-                if character and attrs.get("dialogue"):
-                    voice = cast.get(character, narrator)
-                    out.append(
-                        Utterance(voice, _for_speech(attrs["dialogue"]), beat.id)
-                    )
+        for beat in self._spine_nodes(story, root):
+            attrs = beat.attributes
+            if self.speak_slugs and attrs.get("slug"):
+                out.append(Utterance(narrator, _for_speech(attrs["slug"]), beat.id))
+            if beat.manifestation:
+                out.append(Utterance(narrator, _for_speech(beat.manifestation), beat.id))
+            character = attrs.get("character")
+            if character and attrs.get("dialogue"):
+                voice = cast.get(character, narrator)
+                out.append(Utterance(voice, _for_speech(attrs["dialogue"]), beat.id))
         return out
+
+    def _spine_nodes(self, story: Story, root) -> Iterator:
+        """Page nodes in narrative order: acts->beats, or previous->mirror->next."""
+        if root.kind == "mirror":
+            states = [m for m in story.children(root.id) if m.kind == "state"]
+            previous = next((s for s in states if s.attributes.get("role") == "previous"), None)
+            following = next((s for s in states if s.attributes.get("role") == "next"), None)
+            if previous is None and states:
+                previous = states[0]
+            if following is None and len(states) > 1:
+                following = states[1]
+            if previous is not None:
+                yield from story.walk(previous.id)
+            yield root  # the mirror scene, at the hinge
+            if following is not None:
+                yield from story.walk(following.id)
+        else:
+            for act in (m for m in story.children(root.id) if m.kind == "act"):
+                for beat in story.children(act.id):
+                    yield story.get(beat.id)
 
     def to_wav(
         self,

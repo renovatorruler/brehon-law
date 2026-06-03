@@ -1,0 +1,147 @@
+{
+  "edges": [
+    {
+      "child": "previous-state",
+      "parent": "mirror"
+    },
+    {
+      "child": "next-state",
+      "parent": "mirror"
+    },
+    {
+      "child": "n1",
+      "parent": "next-state"
+    },
+    {
+      "child": "n2",
+      "parent": "next-state"
+    },
+    {
+      "child": "n3",
+      "parent": "next-state"
+    },
+    {
+      "child": "p1",
+      "parent": "previous-state"
+    },
+    {
+      "child": "p2",
+      "parent": "previous-state"
+    },
+    {
+      "child": "p3",
+      "parent": "previous-state"
+    }
+  ],
+  "metaphors": [
+    {
+      "attributes": {
+        "author": "brehon",
+        "cast": {
+          "ELI": "am_onyx",
+          "LILY": "af_bella"
+        },
+        "credit": "written by",
+        "narrator_voice": "am_michael",
+        "source": "generated from a metaphor DAG",
+        "title": "The Quiet Pulse"
+      },
+      "concreteness": 1.0,
+      "id": "mirror",
+      "kind": "mirror",
+      "manifestation": "Eli stands in the kitchen with his right hand holding his daughter\u2019s left hand and his left hand holding a disassembled C-4 block with its plastic casing split open along one seam. His daughter\u2019s eyes are open wide. His eyes are open wide. The stove timer shows 12:03.",
+      "meaning": "A bomb-disposal veteran who cannot feel fear must learn to be afraid to keep his daughter alive"
+    },
+    {
+      "attributes": {
+        "slug": "first_fear_register"
+      },
+      "concreteness": 1.0,
+      "id": "n1",
+      "kind": "beat",
+      "manifestation": "Eli\u2019s pupils dilate. His breath catches. His hand trembles\u2014not from fatigue, but from a new, unwelcome awareness. He turns toward the sound of his daughter\u2019s voice calling from down the hall.",
+      "meaning": "Fear registers as physical warning \u2014 not threat, but protection"
+    },
+    {
+      "attributes": {
+        "character": "ELI",
+        "dialogue": "Don\u2019t move.",
+        "doorway": 2,
+        "slug": "microwave_explosion_dive"
+      },
+      "concreteness": 1.0,
+      "id": "n2",
+      "kind": "beat",
+      "manifestation": "Eli drops to one knee, wraps his arms around his daughter\u2019s waist, and pulls her behind the kitchen island just as the microwave door bursts inward in a shower of sparks and shattered plastic.",
+      "meaning": "Fear becomes a tool, not a flaw"
+    },
+    {
+      "attributes": {
+        "character": "ELI",
+        "dialogue": "I\u2019m sorry. I\u2019m sorry. I\u2019m sorry.",
+        "slug": "shattered_glove_grip"
+      },
+      "concreteness": 1.0,
+      "id": "n3",
+      "kind": "beat",
+      "manifestation": "Eli\u2019s gloved hands grip his daughter\u2019s face, turning her away from the smoke. His voice cracks\u2014first time in ten years. He does not wipe his eyes.",
+      "meaning": "Protective fear overrides professional detachment"
+    },
+    {
+      "attributes": {
+        "role": "next"
+      },
+      "concreteness": null,
+      "id": "next-state",
+      "kind": "state",
+      "manifestation": "",
+      "meaning": "the next self"
+    },
+    {
+      "attributes": {
+        "slug": "warehouse_numbness"
+      },
+      "concreteness": 1.0,
+      "id": "p1",
+      "kind": "beat",
+      "manifestation": "Eli sits alone at a metal folding table in a warehouse bay, wearing gloves, tightening bolts on a disarmed IED while rain streaks the high windows behind him",
+      "meaning": "Emotional numbness masked as control"
+    },
+    {
+      "attributes": {
+        "character": "ELI",
+        "dialogue": "You\u2019re safe. I\u2019m here.",
+        "slug": "shoulder_touch"
+      },
+      "concreteness": 1.0,
+      "id": "p2",
+      "kind": "beat",
+      "manifestation": "Eli places a hand on his daughter\u2019s shoulder; she flinches. He does not pull back. Does not blink. Does not shift his weight.",
+      "meaning": "Rejection of vulnerability as weakness"
+    },
+    {
+      "attributes": {
+        "character": "LILY",
+        "dialogue": "Dad\u2026 it\u2019s just a smoke alarm.",
+        "doorway": 1,
+        "slug": "door_lock_drop_key"
+      },
+      "concreteness": 1.0,
+      "id": "p3",
+      "kind": "beat",
+      "manifestation": "Eli walks out the front door of his trailer, locks it with a master key, and drops the key into a rusted oil can on the porch step.",
+      "meaning": "Irreversible lock-out from protective fatherhood"
+    },
+    {
+      "attributes": {
+        "role": "previous"
+      },
+      "concreteness": null,
+      "id": "previous-state",
+      "kind": "state",
+      "manifestation": "",
+      "meaning": "the previous self"
+    }
+  ],
+  "root_id": "mirror"
+}

@@ -37,6 +37,11 @@ def main(argv: list[str]) -> None:
     print("\n=== SCREENPLAY (previous -> mirror -> next) ===\n")
     print(result.screenplay)
 
+    result.story.save("stories/pipeline.json")
+    with open("stories/pipeline.fountain", "w", encoding="utf-8") as handle:
+        handle.write(result.screenplay)
+    print("\nsaved -> stories/pipeline.json, stories/pipeline.fountain")
+
     for message in result.warnings:
         print(f"[warn] {message}", file=sys.stderr)
     verdict = "passed every gate" if result.report.passed else "still failing gates above"

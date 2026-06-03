@@ -81,6 +81,15 @@ monorail. *(Added.)*
 
 ---
 
+## 6 — Continuity (the connected whole)
+
+Every gate above judges a beat *by itself*; this one judges the **sequence**. The
+beats must form one connected world — consistent locations (with transitions when
+they change), consistent character presence (no one in two places at once),
+consistent time and causality. *(Added. The gate carries state across the beats:
+a deterministic scan for bilocation and place-teleporting, plus a model-backed
+script-supervisor read.)*
+
 ## The pipeline
 
 Generating a story = running these in order, each gating the next:
@@ -91,6 +100,7 @@ Generating a story = running these in order, each gating the next:
 4. **Weave** — A / B threads.
 5. **Metaphor** — concretize + embodiment check, per beat.
 6. **Render** — active prose + the show-not-tell pass.
+7. **Continuity** — the beats form one connected world (no bilocation, no teleporting).
 
 The LLM is the worker inside each step. The steps, the order, and the gates are the
 system.

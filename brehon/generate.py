@@ -468,11 +468,25 @@ def build_spine(
     if spec.get("slug"):
         attrs["slug"] = str(spec["slug"])
 
+    def _label(*keys: str, default: str) -> str:
+        for key in keys:
+            value = spec.get(key)
+            if isinstance(value, str) and value.strip():
+                return value
+        return default
+
+    def _beats(*keys: str) -> list:
+        for key in keys:  # models often nest the beats under the state key itself
+            value = spec.get(key)
+            if isinstance(value, list):
+                return value
+        return []
+
     root, previous, following = s.mirror(
         str(transformation),
         manifestation=str(spec.get("mirror") or ""),
-        previous=str(spec.get("previous_state") or "the previous self"),
-        next=str(spec.get("next_state") or "the next self"),
+        previous=_label("previous_label", "previous_state", default="the previous self"),
+        next=_label("next_label", "next_state", default="the next self"),
         **attrs,
     )
 
@@ -497,7 +511,10 @@ def build_spine(
             count += 1
         return count
 
-    seated = _seat(previous.id, spec.get("previous_beats")) + _seat(following.id, spec.get("next_beats"))
+    seated = (
+        _seat(previous.id, _beats("previous_beats", "previous", "previous_state"))
+        + _seat(following.id, _beats("next_beats", "next", "next_state"))
+    )
     if seated == 0:
         raise ValueError("generated spine has no beats; cannot render")
 
@@ -520,9 +537,10 @@ Requirements:
 - Mark exactly one previous beat with "doorway": 1 (the irreversible lock-out
   that ends Act 1) and one next beat with "doorway": 2 (what forces him into the
   test).
-- Include at least one beat with "character" + "dialogue"; put that character in
-  "cast" with a voice (female af_heart af_bella af_sarah; male am_michael am_adam
-  am_fenrir am_onyx). Set "narrator_voice".
+- Give two or three beats dialogue, spoken by DIFFERENT characters so the
+  recording has several voices; put each speaker in "cast" with a distinct voice
+  (female af_heart af_bella af_sarah af_nicole; male am_michael am_adam am_fenrir
+  am_onyx). Set "narrator_voice".
 
 Return ONE JSON object:
 {"title","transformation","mirror","previous_state","next_state","narrator_voice",
