@@ -37,6 +37,11 @@ _RULES = (
     "image, the mirror, and the finale must land for the eye. Dialogue is seasoning "
     "— never run more than two talking scenes back to back without an active one, "
     "and as the hero is broken open let the film grow quieter and more visual.",
+    "- GROW FLESH, don't shrink-wrap. The fixed beats are the bones, not the whole "
+    "animal. Build the body around them: at least one subplot with its own arc the "
+    "hero does not drive; a want of their own for every named character, pursued off "
+    "the hero's line; the larger situation the premise only implies; and detail that "
+    "doesn't pay off. A story that is only the fixed beats expanded has failed.",
 )
 
 
@@ -56,9 +61,10 @@ def to_prompt(story: "Story", *, form: str = "screenplay") -> str:
     root = story.get(story.root_id)
     out: list[str] = [
         f"Write one complete, continuous {form}. You hold the whole world in your "
-        "head and keep it coherent — that part is yours. What is FIXED is below: "
-        "realize each element exactly, and do not add, drop, or reorder the "
-        "structure, or change what a beat means.",
+        "head and keep it coherent — that part is yours. The STRUCTURE below is "
+        "FIXED: realize each beat, and do not drop, reorder, or change what one "
+        "means. Everything ELSE — the flesh around those bones — you must invent "
+        "generously (see THE FLESH).",
         "",
         f"TRANSFORMATION (the whole point): {root.meaning}",
     ]
@@ -85,6 +91,19 @@ def to_prompt(story: "Story", *, form: str = "screenplay") -> str:
             out.append(f"  - {c.meaning} — {c.attributes.get('archetype', '')}; "
                        f"wants {c.attributes.get('want', '')}")
 
+    out += [
+        "",
+        "THE FLESH (yours to invent — the fixed beats above are the load-bearing "
+        "bones, not the whole animal):",
+        "  - Build at least one SUBPLOT with its own beginning, middle, and end that "
+        "the protagonist does not drive, and may not even be in.",
+        "  - Give every named character a want of their own, pursued whether or not "
+        "it serves the hero, that goes on when he leaves the room.",
+        "  - Invent the larger situation the premise only hints at: who else is "
+        "affected, what forces are moving, the daily life of the place.",
+        "  - Allow contingency — specifics and small events that do NOT pay off; a "
+        "real world is not a machine where every part is load-bearing.",
+    ]
     out += ["", "RULES (non-negotiable; checked on your output):", *_RULES, "",
             f"Write the {form} now, scene by scene, in order."]
     return "\n".join(out)

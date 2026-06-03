@@ -15,12 +15,17 @@ def _clean_story():
                   manifestation="He bolts the door from the inside.")
     s.instantiate(act.id, "m2", kind="beat", id="b2", attributes={"doorway": 2},
                   manifestation="He sets the roller down and leaves the floor as it is.")
+    # flesh: untagged beats so the spine isn't a bare skeleton (density gate)
+    s.instantiate(act.id, "sub1", kind="beat", id="f1",
+                  manifestation="His neighbor hammers a sign into the next yard.")
+    s.instantiate(act.id, "sub2", kind="beat", id="f2",
+                  manifestation="A dog drags its chain across the gravel and lies down.")
     return s
 
 
 def test_check_reports_every_stage():
     names = [s.name for s in check(_clean_story()).stages]
-    assert names == ["spine", "doorways", "concreteness", "show-not-tell", "visual"]
+    assert names == ["spine", "doorways", "concreteness", "show-not-tell", "visual", "density"]
 
 
 def test_clean_story_passes():

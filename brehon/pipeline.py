@@ -15,7 +15,7 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
 from brehon import cinema as _cinema
-from brehon import concreteness, doorways as _doorways, embodiment, showing
+from brehon import concreteness, density as _density, doorways as _doorways, embodiment, showing
 from brehon import generate as _generate
 from brehon import weave as _weave
 from brehon import world as _world
@@ -99,6 +99,10 @@ def check(
     if client is not None:
         silent = _cinema.silent_legibility(story, client)
         stages.append(StageReport("silent-spine", silent.passed, silent.summary()))
+
+    # 8 — Density: flesh on the bones (anti-shrink-wrap)
+    dens = _density.density(story, world=world)
+    stages.append(StageReport("density", dens.passed, dens.summary()))
 
     return PipelineResult(stages)
 

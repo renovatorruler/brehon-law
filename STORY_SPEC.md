@@ -98,6 +98,25 @@ monorail. *(Added.)*
 
 ---
 
+## 7 — Density (flesh on the bones)
+
+- **Bones vs flesh.** A premise is a few load-bearing bones, not a skeleton, and a
+  skeleton is not an animal. Beats that carry a structural function (a Save-the-Cat
+  beat, a doorway) are *bones*; everything else — subplot, texture, the living world —
+  is *flesh*. *(Added.)*
+- **Gate: anti-shrink-wrap.** A seed that is almost all bone has been shrink-wrapped:
+  the thinnest story stretched over exactly the beats it was handed. The gate flags
+  too-little-flesh and declared-but-undramatized wants (a character handed a want in
+  the cast who never gets a beat of their own to pursue it). *(Added.)*
+- **Necessary is per-layer.** "Cut the inessential" keeps the *A-spine* lean; this
+  keeps the *world* deep. A subplot or a texture only has to be necessary to its own
+  purpose, not to the A-plot. Shrink-wrap is a tight spine with no body; spectacle is
+  a body with no spine; a story needs both. *(Added.)*
+- **The flesh is the model's to grow.** The seed fixes the bones; the prompt mandates
+  the flesh (`to_prompt`'s THE FLESH block); the gate only names the lack. *(Added.)*
+
+---
+
 ## The data structure is a managed prompt
 
 The graph is not a generator or a simulator — it is a **seed**: the deep
@@ -118,6 +137,7 @@ concreteness, structure). What the code cannot cleanly fix, it does not try to.
 5. **Metaphor** — concretize + embodiment check, per beat.
 6. **Render** — active prose + the show-not-tell pass.
 7. **Cinema** — the modality gate + the silent-spine (sound-off) round-trip.
+8. **Density** — flesh on the bones: the anti-shrink-wrap gate (bones vs flesh, undramatized wants).
 
 The LLM is the worker inside each step. The steps, the order, and the gates are the
 system.
