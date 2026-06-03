@@ -16,6 +16,61 @@ Most of what follows has nothing to do with it.
 
 ---
 
+## THE FORMAL QUESTIONS — the material life and the essence
+
+Answered for everyone, before anything else, or the characters go one-dimensional
+(the *how do these people pay Manhattan rent and sit in a café all day* problem).
+Three questions: **What do they do for money, and is it enough? What is the pressure
+on it right now? What is their essence — the one engine under all the behaviour
+(embodied, never named)?**
+
+**RAY.** County schoolteacher; his own small rented house in town; a teacher's
+wage, the lowest-paid respectable thing, enough for one man and no more. — *Pressure:*
+the sharpest mind in three counties spends its days on spelling drills for farm
+kids who'll never leave the farm, and the war thins his classroom one enlistment at
+a time; the back booth is the only place his intellect gets to be what it is, and
+he knows he'll die here. — *Essence:* a man who built an entire principled
+philosophy — anti-war, anti-authority, *the rich man's war, it's all a lie* — to
+dignify the one fact he will never say aloud: he is afraid, and he is not good at
+violence. The libertarian is the cope; the cleverness is the cage he keeps a
+warrior in.
+
+**TOMMY.** Works the family farm and fixes the county's engines for cash — the only
+earner the farmhouse has had since Earl died. — *Pressure:* a farm kid with no door.
+The land is played out and in debt; no future on it, no money to leave it with. The
+recruiter isn't only honour — he's the one road out, a wage, the single way a boy
+like Tommy ever amounts to something the world will name. The army recruits the poor
+for a reason, and Tommy is the reason. — *Essence:* the undivided man — no gap
+between what he believes and what he does, the body that moves before the mind can
+talk it out of anything; he owns for real the courage Ray intellectualised away,
+and rests it on a misread inheritance. Ray's road not taken.
+
+**RUTH.** A sixty-year-old farm widow who cannot run the place alone now that both
+men are gone. She survives on egg-and-produce money, the sewing she takes in, a
+small widow's stipend that doesn't cover the seed loan, and the neighbours' covered
+dishes; the bank holds paper on the farm. — *Pressure:* she is quietly about to lose
+it, and has told no one, because there is no one left to tell. The men leaving was
+the end of her grief and the end of her means both. — *Essence:* the one who stays
+and pays — for the land, the men, the secret, the bills. Iron made, not born. The
+bedrock the film stands on and never thanks.
+
+**ANNIE.** Diner waitress, a rented room over the hardware store, hand to mouth. —
+*Pressure:* a young woman in a town the war is emptying of men. — *Essence:* the
+keeper who loves the ones most likely to go, outlives them, and pours the next cup.
+
+**JUNE.** Keeps the books at the bank — steady, respectable, saving toward a house. —
+*Pressure:* she engineered a safe life and watched the safest man in it volunteer for
+the most dangerous thing there is. — *Essence:* safety as a creed; chose a coward so
+she'd never bury another reckless man, and lost him to the one reckless thing he
+ever did.
+
+**SULLY.** Runs Delaney's; his till is the town's young men, and the war is taking
+them one by one. — *Pressure:* his livelihood empties out exactly as he's left
+behind. — *Essence:* the man who stays and keeps the others; the host of everyone's
+last night, who never gets one of his own.
+
+---
+
 ## EARL HENDERSON — the dead father
 
 **Natal chart.** Born 28 October 1907, a little after four in the morning, in the
