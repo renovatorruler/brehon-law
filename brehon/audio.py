@@ -141,6 +141,42 @@ class AudioRenderer:
         return utterances
 
 
+def parse_screenplay(text: str, cast: dict[str, str], narrator: str) -> list[Utterance]:
+    """Parse a Fountain-ish screenplay into utterances for a cast recording.
+
+    The narrator reads the action; each cast character reads their own dialogue.
+    Scene headings and transitions are not spoken; an unlisted speaker (a one-line
+    extra) falls to the narrator. Blocks are separated by blank lines.
+    """
+    voices = {name.upper(): voice for name, voice in cast.items()}
+    out: list[Utterance] = []
+
+    def is_cue(line: str) -> bool:
+        base = re.sub(r"\(.*?\)", "", line).strip().rstrip(":")
+        return (bool(base) and base == base.upper()
+                and 1 <= len(base.split()) <= 4 and any(c.isalpha() for c in base))
+
+    for block in re.split(r"\n\s*\n", text):
+        lines = [ln.strip() for ln in block.splitlines() if ln.strip()]
+        if not lines:
+            continue
+        head = lines[0].upper()
+        if (head.startswith(("INT.", "EXT.", "INT/", "EXT/", "I/E"))
+                or head in ("FADE IN:", "FADE OUT.", "FADE TO BLACK.")
+                or head.endswith("TO:")):
+            continue  # orientation / transitions are not spoken
+        if is_cue(lines[0]):
+            name = re.sub(r"\(.*?\)", "", lines[0]).strip().rstrip(":").upper()
+            voice = voices.get(name, narrator)
+            dialogue = " ".join(ln for ln in lines[1:]
+                                if not (ln.startswith("(") and ln.endswith(")")))
+            if dialogue.strip():
+                out.append(Utterance(voice, _for_speech(dialogue), "screenplay"))
+        else:
+            out.append(Utterance(narrator, _for_speech(" ".join(lines)), "screenplay"))
+    return out
+
+
 class TTSBackend(Protocol):
     """Turns text in a given voice into 16-bit, mono PCM frames."""
 

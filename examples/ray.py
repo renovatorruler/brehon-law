@@ -38,6 +38,8 @@ def build() -> Story:
                   kind="beat", id="b-booth", attributes={"function": "Opening Image"})
     s.instantiate(before.id, "Young Tommy keeps walking back into a beating he can't win while young Ray watches from the porch",
                   kind="beat", id="b-creek", attributes={"function": "Set-Up"})
+    s.instantiate(before.id, "Tommy, watching Ray win the room: 'You've got all the words, Ray. You just never had to use them'",
+                  kind="beat", id="b-theme", attributes={"function": "Theme Stated", "character": "TOMMY", "dialogue": "yes"})
     s.instantiate(before.id, "Tommy comes home already enlisted: 'Went down to the courthouse'",
                   kind="beat", id="b-catalyst", attributes={"function": "Catalyst", "character": "TOMMY", "dialogue": "yes"})
     s.instantiate(before.id, "Ray argues with every weapon he owns, all true; Tommy only says, 'I know all that, Ray,' and goes",

@@ -81,6 +81,17 @@ def test_unicode_dash_and_emphasis_normalised_for_speech():
     assert AudioRenderer().utterances(s)[0].text == "The lens, hollow, turns inward."
 
 
+def test_parse_screenplay_splits_voices():
+    from brehon.audio import parse_screenplay
+
+    script = ("INT. ROOM - NIGHT\n\nA man crosses the room.\n\n"
+              "RAY\n(quiet)\nDon't move.\n\nFADE OUT.")
+    assert parse_screenplay(script, {"RAY": "ray_v"}, "narr") == [
+        Utterance("narr", "A man crosses the room.", "screenplay"),
+        Utterance("ray_v", "Don't move.", "screenplay"),
+    ]
+
+
 def test_to_wav_writes_valid_mono_pcm(tmp_path):
     path = str(tmp_path / "out.wav")
     us = AudioRenderer().to_wav(_story(), SilentBackend(sample_rate=8000), path)
