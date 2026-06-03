@@ -84,68 +84,64 @@ def to_prompt(story: "Story", *, form: str = "screenplay") -> str:
     return "\n".join(out)
 
 
-def to_beat_sheet(story: "Story", *, title: Optional[str] = None) -> str:
-    """Render the seed as a BEAT SHEET — the prompt you hand an LLM.
+# Blake Snyder's "Save the Cat!" 15 beats, with page targets on a 110-page script.
+BEAT_SHEET = (
+    ("Opening Image", "1"), ("Theme Stated", "6"), ("Set-Up", "1-10"),
+    ("Catalyst", "13"), ("Debate", "13-25"), ("Break into Two", "28"),
+    ("B Story", "33"), ("Fun and Games", "33-55"), ("Midpoint", "55"),
+    ("Bad Guys Close In", "61-75"), ("All Is Lost", "83"),
+    ("Dark Night of the Soul", "83-85"), ("Break into Three", "94"),
+    ("Finale", "94-109"), ("Final Image", "110"),
+)
 
-    Concrete beats in narrative order (before -> the mirror -> after), each the
-    event plus the meaning it embodies and any structural marker. The program's
-    job ends here: an LLM writes the screenplay *from* this and owns the
-    continuity, the world, and the words; it does not invent the beats.
+
+def to_beat_sheet(story: "Story", *, title: Optional[str] = None) -> str:
+    """Render the seed as a Save-the-Cat BEAT SHEET — the story's STRUCTURE.
+
+    The fifteen functional beats, each at its page target, with a one-line note on
+    how this story hits it. This is the skeleton an LLM hangs scenes on — not the
+    scenes. The mirror auto-fills the Midpoint; the two doorways fill Break into
+    Two and All Is Lost; other beats are placed by a ``function`` attribute.
+    Beats the seed doesn't fill show as "—" — the structural gaps still to close.
     """
     if story.root_id is None:
         return ""
     root = story.get(story.root_id)
-    heading = (title or root.attributes.get("title") or "Untitled").upper()
-    out: list[str] = [f"{heading} — a beat sheet", "",
-                      f"TRANSFORMATION: {root.meaning}", ""]
-    counter = [1]
+    slots: dict[str, list[str]] = {name: [] for name, _ in BEAT_SHEET}
+    names = {name.lower(): name for name, _ in BEAT_SHEET}
 
-    def emit(parent_id: str) -> None:
-        for beat in story.children(parent_id):
-            door = beat.attributes.get("doorway")
-            mark = f"   [DOORWAY {door} — point of no return]" if door else ""
-            speaks = ("   [has dialogue]" if beat.attributes.get("character")
-                      and beat.attributes.get("dialogue") else "")
-            event = beat.manifestation.strip() or f"(a beat that embodies: {beat.meaning})"
-            out.append(f"{counter[0]}. {event}{mark}")
-            out.append(f"      embodies — {beat.meaning}{speaks}")
-            counter[0] += 1
+    def put(name: str, line: str) -> None:
+        line = line.strip()
+        if line and name in slots:
+            slots[name].append(line)
 
     if root.kind == "mirror":
-        states = sorted((m for m in story.children(root.id) if m.kind == "state"),
-                        key=lambda s: 0 if s.attributes.get("role") == "previous" else 1)
-        if states:
-            out.append(f"BEFORE — {states[0].meaning}:")
-            emit(states[0].id)
-            out.append("")
-        out.append(f"{counter[0]}. THE MIRROR (the hinge, both worlds at once): {root.manifestation}")
-        out.append(f"      embodies — {root.meaning}")
-        counter[0] += 1
-        out.append("")
-        if len(states) > 1:
-            out.append(f"AFTER — {states[1].meaning}:")
-            emit(states[1].id)
-            out.append("")
-    else:
-        for index, act in enumerate((m for m in story.children(root.id) if m.kind == "act"), 1):
-            out.append(f"ACT {index} — {act.meaning}:")
-            emit(act.id)
-            out.append("")
+        put("Midpoint", root.manifestation or root.meaning)
+    for node in story.walk():
+        if node.kind != "beat":
+            continue
+        line = node.meaning or node.manifestation
+        function = str(node.attributes.get("function", "")).strip().lower()
+        if function in names:
+            put(names[function], line)
+        door = str(node.attributes.get("doorway", ""))
+        if door == "1":
+            put("Break into Two", line)
+        elif door == "2":
+            put("All Is Lost", line)
+
+    heading = (title or root.attributes.get("title") or "Untitled").upper()
+    out = [f"{heading} — BEAT SHEET (Save the Cat!)", "", f"LOGLINE: {root.meaning}", ""]
+    for name, page in BEAT_SHEET:
+        out.append(f"{name} (p.{page}): {' / '.join(slots[name]) or '—'}")
 
     cast = [m for m in story.walk() if m.kind == "character"]
     if cast:
-        out.append("CAST:")
-        for c in cast:
-            out.append(f"  - {c.meaning} — {c.attributes.get('archetype', '')}: "
-                       f"wants {c.attributes.get('want', '')}")
-        out.append("")
-
-    out.append(
-        "TO THE WRITER: expand this beat sheet into a screenplay. Write each beat as "
-        "a scene — action and dialogue — in this exact order, changing none of the "
-        "events and none of what they mean. You own the continuity, the world, and "
-        "the words. Show every beat as a bare physical fact; never name its meaning; "
-        "use plain, common names.")
+        out += ["", "CAST: " + ", ".join(
+            f"{c.meaning} ({c.attributes.get('archetype', '')})" for c in cast)]
+    out += ["", "TO THE WRITER: this is the structure, not the prose. Expand each beat "
+            "into scenes around its page mark; keep the beats and what they mean; you "
+            "own the continuity and the words."]
     return "\n".join(out)
 
 
