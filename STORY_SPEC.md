@@ -81,6 +81,23 @@ monorail. *(Added.)*
 
 ---
 
+## 6 — Cinema (tell it in pictures)
+
+- **Seen vs heard.** Every beat splits into what the audience SEES (its
+  manifestation — action and image) and what it HEARS (dialogue). The SEEN track is
+  load-bearing; dialogue is seasoning. *(Added.)*
+- **Gate: modality.** The spine must be majority visual, with no run of more than
+  two talking-heads beats, and the load-bearing beats (opening image, mirror,
+  finale) must land for the eye. *(Added.)*
+- **Gate: the silent spine (sound-off test).** Strip every word of dialogue and read
+  only the images in order — the transformation must still be legible. A story that
+  collapses with the sound off is a radio play, not a film. *(Added.)*
+- **Modality is an arc.** The verbal/visual balance may move across the film: a story
+  about the limits of words should grow quieter and more visual as the hero changes.
+  *(Added.)*
+
+---
+
 ## The data structure is a managed prompt
 
 The graph is not a generator or a simulator — it is a **seed**: the deep
@@ -100,6 +117,7 @@ concreteness, structure). What the code cannot cleanly fix, it does not try to.
 4. **Weave** — A / B threads.
 5. **Metaphor** — concretize + embodiment check, per beat.
 6. **Render** — active prose + the show-not-tell pass.
+7. **Cinema** — the modality gate + the silent-spine (sound-off) round-trip.
 
 The LLM is the worker inside each step. The steps, the order, and the gates are the
 system.

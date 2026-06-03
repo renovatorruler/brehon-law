@@ -40,10 +40,12 @@ def build() -> Story:
                   kind="beat", id="b-creek", attributes={"function": "Set-Up"})
     s.instantiate(before.id, "Tommy, watching Ray win the room: 'You've got all the words, Ray. You just never had to use them'",
                   kind="beat", id="b-theme", attributes={"function": "Theme Stated", "character": "TOMMY", "dialogue": "yes"})
-    s.instantiate(before.id, "Tommy comes home already enlisted: 'Went down to the courthouse'",
+    s.instantiate(before.id, "Tommy sits at the kitchen table smoothing the folded Army enlistment paper flat under his thumb, over and over; he has already signed it",
                   kind="beat", id="b-catalyst", attributes={"function": "Catalyst", "character": "TOMMY", "dialogue": "yes"})
     s.instantiate(before.id, "Ray argues with every weapon he owns, all true; Tommy only says, 'I know all that, Ray,' and goes",
                   kind="beat", id="b-debate", attributes={"function": "Debate", "character": "TOMMY", "dialogue": "yes"})
+    s.instantiate(before.id, "The man of all words sits to write his brother a letter, crumples three failed tries, and works their dead father's Anzio lighter down into the packed duffel instead",
+                  kind="beat", id="b-gift")
     s.instantiate(before.id, "The telegram: Tommy is dead, pointless, exactly as Ray swore — and Ray goes cold, not grieved",
                   kind="beat", id="b-telegram", attributes={"doorway": 1})
 
