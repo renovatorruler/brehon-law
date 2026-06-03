@@ -11,6 +11,7 @@ Run with:  python -m examples.ray
 
 from brehon import Story
 from brehon.arrangement import frame
+from brehon.dossier import Dossier, Fact, attach as attach_bibles
 from brehon.prompt import to_beat_sheet
 from brehon.world import (
     ALLY, GUARDIAN, HERALD, HERO, MENTOR, SHAPESHIFTER, TRICKSTER, Character, World,
@@ -99,6 +100,45 @@ def build() -> Story:
         Character("sully", "SULLY", TRICKSTER, "to keep his friend in the booth beside him", "m"),
         Character("recruiter", "RECRUITER", GUARDIAN, "to fill a quota", "m"),
     ]).attach(s)
+
+    # Backstory: the iceberg under each character (full bible in stories/ray_bible.md).
+    # Fed to the prompt as "what you know, not say"; the leak gate guards the submerged.
+    attach_bibles(s, [
+        Dossier("EARL", [
+            Fact("Came home from his war and didn't say four words a year for the rest of his life.", "surface"),
+            Fact("Carried home a battered brass lighter he never once explained.", "surface"),
+            Fact("At Anzio he froze in the landing boat; a friend climbed over him into the fire and was killed doing it, and Earl came ashore behind the body.", "submerged"),
+            Fact("He believed to his grave the medal he was given belonged to that dead man, and the lighter was the dead man's too.", "submerged"),
+            Fact("The one war story he ever told -- the boat in, the dark, standing up into it -- he told the boy Tommy, and left out that he never stood up; the boy heard a hero where there was a confession.", "submerged"),
+        ]),
+        Dossier("RUTH", [
+            Fact("Her hands never shake; she keeps two graves behind the church now.", "surface"),
+            Fact("Earl told her the truth of Anzio once, drunk, the only time she ever saw him so; she has carried his shame alone for thirty years and never said a word, not even to the sons.", "submerged"),
+            Fact("She lets Tommy march off chasing a hero who never existed because the truth would destroy the only piece of his father the boy owns.", "submerged"),
+        ]),
+        Dossier("RAY", [
+            Fact("When anything real is at stake his hands go cold and useless, so he learned to talk instead.", "surface"),
+            Fact("He remembered his father before the war and watched him come home a ghost; as a boy he decided, wordlessly, that war eats men and he would not be eaten.", "submerged"),
+            Fact("He suspects the cold hands are his father's, inherited, and has spent forty years proving in arguments he always wins that his cowardice is a principle.", "submerged"),
+        ]),
+        Dossier("TOMMY", [
+            Fact("As a boy he walked back into beatings he couldn't win, again and again, grinning.", "surface"),
+            Fact("Born after the war, he only knew the silent father and read the silence as strength; he built his whole self on the one Anzio story, which he heard backwards.", "submerged"),
+            Fact("He goes to war to become the hero his father never was, certain he is honoring the hero his father was.", "submerged"),
+        ]),
+        Dossier("ANNIE", [
+            Fact("Steady-eyed; she decided a long time ago not to cry.", "surface"),
+            Fact("Her own father shipped out and didn't come back; she loves the boys most likely to go, because leaving is the only love she trusts.", "submerged"),
+        ]),
+        Dossier("JUNE", [
+            Fact("She wanted the safe life and picked the one man too smart to ever go.", "surface"),
+            Fact("She lost a brother at seventeen to a fast car and a dare, and swore off the reckless kind; she built a future on Ray's cowardice, and it left her.", "submerged"),
+        ]),
+        Dossier("SULLY", [
+            Fact("Turned back from this war 4-F, a bad heart; he pours the boys their last rounds.", "surface"),
+            Fact("He has spent his life behind the bar watching other men become men, and never quite believes keeping the ones who go is its own kind of courage.", "submerged"),
+        ]),
+    ])
 
     # Arrangement: open on the death notice, flash back through the setup, and
     # return to it -- the audience knows Tommy is gone from the first scene, and
