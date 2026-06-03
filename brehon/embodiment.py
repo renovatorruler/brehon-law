@@ -90,6 +90,8 @@ def legibility(story: "Story", client: "LLMClient") -> LegibilityReport:
     total = 0
     offenders: list[tuple[str, str]] = []
     for node in story.walk():
+        if node.kind != "beat":   # the round-trip is for page beats, not the abstract spine
+            continue
         manifestation, meaning = node.manifestation.strip(), node.meaning.strip()
         if not (manifestation and meaning):
             continue

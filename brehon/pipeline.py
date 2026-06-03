@@ -15,8 +15,10 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
 from brehon import concreteness, doorways as _doorways, embodiment, showing
+from brehon import generate as _generate
 from brehon import weave as _weave
 from brehon import world as _world
+from brehon.render import FountainRenderer
 
 if TYPE_CHECKING:
     from brehon.generate import LLMClient
@@ -91,3 +93,60 @@ def check(
     stages.append(StageReport("show-not-tell", told.telling == 0, told.summary()))
 
     return PipelineResult(stages)
+
+
+@dataclass
+class StoryResult:
+    """Everything the end-to-end run produces, and how it scored."""
+
+    story: "Story"
+    world: "World"
+    weave: "Weave"
+    screenplay: str
+    report: PipelineResult
+    warnings: list[str] = field(default_factory=list)
+
+
+def generate(
+    premise: str,
+    client: "LLMClient",
+    *,
+    concretize: bool = True,
+    show: bool = True,
+) -> StoryResult:
+    """Run a premise through the whole spec, stage by stage, gated at each step.
+
+    Spine (mirror + doorways) -> World (archetypal cast, repaired to clear the
+    Fullness gate) -> Weave (A/B threads) -> Metaphor (concretize the flowery) ->
+    Render (show what was told). Returns the artifacts plus a final
+    :class:`PipelineResult` — a story that has been driven, and measured, against
+    every gate. The LLM is the worker inside each stage; the gates are the system.
+    """
+    warnings: list[str] = []
+
+    # Spine — the LLM proposes a mirror-rooted, doorway-marked DAG.
+    story = _generate.generate_spine(premise, client, warnings=warnings)
+
+    # World — populate the archetypal ensemble, repaired until it is a world.
+    world = _world.populate(premise, client, warnings=warnings)
+    world.attach(story)
+
+    # Weave — braid an A-story with B-stories that refract it.
+    hero = world.hero()
+    beat_ids = [m.id for m in story.walk() if m.kind == "beat"]
+    spine = _weave.Thread("a", "A", premise, "spine",
+                          [hero.id] if hero else [], beat_ids)
+    weave = _weave.braid(premise, spine, [c.id for c in world.characters],
+                         client, warnings=warnings)
+
+    # Metaphor — drive the flowery to bare physical fact.
+    if concretize:
+        concreteness.concretize(story, client, warnings=warnings)
+
+    # Render — convert any remaining telling to showing, then to a screenplay.
+    if show:
+        showing.show(story, client, warnings=warnings)
+    screenplay = FountainRenderer().render(story)
+
+    report = check(story, world=world, weave=weave, client=client)
+    return StoryResult(story, world, weave, screenplay, report, warnings)

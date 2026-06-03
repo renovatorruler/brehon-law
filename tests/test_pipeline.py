@@ -1,3 +1,5 @@
+import json
+
 from brehon import Story
 from brehon.pipeline import check
 from brehon.world import ALLY, HERO, Character, World
@@ -53,3 +55,76 @@ def test_check_flags_failures():
     assert not by["world"].passed
     assert not by["show-not-tell"].passed
     assert by["concreteness"].passed  # telling is not flowery — different gate
+
+
+# -- the end-to-end run, driven by a mock that answers each stage ----------
+
+_SPINE = json.dumps({
+    "title": "The Lamp",
+    "transformation": "a keeper who tends a machine because he is told to becomes a man who stops it",
+    "mirror": "He stands at the crank with his hand on the handle and does not turn it.",
+    "previous_state": "the keeper who winds the light",
+    "next_state": "the keeper who lets it go dark",
+    "narrator_voice": "am_michael",
+    "cast": {"FISHERMAN": "am_fenrir"},
+    "previous_beats": [
+        {"id": "b-routine", "meaning": "the keeper's routine",
+         "manifestation": "At dusk he climbs the stairs and winds the crank."},
+        {"id": "b-lock", "meaning": "the lock that shuts him out", "doorway": 1,
+         "manifestation": "He reads the telegram on the porch and does not sit down."},
+    ],
+    "next_beats": [
+        {"id": "b-cross", "meaning": "the threshold he crosses", "doorway": 2,
+         "manifestation": "He boards the train and the doors close behind him."},
+        {"id": "b-stand", "meaning": "the stand he makes",
+         "manifestation": "He steps into the open and pulls the boy out of the fire."},
+    ],
+})
+
+_WORLD = json.dumps({"characters": [
+    {"name": "Walt", "archetype": "hero", "gender": "m", "want": "to do his job"},
+    {"name": "Ruth", "archetype": "mentor", "gender": "f", "want": "to hold the family"},
+    {"name": "June", "archetype": "shapeshifter", "gender": "f", "want": "to keep him"},
+    {"name": "Sully", "archetype": "ally", "gender": "m", "want": "to keep his friend close"},
+]})
+
+_WEAVE = json.dumps({
+    "threads": [
+        {"id": "a", "label": "A", "question": "spine", "role": "spine",
+         "character_ids": ["walt"], "beat_ids": ["b-routine", "b-lock", "b-cross", "b-stand"]},
+        {"id": "b", "label": "B", "question": "heart", "role": "heart",
+         "character_ids": ["walt", "june"], "beat_ids": ["x1", "x2"]},
+    ],
+    "order": ["b-routine", "x1", "b-lock", "x2", "b-cross", "b-stand"],
+})
+
+_MEANING = json.dumps({"meaning":
+    "the keeper's routine, the lock that shuts, the threshold he crosses, the stand he makes"})
+
+
+class _PipelineClient:
+    """Answers each pipeline stage from its prompt — no network."""
+
+    def complete(self, prompt, *, system=None):
+        sys_l = (system or "").lower()
+        if "mirror" in sys_l and "transformation" in sys_l:
+            return _SPINE
+        if "hero's-journey" in sys_l:
+            return _WORLD
+        if "braid" in sys_l:
+            return _WEAVE
+        if "read the meaning" in sys_l:
+            return _MEANING
+        return json.dumps({"line": "He stands in the room."})  # concretize/show fallback
+
+
+def test_generate_end_to_end_passes_every_gate():
+    from brehon.pipeline import generate
+
+    result = generate("a keeper learns the truth", _PipelineClient())
+    assert result.report.passed, "\n" + result.report.summary()
+    assert result.story.get(result.story.root_id).kind == "mirror"
+    assert "winds the crank" in result.screenplay          # the spine rendered
+    assert len(result.world.characters) >= 4               # a populated world
+    assert any(t.role == "heart" for t in result.weave.threads)  # a B-story
+

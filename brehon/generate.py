@@ -423,3 +423,121 @@ def generate_story(
     if generator.report is not None:
         print(f"[generate] {generator.report.summary()}", file=sys.stderr)
     return story
+
+
+# -- the spine generator: premise -> mirror-rooted, doorway-marked DAG ------
+
+def _unique_id(story: Story, requested: object, seed: str) -> str:
+    base = _slug(requested) if isinstance(requested, str) and requested else _slug(seed)
+    if base not in story:
+        return base
+    n = 2
+    while f"{base}-{n}" in story:
+        n += 1
+    return f"{base}-{n}"
+
+
+def build_spine(
+    spec: dict[str, Any],
+    *,
+    premise: Optional[str] = None,
+    warnings: Optional[list[str]] = None,
+) -> Story:
+    """Assemble a mirror-rooted, doorway-marked spine from a proposed spec.
+
+    Deterministic and defensive: the LLM proposes the transformation, the mirror
+    scene, and the two branches of beats; this seats them through the ``Story``
+    API and scores their concreteness. Raises only if there is nothing to render.
+    """
+    warn = warnings if warnings is not None else []
+    s = Story()
+    title = str(spec.get("title") or "Untitled")
+    transformation = premise or spec.get("transformation") or spec.get("premise") or title
+    narrator = _clamp_voice(spec.get("narrator_voice"), _DEFAULT_NARRATOR)
+    cast = {
+        str(name).upper(): _clamp_voice(voice, narrator)
+        for name, voice in (spec.get("cast") or {}).items()
+    }
+
+    attrs: dict[str, Any] = {
+        "title": title, "credit": "written by",
+        "author": str(spec.get("author") or "brehon"),
+        "source": "generated from a metaphor DAG",
+        "narrator_voice": narrator, "cast": cast,
+    }
+    if spec.get("slug"):
+        attrs["slug"] = str(spec["slug"])
+
+    root, previous, following = s.mirror(
+        str(transformation),
+        manifestation=str(spec.get("mirror") or ""),
+        previous=str(spec.get("previous_state") or "the previous self"),
+        next=str(spec.get("next_state") or "the next self"),
+        **attrs,
+    )
+
+    def _seat(branch_id: str, beats: Any) -> int:
+        count = 0
+        for beat in beats or []:
+            meaning = str(beat.get("meaning") or "").strip()
+            manifestation = str(beat.get("manifestation") or "").strip()
+            battrs: dict[str, Any] = {}
+            for key in ("slug", "character", "parenthetical", "dialogue"):
+                value = beat.get(key)
+                if isinstance(value, str) and value.strip():
+                    battrs[key] = value.strip().upper() if key == "character" else value.strip()
+            if beat.get("doorway"):
+                try:
+                    battrs["doorway"] = int(beat["doorway"])
+                except (TypeError, ValueError):
+                    warn.append(f"bad doorway value {beat.get('doorway')!r}")
+            bid = _unique_id(s, beat.get("id"), meaning or manifestation or "beat")
+            s.instantiate(branch_id, meaning, manifestation=manifestation,
+                          kind="beat", id=bid, attributes=battrs)
+            count += 1
+        return count
+
+    seated = _seat(previous.id, spec.get("previous_beats")) + _seat(following.id, spec.get("next_beats"))
+    if seated == 0:
+        raise ValueError("generated spine has no beats; cannot render")
+
+    concreteness.annotate(s)
+    return s
+
+
+_SPINE_SYSTEM = """\
+You write the SPINE of a story in the brehon model. The root is the MIRROR
+moment — the transformation itself, the scene where both worlds are held at once.
+It has two branches: the PREVIOUS state (the self the hero leaves) and the NEXT
+state (the self he becomes). Read previous -> mirror -> next, it is a screenplay.
+
+Requirements:
+- "transformation": the controlling change (the root's meaning).
+- "mirror": one concrete scene that holds both worlds at once.
+- Each beat is a bare PHYSICAL FACT (a thing a camera records) that CARRIES its
+  meaning — never flowery, never telling, never naming the meaning out loud.
+  Plain common names, no invented-literary words.
+- Mark exactly one previous beat with "doorway": 1 (the irreversible lock-out
+  that ends Act 1) and one next beat with "doorway": 2 (what forces him into the
+  test).
+- Include at least one beat with "character" + "dialogue"; put that character in
+  "cast" with a voice (female af_heart af_bella af_sarah; male am_michael am_adam
+  am_fenrir am_onyx). Set "narrator_voice".
+
+Return ONE JSON object:
+{"title","transformation","mirror","previous_state","next_state","narrator_voice",
+ "cast":{CHARACTER:voice},
+ "previous_beats":[{"id","meaning","manifestation","slug?","character?","dialogue?","doorway?"}],
+ "next_beats":[...]}.\
+"""
+
+
+def generate_spine(
+    premise: str, client: "LLMClient", *, warnings: Optional[list[str]] = None
+) -> Story:
+    """Premise in, a mirror-rooted, doorway-marked metaphor DAG out."""
+    reply = client.complete(
+        f"Transformation signal: {premise}\n\nWrite the spine. Return the JSON object.",
+        system=_SPINE_SYSTEM,
+    )
+    return build_spine(_extract_json(reply), premise=premise, warnings=warnings)
