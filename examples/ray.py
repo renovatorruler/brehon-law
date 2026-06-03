@@ -110,21 +110,25 @@ def build() -> Story:
             Fact("At Anzio he froze in the landing boat; a friend climbed over him into the fire and was killed doing it, and Earl came ashore behind the body.", "submerged"),
             Fact("He believed to his grave the medal he was given belonged to that dead man, and the lighter was the dead man's too.", "submerged"),
             Fact("The one war story he ever told -- the boat in, the dark, standing up into it -- he told the boy Tommy, and left out that he never stood up; the boy heard a hero where there was a confession.", "submerged"),
+            Fact("Scorpio sun, Capricorn moon, Mars square Saturn -- the will and the brake welded together; terrified his whole life of deep water; carved soap animals and burned them before anyone saw.", "submerged"),
         ]),
         Dossier("RUTH", [
             Fact("Her hands never shake; she keeps two graves behind the church now.", "surface"),
             Fact("Earl told her the truth of Anzio once, drunk, the only time she ever saw him so; she has carried his shame alone for thirty years and never said a word, not even to the sons.", "submerged"),
             Fact("She lets Tommy march off chasing a hero who never existed because the truth would destroy the only piece of his father the boy owns.", "submerged"),
+            Fact("Virgo sun, Scorpio moon -- the vault; can recite the kings of England in order, which has never once been required of her; guesses the killer by page forty and tells no one.", "submerged"),
         ]),
         Dossier("RAY", [
             Fact("When anything real is at stake his hands go cold and useless, so he learned to talk instead.", "surface"),
             Fact("He remembered his father before the war and watched him come home a ghost; as a boy he decided, wordlessly, that war eats men and he would not be eaten.", "submerged"),
             Fact("He suspects the cold hands are his father's, inherited, and has spent forty years proving in arguments he always wins that his cowardice is a principle.", "submerged"),
+            Fact("Gemini sun, Mars conjunct Saturn caged in the twelfth -- the warrior talked into a cage; county spelling champion who went out on 'necessary' at twelve; cried at a book age ten and hid it in the wall, where it still is.", "submerged"),
         ]),
         Dossier("TOMMY", [
             Fact("As a boy he walked back into beatings he couldn't win, again and again, grinning.", "surface"),
             Fact("Born after the war, he only knew the silent father and read the silence as strength; he built his whole self on the one Anzio story, which he heard backwards.", "submerged"),
             Fact("He goes to war to become the hero his father never was, certain he is honoring the hero his father was.", "submerged"),
+            Fact("Aries sun conjunct Mars, nothing in him brakes; could rebuild any engine in the county but couldn't spell; carried a buckeye for luck and named all his bantam hens.", "submerged"),
         ]),
         Dossier("ANNIE", [
             Fact("Steady-eyed; she decided a long time ago not to cry.", "surface"),

@@ -1,172 +1,264 @@
 # RAY — Character Bible (the iceberg)
 
-Reference, not script. **Surface** = shown in the film, never told. **Submerged** =
-informs only; it shapes how they move and never reaches the page. Most of this is
-submerged. Its job is to exist, so that the people on screen have a floor under
-them and the strands have somewhere to grow from.
+Reference, not script. **Surface** = shown, never told. **Submerged** = informs
+only. **Deep** = has no possible use in the film and exists anyway, because real
+people are mostly made of things that never come up. The point of this document is
+the Deep: the more of a life there is under the waterline — including the parts
+that connect to nothing — the more the people on screen behave like people instead
+of functions. A bible where everything pays off is too thin.
 
-The whole film has one buried engine: **what really happened to the father at
-Anzio.** Both sons built their lives on a misreading of it. Everything else hangs
-off that.
+Each person gets a **natal chart** as a fixed temperament anchor — not mysticism, a
+consistency device: a wheel they can be checked against so they never drift across
+a long script, and a generator of directions the plot didn't plan.
+
+The film has one buried engine: **what really happened to the father at Anzio.**
+Most of what follows has nothing to do with it.
 
 ---
 
-## EARL HENDERSON — the dead father (the ghost that runs the house)
+## EARL HENDERSON — the dead father
 
-**The ghost (submerged).** At Anzio, on the landing, Earl froze in the boat. His
-legs would not work. A loud kid from basic named Coyle climbed over him to get
-down the ramp and was cut down three feet away doing it. Earl came ashore behind
-Coyle's body and lived four months on the beachhead certain every man around him
-could see exactly what he was. He was decorated for it. He believed to his grave
-the medal belonged to a dead man.
+**Natal chart.** Born 28 October 1907, a little after four in the morning, in the
+back bedroom of the same farmhouse he would die in. **Scorpio sun** — the buried
+depths, the thing not said, the man who keeps the floor of himself locked.
+**Capricorn moon** — feeling expressed only as duty; love that looks like a fixed
+roof and a full woodpile. **Saturn rising** — the closed face, old since boyhood.
+The chart's spine is **Mars square Saturn:** the will and the brake welded
+together — a man who, at the one moment action was everything, found the brake had
+seized. Pluto on the descendant: a death he carries that belongs to someone else.
 
-**The silence (surface).** He came home in '45 and did not say four words a year
-for the rest of his life. The town read it as a hard man's stoicism — the strong,
-silent kind.
+**The body.** Big through the chest, hands like roots, a walk that never hurried.
+A white scar through one eyebrow from a thrown horseshoe, age nine. Two fingers on
+the left hand that wouldn't fully straighten after Anzio — he said a wall fell on
+them. Smelled of pipe and machine oil and the particular cold of the barn.
 
-**The truth of the silence (submerged).** It was not strength. It was a man who
-had seen the floor of himself and could not talk over it. He drank alone in the
-barn, where Ruth found him once. He could not stand to be thanked.
+**Childhood & the parts that go nowhere.** Youngest of five, the quiet one. Had a
+dog named Pal that drowned in the spring flood of 1919; he never kept another
+animal he could lose. Could whistle any hymn but couldn't carry a word of one.
+Won a county plowing-straightness contest at seventeen and kept the ribbon in a
+Bible he didn't read. Terrified, his whole life, of deep water — which is its own
+private joke, given the landing craft. Loved the smell of creosote. Hated being
+read to. Once walked eleven miles to return a borrowed auger he'd forgotten he
+had, rather than keep a thing that wasn't his.
 
-**The one story (surface → the hinge).** Once, drunk-adjacent and tired, he told
-the boy Tommy about "the boat in" — the dark, the water, knowing you have to stand
-up into it. **(Submerged:** he left out that he did not stand up; a dead man stood
-up for him. He handed his son the shape of a confession, and the boy heard a
-hero.)
+**Tastes, habits, superstitions.** Coffee black, cut with chicory. Wouldn't sit
+with his back to a door after the war. Carved small animals out of soap and threw
+them in the stove before anyone saw. Believed, without ever saying so, that he was
+owed nothing and that this was the only honest way to live. Read the seed catalog
+cover to cover every January like other men read scripture.
 
-**The lighter (surface).** A battered brass lighter he carried home and never once
-explained. **(Submerged:** it was Coyle's.)
+**People who never appear.** *Coyle* — the loud kid from basic who climbed over him
+and died for it; Earl could describe Coyle's laugh forty years later and never
+did. *Father Brennan*, who tried for a decade to get him to confession and failed.
+*The Widow Tate* down the road, who he fixed fences for and never charged, for
+reasons he didn't examine.
 
-- **Want vs. need.** Wanted, his whole silent life, to have been brave the one time
-  it counted. Needed to be forgiven, and never once asked.
-- **Contradiction.** The bravest-seeming man in three counties was a coward for
-  ninety seconds, and it cost another man everything.
-- Died young-ish of a quiet heart, when Tommy was a boy. Buried behind the church.
+**Things he could do that never mattered.** Set a broken bone. Find water with a
+forked stick (he didn't believe in it; it worked). Sit so still that birds landed
+on him.
+
+**The plot core.**
+- *(Submerged)* At Anzio he froze in the landing boat; Coyle climbed over him into
+  the fire and was killed doing it; Earl came ashore behind the body and believed
+  ever after that his medal and the brass lighter both belonged to a dead man.
+- *(Submerged)* The one war story he told — "the boat in," the dark, standing up
+  into it — he gave to the boy Tommy, and left out that he never stood up. A
+  confession the boy heard as heroism.
+- *(Surface)* The silence everyone read as strength. The lighter he never explained.
+- **Want vs. need:** to have been brave the once it counted / to be forgiven, and
+  never asked.
 
 ---
 
 ## RUTH HENDERSON — the one who knows
 
-**The secret (submerged).** One night, years on, the only time she ever saw him
-drunk, Earl told her what happened at Anzio. She held him through it and never
-spoke of it again — to him, to the boys, to anyone. She has carried his shame for
-thirty years, including past his death.
+**Natal chart.** Born 30 August 1911, mid-afternoon, in a thunderstorm her mother
+took for an omen. **Virgo sun** — the iron, the order, the one who manages the
+unmanageable; hands that do not shake because she will not permit it. **Scorpio
+moon** — a vault; she keeps what is given to her to keep, for thirty years if she
+has to. **Capricorn rising** — old at twenty, ageless at sixty. **Saturn trine
+Pluto:** the strength to hold a terrible thing steady and never set it down.
 
-**The pattern (surface).** She has spent her life keeping a house full of men who
-could not wait to leave it — to the war, to the silence, to the grave. She buried
-the husband. She will bury a son.
+**The body.** Small, upright, fast hands. A burn-scar shaped like a comma on the
+inside of her right wrist (a spitting skillet, 1939). Wears her wedding ring on a
+chain since her knuckles swelled. Hair gone iron, pinned the same way since 1934.
 
-**The hands (surface).** Her hands never shake. **(Submerged:** she taught herself
-that the year Earl came home, so the boys would never catch her afraid.)
+**Childhood & the parts that go nowhere.** Middle of seven girls; learned to be
+unnoticeable and decided as a child she'd rather be unnoticed than wrong. Wanted
+to be a schoolteacher and got two years of normal school before her father's
+stroke ended it. Can recite the kings of England in order, a skill that has never
+once been required of her. Afraid of moths, not spiders. Keeps a tin of butterscotch
+in her apron and gives it to children she pretends not to like. Reads murder
+mysteries and guesses the killer by page forty and is right and tells no one.
 
-- **Want vs. need.** Wants to stop burying her men. Needs to forgive Earl — and
-  forgive the years she went cold on him, not knowing why he had gone so far away.
-- **Contradiction.** The most truthful woman in the county is built around a
-  thirty-year lie she tells to protect a dead coward she loved.
-- **The unbearable irony (submerged).** She watches Tommy march off to chase a
-  heroism his father invented in reverse, and she cannot say the one true thing
-  that might stop him without destroying the only piece of his father the boy owns.
+**Tastes, habits, superstitions.** Pie crust by feel, never by recipe; her secret
+is lard kept cold and a refusal to overwork it. Won't whistle indoors. Sets a place
+she clears before anyone notices, some days, for no one she'll name. Believes you
+should never thank a person for the thing they're ashamed of having to do.
+
+**People who never appear.** *Verna*, her sister in Ohio, forty years of weekly
+letters and one unforgivable Christmas in 1951 they never discuss. *Earl* before
+the war — a man who laughed once so hard at a runaway pig that he had to sit down
+in the road, a man she has not mentioned to a living soul because she's afraid the
+boys would think she made him up.
+
+**The plot core.**
+- *(Submerged)* Earl told her the truth of Anzio once, drunk, the only time. She has
+  carried it alone for thirty years and never said a word, not even to the sons.
+- *(Submerged)* She lets Tommy go to a war chasing a hero who never existed, because
+  the truth would take from him the only piece of his father he owns.
+- *(Surface)* The steady hands. Two graves behind the church.
+- **Want vs. need:** to stop burying her men / to forgive Earl, and the cold years
+  she gave him not knowing why he'd gone so far away.
 
 ---
 
 ## RAY HENDERSON — the word-warrior
 
-**The wound (submerged).** Ray was old enough to remember Earl *before* the war — a
-fuller, easier man — and he watched him come home a ghost. Somewhere around
-thirteen, with no words for it yet, Ray decided that whatever war was, it *ate*
-men, and that he would not be eaten. He built a self out of being right instead of
-brave, because being right was the one arena where he never froze.
+**Natal chart.** Born 11 June 1928, just past noon. **Gemini sun** — the words, the
+quickness, the man of two selves who can argue either; the tongue as the whole
+toolkit. **Pisces moon** — a fog he hides in; feeling that slips its own grip.
+**Virgo rising** — the critic's eye, always finding the flaw (in the argument, in
+the war, in himself). The wound is written plainly: **Mars conjunct Saturn in the
+twelfth** — the warrior, caged and underground, the courage that goes cold the
+instant it's called — and **Mars square Neptune:** the will dissolved in a fog he
+has dignified, his whole life, as *principle*.
 
-**The hands (surface).** When anything real is at stake, his hands go cold and
-useless. So he learned to talk. **(Submerged:** he has always suspected the cold
-hands are his father's, inherited — and he has spent forty years proving, in
-arguments he always wins, that the coward in him is a principle.)
+**The body.** Slight, all edges, quick dark eyes. Bites the side of his thumb when
+he's thinking and pretends he doesn't. A trick knee from a fall he lies about. The
+cold hands. Talks with them anyway.
 
-- **Want vs. need.** Wants to be right, and above it all. Needs to discover he is
-  not the coward he fears — and the only place that answer lives costs everything.
-- **Contradiction.** The most articulate man in the county has a warrior's spirit
-  he has spent forty years talking into a cage.
-- **The brother (submerged).** Ray half-raised Tommy — seventeen years between
-  them, the father already a ghost. Everything Ray fears, he watches Tommy run
-  *toward*, and he has never been able to tell whether he wants to save the boy or
-  whether he envies him to the bone.
+**Childhood & the parts that go nowhere.** Read the entire county library by
+fourteen, in no order, retaining everything and nothing. Can name every bird by its
+call and has never told a soul because there's no argument in it. Was a county
+spelling champion two years running; the word he went out on, at twelve, was
+*necessary* — which is why Tommy's terrible spelling of it, in the letters, is a
+knife he never mentions. Collected, briefly, the obituaries of men he'd never met,
+to see how a life got summed in four inches of column. Cried at the end of a book
+once, age ten, and was so ashamed he hid the book in the wall, where it still is.
+
+**Tastes, habits, superstitions.** Nurses one beer for an evening so he never loses
+the thread. Wins at chess and throws games at checkers to be liked, and despises
+himself for both. Can't sleep without a radio on low. Believes, in a compartment he
+keeps shut, that his cold hands are his father's, handed down, and that the whole
+edifice of his cleverness is a thirty-year argument against a verdict already in.
+
+**People who never appear.** *Mr. Pell* — no, *Mr. Hatcher*, the teacher who told
+him at fifteen that a quick tongue was a gift and a hiding place both, and that
+he'd have to choose; Ray has spent twenty-three years proving the man wrong and
+suspects he's lost. *A girl named Dot* he almost married before June, who left town
+and is, last he heard, happy, which he finds unaccountably hard to forgive.
+
+**Things he can do that never matter.** Add long columns in his head. Imitate any
+man in the county well enough to empty a room laughing — a gift he uses like a
+weapon and never like a kindness.
+
+**The plot core.**
+- *(Submerged)* Old enough to remember Earl before the war and to watch him come
+  home a ghost; decided as a boy, with no words for it, that war eats men and he
+  would not be eaten — and built a self out of being right instead of brave.
+- *(Submerged)* Half-raised Tommy, seventeen years younger; cannot tell whether he
+  wants to save the boy or envies him.
+- *(Surface)* The cold hands; the talk; winning the room.
+- **Want vs. need:** to be right, and above it / to learn he is not the coward he
+  fears — which costs everything.
 
 ---
 
 ## TOMMY HENDERSON — the kid who heard the story backwards
 
-**The wound (submerged).** Born after the war, Tommy only ever knew the silent
-father, and silence in a child's eyes is mystery, not damage. He spent his
-boyhood trying to earn one of those four words a year. The single time the father
-spoke — the Anzio story — Tommy built his whole self on it.
+**Natal chart.** Born 2 April 1947, just before dawn. **Aries sun conjunct Mars** —
+the headlong one, the body that moves before the mind can talk it out of it, the
+boy who gets up. **Leo moon** — a heart that has to *count* for someone, to be
+seen and named. **Sagittarius rising** — the open face, the believer, the one who
+takes the story straight. No square on the Mars; nothing in him brakes. That is his
+glory and the thing that kills him.
 
-**The misreading (submerged).** The father's confession of cowardice, the boy
-took for the father's courage. Tommy goes to a war to *become* the hero his father
-never was, in the certainty that he is honoring the hero his father was.
+**The body.** Big through the shoulders at nineteen, a plain open face, a split-lip
+scar from the creek that never quite faded. Moves easy. Laughs with his whole
+chest.
 
-**The creek (surface).** As a boy he walked back into beatings he could not win,
-again and again, grinning, while Ray watched from the porch, did the arithmetic,
-and stayed put. **(Submerged:** Tommy did it because he had decided getting up was
-the whole of a man — and he was right, and it is what killed him.)
+**Childhood & the parts that go nowhere.** Could take apart and rebuild any engine
+in the county by sixteen and feel more himself with his hands in one than anywhere
+else. Kept bantam chickens and named all of them and cried, at eight, butchering
+the first, then learned to do it because a man does. Couldn't spell to save his
+life and didn't care. Once rode a borrowed motorcycle into the creek on a dare and
+came up laughing with a broken wrist. Sang flat and loud and happily. Memorized
+the one Anzio story word for word the way other boys memorized box scores.
 
-- **Want vs. need.** Wants to count for something, wordlessly. Needs nothing the
-  world can hand him in time.
-- **Contradiction.** The bravest of the three of them is brave for a reason that
-  is false.
+**Tastes, habits, superstitions.** Ate like it was a competition. Carried a buckeye
+for luck. Believed, simply and without examining it, that the measure of a man was
+whether he got back up, because that was the whole of what his father had told him,
+and his father had told him almost nothing, so it weighed the world.
+
+**People who never appear.** *Earl*, who he is chasing and never understood.
+*A teacher, Mrs. Lott*, who told him he was the kindest boy she ever taught and the
+least suited to a world that would ask him to be hard. *The recruiter's poster* he
+stood in front of for twenty minutes before he understood he'd already decided.
+
+**The plot core.**
+- *(Submerged)* Only ever knew the silent father; read the silence as strength;
+  built his whole self on the one story, which he heard backwards.
+- *(Submerged)* Goes to war to become the hero his father never was, certain he
+  honors the hero his father was.
+- *(Surface)* The creek: walked back into the beating, grinning, again and again.
+- **Want vs. need:** to count for something, wordlessly / nothing the world can
+  give him in time.
 
 ---
 
 ## ANNIE — the girl who loves the ones who leave
 
-- **(Submerged.)** Her own father shipped out and did not come back; she grew up
-  the daughter of a folded flag. She has loved, every time, the boys most likely to
-  go — not despite the leaving, but because leaving is the only kind of love she
-  has ever been able to trust.
-- **Want vs. need.** Wants to love a living warrior, not bury a dead one. Needs to
-  choose a man for *staying*, once, and can't.
-- **(Surface.)** Steady-eyed, decided-not-to-cry. After Tommy, she goes back to the
-  diner counter and pours for the next ones shipping out.
+**Natal chart.** 19 July 1946. **Cancer sun** (the keeper, the one who holds the
+home that men keep leaving), **Scorpio moon** (loves all the way down, once, and
+toward what's doomed), **Capricorn rising** (decided-not-to-cry). Venus square
+Pluto: love and loss fused so early she can't tell them apart.
+
+**The texture that goes nowhere.** Daughter of a folded flag — her own father
+shipped out and didn't come back, and she was four. Works the diner counter and is
+better with the till than the owner. Can name every car by its engine note before
+it rounds the corner. Keeps her dead father's dog tags in a coffee can and has
+never worn them. Loves rain. *(Submerged:* she loves the boys most likely to go,
+because leaving is the only kind of love she's ever trusted.)*
 
 ## JUNE — the woman who chose safety
 
-- **(Submerged.)** She lost a brother at seventeen to a fast car and a dare, and
-  swore off the reckless kind for good. She chose Ray *precisely* because he was the
-  one man in the county too smart to ever go anywhere — the safest bet in three
-  counties — and built a whole future on his cowardice.
-- **Want vs. need.** Wants the safe life. **(The irony:** the safe man becomes the
-  one thing she fled.)
+**Natal chart.** 5 May 1930. **Taurus sun** (security, the solid bet, the full
+pantry), **Virgo moon** (the planner), **Capricorn rising**. Saturn on the Venus:
+love rationed and made to prove itself first.
+
+**The texture that goes nowhere.** Lost a brother at seventeen — a fast car, a dare,
+a tree — and swore off the reckless kind for good. Keeps a Christmas Club account
+she's never touched. Sews her own clothes beautifully and lets no one know they're
+homemade. Picked Ray *because* he'd never go anywhere, the safest man in three
+counties, and built a future on his cowardice — *(submerged)* which is exactly the
+thing that then left her.
 
 ## SULLY — the man who stayed
 
-- **(Submerged.)** Too young for the father's war, turned back from this one — 4-F,
-  a bad heart. He has spent his life behind the bar watching other men become men
-  and pouring them their last rounds.
-- **Want vs. need.** Wants, just once, to have been one of them. Needs to learn
-  that keeping the ones who go is its own kind of courage — and never quite
-  believes it.
+**Natal chart.** 9 March 1925. **Pisces sun** (the bar as refuge, the soft heart,
+the one who absorbs everyone's sorrow and keeps none of his own), **Cancer moon**
+(home is the people he pours for), Neptune rising (the blur, the third beer). Mars
+in Cancer, retreating.
 
-## THE TOWN / THE WAR — the world's own strand
-
-A farm town hollowing out one blue-star flag at a time; the mill on government
-contracts; the same women who saw the boys off now building the shells the next
-ones will fire. The war happens to *everyone*. The Hendersons are one window on one
-street.
+**The texture that goes nowhere.** Too young for the father's war, turned back from
+this one — 4-F, a bad heart he can hear at night. Does close-up card tricks badly
+and lovably. Knows every regular's order and the year their father died. Wanted,
+once, to be a radio announcer and has the voice for it and never tried. *(Submerged:*
+he has spent his life behind the bar watching other men become men, and never
+quite believes that keeping the ones who go is its own kind of courage.)*
 
 ---
 
-## THE STRANDS THAT GROW FROM THIS
+## METHOD NOTE — why most of this can never appear
 
-Three plotlines that begin apart and braid at Tommy's death (the Act 1 break),
-plus the town as connective tissue:
+None of the following will be in the film, and that is the point: Earl's drowned
+dog, Ruth's kings of England, Ray's hidden book in the wall, Tommy's bantam hens,
+Annie's coffee-can dog tags, the natal charts entire. They are here so the writer
+*knows these people* the way you know an old friend — by a thousand things you'd
+never bring up — and so the story has somewhere to surprise itself. The bullet on
+Riggs's chain works because Mel Gibson lived a whole grief the audience never sees;
+this is that grief, multiplied across a cast, on purpose, in excess.
 
-1. **Ray's strand** — the coward by principle: the tavern, June, the cold hands.
-   *(Root: he watched the war eat his father.)*
-2. **Tommy's strand** — the kid chasing a hero who never existed: the creek, Annie,
-   the courthouse. *(Root: he heard the Anzio story backwards.)*
-3. **The buried strand** — Earl's Anzio, Ruth's secret, the lighter: the
-   inheritance that secretly explains both sons, surfacing only in symptoms.
-4. **The town's strand** — Sully, the depot, the mill: the war on everyone.
-
-The point of the bible: once these four lives are real underneath, the "flesh" is
-not decoration — it is these strands running, and Act 2 is where they're supposed
-to braid, not a wire with side-scenes hung off it.
+**This is still only the second pass. It should keep growing.** A bible is never
+finished; it is the soil, and you want far more of it than any one story can use.
