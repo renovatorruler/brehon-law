@@ -14,7 +14,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
-from brehon import concreteness, continuity, doorways as _doorways, embodiment, showing
+from brehon import concreteness, doorways as _doorways, embodiment, showing
 from brehon import generate as _generate
 from brehon import weave as _weave
 from brehon import world as _world
@@ -91,10 +91,6 @@ def check(
     # 6 — Render: show, don't tell
     told = showing.report(story)
     stages.append(StageReport("show-not-tell", told.telling == 0, told.summary()))
-
-    # 7 — Continuity: the beats form one connected world
-    cont = continuity.continuity(story, client)
-    stages.append(StageReport("continuity", cont.passed, cont.summary()))
 
     return PipelineResult(stages)
 

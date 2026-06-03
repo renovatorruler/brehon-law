@@ -81,18 +81,18 @@ monorail. *(Added.)*
 
 ---
 
-## 6 — Continuity (the connected whole)
+## The data structure is a managed prompt
 
-Every gate above judges a beat *by itself*; this one judges the **sequence**. The
-beats must form one connected world — consistent locations (with transitions when
-they change), consistent character presence (no one in two places at once),
-consistent time and causality. *(Added. The gate carries state across the beats:
-a deterministic scan for bilocation and place-teleporting, plus a model-backed
-script-supervisor read.)*
+The graph is not a generator or a simulator — it is a **seed**: the deep
+craft an LLM won't choose well on its own (the transformation, the mirror, the
+two doorways, the meaning each beat must embody, the cast), held in an editable
+structure and rendered to a *prompt* (`brehon.prompt.to_prompt`). The LLM grows
+one coherent story from that prompt and **owns what it is good at** — continuity,
+the physical world, the texture of a scene. The gates below then check only the
+rules the LLM reliably breaks and the code can cleanly verify (show-not-tell,
+concreteness, structure). What the code cannot cleanly fix, it does not try to.
 
-## The pipeline
-
-Generating a story = running these in order, each gating the next:
+## The pipeline (the gates the code owns)
 
 1. **Aim** — the transformation signal.
 2. **Spine** — mirror root + two branches + doorways + the test.
@@ -100,7 +100,6 @@ Generating a story = running these in order, each gating the next:
 4. **Weave** — A / B threads.
 5. **Metaphor** — concretize + embodiment check, per beat.
 6. **Render** — active prose + the show-not-tell pass.
-7. **Continuity** — the beats form one connected world (no bilocation, no teleporting).
 
 The LLM is the worker inside each step. The steps, the order, and the gates are the
 system.
