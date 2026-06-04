@@ -11,7 +11,6 @@ Run with:  python -m examples.seeing
 """
 
 from brehon import Story
-from brehon.arrangement import frame
 from brehon.dossier import Dossier, Fact, attach as attach_bibles
 from brehon.prompt import to_beat_sheet
 from brehon.world import (
@@ -137,11 +136,6 @@ def build() -> Story:
         ]),
     ])
 
-    # Arrangement: open cold on the rite -- the question incarnate (con or
-    # confession?). Flash back through the whole first half (which reveals the man
-    # is a cop), return to the rite at the Midpoint, then let the second half -- the
-    # truth, the wire, the second rite -- detonate it.
-    frame(s, root.id)
     return s
 
 
