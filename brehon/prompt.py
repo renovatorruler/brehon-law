@@ -205,6 +205,9 @@ def to_beat_list(story: "Story", *, title: Optional[str] = None) -> str:
     root = story.get(story.root_id)
     heading = (title or root.attributes.get("title") or "Untitled").upper()
     out = [f"{heading} — BEATS", ""]
+    logline = root.attributes.get("logline")
+    if logline:
+        out += [f"LOGLINE: {logline}", ""]
     for i, beat in enumerate(_cinema.spine_beats(story), 1):
         text = (beat.manifestation or beat.meaning).strip()
         if text and text[-1] not in ".!?":

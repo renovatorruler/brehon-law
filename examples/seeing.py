@@ -38,6 +38,13 @@ def build() -> Story:
               "ELI": "am_liam", "REYES": "af_kore", "PRIYA": "af_bella",
               "COWAN": "am_puck", "AUGUST": "am_echo", "BRENNAN": "am_fenrir"},
     )
+    # Logline (the loop, then the exception): the ordinary world is the cop who
+    # disappears into role after role; the exception is a self he might want.
+    root.attributes["logline"] = (
+        "An undercover cop who has spent his career disappearing into one fake "
+        "identity after another, with nothing of his own left underneath, is sent to "
+        "infiltrate a cult that makes its members feel like real artists, and the "
+        "role he is there to play becomes the first true self he has ever had.")
 
     # -- BEFORE the rite: the empty man, seen, and seduced ------------
     # Everything up to the Midpoint lives here, so the spine is genuinely

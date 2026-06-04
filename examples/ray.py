@@ -12,7 +12,7 @@ Run with:  python -m examples.ray
 from brehon import Story
 from brehon.arrangement import frame
 from brehon.dossier import Dossier, Fact, attach as attach_bibles
-from brehon.prompt import to_beat_sheet
+from brehon.prompt import to_beat_list
 from brehon.world import (
     ALLY, GUARDIAN, HERALD, HERO, MENTOR, SHAPESHIFTER, TRICKSTER, Character, World,
 )
@@ -34,6 +34,12 @@ def build() -> Story:
         cast={"RAY": "am_michael", "TOMMY": "am_eric", "RUTH": "af_sarah",
               "JUNE": "af_bella", "ANNIE": "af_nicole"},
     )
+    # Logline (the loop, then the exception): the ordinary world is the man who
+    # talks his way out of every fight; the exception is a death words can't undo.
+    root.attributes["logline"] = (
+        "A man who wins every argument so he never has to fight, and calls that "
+        "principle, watches his wordless brother walk into the war he argued against "
+        "and die, and has to become the warrior he buried.")
 
     # -- BEFORE: the word-warrior -------------------------------------
     s.instantiate(before.id, "Ray takes a man apart in a war argument while his fist, under the table, is white and shaking",
@@ -152,4 +158,4 @@ def build() -> Story:
 
 
 if __name__ == "__main__":
-    print(to_beat_sheet(build()))
+    print(to_beat_list(build()))
