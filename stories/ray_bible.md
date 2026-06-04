@@ -11,7 +11,7 @@ Each person gets a **natal chart** as a fixed temperament anchor — not mystici
 consistency device: a wheel they can be checked against so they never drift across
 a long script, and a generator of directions the plot didn't plan.
 
-The film has one buried engine: **what really happened to the father at Anzio.**
+The film has one buried engine: **what really happened to the father in Vietnam.**
 Most of what follows has nothing to do with it.
 
 ---
@@ -73,7 +73,7 @@ last night, who never gets one of his own.
 
 ## EARL HENDERSON — the dead father
 
-**Natal chart.** Born 28 October 1907, a little after four in the morning, in the
+**Natal chart.** Born 28 October 1948, a little after four in the morning, in the
 back bedroom of the same farmhouse he would die in. **Scorpio sun** — the buried
 depths, the thing not said, the man who keeps the floor of himself locked.
 **Capricorn moon** — feeling expressed only as duty; love that looks like a fixed
@@ -84,15 +84,16 @@ seized. Pluto on the descendant: a death he carries that belongs to someone else
 
 **The body.** Big through the chest, hands like roots, a walk that never hurried.
 A white scar through one eyebrow from a thrown horseshoe, age nine. Two fingers on
-the left hand that wouldn't fully straighten after Anzio — he said a wall fell on
+the left hand that wouldn't fully straighten after the war — he said a crate fell on
 them. Smelled of pipe and machine oil and the particular cold of the barn.
 
 **Childhood & the parts that go nowhere.** Youngest of five, the quiet one. Had a
-dog named Pal that drowned in the spring flood of 1919; he never kept another
+dog named Pal that drowned in the spring flood of 1957; he never kept another
 animal he could lose. Could whistle any hymn but couldn't carry a word of one.
 Won a county plowing-straightness contest at seventeen and kept the ribbon in a
-Bible he didn't read. Terrified, his whole life, of deep water — which is its own
-private joke, given the landing craft. Loved the smell of creosote. Hated being
+Bible he didn't read. Couldn't stand the beat of helicopter
+rotors the rest of his life — which is its own private joke, given how he got off
+the last one. Loved the smell of creosote. Hated being
 read to. Once walked eleven miles to return a borrowed auger he'd forgotten he
 had, rather than keep a thing that wasn't his.
 
@@ -113,13 +114,13 @@ forked stick (he didn't believe in it; it worked). Sit so still that birds lande
 on him.
 
 **The plot core.**
-- *(Submerged)* At Anzio he froze in the landing boat; Coyle climbed over him into
-  the fire and was killed doing it; Earl came ashore behind the body and believed
-  ever after that his medal and the brass lighter both belonged to a dead man.
-- *(Submerged)* The one war story he told — "the boat in," the dark, standing up
-  into it — he gave to the boy Tommy, and left out that he never stood up. A
-  confession the boy heard as heroism.
-- *(Surface)* The silence everyone read as strength. The lighter he never explained.
+- *(Submerged)* At a hot LZ he froze in the door of the helicopter; Coyle shoved
+  past him to jump and was cut down on the skid; Earl stepped off behind the body
+  and believed ever after that his medal and the Zippo both belonged to a dead man.
+- *(Submerged)* The one war story he told — "the ride in," the dark, stepping off
+  into it — he gave to the boy Tommy, and left out that he never stepped off; Coyle
+  did. A confession the boy heard as heroism.
+- *(Surface)* The silence everyone read as strength. The Zippo he never explained.
 - **Want vs. need:** to have been brave the once it counted / to be forgiven, and
   never asked.
 
@@ -127,7 +128,7 @@ on him.
 
 ## RUTH HENDERSON — the one who knows
 
-**Natal chart.** Born 30 August 1911, mid-afternoon, in a thunderstorm her mother
+**Natal chart.** Born 30 August 1950, mid-afternoon, in a thunderstorm her mother
 took for an omen. **Virgo sun** — the iron, the order, the one who manages the
 unmanageable; hands that do not shake because she will not permit it. **Scorpio
 moon** — a vault; she keeps what is given to her to keep, for thirty years if she
@@ -136,7 +137,7 @@ Pluto:** the strength to hold a terrible thing steady and never set it down.
 
 **The body.** Small, upright, fast hands. A burn-scar shaped like a comma on the
 inside of her right wrist (a spitting skillet, 1939). Wears her wedding ring on a
-chain since her knuckles swelled. Hair gone iron, pinned the same way since 1934.
+chain since her knuckles swelled. Hair gone iron, pinned the same way for forty years.
 
 **Childhood & the parts that go nowhere.** Middle of seven girls; learned to be
 unnoticeable and decided as a child she'd rather be unnoticed than wrong. Wanted
@@ -152,13 +153,13 @@ she clears before anyone notices, some days, for no one she'll name. Believes yo
 should never thank a person for the thing they're ashamed of having to do.
 
 **People who never appear.** *Verna*, her sister in Ohio, forty years of weekly
-letters and one unforgivable Christmas in 1951 they never discuss. *Earl* before
+letters and one unforgivable Christmas in 1991 they never discuss. *Earl* before
 the war — a man who laughed once so hard at a runaway pig that he had to sit down
 in the road, a man she has not mentioned to a living soul because she's afraid the
 boys would think she made him up.
 
 **The plot core.**
-- *(Submerged)* Earl told her the truth of Anzio once, drunk, the only time. She has
+- *(Submerged)* Earl told her the truth of the war once, drunk, the only time. She has
   carried it alone for thirty years and never said a word, not even to the sons.
 - *(Submerged)* She lets Tommy go to a war chasing a hero who never existed, because
   the truth would take from him the only piece of his father he owns.
@@ -170,7 +171,7 @@ boys would think she made him up.
 
 ## RAY HENDERSON — the word-warrior
 
-**Natal chart.** Born 11 June 1928, just past noon. **Gemini sun** — the words, the
+**Natal chart.** Born 11 June 1970, just past noon. **Gemini sun** — the words, the
 quickness, the man of two selves who can argue either; the tongue as the whole
 toolkit. **Pisces moon** — a fog he hides in; feeling that slips its own grip.
 **Virgo rising** — the critic's eye, always finding the flaw (in the argument, in
@@ -209,9 +210,9 @@ man in the county well enough to empty a room laughing — a gift he uses like a
 weapon and never like a kindness.
 
 **The plot core.**
-- *(Submerged)* Old enough to remember Earl before the war and to watch him come
-  home a ghost; decided as a boy, with no words for it, that war eats men and he
-  would not be eaten — and built a self out of being right instead of brave.
+- *(Submerged)* Born into the father's silence — the war already old, the ghost
+  already home — he decided as a boy, with no words for it, that war eats men and
+  he would not be eaten, and built a self out of being right instead of brave.
 - *(Submerged)* Half-raised Tommy, seventeen years younger; cannot tell whether he
   wants to save the boy or envies him.
 - *(Surface)* The cold hands; the talk; winning the room.
@@ -222,7 +223,7 @@ weapon and never like a kindness.
 
 ## TOMMY HENDERSON — the kid who heard the story backwards
 
-**Natal chart.** Born 2 April 1947, just before dawn. **Aries sun conjunct Mars** —
+**Natal chart.** Born 2 April 1989, just before dawn. **Aries sun conjunct Mars** —
 the headlong one, the body that moves before the mind can talk it out of it, the
 boy who gets up. **Leo moon** — a heart that has to *count* for someone, to be
 seen and named. **Sagittarius rising** — the open face, the believer, the one who
@@ -239,7 +240,7 @@ else. Kept bantam chickens and named all of them and cried, at eight, butchering
 the first, then learned to do it because a man does. Couldn't spell to save his
 life and didn't care. Once rode a borrowed motorcycle into the creek on a dare and
 came up laughing with a broken wrist. Sang flat and loud and happily. Memorized
-the one Anzio story word for word the way other boys memorized box scores.
+the one war story word for word the way other boys memorized box scores.
 
 **Tastes, habits, superstitions.** Ate like it was a competition. Carried a buckeye
 for luck. Believed, simply and without examining it, that the measure of a man was
@@ -264,7 +265,7 @@ stood in front of for twenty minutes before he understood he'd already decided.
 
 ## ANNIE — the girl who loves the ones who leave
 
-**Natal chart.** 19 July 1946. **Cancer sun** (the keeper, the one who holds the
+**Natal chart.** 19 July 1989. **Cancer sun** (the keeper, the one who holds the
 home that men keep leaving), **Scorpio moon** (loves all the way down, once, and
 toward what's doomed), **Capricorn rising** (decided-not-to-cry). Venus square
 Pluto: love and loss fused so early she can't tell them apart.
@@ -278,7 +279,7 @@ because leaving is the only kind of love she's ever trusted.)*
 
 ## JUNE — the woman who chose safety
 
-**Natal chart.** 5 May 1930. **Taurus sun** (security, the solid bet, the full
+**Natal chart.** 5 May 1972. **Taurus sun** (security, the solid bet, the full
 pantry), **Virgo moon** (the planner), **Capricorn rising**. Saturn on the Venus:
 love rationed and made to prove itself first.
 
@@ -291,7 +292,7 @@ thing that then left her.
 
 ## SULLY — the man who stayed
 
-**Natal chart.** 9 March 1925. **Pisces sun** (the bar as refuge, the soft heart,
+**Natal chart.** 9 March 1958. **Pisces sun** (the bar as refuge, the soft heart,
 the one who absorbs everyone's sorrow and keeps none of his own), **Cancer moon**
 (home is the people he pours for), Neptune rising (the blur, the third beer). Mars
 in Cancer, retreating.
