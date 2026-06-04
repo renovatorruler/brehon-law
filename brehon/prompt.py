@@ -192,6 +192,27 @@ def to_beat_sheet(story: "Story", *, title: Optional[str] = None) -> str:
     return "\n".join(out)
 
 
+def to_beat_list(story: "Story", *, title: Optional[str] = None) -> str:
+    """Render the seed as a plain, numbered beat list — the story in order.
+
+    Every beat, in story order, one plain line apiece. No structural labels and no
+    slot machinery: the spine as a person reads it. (The Save-the-Cat function tags
+    still live on the beats for the gates; they are simply not shown here.)
+    """
+    if story.root_id is None:
+        return ""
+    from brehon import cinema as _cinema
+    root = story.get(story.root_id)
+    heading = (title or root.attributes.get("title") or "Untitled").upper()
+    out = [f"{heading} — BEATS", ""]
+    for i, beat in enumerate(_cinema.spine_beats(story), 1):
+        text = (beat.manifestation or beat.meaning).strip()
+        if text and text[-1] not in ".!?":
+            text += "."
+        out.append(f"{i:>2}. {text}")
+    return "\n".join(out)
+
+
 def write_story(
     story: "Story", client: "LLMClient", *, form: str = "screenplay",
     system: Optional[str] = None,

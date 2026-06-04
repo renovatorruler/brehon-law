@@ -73,6 +73,16 @@ def _structured_seed():
     return s
 
 
+def test_to_beat_list_is_plain_numbered_beats_no_jargon():
+    from brehon.prompt import to_beat_list
+    out = to_beat_list(_structured_seed())
+    assert out.splitlines()[0].endswith("— BEATS")
+    assert "\n 1. " in "\n" + out                      # plain ordinal beats
+    assert "He stops at the door" in out               # the mirror's hinge scene is in the list
+    for jargon in ("Save the Cat", "Opening Image", "Midpoint", "B Story", "(p.", "TO THE WRITER"):
+        assert jargon not in out                        # no structural scaffolding leaks through
+
+
 def test_to_beat_sheet_is_a_save_the_cat_structure():
     from brehon.prompt import BEAT_SHEET
     sheet = to_beat_sheet(_structured_seed())

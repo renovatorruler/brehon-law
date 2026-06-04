@@ -12,7 +12,7 @@ Run with:  python -m examples.seeing
 
 from brehon import Story
 from brehon.dossier import Dossier, Fact, attach as attach_bibles
-from brehon.prompt import to_beat_sheet
+from brehon.prompt import to_beat_list
 from brehon.world import (
     ALLY, GUARDIAN, HERALD, HERO, MENTOR, SHADOW, SHAPESHIFTER, TRICKSTER,
     Character, World,
@@ -44,12 +44,12 @@ def build() -> Story:
     # chronological and a cold open on the rite flashes back through all of it.
     s.instantiate(before.id, "Danny runs a con to its clean end, shakes the mark's hand under a name that isn't his, then sits alone in a sublet that isn't his either, with nothing left to be",
                   kind="beat", id="b-cover", attributes={"function": "Opening Image"})
-    s.instantiate(before.id, "Reyes slides the cult file across the desk and tells him he's perfect for it: there's nothing of him to get in the way",
+    s.instantiate(before.id, "Eli comes out of the river under a tarp; the ruling reads suicide; his sister Nora won't sign it and badgers the city until the case is reopened",
+                  kind="beat", id="b-river")  # the case that starts it
+    s.instantiate(before.id, "Reyes slides the dead man's file across the desk and tells Danny he's perfect for it: there's nothing of him to get in the way",
                   kind="beat", id="b-theme", attributes={"function": "Theme Stated", "character": "REYES", "dialogue": "yes"})
-    s.instantiate(before.id, "The eaten life on the counter: an ex-wife's number he won't dial, a roll of film he never develops, a letter from a kid he put away that he leaves unanswered",
+    s.instantiate(before.id, "The eaten life on the counter: an ex-wife's number he won't dial, a roll of film he never develops, takeout he eats standing at the sink",
                   kind="beat", id="b-empty", attributes={"function": "Set-Up"})
-    s.instantiate(before.id, "Eli comes out of the river under a tarp; the ruling reads suicide; his sister won't sign it and badgers the city until a detective is handed the file",
-                  kind="beat", id="b-river")  # flesh: the case
     s.instantiate(before.id, "A letter to the cover name, from a kid doing eleven years on Danny's word, sits on the counter asking when Danny is getting out",
                   kind="beat", id="b-petey")  # flesh: the cost of the job
     s.instantiate(before.id, "Danny comes inside the Collective; they circle him for the Seeing and name, one by one, the man they say is in there, and he stays in the chair",
@@ -140,4 +140,4 @@ def build() -> Story:
 
 
 if __name__ == "__main__":
-    print(to_beat_sheet(build()))
+    print(to_beat_list(build()))
