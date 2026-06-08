@@ -1,0 +1,71 @@
+The Janitor. A design review.
+
+Working title still to be decided. This is a dark comedy and a satire of conspiracy thinking. It plays as a parody of Good Will Hunting, but it never says so out loud and it never winks at the audience.
+
+The concept.
+
+A janitor at a university is convinced that he is a misunderstood genius. He chalks confident, nonsense answers onto a math professor's board, and when he is told it is gibberish, he concludes that the professor is too stupid to understand him. The same thing keeps happening. He becomes convinced that something dark is going on at the university. He is wrong. The dark thing turns out to be, almost literally, just sewage.
+
+There are four rules we are holding to, so that this works and never becomes cartoonish.
+
+First, he is too smart to be a janitor, but he is not actually a genius. He is a bright underachiever with delusions of grandeur. The gap between how confident he is and how right he actually is has to be measured carefully.
+
+Second, he loses his grip on reality, but he is never a tinfoil hat caricature. Everything he does has a realistic bent. Every clue he finds is a real, ordinary thing with an innocent explanation that he over-reads.
+
+Third, the conspiracy is never real. At the end, nothing he believed turns out to be true. All he concludes is that it must go deeper than he thought. The lack of evidence only hardens the belief.
+
+Fourth, and this is the heart of it. The film is built so that two opposite audiences each get something. A conspiracy theorist watching it should feel validated. A skeptic watching it should get to laugh. To pull that off, the camera never winks and never leaves his sincere point of view. The irony lives entirely in the gaps that the audience fills in for themselves.
+
+The shape of the story.
+
+This is the part where the story quietly breaks the rules of every other story we have built, and it does it on purpose.
+
+Normally a story turns on a transformation. The hero reaches a midpoint, looks at himself in the mirror, and changes. This janitor refuses the mirror. He is handed the truth, and he chooses the flattering story every single time. So the change does not happen to him. It happens to the audience instead, and it happens in two opposite directions at once.
+
+Here is the elegant part, in the programming terms we have been using. A logline is supposed to be a loop that is running, and then an exception that breaks it. This story is a loop that throws an exception, catches it, swallows it, and keeps running forever. He thinks the conspiracy is the exception that will finally make his life mean something. But it was never real, so the loop just continues, one level deeper, forever. The form of the story is the joke. The last image is the loop starting over.
+
+The logline.
+
+A university janitor who knows in his bones that he is a misunderstood genius mistakes the gibberish he chalks on a professor's board, and the muck backing up in the basement, for the loose thread of a vast cover-up. And the more nothing he finds when he pulls on it, the more certain he becomes that it goes deeper than anyone dares to admit.
+
+The two worlds.
+
+The ordinary world is a man mopping up after people he believes are beneath him, filing away every slight as more proof that the world has failed to recognize him. The transformed world is the same man, in the same place, except now his life is in ruins, which he has relabeled as the cost of getting close to the truth. The joke, and the horror, is that the two worlds are the same room.
+
+The doorways of no return.
+
+Doorway one. He is fired. Because he suspects the firing only proves he is close, he kidnaps the man who fired him and locks him in his basement until he can figure out what to do about it. You cannot un-kidnap a man, so there is no going back. This is the thing that turns the film into a dark comedy. The stakes become real, a man's life and the janitor's own freedom, while the cause stays completely absurd.
+
+The kidnapping also does something beautiful. It chains the one sane man in the movie inside the janitor's basement. The man who fired him sits down there saying, there is nothing, you have lost it, please let me go, and the janitor takes that as proof that the cover-up has reached even into his own home. The truth is right there in the room, and he cannot hear it.
+
+Doorway two. A man is missing, so people start to look for him. The search closing in, or the hostage nearly getting free, is the second doorway. Once that happens, the ending is unavoidable.
+
+The midpoint, the refused mirror.
+
+Someone he respects sits him down and, kindly and clearly, tells him the plain truth. You are not a genius. There is nothing here. You are throwing your life away. Please stop. This is his one clean look in the mirror. He reads their kindness as either fear or complicity, and he walks out more committed than he was before. He does become active at the midpoint, the way a hero is supposed to, but he turns the wrong way.
+
+The finale.
+
+Cornered, with everything collapsing around him, he makes his final stand and presents the great truth he has uncovered. It is nothing. The basement secret is revealed to be exactly the sewage it always was. They take him away. In the back of the police car, a cop says something offhand, and his eyes light up. It goes deeper. The loop starts over.
+
+The engine. Double exposure.
+
+This is the rule that runs the whole movie. Every single clue has to do two things at the same time, in equal measure. It has to give him more proof of the conspiracy, and it has to be just as easily explained as innocent coincidence. If only the believer can read it, there is no comedy. If only the skeptic can read it, there is no engine. It has to work both ways, on the same image, or it is broken. And nothing is ever fabricated. The innocent explanation is always the true one.
+
+Here are four examples.
+
+One. He chalks his solution under the professor's open problem, and the professor erases it the moment he sees it. He sees a man who cannot let the answer stand. We see a man erasing gibberish because he needs his board back.
+
+Two. He finds a sealed sub-basement. There is a chemical smell, there are drums, there is a logbook of after-hours access, and there is a van that only comes at night. He sees the secret disposal of something they are hiding. We see a sewage main that has backed up under the old wing, and a cleanup crew that works at night because you do not tear open a bathroom floor during lectures. The dark secret is, precisely, excrement.
+
+Three. He hand-delivers his dossier to the dean's office on a Monday, and he is fired on the Tuesday. He sees them moving against him the instant he got close. We see the third restricted area he has been caught in this month, and a stack of paperwork that the human resources department already had ready before his dossier ever arrived.
+
+Four, and this is the darkest one. After days locked in the basement, the hostage, exhausted and frightened, works out that the truth gets him hurt and a lie gets him a blanket. So he starts to confess. He invents a secret program, he gives it a name, and he points the janitor toward a department. The janitor hears an insider finally cracking. We see a man saying whatever he has to in order to stay alive. And that invented lead becomes the next thread he pulls.
+
+Two things are still open for you to decide.
+
+The first is the sad center. My suggestion is that while he chases the imaginary grand conspiracy, his real and ordinary life quietly rots in the background. A person who actually likes him drifts away. A real and modest chance to use his real and ordinary intelligence slips past him. The tragedy is not that he is wrong about the conspiracy. The tragedy is that the energy the fantasy eats is exactly what his real life needed and never got. That is the thing that keeps the film humane instead of merely cruel.
+
+The second is the blade. You said the skeptics get to laugh. The gentler version lets them laugh comfortably, as the in-crowd. The sharper and meaner version also implicates them, by making the smug skeptic in the audience slightly uncomfortable, because he also pattern-matches, he also dismisses, and he is also sure that he is the smartest one in the room. The first is funnier and safer. The second has more teeth.
+
+That is the whole design as it stands. Tell me where it is wrong, or which way you want to take the two open questions, and I will turn it into a beat list.
