@@ -14,9 +14,9 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
-from brehon import arrangement as _arrangement, cinema as _cinema
+from brehon import arrangement as _arrangement, canon as _canon, cinema as _cinema
 from brehon import concreteness, density as _density, doorways as _doorways
-from brehon import dossier as _dossier, embodiment, showing
+from brehon import dossier as _dossier, embodiment, kishotenketsu as _kishotenketsu, showing
 from brehon import generate as _generate
 from brehon import weave as _weave
 from brehon import world as _world
@@ -69,10 +69,19 @@ def check(
     # 1 — Spine
     root = story.get(story.root_id) if story.root_id else None
     stages.append(StageReport(
-        "spine", root is not None and root.kind in ("mirror", "three-act"),
+        "spine", root is not None and root.kind in ("mirror", "three-act", "kishotenketsu"),
         f"root = {root.kind if root else 'none'}"))
-    door = _doorways.doorways(story)
-    stages.append(StageReport("doorways", door.passed, door.summary()))
+    ktk = _kishotenketsu.shape(story)
+    if ktk.count:  # gate kishōtenketsu only when the story actually uses it
+        stages.append(StageReport("kishotenketsu", ktk.passed, ktk.summary()))
+        if any(n.attributes.get("descent") for n in _kishotenketsu.structures(story)):
+            desc = _kishotenketsu.descent(story)  # opt-in descent rules
+            stages.append(StageReport("descent", desc.passed, desc.summary()))
+    # doorways are a three-act/mirror device; skip them for a pure kishōtenketsu spine
+    if root is not None and (root.kind in ("three-act", "mirror")
+                             or any(n.attributes.get("doorway") for n in story.walk())):
+        door = _doorways.doorways(story)
+        stages.append(StageReport("doorways", door.passed, door.summary()))
     arr = _arrangement.arrangement(story)
     stages.append(StageReport("arrangement", arr.passed, arr.summary()))
 
@@ -92,6 +101,9 @@ def check(
     if client is not None:
         legible = embodiment.legibility(story, client)
         stages.append(StageReport("embodiment", legible.passed, legible.summary()))
+    if client is not None and _canon.facts(story):
+        cons = _canon.consistency(story, client)
+        stages.append(StageReport("consistency", cons.passed, cons.summary()))
 
     # 6 — Render: show, don't tell
     told = showing.report(story)

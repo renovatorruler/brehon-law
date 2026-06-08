@@ -121,24 +121,52 @@ def classify(node: "Metaphor") -> str:
     return "verbal" if (speech and not action) else "visual"
 
 
+_SPINE_STRUCTURE = {"act", "movement", "state"}
+
+
+def _spine_descend(story: "Story", node: "Metaphor", seen: set, out: list) -> None:
+    """Collect page beats from a spine subtree, descending through structural nodes
+    (acts, movements, nested kishōtenketsu) and taking each beat once, in order."""
+    for child in story.children(node.id):
+        if child.kind == "kishotenketsu":
+            _spine_kishotenketsu(story, child, seen, out)
+        elif child.kind in _SPINE_STRUCTURE:
+            _spine_descend(story, child, seen, out)
+        elif child.kind == "beat" and child.id not in seen:
+            seen.add(child.id)
+            out.append(child)
+
+
+def _spine_kishotenketsu(story: "Story", node: "Metaphor", seen: set, out: list) -> None:
+    roles = {m.attributes.get("role"): m
+             for m in story.children(node.id) if m.kind == "movement"}
+    for role in ("ki", "sho", "ten", "ketsu"):
+        if roles.get(role) is not None:
+            _spine_descend(story, roles[role], seen, out)
+
+
 def spine_beats(story: "Story") -> list["Metaphor"]:
-    """The page beats in narrative order: previous -> mirror -> next, or acts."""
+    """The page beats in narrative order, across every spine: previous -> mirror -> next,
+    the four kishōtenketsu movements (ki -> shō -> ten -> ketsu), or acts — descending into
+    nested structures, each beat taken once."""
     if story.root_id is None:
         return []
     root = story.get(story.root_id)
+    seen: set = set()
     out: list["Metaphor"] = []
     if root.kind == "mirror":
         states = {s.attributes.get("role"): s
                   for s in story.children(root.id) if s.kind == "state"}
-        prev, nxt = states.get("previous"), states.get("next")
-        if prev is not None:
-            out += [n for n in story.walk(prev.id) if n.kind == "beat"]
+        if states.get("previous") is not None:
+            _spine_descend(story, states["previous"], seen, out)
         out.append(root)  # the mirror scene sits at the hinge, and must be seen
-        if nxt is not None:
-            out += [n for n in story.walk(nxt.id) if n.kind == "beat"]
+        if states.get("next") is not None:
+            _spine_descend(story, states["next"], seen, out)
+    elif root.kind == "kishotenketsu":
+        _spine_kishotenketsu(story, root, seen, out)
     else:
         for act in (m for m in story.children(root.id) if m.kind == "act"):
-            out += [n for n in story.walk(act.id) if n.kind == "beat"]
+            _spine_descend(story, act, seen, out)
     return out
 
 

@@ -170,6 +170,51 @@ class Story:
         )
         return root, prev, nxt
 
+    def kishotenketsu(
+        self,
+        controlling_idea: str,
+        *,
+        parent_id: Optional[str] = None,
+        id: str = "kishotenketsu",
+        ki: str = "",
+        sho: str = "",
+        ten: str = "",
+        ketsu: str = "",
+        descent: bool = False,
+        **attributes: Any,
+    ) -> tuple[Metaphor, Metaphor, Metaphor, Metaphor, Metaphor]:
+        """Create a *kishōtenketsu* structure — the four-part, turn-driven shape.
+
+        Where the three-act root runs on escalating conflict, kishōtenketsu runs on the
+        **ten** (the turn): ki and shō set a world, the ten recontextualizes it, and ketsu
+        reconciles the two. It is **composable**: pass ``parent_id=None`` and it becomes the
+        root (a standalone kishōtenketsu story); pass an existing node (e.g. an act) and the
+        four movements nest under it, so kishōtenketsu can run *inside* three-act or beside
+        another structure. Because beats are multi-parent, a single beat may also hang under
+        both an act (one axis) and a movement (the other) at once.
+
+        Returns ``(structure, ki, shō, ten, ketsu)``; instantiate beats under the four
+        movement nodes. Mark a turning beat with ``attributes={"turn": n}`` — one turn is
+        the classic form, several an iterated descent (see :mod:`brehon.kishotenketsu`).
+        Pass a distinct ``id`` per structure when nesting more than one.
+        """
+        attrs = dict(attributes)
+        if descent:  # opt into the iterated-descent rules (see brehon.kishotenketsu.descent)
+            attrs["descent"] = True
+        node = self.instantiate(
+            parent_id, controlling_idea, kind="kishotenketsu", id=id, attributes=attrs
+        )
+        if parent_id is None:
+            self.set_root(node.id)
+        parts = [
+            self.instantiate(
+                node.id, meaning or role, kind="movement", id=f"{id}-{role}",
+                attributes={"role": role},
+            )
+            for role, meaning in (("ki", ki), ("sho", sho), ("ten", ten), ("ketsu", ketsu))
+        ]
+        return (node, *parts)
+
     def _auto_id(self, meaning: str) -> str:
         base = _slug(meaning)
         if base not in self._metaphors:

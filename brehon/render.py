@@ -99,14 +99,16 @@ class FountainRenderer:
             self._render_arranged(story, out)
         elif root.kind == "mirror":
             self._render_mirror(story, root, out)
+        elif root.kind == "kishotenketsu":
+            self._render_kishotenketsu(story, root, out)
         else:
             acts = [m for m in story.children(root.id) if m.kind == "act"]
             for index, act in enumerate(acts, start=1):
                 label = _ACT_NAMES.get(index, f"ACT {index}")
                 out.append(f"# {label}")
                 out.append("")
-                for beat in story.children(act.id):
-                    self._emit_beat(story.get(beat.id), out)
+                for child in story.children(act.id):
+                    self._emit_spine(story, child, out)
 
         return self._normalise(out)
 
@@ -154,6 +156,38 @@ class FountainRenderer:
         if following is not None:
             for node in story.walk(following.id):
                 self._emit_beat(node, out)
+
+    _MOVEMENT_LABEL = {"ki": "KI", "sho": "SHŌ", "ten": "TEN", "ketsu": "KETSU"}
+    _SPINE_KINDS = {"act", "movement", "state"}
+
+    def _render_kishotenketsu(self, story: Story, node, out: list[str]) -> None:
+        """Linearize a kishōtenketsu structure: ki -> shō -> ten -> ketsu, in order.
+
+        Each movement prints as a Fountain section (it organises the script without
+        appearing in the final document); its beats follow, and any nested structure
+        recurses, so a turn-structure inside an act renders in place.
+        """
+        roles = {m.attributes.get("role"): m
+                 for m in story.children(node.id) if m.kind == "movement"}
+        for role in ("ki", "sho", "ten", "ketsu"):
+            movement = roles.get(role)
+            if movement is None:
+                continue
+            out.append(f"# {self._MOVEMENT_LABEL[role]}")
+            out.append("")
+            for child in story.children(movement.id):
+                self._emit_spine(story, child, out)
+
+    def _emit_spine(self, story: Story, node, out: list[str]) -> None:
+        """Emit a spine node: recurse structural nodes, render a nested kishōtenketsu in
+        place, and emit anything else (a beat) as Fountain elements."""
+        if node.kind == "kishotenketsu":
+            self._render_kishotenketsu(story, node, out)
+        elif node.kind in self._SPINE_KINDS:
+            for child in story.children(node.id):
+                self._emit_spine(story, child, out)
+        else:
+            self._emit_beat(node, out)
 
     def _title_page(self, root, out: list[str]) -> None:
         if not root.attributes.get("title"):

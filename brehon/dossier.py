@@ -171,22 +171,36 @@ def write_bible(
     and the leak gate are what stop it from spilling onto the page.
     """
     from brehon.generate import _extract_json  # lazy: avoid an import cycle
+    from brehon import canon as _canon
 
     warn = warnings if warnings is not None else []
+    canon_block = _canon.block(story)               # the world's ground truth, fed to every bible
     dossiers: list[Dossier] = []
+    established: list[tuple[str, list[Fact]]] = []  # bibles so far, carried forward for consistency
     for node in story.walk():
         if node.kind != "character":
             continue
         name = node.meaning
-        prompt = (
+        sections: list[str] = []
+        if canon_block:
+            sections.append(canon_block)
+        if established:
+            prior = ["ALREADY ESTABLISHED — be consistent with these characters; do NOT contradict them:"]
+            for pname, pfacts in established:
+                prior.append(f"  {pname}:")
+                prior += [f"    - {f.text}" for f in pfacts[:6]]
+            sections.append("\n".join(prior))
+        sections.append(
             f"Write the private backstory of {name} for the story: {premise}. "
             f"They want: {node.attributes.get('want', '')}. Cover the wound, the "
             "ghost (often inherited), upbringing, want versus need, the secret, and a "
-            "contradiction. Mark each fact SURFACE (it is shown in the story, never "
-            "told) or SUBMERGED (it only informs, never appears) — most must be "
-            "submerged.\n\n"
+            "contradiction. Stay strictly consistent with the GROUND TRUTH and the "
+            "already-established characters above. Mark each fact SURFACE (it is shown "
+            "in the story, never told) or SUBMERGED (it only informs, never appears) — "
+            "most must be submerged.\n\n"
             'Return JSON: {"facts": [{"text": "<fact>", "depth": "surface|submerged"}]}'
         )
+        prompt = "\n\n".join(sections)
         try:
             data = _extract_json(client.complete(
                 prompt, system="You write a character bible. Output only JSON."))
@@ -198,4 +212,5 @@ def write_bible(
             facts = []
             warn.append(f"could not write a bible for {name!r}")
         dossiers.append(Dossier(name, facts))
+        established.append((name, facts))
     return dossiers
