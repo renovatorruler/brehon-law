@@ -1,6 +1,6 @@
 # (working title — untitled) — Story Bible
 
-Companion to the manuscript (`civil-war-novel.md`). Holds the design: the world, the structure, the cast, the method, the metaphors, and per-scene notes. Voice and scene discipline live in `docs/VOICE_GUIDE.md`.
+Companion to the manuscript (`civil-war-novel.md`). Holds the design: the world, the structure, the cast, the method, the metaphors, and per-scene notes. Voice and scene discipline live in `docs/03-VOICE_GUIDE.md`.
 
 ## What it is
 
@@ -49,7 +49,7 @@ A novel. A second American civil war, told through an **ensemble of families** w
 
 ## Method
 
-Voice: **Elmore Leonard** — lean, dialogue-forward, flat, invisible. Every scene is built and checked on **Peshat / Remez / Derash / Sod** + the **Mamet** drama, then run through the slop pass. All of it in `docs/VOICE_GUIDE.md`.
+Voice: **Elmore Leonard** — lean, dialogue-forward, flat, invisible. Every scene is built and checked on **Peshat / Remez / Derash / Sod** + the **Mamet** drama, then run through the slop pass. All of it in `docs/03-VOICE_GUIDE.md`.
 
 ## Scene notes
 

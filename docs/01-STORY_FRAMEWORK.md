@@ -2,7 +2,7 @@
 
 The order a story is built in, from a bare idea to a beat list. Each step feeds the
 next; do them out of order and the later ones wobble. This is the **process**.
-`STORY_SPEC.md` is the **grammar** — what the gates check once the beats exist.
+`02-STORY_SPEC.md` is the **grammar** — what the gates check once the beats exist.
 
 ---
 

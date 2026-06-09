@@ -10,7 +10,7 @@ AI prose is the statistical average of all prose, so it reads like no one — sm
 
 ## 1. The grain
 
-**The narrator is never neutral.** A neutral narrator is just the AI average wearing a tie. In close third, the prose wears the voice of whoever we're following — their diction, their rhythm, what they'd notice, what they'd never say out loud. Solve the character's voice and you've solved the narrator's. (Per-character coloring: see `VOICE_FROM_CHART.md`.)
+**The narrator is never neutral.** A neutral narrator is just the AI average wearing a tie. In close third, the prose wears the voice of whoever we're following — their diction, their rhythm, what they'd notice, what they'd never say out loud. Solve the character's voice and you've solved the narrator's. (Per-character coloring: see `04-VOICE_FROM_CHART.md`.)
 
 **This book's compass: Elmore Leonard.** Lean, dialogue-forward, cool, propulsive, invisible. The rules we hold to:
 

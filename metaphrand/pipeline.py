@@ -1,6 +1,6 @@
 """The pipeline — run a story through the spec's gates, stage by stage.
 
-This is the spec (``docs/STORY_SPEC.md``) made operational: a story is checked against
+This is the spec (``docs/02-STORY_SPEC.md``) made operational: a story is checked against
 each layer's gate in order, and the result says where it passes and where it
 fails. The gates are the system; the LLM only fills the slots inside each stage.
 

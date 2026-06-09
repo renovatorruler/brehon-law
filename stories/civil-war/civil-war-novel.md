@@ -1,7 +1,7 @@
 # (working title — untitled)
 
 The accepted scenes, in reading order. New accepted scenes get appended here.
-Voice and per-scene discipline: see `docs/VOICE_GUIDE.md` (compass: Elmore Leonard; every scene built on Peshat / Remez / Derash / Sod + the Mamet drama).
+Voice and per-scene discipline: see `docs/03-VOICE_GUIDE.md` (compass: Elmore Leonard; every scene built on Peshat / Remez / Derash / Sod + the Mamet drama).
 
 ---
 

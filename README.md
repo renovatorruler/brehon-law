@@ -13,11 +13,11 @@ A story moves through stages, and the engine has a tool for each. Drive the whol
 1. **The idea.** A one-line premise becomes the root metaphor — the transformation the whole story will concretize.
 2. **A shape.** Choose a spine: `three_act`, `mirror` (the two-world transformation), or `kishōtenketsu` (the four-movement turn). They compose and nest.
 3. **A world.** Populate the cast (each a person with their own want), braid the A-story with B-stories that refract it, fix the world's canon, and sink each character's backstory below the waterline as an iceberg the page must not spill.
-4. **A voice.** Give every character a voice drawn from their chart, and set the narrator's grain — so nobody sounds like the model's default. (`docs/VOICE_FROM_CHART.md`, `docs/VOICE_GUIDE.md`)
+4. **A voice.** Give every character a voice drawn from their chart, and set the narrator's grain — so nobody sounds like the model's default. (`docs/04-VOICE_FROM_CHART.md`, `docs/03-VOICE_GUIDE.md`)
 5. **A draft.** Render the graph — a Fountain screenplay, close prose, or a multi-voice audio cut.
 6. **The sweeps.** Run the draft through the gates, and let the repair loop rewrite what fails.
 
-The craft behind each stage is written down in `docs/`: the grammar (`STORY_SPEC.md`), the development pipeline (`STORY_FRAMEWORK.md`), and how the writing should sound (`VOICE_GUIDE.md`).
+The craft behind each stage is written down in `docs/`: the grammar (`02-STORY_SPEC.md`), the development pipeline (`01-STORY_FRAMEWORK.md`), and how the writing should sound (`03-VOICE_GUIDE.md`).
 
 ## The model
 
@@ -68,8 +68,8 @@ The model fills the slots; the gates hold the bar. `metaphrand.pipeline.check` r
 | Path | What it is |
 | --- | --- |
 | `metaphrand/` | The engine — the metaphor graph, the structures, the world layers, the gates, the renderers, and the generation seam. |
-| `docs/` | The craft: the grammar (`STORY_SPEC`), the development pipeline (`STORY_FRAMEWORK`), the prose voice + scene discipline (`VOICE_GUIDE`), and character voices from charts (`VOICE_FROM_CHART`). |
-| `examples/` | One walk-through per structure and stage — hand-built seeds, end-to-end generation, audio. |
+| `docs/` | The craft, numbered in reading order: `01-STORY_FRAMEWORK` (the development pipeline), `02-STORY_SPEC` (the grammar the gates check), `03-VOICE_GUIDE` (prose voice + the per-scene sweeps), `04-VOICE_FROM_CHART` (character voices from charts). |
+| `examples/` | Walk-throughs in order — 1 `three_act` → 2 `mirror` → 3 `pipeline` → 4 `generate` → 5 `render_audio` — plus full-story demos (`janitor`, `ray`, `seeing`, `favorite_son`). Run as `python -m examples.<name>` (the files keep importable names, so the order lives here, not in a digit prefix). |
 | `stories/` | One folder per world (`civil-war/`, `ray/`, `the-seeing/`, `deeper/`, …): the seeds, drafts, and bibles for each story, plus `samples/` of raw engine output. |
 | `tests/` | The graph, the gates, and the determinism guarantees. |
 
