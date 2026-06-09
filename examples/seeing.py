@@ -10,10 +10,10 @@ the rest — the flesh, the continuity, the words — to the writer.
 Run with:  python -m examples.seeing
 """
 
-from brehon import Story
-from brehon.dossier import Dossier, Fact, attach as attach_bibles
-from brehon.prompt import to_beat_list
-from brehon.world import (
+from metaphrand import Story
+from metaphrand.dossier import Dossier, Fact, attach as attach_bibles
+from metaphrand.prompt import to_beat_list
+from metaphrand.world import (
     ALLY, GUARDIAN, HERALD, HERO, MENTOR, SHADOW, SHAPESHIFTER, TRICKSTER,
     Character, World,
 )
@@ -111,7 +111,7 @@ def build() -> Story:
         Character("august", "AUGUST", ALLY, "to not have been ordinary", "m"),
     ]).attach(s)
 
-    # -- BACKSTORY: the iceberg (full bible in stories/seeing_bible.md) --
+    # -- BACKSTORY: the iceberg (full bible in stories/the-seeing/seeing_bible.md) --
     attach_bibles(s, [
         Dossier("DANNY", [
             Fact("Black coffee he lets go cold, eats standing up, sleeps fine in a stranger's bed and not in his own.", "surface"),

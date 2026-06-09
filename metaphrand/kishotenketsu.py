@@ -3,12 +3,12 @@
 Ki (introduction) → Shō (development) → Ten (the turn) → Ketsu (reconciliation).
 Where three-act runs on escalating conflict, kishōtenketsu runs on the **ten**: a
 recontextualization that makes you re-read what came before. The shape is built with
-:meth:`brehon.story.Story.kishotenketsu`, which is *composable* — it can be the root (a
+:meth:`metaphrand.story.Story.kishotenketsu`, which is *composable* — it can be the root (a
 standalone kishōtenketsu story) or nest under any node (a turn inside a three-act act,
 or beside other structures). Turning beats are marked ``attributes["turn"] = n``: one
 turn is the classic form, several is an iterated descent.
 
-The gate is structural and deterministic, in the spirit of :mod:`brehon.doorways`: every
+The gate is structural and deterministic, in the spirit of :mod:`metaphrand.doorways`: every
 kishōtenketsu structure must have its four movements present and in order (ki, shō, ten,
 ketsu), with at least one turn landing in the *ten* or later — a turn in the setup is no
 turn. Whether a turn *genuinely* recontextualizes is a semantic judgement left to the
@@ -21,8 +21,8 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from brehon.metaphor import Metaphor
-    from brehon.story import Story
+    from metaphrand.metaphor import Metaphor
+    from metaphrand.story import Story
 
 ROLES = ("ki", "sho", "ten", "ketsu")
 

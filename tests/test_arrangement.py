@@ -1,6 +1,6 @@
-from brehon import Story
-from brehon.arrangement import arrangement, frame, is_linear, plot_order, story_order
-from brehon.render import FountainRenderer
+from metaphrand import Story
+from metaphrand.arrangement import arrangement, frame, is_linear, plot_order, story_order
+from metaphrand.render import FountainRenderer
 
 
 def _story():

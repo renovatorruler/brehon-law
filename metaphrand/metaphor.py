@@ -16,7 +16,7 @@ class Metaphor:
     of a more abstract one, and its ``meaning`` concretizes the parent's.
 
     Edges (parents/children) are not stored on the node — they live on the
-    :class:`~brehon.story.Story` so a single metaphor can be shared by
+    :class:`~metaphrand.story.Story` so a single metaphor can be shared by
     multiple parents (the graph is a DAG, not a tree).
 
     Attributes:
@@ -37,7 +37,7 @@ class Metaphor:
             timing, generation seeds, …).
         concreteness: Optional 0.0–1.0 score of how concrete the manifestation
             is (1.0 = bare physical fact; lower = ornamental/abstract). Set by
-            :mod:`brehon.concreteness`; ``None`` until measured. The engine
+            :mod:`metaphrand.concreteness`; ``None`` until measured. The engine
             drives leaves toward 1.0 — flowery language is the thing to remove.
     """
 

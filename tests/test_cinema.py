@@ -1,5 +1,5 @@
-from brehon import Story
-from brehon.cinema import (
+from metaphrand import Story
+from metaphrand.cinema import (
     classify, modality, silent_legibility, silent_spine, spine_beats,
 )
 

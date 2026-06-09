@@ -9,11 +9,11 @@ renders it; an LLM hangs the scenes on it and owns the continuity and the words.
 Run with:  python -m examples.ray
 """
 
-from brehon import Story
-from brehon.arrangement import frame
-from brehon.dossier import Dossier, Fact, attach as attach_bibles
-from brehon.prompt import to_beat_list
-from brehon.world import (
+from metaphrand import Story
+from metaphrand.arrangement import frame
+from metaphrand.dossier import Dossier, Fact, attach as attach_bibles
+from metaphrand.prompt import to_beat_list
+from metaphrand.world import (
     ALLY, GUARDIAN, HERALD, HERO, MENTOR, SHAPESHIFTER, TRICKSTER, Character, World,
 )
 
@@ -107,7 +107,7 @@ def build() -> Story:
         Character("recruiter", "RECRUITER", GUARDIAN, "to fill a quota", "m"),
     ]).attach(s)
 
-    # Backstory: the iceberg under each character (full bible in stories/ray_bible.md).
+    # Backstory: the iceberg under each character (full bible in stories/ray/ray_bible.md).
     # Fed to the prompt as "what you know, not say"; the leak gate guards the submerged.
     attach_bibles(s, [
         Dossier("EARL", [

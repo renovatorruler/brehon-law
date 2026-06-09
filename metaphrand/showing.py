@@ -18,9 +18,9 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING, Iterator, Optional
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.metaphor import Metaphor
-    from brehon.story import Story
+    from metaphrand.generate import LLMClient
+    from metaphrand.metaphor import Metaphor
+    from metaphrand.story import Story
 
 # Verbs that narrate the inside of a head instead of showing it.
 _INTERIORITY = {
@@ -126,7 +126,7 @@ def _accept(old: str, new: str) -> bool:
 
 
 def _dramatize(client: "LLMClient", line: str) -> str:
-    from brehon.generate import _extract_json  # lazy: avoid an import cycle
+    from metaphrand.generate import _extract_json  # lazy: avoid an import cycle
 
     prompt = (
         "Rewrite this line so it SHOWS instead of tells — replace any claim about a "

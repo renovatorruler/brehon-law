@@ -2,7 +2,7 @@
 structure.
 
 This module is the deterministic core of the project. A ``Story`` is a graph
-of :class:`~brehon.metaphor.Metaphor` nodes connected by *instantiation*
+of :class:`~metaphrand.metaphor.Metaphor` nodes connected by *instantiation*
 edges (parent -> child, abstract -> concrete). It is:
 
 * a **DAG** — a metaphor may be instantiated under more than one parent, so a
@@ -21,7 +21,7 @@ import json
 import re
 from typing import Any, Iterator, Optional
 
-from brehon.metaphor import Metaphor
+from metaphrand.metaphor import Metaphor
 
 
 class CycleError(ValueError):
@@ -205,11 +205,11 @@ class Story:
 
         Returns ``(structure, ki, shō, ten, ketsu)``; instantiate beats under the four
         movement nodes. Mark a turning beat with ``attributes={"turn": n}`` — one turn is
-        the classic form, several an iterated descent (see :mod:`brehon.kishotenketsu`).
+        the classic form, several an iterated descent (see :mod:`metaphrand.kishotenketsu`).
         Pass a distinct ``id`` per structure when nesting more than one.
         """
         attrs = dict(attributes)
-        if descent:  # opt into the iterated-descent rules (see brehon.kishotenketsu.descent)
+        if descent:  # opt into the iterated-descent rules (see metaphrand.kishotenketsu.descent)
             attrs["descent"] = True
         node = self.instantiate(
             parent_id, controlling_idea, kind="kishotenketsu", id=id, attributes=attrs

@@ -1,7 +1,7 @@
 import wave
 
-from brehon import Story
-from brehon.audio import AudioRenderer, SilentBackend, Utterance
+from metaphrand import Story
+from metaphrand.audio import AudioRenderer, SilentBackend, Utterance
 
 
 def _story():
@@ -82,7 +82,7 @@ def test_unicode_dash_and_emphasis_normalised_for_speech():
 
 
 def test_parse_screenplay_splits_voices():
-    from brehon.audio import parse_screenplay
+    from metaphrand.audio import parse_screenplay
 
     script = ("INT. ROOM - NIGHT\n\nA man crosses the room.\n\n"
               "RAY\n(quiet)\nDon't move.\n\nFADE OUT.")
@@ -93,7 +93,7 @@ def test_parse_screenplay_splits_voices():
 
 
 def test_parse_screenplay_colon_cues():
-    from brehon.audio import parse_screenplay
+    from metaphrand.audio import parse_screenplay
 
     script = "RAY:\nName the company.\n\nCARL (CONT'D):\nThe what?"
     assert parse_screenplay(script, {"RAY": "rv", "CARL": "cv"}, "narr") == [
@@ -103,7 +103,7 @@ def test_parse_screenplay_colon_cues():
 
 
 def test_parse_screenplay_standalone_wryly_keeps_speaker():
-    from brehon.audio import parse_screenplay
+    from metaphrand.audio import parse_screenplay
 
     # a lone "(beat)" between a cue and its continuation must not hand the line
     # to the narrator -- it stays with the character who was talking

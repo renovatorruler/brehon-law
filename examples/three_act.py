@@ -3,8 +3,8 @@
 Run with:  python -m examples.three_act
 """
 
-from brehon import Story
-from brehon.render import OutlineRenderer
+from metaphrand import Story
+from metaphrand.render import OutlineRenderer
 
 
 def build() -> Story:

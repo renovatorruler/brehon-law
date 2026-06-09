@@ -1,15 +1,15 @@
 """The fuzzy renderer — where the metaphor graph becomes prose, grown by the LLM.
 
-:class:`~brehon.render.FountainRenderer` dumps each beat's bare manifestation: a skeleton.
+:class:`~metaphrand.render.FountainRenderer` dumps each beat's bare manifestation: a skeleton.
 This is the missing half. Given the graph (each beat's bare fact and the meaning it serves),
 the canon (the world's ground truth), and the bibles (the iceberg — what you know and must
 not say), the LLM expands each beat, in spine order, into concrete prose that makes the fact
 land and carries its meaning without naming it. Continuity is fed forward (the story so far).
 
 With ``repair=True`` it closes the loop: each passage is checked — the iceberg must stay
-under (:func:`brehon.dossier.leak`) and the prose must be free of ornament
-(:func:`brehon.concreteness.findings`) — and a failure is fed back and rewritten via
-:func:`brehon.repair.repair`, so the renderer fixes its own drafts.
+under (:func:`metaphrand.dossier.leak`) and the prose must be free of ornament
+(:func:`metaphrand.concreteness.findings`) — and a failure is fed back and rewritten via
+:func:`metaphrand.repair.repair`, so the renderer fixes its own drafts.
 
 Needs a prose-mode client (e.g. ``OllamaClient(json_mode=False)``).
 """
@@ -18,15 +18,15 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING, Optional
 
-from brehon import canon as _canon
-from brehon import concreteness as _concreteness
-from brehon import dossier as _dossier
-from brehon.cinema import spine_beats
+from metaphrand import canon as _canon
+from metaphrand import concreteness as _concreteness
+from metaphrand import dossier as _dossier
+from metaphrand.cinema import spine_beats
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.metaphor import Metaphor
-    from brehon.story import Story
+    from metaphrand.generate import LLMClient
+    from metaphrand.metaphor import Metaphor
+    from metaphrand.story import Story
 
 _SYSTEM = (
     "You are a novelist writing close, concrete prose. Show, never tell: bare physical fact, "
@@ -81,7 +81,7 @@ class ProseRenderer:
             base = self._prompt(story, beat, fact, prose, canon_block, iceberg)
 
             if self.repair:
-                from brehon.repair import repair as _repair
+                from metaphrand.repair import repair as _repair
 
                 def generate(feedback: str, base: str = base, fact: str = fact) -> str:
                     prompt = base if not feedback else (

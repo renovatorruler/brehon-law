@@ -1,7 +1,7 @@
-from brehon import Story
-from brehon.kishotenketsu import descent, movements, shape, structures, turns
-from brehon.pipeline import check
-from brehon.render import FountainRenderer
+from metaphrand import Story
+from metaphrand.kishotenketsu import descent, movements, shape, structures, turns
+from metaphrand.pipeline import check
+from metaphrand.render import FountainRenderer
 
 
 def _ktk(*, nested=False, turn_on="ten", sid="kishotenketsu"):

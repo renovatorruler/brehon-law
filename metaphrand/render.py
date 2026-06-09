@@ -21,7 +21,7 @@ from __future__ import annotations
 import re
 from typing import Protocol
 
-from brehon.story import Story
+from metaphrand.story import Story
 
 
 class Renderer(Protocol):
@@ -119,7 +119,7 @@ class FountainRenderer:
         A backward jump in story-time prints FLASHBACK TO:; catching back up prints
         PRESENT DAY, so the page reads the way the film cuts.
         """
-        from brehon import arrangement  # local: keep render.py importable standalone
+        from metaphrand import arrangement  # local: keep render.py importable standalone
 
         chrono = {b.id: i for i, b in enumerate(arrangement.story_order(story))}
         previous = None

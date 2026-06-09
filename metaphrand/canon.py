@@ -18,8 +18,8 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.story import Story
+    from metaphrand.generate import LLMClient
+    from metaphrand.story import Story
 
 
 @dataclass(frozen=True)
@@ -96,7 +96,7 @@ def consistency(story: "Story", client: "LLMClient") -> ConsistencyReport:
     is the safety check — the model is shown its own facts and the ground truth and asked
     which ones conflict, the way the embodiment gate works. No canon -> nothing to check.
     """
-    from brehon.generate import _extract_json  # lazy: avoid an import cycle
+    from metaphrand.generate import _extract_json  # lazy: avoid an import cycle
 
     these = facts(story)
     if not these:

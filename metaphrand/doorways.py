@@ -15,8 +15,8 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from brehon.metaphor import Metaphor
-    from brehon.story import Story
+    from metaphrand.metaphor import Metaphor
+    from metaphrand.story import Story
 
 
 def _doorway_of(node: "Metaphor") -> str:
@@ -43,12 +43,12 @@ class DoorwayReport:
 def doorways(story: "Story") -> DoorwayReport:
     """Both doorways present, Doorway 1 before Doorway 2 in narrative order?
 
-    Order is read from the structural spine (:func:`brehon.cinema.spine_beats`),
+    Order is read from the structural spine (:func:`metaphrand.cinema.spine_beats`),
     not a raw DAG walk: a doorway beat that also hangs under an early theme or
     motif must still be placed by its act in the rendered order, not by whichever
     cross-link the traversal happens to reach first.
     """
-    from brehon.cinema import spine_beats  # lazy import: avoid a load-time cycle
+    from metaphrand.cinema import spine_beats  # lazy import: avoid a load-time cycle
 
     pos_one = pos_two = None
     for index, node in enumerate(spine_beats(story)):

@@ -1,6 +1,6 @@
 """The arrangement layer — story-time vs plot-time (the order of telling).
 
-Brehon's beat order is chronological: the spine is the events as they happen. But
+Metaphrand's beat order is chronological: the spine is the events as they happen. But
 a film is not obliged to tell them in that order. The order of *telling* is a craft
 choice independent of the order of *events* — open near the end and flash back,
 start in the middle, bookend the film on a moment we return to and only then
@@ -29,11 +29,11 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
-from brehon import cinema as _cinema
+from metaphrand import cinema as _cinema
 
 if TYPE_CHECKING:
-    from brehon.metaphor import Metaphor
-    from brehon.story import Story
+    from metaphrand.metaphor import Metaphor
+    from metaphrand.story import Story
 
 
 def story_order(story: "Story") -> list["Metaphor"]:

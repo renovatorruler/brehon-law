@@ -1,6 +1,6 @@
 """Multi-voice audio rendering — the story as a cast recording.
 
-Like :class:`~brehon.render.FountainRenderer`, this walks only the structural
+Like :class:`~metaphrand.render.FountainRenderer`, this walks only the structural
 spine (root -> acts in order -> beats), but instead of text it emits a
 deterministic list of :class:`Utterance` objects — ``(voice, text)`` pairs.
 The narrator voice reads action; each character reads their own dialogue,
@@ -27,7 +27,7 @@ import wave
 from dataclasses import dataclass
 from typing import Iterator, Optional, Protocol
 
-from brehon.story import Story
+from metaphrand.story import Story
 
 
 @dataclass(frozen=True)

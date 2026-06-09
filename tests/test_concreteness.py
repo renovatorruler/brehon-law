@@ -2,8 +2,8 @@ import json
 
 import pytest
 
-from brehon import Story
-from brehon.concreteness import (
+from metaphrand import Story
+from metaphrand.concreteness import (
     annotate,
     concretize,
     findings,

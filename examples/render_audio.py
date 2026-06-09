@@ -8,17 +8,17 @@ it is installed (``pip install -e ".[audio]"`` on Python <=3.12, plus system
 
 Run with:
     python -m examples.render_audio                              # janitor seed
-    python -m examples.render_audio stories/generated.json out.wav
+    python -m examples.render_audio stories/samples/generated.json out.wav
 """
 
 import sys
 
-from brehon import Story
-from brehon.audio import AudioRenderer, KokoroBackend, SilentBackend
+from metaphrand import Story
+from metaphrand.audio import AudioRenderer, KokoroBackend, SilentBackend
 
 
 def main(argv: list[str]) -> None:
-    seed = argv[0] if argv else "stories/janitor.json"
+    seed = argv[0] if argv else "stories/janitor/janitor.json"
     out = argv[1] if len(argv) > 1 else seed.rsplit(".", 1)[0] + ".wav"
 
     story = Story.load(seed)

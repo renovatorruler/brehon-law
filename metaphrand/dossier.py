@@ -12,7 +12,7 @@ This faculty is the three-move answer:
 * **build** — :func:`write_bible` generates each character's backstory (the model is
   genuinely good at *inventing* it, which is exactly why it must be leashed next);
 * **feed** — the bible is attached to the cast (:func:`attach`) and rendered into the
-  managed prompt as *"what you know, and must not say"* (see :mod:`brehon.prompt`);
+  managed prompt as *"what you know, and must not say"* (see :mod:`metaphrand.prompt`);
 * **gate** — :func:`leak` checks the finished script: anywhere a SUBMERGED fact has
   surfaced as exposition is a leak, and is reported for cutting.
 
@@ -29,8 +29,8 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.story import Story
+    from metaphrand.generate import LLMClient
+    from metaphrand.story import Story
 
 _WORD = re.compile(r"[a-z']+")
 _STOP = {
@@ -170,8 +170,8 @@ def write_bible(
     The model invents the background work it would otherwise skip; the depth tags
     and the leak gate are what stop it from spilling onto the page.
     """
-    from brehon.generate import _extract_json  # lazy: avoid an import cycle
-    from brehon import canon as _canon
+    from metaphrand.generate import _extract_json  # lazy: avoid an import cycle
+    from metaphrand import canon as _canon
 
     warn = warnings if warnings is not None else []
     canon_block = _canon.block(story)               # the world's ground truth, fed to every bible

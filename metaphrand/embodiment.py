@@ -18,8 +18,8 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.story import Story
+    from metaphrand.generate import LLMClient
+    from metaphrand.story import Story
 
 _STOP = {
     "the", "a", "an", "and", "or", "but", "of", "to", "in", "on", "at", "for",
@@ -69,7 +69,7 @@ class LegibilityReport:
 
 
 def _infer_meaning(client: "LLMClient", manifestation: str) -> str:
-    from brehon.generate import _extract_json  # lazy: avoid an import cycle
+    from metaphrand.generate import _extract_json  # lazy: avoid an import cycle
 
     prompt = (
         "Read this line and say, in a short phrase, what it MEANS — the idea it "

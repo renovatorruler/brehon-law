@@ -17,8 +17,8 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Any, Optional
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.story import Story
+    from metaphrand.generate import LLMClient
+    from metaphrand.story import Story
 
 # Hero's-Journey archetypal functions. The cast is built from these, not invented.
 HERO = "hero"
@@ -164,7 +164,7 @@ Return ONE JSON object: {"characters": [{name, archetype, gender, want, thread}]
 
 
 def _propose(premise: str, client: "LLMClient", hero_name: Optional[str]) -> "World":
-    from brehon.generate import _extract_json  # lazy: avoid an import cycle
+    from metaphrand.generate import _extract_json  # lazy: avoid an import cycle
 
     prompt = (
         f"Premise: {premise}\n\n"
@@ -187,7 +187,7 @@ def _propose(premise: str, client: "LLMClient", hero_name: Optional[str]) -> "Wo
 
 def _repair(premise: str, world: "World", report: FullnessReport,
             client: "LLMClient") -> "World":
-    from brehon.generate import _extract_json
+    from metaphrand.generate import _extract_json
 
     have = ", ".join(f"{c.name} ({c.archetype}, {c.gender})" for c in world.characters)
     prompt = (

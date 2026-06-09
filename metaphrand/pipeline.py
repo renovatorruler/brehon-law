@@ -1,6 +1,6 @@
 """The pipeline — run a story through the spec's gates, stage by stage.
 
-This is the spec (``STORY_SPEC.md``) made operational: a story is checked against
+This is the spec (``docs/STORY_SPEC.md``) made operational: a story is checked against
 each layer's gate in order, and the result says where it passes and where it
 fails. The gates are the system; the LLM only fills the slots inside each stage.
 
@@ -14,19 +14,19 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
-from brehon import arrangement as _arrangement, canon as _canon, cinema as _cinema
-from brehon import concreteness, density as _density, doorways as _doorways
-from brehon import dossier as _dossier, embodiment, kishotenketsu as _kishotenketsu, showing
-from brehon import generate as _generate
-from brehon import weave as _weave
-from brehon import world as _world
-from brehon.render import FountainRenderer
+from metaphrand import arrangement as _arrangement, canon as _canon, cinema as _cinema
+from metaphrand import concreteness, density as _density, doorways as _doorways
+from metaphrand import dossier as _dossier, embodiment, kishotenketsu as _kishotenketsu, showing
+from metaphrand import generate as _generate
+from metaphrand import weave as _weave
+from metaphrand import world as _world
+from metaphrand.render import FountainRenderer
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.story import Story
-    from brehon.weave import Weave
-    from brehon.world import World
+    from metaphrand.generate import LLMClient
+    from metaphrand.story import Story
+    from metaphrand.weave import Weave
+    from metaphrand.world import World
 
 
 @dataclass

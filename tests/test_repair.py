@@ -1,6 +1,6 @@
 import pytest
 
-from brehon.repair import repair
+from metaphrand.repair import repair
 
 
 def test_rejects_nonpositive_max_tries():

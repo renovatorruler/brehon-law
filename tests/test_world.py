@@ -1,6 +1,6 @@
 import json
 
-from brehon.world import (
+from metaphrand.world import (
     ALLY,
     HERALD,
     HERO,

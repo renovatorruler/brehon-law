@@ -27,9 +27,9 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING, Optional
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.metaphor import Metaphor
-    from brehon.story import Story
+    from metaphrand.generate import LLMClient
+    from metaphrand.metaphor import Metaphor
+    from metaphrand.story import Story
 
 _WORD = re.compile(r"[a-z']+")
 
@@ -258,7 +258,7 @@ def silent_legibility(story: "Story", client: "LLMClient", *, threshold: float =
     """Strip the dialogue, show the model only the images: does the arc read?"""
     if story.root_id is None:
         return SilentReport("", "", True)
-    from brehon.generate import _extract_json  # lazy: avoid an import cycle
+    from metaphrand.generate import _extract_json  # lazy: avoid an import cycle
 
     transformation = story.get(story.root_id).meaning.strip()
     prompt = (

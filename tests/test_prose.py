@@ -1,6 +1,6 @@
-from brehon import Story, canon
-from brehon.dossier import Dossier, Fact, attach as attach_bible
-from brehon.prose import ProseRenderer
+from metaphrand import Story, canon
+from metaphrand.dossier import Dossier, Fact, attach as attach_bible
+from metaphrand.prose import ProseRenderer
 
 
 class _Rec:

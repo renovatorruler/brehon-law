@@ -13,9 +13,9 @@ Run with:
 
 import sys
 
-from brehon import Story, concreteness
-from brehon.generate import DagGenerator
-from brehon.render import FountainRenderer, OutlineRenderer
+from metaphrand import Story, concreteness
+from metaphrand.generate import DagGenerator
+from metaphrand.render import FountainRenderer, OutlineRenderer
 
 DEFAULT_PREMISE = (
     "A lighthouse keeper discovers the light he tends was built to wreck ships, "
@@ -61,10 +61,10 @@ def main(argv: list[str]) -> None:
     # The stored graph is the deterministic seed: round-trips byte-for-byte.
     assert Story.from_json(story.to_json()).to_json() == story.to_json()
 
-    story.save("stories/generated.json")
-    with open("stories/generated.fountain", "w", encoding="utf-8") as handle:
+    story.save("stories/samples/generated.json")
+    with open("stories/samples/generated.fountain", "w", encoding="utf-8") as handle:
         handle.write(script)
-    print("\nsaved -> stories/generated.json, stories/generated.fountain")
+    print("\nsaved -> stories/samples/generated.json, stories/samples/generated.fountain")
 
 
 if __name__ == "__main__":

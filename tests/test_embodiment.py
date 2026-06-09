@@ -1,7 +1,7 @@
 import json
 
-from brehon import Story
-from brehon.embodiment import legibility, restates_meaning
+from metaphrand import Story
+from metaphrand.embodiment import legibility, restates_meaning
 
 
 def test_restates_meaning_detects_on_the_nose():

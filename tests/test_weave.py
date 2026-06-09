@@ -1,6 +1,6 @@
 import json
 
-from brehon.weave import Thread, Weave, _runs, braid, is_monorail
+from metaphrand.weave import Thread, Weave, _runs, braid, is_monorail
 
 
 def _spine():

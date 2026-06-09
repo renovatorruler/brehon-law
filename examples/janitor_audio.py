@@ -10,7 +10,7 @@ for real speech once the model is installed:
 Run with:  python -m examples.janitor_audio
 """
 
-from brehon.audio import AudioRenderer, SilentBackend, KokoroBackend  # noqa: F401
+from metaphrand.audio import AudioRenderer, SilentBackend, KokoroBackend  # noqa: F401
 from examples.janitor import build
 
 
@@ -23,8 +23,8 @@ if __name__ == "__main__":
         print(f"[{u.voice:>10}] {u.text}")
 
     # Dependency-free proof of the pipeline: a timed silent track.
-    utterances = renderer.to_wav(story, SilentBackend(), "stories/janitor.wav")
-    print(f"\n{len(utterances)} utterances stitched -> stories/janitor.wav (silent)")
+    utterances = renderer.to_wav(story, SilentBackend(), "stories/janitor/janitor.wav")
+    print(f"\n{len(utterances)} utterances stitched -> stories/janitor/janitor.wav (silent)")
 
     # For real speech, swap the backend (needs `kokoro` + `numpy` + model):
-    #   renderer.to_wav(story, KokoroBackend(), "stories/janitor.wav")
+    #   renderer.to_wav(story, KokoroBackend(), "stories/janitor/janitor.wav")

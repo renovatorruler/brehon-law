@@ -1,6 +1,6 @@
-from brehon import Story
-from brehon.density import density, is_bone
-from brehon.world import ALLY, HERO, Character, World
+from metaphrand import Story
+from metaphrand.density import density, is_bone
+from metaphrand.world import ALLY, HERO, Character, World
 
 
 def _seed(flesh_beats=0):

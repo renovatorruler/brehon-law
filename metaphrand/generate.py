@@ -9,7 +9,7 @@ artifact automatically from a one-line premise.
 The split mirrors the rest of the project. An :class:`LLMClient` (by default
 :class:`OllamaClient`, talking to a local open-source model) proposes the story
 as one strict-JSON document; :func:`build_story` then *assembles* that document
-into a :class:`~brehon.story.Story` through the ordinary
+into a :class:`~metaphrand.story.Story` through the ordinary
 ``instantiate``/``link`` API. Assembly is pure and deterministic — it reuses
 the Story's cycle protection and canonical serialization, repairs bad edges and
 voices rather than trusting the model, and is what the tests exercise (with the
@@ -21,7 +21,7 @@ The JSON contract the model must return::
     {
       "title": str,
       "premise": str,                 # the controlling idea (root meaning)
-      "author": str,                  # optional, defaults to "brehon"
+      "author": str,                  # optional, defaults to "metaphrand"
       "narrator_voice": str,          # an allowed voice id (see _AMERICAN_VOICES)
       "cast": {"CHARACTER": voice},   # per-speaker voices
       "themes": [{"id": str, "meaning": str}],
@@ -44,8 +44,8 @@ import urllib.parse
 import urllib.request
 from typing import Any, Optional, Protocol
 
-from brehon import concreteness
-from brehon.story import CycleError, Story
+from metaphrand import concreteness
+from metaphrand.story import CycleError, Story
 
 # Kokoro American-English voices (lang_code "a"). Casting is clamped to this
 # set so the audio backend never receives a voice it cannot speak. Female ids
@@ -126,7 +126,7 @@ def build_story(
         id="three-act",
         title=title,
         credit="written by",
-        author=str(spec.get("author") or "brehon"),
+        author=str(spec.get("author") or "metaphrand"),
         source="generated from a metaphor DAG",
         narrator_voice=narrator,
         cast=cast,
@@ -303,7 +303,7 @@ class OllamaClient:
 
 
 _SYSTEM_PROMPT = """\
-You are a screenwriter working in the "brehon" story model. A story is a
+You are a screenwriter working in the "metaphrand" story model. A story is a
 directed acyclic graph of METAPHORS — but NOT the decorative, English-class
 kind. We mean metaphor as Julian Jaynes did: an abstract idea (the meaning) is
 always carried by a concrete thing (what appears on the page). "The head of
@@ -354,7 +354,7 @@ Return ONE JSON object and nothing else, matching the contract you are given.\
 _EXEMPLAR = {
     "title": "The Night Shift",
     "premise": "An institution stays clean only because someone is paid to carry away what it refuses to admit",
-    "author": "brehon",
+    "author": "metaphrand",
     "narrator_voice": "af_heart",
     "cast": {"SUPERVISOR": "am_adam"},
     "themes": [
@@ -430,7 +430,7 @@ class DagGenerator:
 def generate_story(
     premise: str, *, client: Optional[LLMClient] = None, concretize: bool = True
 ) -> Story:
-    """Convenience: generate a :class:`~brehon.story.Story` from a premise.
+    """Convenience: generate a :class:`~metaphrand.story.Story` from a premise.
 
     With ``concretize`` (default), ornamental beats are rewritten toward bare
     physical fact before returning. Warnings from defensive assembly (dropped
@@ -482,7 +482,7 @@ def build_spine(
 
     attrs: dict[str, Any] = {
         "title": title, "credit": "written by",
-        "author": str(spec.get("author") or "brehon"),
+        "author": str(spec.get("author") or "metaphrand"),
         "source": "generated from a metaphor DAG",
         "narrator_voice": narrator, "cast": cast,
     }
@@ -544,7 +544,7 @@ def build_spine(
 
 
 _SPINE_SYSTEM = """\
-You write the SPINE of a story in the brehon model. The root is the MIRROR
+You write the SPINE of a story in the metaphrand model. The root is the MIRROR
 moment — the transformation itself, the scene where both worlds are held at once.
 It has two branches: the PREVIOUS state (the self the hero leaves) and the NEXT
 state (the self he becomes). Read previous -> mirror -> next, it is a screenplay.

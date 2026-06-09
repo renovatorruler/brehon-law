@@ -1,6 +1,6 @@
 # Story Spec
 
-*What a story must satisfy — the grammar the brehon scaffolding encodes.*
+*What a story must satisfy — the grammar the metaphrand scaffolding encodes.*
 
 This spec was derived empirically: we developed one story ("Ray") as a test rig, and
 every place it broke we found a requirement. The story was never the deliverable —
@@ -11,7 +11,7 @@ Each requirement below is a *pass, gate, or faculty* the system runs; the model 
 fills bounded slots. Delete the model and the spec still stands — a person can satisfy
 it by hand.
 
-**Baseline (the original brehon model):** a DAG of metaphors, rooted at a three-act
+**Baseline (the original metaphrand model):** a DAG of metaphors, rooted at a three-act
 "controlling premise," rendered by walking the spine; the graph is the source of truth,
 words are a fuzzy layer. The layers below are how that has been *modified*.
 
@@ -147,7 +147,7 @@ monorail. *(Added.)*
 The graph is not a generator or a simulator — it is a **seed**: the deep
 craft an LLM won't choose well on its own (the transformation, the mirror, the
 two doorways, the meaning each beat must embody, the cast), held in an editable
-structure and rendered to a *prompt* (`brehon.prompt.to_prompt`). The LLM grows
+structure and rendered to a *prompt* (`metaphrand.prompt.to_prompt`). The LLM grows
 one coherent story from that prompt and **owns what it is good at** — continuity,
 the physical world, the texture of a scene. The gates below then check only the
 rules the LLM reliably breaks and the code can cleanly verify (show-not-tell,

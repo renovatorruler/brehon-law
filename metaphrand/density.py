@@ -18,7 +18,7 @@ seed:
   gets a beat of their own to pursue it.
 
 The gate only names the lack; it does not fill it. The flesh itself is grown by
-the model, mandated by the prompt (see :mod:`brehon.prompt`): the spine is fixed,
+the model, mandated by the prompt (see :mod:`metaphrand.prompt`): the spine is fixed,
 the body is invented. This is the structural counterweight to the drama-enhancer's
 "cut the inessential" — that keeps the *A-spine* lean; this keeps the *world*
 deep. Shrink-wrap is a tight spine with no body; spectacle is a body with no
@@ -31,9 +31,9 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING, Optional
 
 if TYPE_CHECKING:
-    from brehon.metaphor import Metaphor
-    from brehon.story import Story
-    from brehon.world import World
+    from metaphrand.metaphor import Metaphor
+    from metaphrand.story import Story
+    from metaphrand.world import World
 
 
 def is_bone(beat: "Metaphor") -> bool:

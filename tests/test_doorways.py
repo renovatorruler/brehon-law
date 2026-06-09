@@ -1,5 +1,5 @@
-from brehon import Story
-from brehon.doorways import doorways
+from metaphrand import Story
+from metaphrand.doorways import doorways
 
 
 def _spine(marks):

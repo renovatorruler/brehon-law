@@ -10,7 +10,7 @@ This file is the deterministic SEED: a kishōtenketsu root marked ``descent=True
 incidents as beats across ki/shō/ten/ketsu with deepening turns and a no-exception ending,
 the themes/motifs that braid them, the cast, and the authoritative CANON. Run it to render
 the spine, run every gate (including the descent gate), and persist the whole story — with
-the canon-conditioned bibles re-attached — to ``stories/favorite_son.story.json``.
+the canon-conditioned bibles re-attached — to ``stories/favorite-son/favorite_son.story.json``.
 """
 
 from __future__ import annotations
@@ -18,8 +18,8 @@ from __future__ import annotations
 import os
 import sys
 
-from brehon import canon
-from brehon.story import Story
+from metaphrand import canon
+from metaphrand.story import Story
 
 PREMISE = (
     "A corrupt political fixer the public keeps needing to believe is secretly good. "
@@ -74,7 +74,7 @@ def build() -> Story:
         sho="the interpretation we build for him: the noble con",
         ten="the secret, which is a void: he made it all the way",
         ketsu="we are left reconciled to the man who made it all the way",
-        title="Favorite Son", author="brehon",
+        title="Favorite Son", author="metaphrand",
     )
 
     # themes (abstract domains) and motifs (concrete recurring vehicles) -> a real DAG
@@ -140,7 +140,7 @@ def build() -> Story:
     return s
 
 
-def reattach_saved_bibles(story: Story, path: str = "stories/favorite_son.story.json") -> int:
+def reattach_saved_bibles(story: Story, path: str = "stories/favorite-son/favorite_son.story.json") -> int:
     """Carry the canon-conditioned bibles we already generated onto this re-encoded story.
     Backstory lives on character nodes by name, so it survives a change of spine."""
     if not os.path.exists(path):
@@ -156,8 +156,8 @@ def reattach_saved_bibles(story: Story, path: str = "stories/favorite_son.story.
 
 
 if __name__ == "__main__":
-    from brehon.pipeline import check
-    from brehon.render import FountainRenderer, OutlineRenderer
+    from metaphrand.pipeline import check
+    from metaphrand.render import FountainRenderer, OutlineRenderer
 
     story = build()
     reused = reattach_saved_bibles(story)  # read before we overwrite below
@@ -175,15 +175,15 @@ if __name__ == "__main__":
     for stage in check(story).stages:
         print("  ", stage.line())
 
-    story.save("stories/favorite_son.story.json")
-    print("\nsaved -> stories/favorite_son.story.json")
+    story.save("stories/favorite-son/favorite_son.story.json")
+    print("\nsaved -> stories/favorite-son/favorite_son.story.json")
 
     if "--bible" in sys.argv:  # optional: regenerate bibles from this seed via ollama
-        from brehon import dossier
-        from brehon.generate import OllamaClient
+        from metaphrand import dossier
+        from metaphrand.generate import OllamaClient
         warnings: list[str] = []
         dossier.attach(story, dossier.write_bible(story, PREMISE, OllamaClient(), warnings=warnings))
         for w in warnings:
             print("[warn]", w)
-        story.save("stories/favorite_son.story.json")
+        story.save("stories/favorite-son/favorite_son.story.json")
         print("regenerated canon-conditioned bibles -> saved")

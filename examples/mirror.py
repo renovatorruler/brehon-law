@@ -15,8 +15,8 @@ engine.
 Run with:  python -m examples.mirror
 """
 
-from brehon import Story, concreteness
-from brehon.render import FountainRenderer, OutlineRenderer
+from metaphrand import Story, concreteness
+from metaphrand.render import FountainRenderer, OutlineRenderer
 
 
 def build() -> Story:
@@ -39,7 +39,7 @@ def build() -> Story:
         next="The keeper who lets it go dark",
         title="Pell Light",
         credit="written by",
-        author="brehon",
+        author="metaphrand",
         narrator_voice="am_michael",
         cast={"FISHERMAN": "am_fenrir"},
         slug="INT. LANTERN ROOM - NIGHT",
@@ -130,7 +130,7 @@ if __name__ == "__main__":
     print("\n=== SCREENPLAY (previous -> mirror -> next) ===\n")
     print(script)
 
-    story.save("stories/lighthouse.json")
-    with open("stories/lighthouse.fountain", "w", encoding="utf-8") as handle:
+    story.save("stories/samples/lighthouse.json")
+    with open("stories/samples/lighthouse.fountain", "w", encoding="utf-8") as handle:
         handle.write(script)
-    print("saved -> stories/lighthouse.json, stories/lighthouse.fountain")
+    print("saved -> stories/samples/lighthouse.json, stories/samples/lighthouse.fountain")

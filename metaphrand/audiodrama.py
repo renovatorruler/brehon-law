@@ -2,8 +2,8 @@
 
 A screenplay is a blueprint for pictures + sound; an audio drama is a blueprint
 for *sound alone*. This module parses the tagged cue format (see
-``stories/DEEPER-ActTwo-AudioDrama_*.txt``) into a structure the engine can
-render: ordered spoken :class:`~brehon.audio.Utterance` objects **plus** a
+``stories/deeper/DEEPER-ActTwo-AudioDrama_*.txt``) into a structure the engine can
+render: ordered spoken :class:`~metaphrand.audio.Utterance` objects **plus** a
 sound plan — the ambience bed for every scene and every spot effect, each with
 the search query that resolves it (Freesound) or, later, a generator prompt.
 
@@ -28,7 +28,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Optional
 
-from brehon.audio import Utterance, _for_speech
+from metaphrand.audio import Utterance, _for_speech
 
 NARRATOR_SPEAKER = "GARY"  # the one whose (V.O.) is the spine, not a filtered phone voice
 _FILTER_WORDS = ("filter", "phone", "tv", "television", "through", "speaker", "muffled", "through glass")
@@ -186,7 +186,7 @@ def parse_audio_drama(text: str) -> AudioDrama:
 
 
 # Default casting for DEEPER — natural-language voice descriptions (for Maya1/Kokoro).
-# Narration uses the GARY voice, close-mic. See stories/deeper_voices.md.
+# Narration uses the GARY voice, close-mic. See stories/deeper/deeper_voices.md.
 DEFAULT_CAST = {
     "GARY": "American man, late forties, soft and contained, self-serious, quiet intensity, a systems-talker on fog",
     "HALLORAN": "American man, sixties, plain-spoken technician, tired, careful, deflects feeling into shop-talk",

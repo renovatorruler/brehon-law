@@ -11,9 +11,9 @@ Run with:
 
 import sys
 
-from brehon import pipeline
-from brehon.generate import OllamaClient
-from brehon.render import OutlineRenderer
+from metaphrand import pipeline
+from metaphrand.generate import OllamaClient
+from metaphrand.render import OutlineRenderer
 
 DEFAULT_PREMISE = (
     "A night nurse who keeps everyone alive learns to let one patient go"
@@ -37,10 +37,10 @@ def main(argv: list[str]) -> None:
     print("\n=== SCREENPLAY (previous -> mirror -> next) ===\n")
     print(result.screenplay)
 
-    result.story.save("stories/pipeline.json")
-    with open("stories/pipeline.fountain", "w", encoding="utf-8") as handle:
+    result.story.save("stories/samples/pipeline.json")
+    with open("stories/samples/pipeline.fountain", "w", encoding="utf-8") as handle:
         handle.write(result.screenplay)
-    print("\nsaved -> stories/pipeline.json, stories/pipeline.fountain")
+    print("\nsaved -> stories/samples/pipeline.json, stories/samples/pipeline.fountain")
 
     for message in result.warnings:
         print(f"[warn] {message}", file=sys.stderr)

@@ -18,7 +18,7 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Any, Optional
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
+    from metaphrand.generate import LLMClient
 
 
 @dataclass
@@ -149,7 +149,7 @@ def braid(
     warnings: Optional[list[str]] = None,
 ) -> "Weave":
     """Propose B-thread(s) and an interleaved order, gated by the monorail check."""
-    from brehon.generate import _extract_json  # lazy: avoid an import cycle
+    from metaphrand.generate import _extract_json  # lazy: avoid an import cycle
 
     warn = warnings if warnings is not None else []
     prompt = (

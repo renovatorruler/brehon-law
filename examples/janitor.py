@@ -12,8 +12,8 @@ headings, dialogue) for the FountainRenderer.
 Run with:  python -m examples.janitor
 """
 
-from brehon import Story
-from brehon.render import OutlineRenderer, FountainRenderer
+from metaphrand import Story
+from metaphrand.render import OutlineRenderer, FountainRenderer
 
 
 def build() -> Story:
@@ -26,7 +26,7 @@ def build() -> Story:
         id="three-act",
         title="The Night Shift",
         credit="written by",
-        author="brehon",
+        author="metaphrand",
         source="generated from a metaphor DAG",
         # Casting lives in the seed, so voice assignment is deterministic data.
         narrator_voice="af_heart",
@@ -287,7 +287,7 @@ if __name__ == "__main__":
     assert FountainRenderer().render(reloaded) == script
     print("graph round-trips and re-renders identically ✓")
 
-    story.save("stories/janitor.json")
-    with open("stories/janitor.fountain", "w", encoding="utf-8") as handle:
+    story.save("stories/janitor/janitor.json")
+    with open("stories/janitor/janitor.fountain", "w", encoding="utf-8") as handle:
         handle.write(script)
-    print("saved -> stories/janitor.json, stories/janitor.fountain")
+    print("saved -> stories/janitor/janitor.json, stories/janitor/janitor.fountain")

@@ -1,9 +1,9 @@
 import json
 
-from brehon import Story
-from brehon.pipeline import check
-from brehon.world import ALLY, HERO, Character, World
-from brehon.weave import Thread, Weave
+from metaphrand import Story
+from metaphrand.pipeline import check
+from metaphrand.world import ALLY, HERO, Character, World
+from metaphrand.weave import Thread, Weave
 
 
 def _clean_story():
@@ -127,7 +127,7 @@ class _PipelineClient:
 
 
 def test_generate_end_to_end_passes_every_gate():
-    from brehon.pipeline import generate
+    from metaphrand.pipeline import generate
 
     result = generate("a keeper learns the truth", _PipelineClient())
     assert result.report.passed, "\n" + result.report.summary()

@@ -1,6 +1,6 @@
-from brehon import Story
-from brehon.canon import CanonFact, attach, block, consistency, facts
-from brehon.dossier import Dossier, Fact, attach as attach_bible, write_bible
+from metaphrand import Story
+from metaphrand.canon import CanonFact, attach, block, consistency, facts
+from metaphrand.dossier import Dossier, Fact, attach as attach_bible, write_bible
 
 
 class _FakeClient:

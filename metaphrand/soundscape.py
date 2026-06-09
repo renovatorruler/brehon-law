@@ -2,7 +2,7 @@
 
 Two phases, so mix levels can be tuned without re-synthesizing speech:
 
-1. ``build_voices`` — parse the :mod:`brehon.audiodrama` script, voice every line
+1. ``build_voices`` — parse the :mod:`metaphrand.audiodrama` script, voice every line
    with **Kokoro** (a distinct, consistent voice per character; narrator-Gary and
    in-scene-Gary are one voice), and **cache** each clip to disk with a layout
    (timings, scene spans, timed spot effects).
@@ -30,7 +30,7 @@ import urllib.request
 import numpy as np
 import soundfile as sf
 
-from brehon.audiodrama import Line, SoundCue, parse_audio_drama
+from metaphrand.audiodrama import Line, SoundCue, parse_audio_drama
 
 SR = 24000
 GAP = 0.30

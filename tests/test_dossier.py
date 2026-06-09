@@ -1,7 +1,7 @@
-from brehon import Story
-from brehon.dossier import Dossier, Fact, attach, leak, reference_block
-from brehon.prompt import to_prompt
-from brehon.world import HERO, MENTOR, Character, World
+from metaphrand import Story
+from metaphrand.dossier import Dossier, Fact, attach, leak, reference_block
+from metaphrand.prompt import to_prompt
+from metaphrand.world import HERO, MENTOR, Character, World
 
 
 def _story_with_cast():

@@ -1,6 +1,6 @@
 """Track and enforce concreteness — the anti-ornament layer.
 
-In the brehon (Jaynesian) sense every manifestation is already a metaphor: an
+In the metaphrand (Jaynesian) sense every manifestation is already a metaphor: an
 abstract meaning (*metaphrand*) carried by a concrete thing (*metaphier*). The
 sin is not *having* metaphors — it is *decorating* them. A manifestation must be
 a bare physical fact ("Her skin is cold"), never ornament ("her skin was cold
@@ -22,9 +22,9 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING, Iterator, Optional
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.metaphor import Metaphor
-    from brehon.story import Story
+    from metaphrand.generate import LLMClient
+    from metaphrand.metaphor import Metaphor
+    from metaphrand.story import Story
 
 
 # Ornamental / personifying verbs that almost never describe a bare physical
@@ -155,7 +155,7 @@ def _accept(old: str, new: str) -> bool:
 
 def _rewrite(client: "LLMClient", line: str, *, dialogue: bool = False) -> str:
     """Ask the model to restate one line as a bare physical fact."""
-    from brehon.generate import _extract_json  # lazy: avoids an import cycle
+    from metaphrand.generate import _extract_json  # lazy: avoids an import cycle
 
     what = "line of dialogue" if dialogue else "line of action"
     prompt = (

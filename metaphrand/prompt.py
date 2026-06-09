@@ -1,6 +1,6 @@
 """The data structure as a managed prompt.
 
-The brehon graph is a **seed**, not a generator: it holds the deep craft an LLM
+The metaphrand graph is a **seed**, not a generator: it holds the deep craft an LLM
 won't choose well on its own — the transformation, the mirror, the two doorways,
 the meaning each beat must embody, the cast — in a structure we can edit
 deterministically. :func:`to_prompt` renders that seed into the instruction we
@@ -19,8 +19,8 @@ from __future__ import annotations
 from typing import TYPE_CHECKING, Optional
 
 if TYPE_CHECKING:
-    from brehon.generate import LLMClient
-    from brehon.story import Story
+    from metaphrand.generate import LLMClient
+    from metaphrand.story import Story
 
 _RULES = (
     "- Every beat is a bare PHYSICAL FACT that EMBODIES its meaning — put it on the "
@@ -91,7 +91,7 @@ def to_prompt(story: "Story", *, form: str = "screenplay") -> str:
             out.append(f"  - {c.meaning} — {c.attributes.get('archetype', '')}; "
                        f"wants {c.attributes.get('want', '')}")
 
-    from brehon.dossier import reference_block  # the backstory you know, not say
+    from metaphrand.dossier import reference_block  # the backstory you know, not say
     bible = reference_block(story)
     if bible:
         out += ["", bible]
@@ -109,7 +109,7 @@ def to_prompt(story: "Story", *, form: str = "screenplay") -> str:
         "  - Allow contingency — specifics and small events that do NOT pay off; a "
         "real world is not a machine where every part is load-bearing.",
     ]
-    from brehon.arrangement import arrangement as _arrange, story_order
+    from metaphrand.arrangement import arrangement as _arrange, story_order
     arr = _arrange(story)
     if not arr.linear and arr.cold_opens:
         cold = {b.id: b for b in story_order(story)}.get(arr.cold_opens[0])
@@ -201,7 +201,7 @@ def to_beat_list(story: "Story", *, title: Optional[str] = None) -> str:
     """
     if story.root_id is None:
         return ""
-    from brehon import cinema as _cinema
+    from metaphrand import cinema as _cinema
     root = story.get(story.root_id)
     heading = (title or root.attributes.get("title") or "Untitled").upper()
     out = [f"{heading} — BEATS", ""]
@@ -235,7 +235,7 @@ def lint_prose(text: str) -> list[tuple[str, str, list[str]]]:
     rules where the LLM reliably slips *and* the code can verify cleanly; the
     world and continuity are deliberately not checked here — those are the model's.
     """
-    from brehon import concreteness, showing
+    from metaphrand import concreteness, showing
 
     issues: list[tuple[str, str, list[str]]] = []
     for line in (ln.strip() for ln in text.splitlines() if ln.strip()):

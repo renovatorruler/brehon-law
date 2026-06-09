@@ -1,7 +1,7 @@
 """The gate → repair loop — make a failed gate drive a rewrite, not just a report.
 
-:func:`brehon.pipeline.check` *measures*; :func:`brehon.world.populate` already repairs to
-its gate; :func:`brehon.concreteness.concretize` rewrites flowery beats. This is the general
+:func:`metaphrand.pipeline.check` *measures*; :func:`metaphrand.world.populate` already repairs to
+its gate; :func:`metaphrand.concreteness.concretize` rewrites flowery beats. This is the general
 form of that move. Given a ``generate(feedback)`` that produces a candidate and a
 ``check(candidate)`` that returns whether it passed and *why*, :func:`repair` regenerates
 with the failure fed back, up to a bound — the engine becoming self-correcting instead of

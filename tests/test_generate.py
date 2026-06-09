@@ -2,14 +2,14 @@ import json
 
 import pytest
 
-from brehon.generate import (
+from metaphrand.generate import (
     DagGenerator,
     _extract_json,
     build_story,
     generate_story,
 )
-from brehon.render import FountainRenderer
-from brehon.story import Story
+from metaphrand.render import FountainRenderer
+from metaphrand.story import Story
 
 
 # A canned proposal in the JSON contract. Deliberately exercises the DAG
@@ -18,7 +18,7 @@ from brehon.story import Story
 SPEC = {
     "title": "Low Tide",
     "premise": "A harbour keeps its dead by refusing to let the water leave",
-    "author": "brehon",
+    "author": "metaphrand",
     "narrator_voice": "af_sky",
     "cast": {"harbourmaster": "am_onyx"},
     "themes": [
@@ -53,7 +53,7 @@ def _build(warnings=None):
 
 
 def test_ollama_client_rejects_non_http_host():
-    from brehon.generate import OllamaClient
+    from metaphrand.generate import OllamaClient
     with pytest.raises(ValueError):
         OllamaClient(host="file:///etc/passwd")
     assert OllamaClient(host="http://localhost:11434").host == "http://localhost:11434"

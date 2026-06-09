@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "brehon"
+name = "metaphrand"
 version = "0.0.1"
 description = "A screenplay engine that models a story as a DAG of metaphors."
 readme = "README.md"
@@ -17,7 +17,7 @@ dev = ["pytest>=7"]
 audio = ["kokoro>=0.9", "numpy"]
 
 [tool.setuptools.packages.find]
-include = ["brehon*"]
+include = ["metaphrand*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

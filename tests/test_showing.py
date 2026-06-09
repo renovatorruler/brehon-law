@@ -2,8 +2,8 @@ import json
 
 import pytest
 
-from brehon import Story
-from brehon.showing import is_telling, report, show, show_score, tells
+from metaphrand import Story
+from metaphrand.showing import is_telling, report, show, show_score, tells
 
 
 @pytest.mark.parametrize("line,kind", [
