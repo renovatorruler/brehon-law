@@ -1,6 +1,6 @@
 import pytest
 
-from brehon import Story, CycleError, Metaphor
+from metaphrand import Story, CycleError, Metaphor
 
 
 def test_instantiate_builds_parent_child_edge():

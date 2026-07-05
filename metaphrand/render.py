@@ -21,7 +21,7 @@ from __future__ import annotations
 import re
 from typing import Protocol
 
-from brehon.story import Story
+from metaphrand.story import Story
 
 
 class Renderer(Protocol):
@@ -95,15 +95,99 @@ class FountainRenderer:
         out: list[str] = []
         self._title_page(root, out)
 
-        acts = [m for m in story.children(root.id) if m.kind == "act"]
-        for index, act in enumerate(acts, start=1):
-            label = _ACT_NAMES.get(index, f"ACT {index}")
-            out.append(f"# {label}")
-            out.append("")
-            for beat in story.children(act.id):
-                self._emit_beat(story.get(beat.id), out)
+        if root.attributes.get("plot_order"):
+            self._render_arranged(story, out)
+        elif root.kind == "mirror":
+            self._render_mirror(story, root, out)
+        elif root.kind == "kishotenketsu":
+            self._render_kishotenketsu(story, root, out)
+        else:
+            acts = [m for m in story.children(root.id) if m.kind == "act"]
+            for index, act in enumerate(acts, start=1):
+                label = _ACT_NAMES.get(index, f"ACT {index}")
+                out.append(f"# {label}")
+                out.append("")
+                for child in story.children(act.id):
+                    self._emit_spine(story, child, out)
 
         return self._normalise(out)
+
+    def _render_arranged(self, story: Story, out: list[str]) -> None:
+        """Render in presentation order, marking the jumps between time slabs.
+
+        Honors the root's ``plot_order``: a cold open, a flashback, the return.
+        A backward jump in story-time prints FLASHBACK TO:; catching back up prints
+        PRESENT DAY, so the page reads the way the film cuts.
+        """
+        from metaphrand import arrangement  # local: keep render.py importable standalone
+
+        chrono = {b.id: i for i, b in enumerate(arrangement.story_order(story))}
+        previous = None
+        for beat in arrangement.plot_order(story):
+            here = chrono.get(beat.id)
+            if previous is not None and here is not None:
+                if here < previous:
+                    out += ["FLASHBACK TO:", ""]
+                elif here > previous + 1:
+                    out += ["PRESENT DAY", ""]
+            self._emit_beat(beat, out)
+            previous = here
+
+    def _render_mirror(self, story: Story, root, out: list[str]) -> None:
+        """Linearize a mirror story: previous branch -> the mirror -> next branch.
+
+        The mirror scene (the root's own manifestation) falls at the hinge by
+        construction — no one places it at the midpoint; the structure does.
+        State and other purely-structural nodes carry no page text, so they emit
+        nothing as the branches are walked.
+        """
+        states = [m for m in story.children(root.id) if m.kind == "state"]
+        previous = next((s for s in states if s.attributes.get("role") == "previous"), None)
+        following = next((s for s in states if s.attributes.get("role") == "next"), None)
+        if previous is None and states:
+            previous = states[0]
+        if following is None and len(states) > 1:
+            following = states[1]
+
+        if previous is not None:
+            for node in story.walk(previous.id):
+                self._emit_beat(node, out)
+        self._emit_beat(root, out)  # the mirror, at the hinge
+        if following is not None:
+            for node in story.walk(following.id):
+                self._emit_beat(node, out)
+
+    _MOVEMENT_LABEL = {"ki": "KI", "sho": "SHŌ", "ten": "TEN", "ketsu": "KETSU"}
+    _SPINE_KINDS = {"act", "movement", "state"}
+
+    def _render_kishotenketsu(self, story: Story, node, out: list[str]) -> None:
+        """Linearize a kishōtenketsu structure: ki -> shō -> ten -> ketsu, in order.
+
+        Each movement prints as a Fountain section (it organises the script without
+        appearing in the final document); its beats follow, and any nested structure
+        recurses, so a turn-structure inside an act renders in place.
+        """
+        roles = {m.attributes.get("role"): m
+                 for m in story.children(node.id) if m.kind == "movement"}
+        for role in ("ki", "sho", "ten", "ketsu"):
+            movement = roles.get(role)
+            if movement is None:
+                continue
+            out.append(f"# {self._MOVEMENT_LABEL[role]}")
+            out.append("")
+            for child in story.children(movement.id):
+                self._emit_spine(story, child, out)
+
+    def _emit_spine(self, story: Story, node, out: list[str]) -> None:
+        """Emit a spine node: recurse structural nodes, render a nested kishōtenketsu in
+        place, and emit anything else (a beat) as Fountain elements."""
+        if node.kind == "kishotenketsu":
+            self._render_kishotenketsu(story, node, out)
+        elif node.kind in self._SPINE_KINDS:
+            for child in story.children(node.id):
+                self._emit_spine(story, child, out)
+        else:
+            self._emit_beat(node, out)
 
     def _title_page(self, root, out: list[str]) -> None:
         if not root.attributes.get("title"):

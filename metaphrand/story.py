@@ -2,7 +2,7 @@
 structure.
 
 This module is the deterministic core of the project. A ``Story`` is a graph
-of :class:`~brehon.metaphor.Metaphor` nodes connected by *instantiation*
+of :class:`~metaphrand.metaphor.Metaphor` nodes connected by *instantiation*
 edges (parent -> child, abstract -> concrete). It is:
 
 * a **DAG** — a metaphor may be instantiated under more than one parent, so a
@@ -21,7 +21,7 @@ import json
 import re
 from typing import Any, Iterator, Optional
 
-from brehon.metaphor import Metaphor
+from metaphrand.metaphor import Metaphor
 
 
 class CycleError(ValueError):
@@ -109,6 +109,16 @@ class Story:
             self._children[parent_id].append(child_id)
             self._parents[child_id].append(parent_id)
 
+    def unlink(self, parent_id: str, child_id: str) -> None:
+        """Remove the edge ``parent_id -> child_id`` if present (idempotent).
+
+        Retracts an edge without deleting either node — used to drop a
+        provisional parent once a real one has been wired in.
+        """
+        if child_id in self._children.get(parent_id, []):
+            self._children[parent_id].remove(child_id)
+            self._parents[child_id].remove(parent_id)
+
     def set_root(self, metaphor_id: str) -> None:
         """Designate the most-abstract metaphor (the three-act structure)."""
         if metaphor_id not in self._metaphors:
@@ -128,6 +138,92 @@ class Story:
         )
         self.set_root(root.id)
         return root
+
+    def mirror(
+        self,
+        transformation: str,
+        *,
+        previous: str,
+        next: str,
+        manifestation: str = "",
+        id: str = "mirror",
+        previous_id: str = "previous-state",
+        next_id: str = "next-state",
+        **attributes: Any,
+    ) -> tuple[Metaphor, Metaphor, Metaphor]:
+        """Create the root *mirror moment* and its two reflected branches.
+
+        The root holds the transformation the story aims to work on the reader;
+        its ``manifestation`` is the mirror scene itself — both worlds at once.
+        Its two children are the ``previous`` state (the world the hero leaves)
+        and the ``next`` state (the world he becomes); everything else
+        concretizes under one of them, and the renderer linearizes the graph as
+        *previous -> mirror -> next*, so the mirror lands at the hinge by
+        construction.
+
+        This is the only structure the model imposes. The journey beats that
+        hang below — an ordinary world, a refusal, an emergence — are a writer's
+        affordances, not a required schema; nothing here enforces them.
+        """
+        root = self.instantiate(
+            None, transformation, manifestation=manifestation,
+            kind="mirror", id=id, attributes=attributes,
+        )
+        self.set_root(root.id)
+        prev = self.instantiate(
+            root.id, previous, kind="state", id=previous_id,
+            attributes={"role": "previous"},
+        )
+        nxt = self.instantiate(
+            root.id, next, kind="state", id=next_id,
+            attributes={"role": "next"},
+        )
+        return root, prev, nxt
+
+    def kishotenketsu(
+        self,
+        controlling_idea: str,
+        *,
+        parent_id: Optional[str] = None,
+        id: str = "kishotenketsu",
+        ki: str = "",
+        sho: str = "",
+        ten: str = "",
+        ketsu: str = "",
+        descent: bool = False,
+        **attributes: Any,
+    ) -> tuple[Metaphor, Metaphor, Metaphor, Metaphor, Metaphor]:
+        """Create a *kishōtenketsu* structure — the four-part, turn-driven shape.
+
+        Where the three-act root runs on escalating conflict, kishōtenketsu runs on the
+        **ten** (the turn): ki and shō set a world, the ten recontextualizes it, and ketsu
+        reconciles the two. It is **composable**: pass ``parent_id=None`` and it becomes the
+        root (a standalone kishōtenketsu story); pass an existing node (e.g. an act) and the
+        four movements nest under it, so kishōtenketsu can run *inside* three-act or beside
+        another structure. Because beats are multi-parent, a single beat may also hang under
+        both an act (one axis) and a movement (the other) at once.
+
+        Returns ``(structure, ki, shō, ten, ketsu)``; instantiate beats under the four
+        movement nodes. Mark a turning beat with ``attributes={"turn": n}`` — one turn is
+        the classic form, several an iterated descent (see :mod:`metaphrand.kishotenketsu`).
+        Pass a distinct ``id`` per structure when nesting more than one.
+        """
+        attrs = dict(attributes)
+        if descent:  # opt into the iterated-descent rules (see metaphrand.kishotenketsu.descent)
+            attrs["descent"] = True
+        node = self.instantiate(
+            parent_id, controlling_idea, kind="kishotenketsu", id=id, attributes=attrs
+        )
+        if parent_id is None:
+            self.set_root(node.id)
+        parts = [
+            self.instantiate(
+                node.id, meaning or role, kind="movement", id=f"{id}-{role}",
+                attributes={"role": role},
+            )
+            for role, meaning in (("ki", ki), ("sho", sho), ("ten", ten), ("ketsu", ketsu))
+        ]
+        return (node, *parts)
 
     def _auto_id(self, meaning: str) -> str:
         base = _slug(meaning)

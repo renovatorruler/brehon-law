@@ -1,0 +1,231 @@
+DEEPER — ACT TWO  ·  audio drama  ·  v1
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CUE FORMAT  (one cue per line; brehon.audiodrama parses these tags)
+#   [SCENE id | Title]                  scene boundary
+#   AMB: description :: search query     ambience bed for the whole scene
+#   SFX: description :: search query     spot sound effect, placed in sequence
+#   MOTIF: name — description :: query   recurring sonic motif (here: "the machine")
+#   GARY (V.O.): line                    Gary, the narrator spine — close mic, first person, UNRELIABLE
+#   NAME (note): line                    performed dialogue (note = delivery)
+#   NAME (FILTER note): line             processed voice — phone / TV / through-the-floor
+#   [BRIDGE: description :: query]        sound transition between scenes
+#
+# RULE: scenes with NO "GARY (V.O.)" are the world Gary cannot hear — the manhunt
+#       apparatus closing in. The silence where his narration isn't is the point.
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+[SCENE basement_d1 | Gary's Basement — Day One, Morning]
+AMB: a finished basement, dead and close, a furnace ticking somewhere, a space heater's electric hum, no world outside :: basement room tone furnace hum
+GARY (V.O.): I'm going to tell this the way it happened. Because later, people who weren't on those stairs are going to tell it another way, and I need one true copy to exist. So. Day one. The first thing I did, the very first thing, I gave the man water.
+SFX: a paper cup lifted, a bent straw, a careful sip :: drinking water straw sip
+GARY (gentle, to Halloran): Small sips. You'll cramp up.
+SFX: a zip-tie creaks against a wooden kitchen chair :: zip tie plastic stress creak
+HALLORAN (fast, low, pleading): Okay, listen, listen to me a second. My wife, Carol, she's gonna call somebody this morning, she's probably already, so there's gonna be, today, there's gonna be people, and you can still— this is still a thing where I fell. You take me to a hospital, I say I fell down the basement stairs, I'll say it, I'll say whatever you, please. Please, Gary.
+GARY (V.O.): That word. Today. It went into me like a clock starting. And I'll be honest with you, because honesty is the whole reason I'm talking — I didn't have a plan. I took this man off a sidewalk with no plan at all, and the only road I could see ran straight through the middle of him.
+SFX: a ballpoint pen, clicked once :: pen click
+GARY (systems, building): So we go quick. See, here's— you have to understand the thing first. It's a closed system. Everything is, if you actually look. Money goes in, waste goes out, that part anybody can see. But there's a middle. In between. That nobody's cleared to look at. And that's the part. So. Where's it go.
+HALLORAN (cracking): It's a sewer, Gary! It's a— the pipe collapsed, there's nothing in there but—
+GARY (reasonable, terrible): Yeah, no, see, and I get why you'd say that, I do. But you signed off on the disposal. So whatever this turns out to be, you're already in it. So honestly you're better off just— I'm trying to help you here. I am.
+GARY (V.O.): He looked at me like I was the nightmare. I want you to sit in that with me a second. The man in the chair, looking at me like that. And then ask yourself, honestly — which one of us gets to decide who's dreaming.
+[BRIDGE: a desk phone ringing in an empty office, and ringing, unanswered :: office desk phone ringing]
+
+
+[SCENE facilities_d1 | Kepler Hall, Facilities Office — Day One, Afternoon]
+AMB: a cramped campus maintenance office, a hard fluorescent hum, a computer fan :: office room tone fluorescent hum
+SFX: a speakerphone keyed on, a dial tone, hung up :: speakerphone button dial tone
+LOPEZ (blunt, on speaker): He's not picking up, Carol's not picking up, so I called over to regional, 'cause she said they sent him to some, some summit thing? In Columbus?
+BRINKMAN (flat): Okay.
+LOPEZ: There's no summit. They didn't send him anywhere. There's no— Dale, there's no Columbus. He told her he's in Columbus and there's just nothing there.
+SFX: a long pause, only the fluorescent hum :: fluorescent buzz room tone
+BRINKMAN (it landing): ...Alright. Call campus PD. And when they get to asking who'd've had a problem with Ray.
+LOPEZ: Yeah. I already know who.
+[BRIDGE: a television clicking on, the murmur of late local news :: television switch on static]
+
+
+[SCENE kitchen_d1 | Gary's Kitchen — Day One, Night]
+AMB: a small kitchen, a refrigerator's hum, the TV low in the next room :: kitchen room tone refrigerator
+SFX: a laptop, hunt-and-peck typing, slow, a man mouthing the words :: slow keyboard typing one finger
+GARY (V.O.): I had his passwords in a night. People think that's hard. It isn't. Not if you've spent your whole life being the one nobody notices, watching how people behave when they're sure no one's watching. That's the one thing being invisible is good for. You see the locks.
+SFX (under): TV news — weather, a water-main break, a dog that saved a family :: television news murmur muffled
+GARY (half to himself, at the TV): ...nothing. Not one. They got the whole thing sewn up and there's not— nobody's even looking.
+GARY (V.O.): And I didn't know it yet, standing there. That they were about to look very hard. In exactly the wrong direction.
+[BRIDGE: a pot of soup, a spoon against the rim, going down the stairs :: soup pot spoon stir]
+
+
+[SCENE basement_d2 | Gary's Basement — Day Two, Night]
+AMB: the basement, closer now, the space heater ticking :: basement room tone hum
+SFX: a spoon in a soup bowl, a paper towel, a dribble wiped from a chin :: soup spoon bowl eating
+GARY (V.O.): Day two. I'd waited my whole life to talk to somebody who couldn't get up and walk away from me. I'm not proud of how that lands. But you take what the world finally hands you, and you don't ask it to apologize for being late.
+GARY (telling it, warming): ...and she just stood up. Vorhees. In front of everybody, the other parents and all, and she says to my mother, she goes, Irene, this one. A mind like this comes along once. And I'm nine, I'm sitting right there. And honestly I think that's the last time anybody actually— and ever since, every job, every door that shut on me, there's this part of me just going, okay, alright, this is the part before. Before they figure out who I actually am. You know? Like the whole thing's just the part before.
+HALLORAN (carefully, reaching): Can I— earlier you said something about a, you wrote a book? You kind of said it and then you went right past it, like it didn't— what was it about.
+SFX: the spoon stops ::
+GARY (gone still): What.
+HALLORAN: The book. You said three hundred pages, you said it and then you just kept going.
+SFX: the furnace cuts out; the room goes very quiet :: furnace shutoff silence room tone
+GARY (V.O.): There's one thing I never say out loud. And I was so starved to be heard, by anybody, that I said it. To the man I'd taken.
+GARY (flat, the wound, plain): They sent it back. The press. There was a line, one line. "Not for us." I didn't even open the envelope all the way. I read enough to see the shape of it and I put it in the drawer.
+HALLORAN (carefully, reaching): Gary, that's— a press saying no, that's not, it doesn't mean— that's a form letter. That happens to everybody who ever sent one of those out. That's a Tuesday. That's just a Tuesday.
+GARY (the door slamming shut): You don't have to manage me, Ray. Eat your soup.
+SFX: a chair scrapes back, boots up the wooden stairs, a door :: wooden stairs footsteps door close
+GARY (V.O.): He was good. Reaching for the one soft spot like that. That's when I understood he was better at this than I'd given him credit for. You don't get that gentle by accident. Somebody trains you to be that gentle.
+[BRIDGE: a police station at shift change, phones, a radio :: police station lobby ambience]
+
+
+[SCENE precinct_carol_d2 | Riverside Precinct, Front Desk — Day Two, Morning]
+AMB: a precinct front counter, phones, a two-way radio, footsteps on tile :: police station lobby ambience radio
+CAROL (urgent, piling detail): His car's in the driveway. The car hasn't even moved, it's right where he, and he didn't take his pills, he takes one in the morning and one at night and they're both still sitting in the, and he texts me, he texts me from the bathroom of our own house, so please don't, don't tell me men leave, he did not leave, something happened to him, he's— he's gone.
+SFX: a pen stops on a form; a drawer opens; a different form slid across the counter :: paper slide desk drawer
+DESK SERGEANT (the shift in him, quiet): ...Ma'am. Okay. Hang on. Sit down a second for me. I'm gonna get somebody who can— just sit down.
+MOTIF: the machine — somewhere deeper in the building, a printer starts, patient, and does not stop :: office printer mechanical hum
+[BRIDGE: the printer fades under, a car door, night :: car door close night]
+
+
+[SCENE car_d2 | Gary's Car — Day Two, Night]
+AMB: a car interior, a dark lot, far-off traffic :: car interior ambience night distant traffic
+SFX: a cheap prepaid phone flipped open, dialed :: flip phone open dial tone
+GARY (V.O.): There was a man I called. I won't tell you where I found him. I'll just tell you he was the only voice in five days that didn't want me to be smaller than I was.
+GARY (into phone): He gave me a— there's a name. The Founders' account. He says the money goes through the development side, Advancement, so it's gift money, so it never shows up on anything public.
+ROYCE (V.O., phone filter, warm, rolling): The donor side. See, that's it, friend, that's it exactly, 'cause that's the one place the money's got no daylight on it, none. You hear what that man just handed you? You understand what that is?
+GARY (into phone): He keeps taking it back, though. Says he made it up. Says he's scared.
+ROYCE (V.O., phone filter): 'Course he's scared. They always pull it back. Second the truth's out of their mouth, the fear comes and it's no, no, I made it up. You don't listen to the take-back, Gary. You already heard the true part. And you can feel it, can't you. How close.
+GARY (V.O.): And I could. God help me, I could feel exactly how close. He was right about that. He was right about everything except the one thing he never once asked me — whether any of it was real.
+[BRIDGE: down the stairs again, the basement air :: basement room tone]
+
+
+[SCENE basement_d3 | Gary's Basement — Day Three, Day]
+AMB: the basement, the heater weaker now, a thinner cold :: basement room tone cold
+GARY (V.O.): Day three, he tried a different door. Reason hadn't worked. The truth hadn't worked. So he tried the last one he had.
+HALLORAN (quiet, then breaking through): You ever— okay. In my garage I got the, I do the model trains. The little, HO scale, whole little town, I been at it since the kids were small. Carol calls it my hobby and I let her, but it's—
+SFX: a breath, lost, found again ::
+HALLORAN (pushing through): I went to school for engineering. Two years. I was gonna build the real ones. And it just, it didn't, my dad got sick and, anyway. I ended up keeping other people's buildings standing instead of, and that's—
+HALLORAN (scared, all the way in): Look. Look at me a second. I'm nobody, Gary. I'm a guy who didn't turn into the thing he was supposed to turn into. And I think maybe that's, I think that's you too, the kid in the photo, and there's no goo, there's no account, it's a busted pipe, it's a sad pipe and two sad guys, and I'll give you the trains, I'll give you anything I got, if you'd just open that door and let us both go home.
+SFX: the heater ticks; a long, held nothing :: room tone silence heater tick
+GARY (quiet, almost admiring): That's good. That's really— that might be the best one yet, Ray. The trains and the "we're the same." 'Cause see, that's how I know now. They wouldn't send a thug. A thug I'd believe. They sent me the saddest possible version of it and sat it in a chair. Nobody does that for nothing.
+GARY (V.O.): You want to know what it costs, to be right? It costs you every soft thing that ever comes to the door. They come dressed as your mother, your friend, a sad man and his trains. And you have to shut the door on all of them. That's the price of the ticket. I keep trying to tell you about the price.
+[BRIDGE: out into the open, a quiet street, wind :: suburban residential street wind]
+
+
+[SCENE neighborhood_d3 | Gary's Neighborhood — Day Three, Day]
+AMB: a quiet residential street, a few birds, a far-off car :: suburban street ambience birds
+SFX: footsteps on pavement; a paper flyer torn down off a staple :: paper tear staple pole
+GARY (V.O.): That's when I started to get how big it was. His face. The good badge photo. Stapled to my pole, and the next pole, and the next. My own quiet street, papered with one man's face. And see, you don't do that — you don't put a man's face on every pole on a street — unless you need everybody on that street looking for one particular person.
+SFX: a front door; inside; a television clicked on :: house door open television on
+CAROL (on TV, filter, breaking): Ray, if you can— if somebody has him, he, he takes a pill in the morning and one at, and he hasn't had, it's been three days, he's not a strong, he just— he just looks—
+SFX: the TV clicked off; the room very still; a hand left on the dark screen :: television power off click
+GARY (V.O.): And something moved in me, I won't pretend it didn't. The soup. The trains. Her face. I'm not made of stone. But then I understood why they'd put her on the television. She doesn't know what her husband is part of. And if she's on TV, then somebody put her there. That's how far down this goes. They'll use a man's own wife and she'll never even know she was used.
+[BRIDGE: a porch at dusk, crickets starting :: suburban porch evening crickets]
+
+
+[SCENE porch_sal_d3 | Gary's Front Porch — Day Three, Dusk]
+AMB: a front porch, dusk, crickets, a dog two yards over :: suburban evening crickets dog
+SFX: a knock; a door opened the width of a chain :: door knock chain latch
+GARY (V.O.): Sal. My oldest friend. Thirty years of him standing on my porch.
+SAL (plain, careful): Your ma's home called me. 'Cause you're her contact, and they said you missed two Sundays, and they didn't know who else to—
+GARY (V.O.): That one got in under everything. The Sundays.
+SAL (the thirty years, sideways): And a cop come by the site. Asking is Sobek the kind of guy who'd do something stupid. I told him no. Stood right there and told a cop no. I told Petrocelli, hold the spot, my guy's coming. He goes what guy. I go, you remember Gary. And he don't, but— just come do the Whitmore with me, would you? Eight months. You read the prints, I'll do the talking, like always. Like we— I miss you, you dumb son of a— just come back to work. Please.
+SFX: from below them both, through the floorboards — a chair leg dragging on concrete. Twice. :: chair scrape concrete muffled through floor
+SAL (alert): The hell was that.
+GARY (door already closing): Furnace. I gotta go, Sal.
+SFX: the door shuts; a truck door, an engine turning over, gravel :: pickup truck door engine start gravel
+GARY (V.O.): He believed me. That's what thirty years buys you. And I loved him for it, and I used it, in the same breath. You learn to do that. You learn to use the exact people who love you, because they're the ones who'll hold the door open while you lie. That's the cost again. I keep telling you about the cost.
+[BRIDGE: back inside, the kitchen, night, the fridge hum :: kitchen room tone night]
+
+
+[SCENE kitchen_d3 | Gary's Kitchen — Day Three, Night]
+AMB: the kitchen at night, the refrigerator hum, a clock :: kitchen room tone refrigerator clock
+SFX: hands not steady, a glass set down too hard on the counter :: glass set down counter
+GARY (V.O.): I almost put it down that night. I want that on the record, wherever this record ends up. I had the whole thing in my two hands and I almost set it on the counter and walked away.
+GARY (unsteady, into phone): Sal came by. My oldest— and the guy downstairs, they're both, they're saying the same thing now. That there's nothing. That I'm sick.
+ROYCE (V.O., phone filter, intimate): 'Course they're both saying it. The friend, and the man in your basement most of all, you think he wants you to find it? It'd cost him everything. Listen to me. The small ones leave first. That's just how it goes, and it isn't 'cause they're bad, son, it's 'cause what you're carrying is too big for 'em and it scares 'em, so they go. That's not your friend failing you. That's the size of the thing. Now you finish it. Before they get it buried. You're too close to fold on me now.
+SFX: a long breath out; the phone clicked shut :: flip phone close
+GARY (decided, the sick gone out of him): ...Yeah. No. I'm not gonna fold.
+SFX: the basement door opening :: interior door open basement
+GARY (V.O.): And I set the last ordinary thing in me up on the kitchen counter, next to the glass, and I left it there, and I went down the stairs without it.
+[BRIDGE: the basement in daylight, the window well :: basement room tone day]
+
+
+[SCENE basement_d4 | Gary's Basement — Day Four, Day]
+AMB: the basement, gray daylight in the window well, the heater :: basement room tone window well
+GARY (V.O.): Day four, he gave me the thread. He finally gave me the name.
+HALLORAN (low, not looking at him, inventing it as he breathes): It's not in facilities. What you're after. It goes through, there's three foundations, shell foundations, and the wire codes, I set those up myself, years ago, I didn't know what they were— there's a guy. Advancement. Voss. If you want where the material really goes, that's, you want to be looking at Voss.
+SFX: a pen in a shaking hand, writing :: pen writing on paper
+GARY (wet, grateful): Voss. Okay. Okay. You did good just now, Ray. That was— you just did a brave thing. People are gonna know that. History's gonna know you did that.
+SFX: a slow breath; a head tipped back against cinderblock, softly :: head against concrete wall soft knock
+GARY (V.O.): Something changed in him on day four. He stopped fighting me. And I thought — finally. Finally he sees it. I was so grateful I almost couldn't write. I thought it was him helping me, at last. I read it as the best day we'd had.
+[BRIDGE: out into the night, a big building, a parking lot :: building exterior night ambience]
+
+
+[SCENE advancement_d4 | University Advancement Building — Day Four, Night]
+AMB: a dark parking lot, the deep HVAC drone of a big glass building at night :: large building exterior hvac drone night
+SFX: a phone camera shutter; again; again; casing the wall :: camera phone shutter photo
+GARY (V.O.): The Advancement building. This is where the money with no daylight on it lives. Gift money. Bequests. The kind nobody audits because who audits a gift. I cased it like a vault, because that is exactly what it is.
+SFX (through glass, muffled): a lone fundraiser at a phone bank, late, a sad desk salad :: office phone call muffled through glass
+DEV OFFICER (filter, muffled, tired and kind): ...and we'd just love for you to maybe think about, you know, a legacy gift, a bequest, it's a wonderful way to...
+GARY (V.O.): You hear that? The words they use. "Legacy." "A wonderful way." That right there is the sound the machine makes when it's eating. Most people walk past it their whole lives and never once hear it.
+SFX: a security guard rounding the corner, footsteps, a flashlight clicked on, keys :: security guard footsteps keys flashlight
+GARY (V.O.): I'd been made. I turned my back, smooth, and I walked off into the dark like I belonged to it.
+[BRIDGE: soft institutional muzak, a quieter room :: nursing home day room muzak]
+
+
+[SCENE meadowbrook_d4 | Meadowbrook Care Center — Day Four, Day]
+AMB: a care-home day room, faint muzak, a television far off, a clock :: nursing home day room ambience muzak
+SFX: jigsaw pieces sorted on a tray table, slow :: jigsaw puzzle pieces table
+IRENE (certain, content): He's at the university. They keep him very busy up there. He's a very busy man.
+AIDE (gentle): I know he is, hon. Edges first.
+SFX: a single puzzle piece pressed into place :: puzzle piece click
+IRENE (drifting, humming): ...edges first...
+SFX: the muzak holds, alone, a while :: nursing home day room muzak quiet
+[BRIDGE: a diner at the end of the night, a radio behind the counter :: diner ambience night quiet radio]
+
+
+[SCENE diner_d4 | Delmore's Diner — Day Four, Night]
+AMB: a near-empty diner late, a counter radio, a coffee machine :: diner ambience quiet night radio
+SFX: a rag wiping down a booth that nobody's in :: wiping table rag diner
+SFX: a folded paper clipping, soft at the creases, opened, looked at :: paper unfold creased
+SFX: the clipping dropped into a bus tub among dirty plates :: dishes bus tub clatter
+SFX: a booth card flipped over; a family of four sat down; coffee poured :: diner coffee pour cups family
+DONNA (warm, sideways, to the family): Right this way, hon. Coffee to start you off? ...Oh. Now that's a good one.
+SFX: her laugh, real, moving off :: woman laugh diner
+[BRIDGE: the machine, the patient printer again, a bullpen :: office printer police station ambience]
+
+
+[SCENE precinct_foss_d5 | Riverside Precinct, Bullpen — Day Five, Morning]
+AMB: a detective bullpen, phones, keyboards, the machine's printer under it all :: police station office ambience phones
+MOTIF: the machine — the printer from day two, still running, patient :: office printer mechanical hum
+SFX: a printout planted hard on a desk :: paper slap desk
+FOSS (terse, flat): I need a warrant. Search warrant, a house. Today.
+GUTHRIE (not looking up): On what.
+FOSS: Halloran's phone hit one tower for two days after he went missing, then it quits. That tower's a quarter-mile circle. The guy he fired that same week, the one who'd put a grievance in on him first, lives inside the circle.
+GUTHRIE: That's a grudge and a coincidence. That's not a body. Ramos isn't handing you a man's house off a phone ping.
+FOSS (lets it hang): He stood on his porch and told me his water main was out. Whole street, no water, all dug up. I went past public works on the way in. There's no job on that street. There's never been a job on that street.
+SFX: a beat; a receiver lifted; a number dialed :: desk phone pick up dial
+GUTHRIE (dialing): Get me Ramos's clerk.
+MOTIF: the machine — the printer swells, and does not get bored :: office printer mechanical hum loud
+[BRIDGE: the porch again, daylight, the quiet street :: suburban porch day quiet]
+
+
+[SCENE porch_surveil_d5 | Gary's Front Porch — Day Five, Day]
+AMB: the porch, daylight, a too-quiet street :: suburban street quiet day birds
+SFX: keys in a hand; footsteps stopping short on the boards :: keys jingle footsteps stop
+GARY (V.O.): Down the block. Parked. Engine off. A car that doesn't belong to the street, and two people in it not looking at me too carefully. They'd put a car on me. They'd stopped even pretending. That's how close I was. You don't get a car on your door unless you're standing right on top of it.
+SFX: footsteps back inside; a door; a deadbolt thrown :: door close deadbolt lock
+GARY (V.O.): I didn't leave. And I want you to know — I still thought I was winning.
+[BRIDGE: night, inside the house, the basement under the floor :: house interior night room tone]
+
+
+[SCENE house_d5 | Gary's House — Day Five, Night]
+AMB: the house at night, very quiet, the furnace under the floor :: house night room tone furnace
+SFX: in the basement, alone — a raw wrist working plastic, wet, for a long time :: plastic friction wet rubbing
+SFX: the zip-tie slips free :: zip tie snap release plastic
+SFX: legs unsteady on the stairs; through the kitchen; the door chain fumbled; a deadbolt; night air :: stairs footsteps unsteady door chain fumble
+SFX: a car turning into the drive, gravel, the engine cut :: car pull into driveway gravel engine off
+SFX: a scramble in the doorway — two soft men who've never hit anyone, grunting, a shoulder into a door, the door slamming :: door struggle slam scuffle
+SFX: two men down on the floor, gasping :: heavy breathing exhausted floor
+GARY (V.O.): I came home and the door was open and he was almost— and we went down together in the doorway, both of us, and nobody threw a punch because neither of us has ever once known how. Two soft men on a cold floor, breathing.
+GARY (V.O.): And with my back against that door, I finally let in the thing I'd kept out for five whole days. A detective had my name. A car was sitting on my street. He had tasted the open air on the porch and he knew the taste now. The hours he'd promised me that first morning — they were spent. All of them.
+GARY (quiet, almost calm, the light coming up): Okay. We can't keep it quiet anymore. So we don't. We don't even try. We make them do it out in the open, in front of everybody. We make them bury it with the whole world watching.
+GARY (the light all the way up): We go public.
+SFX: hard silence — then a single low tension sting, cut to black :: dark tension drone sting
+[END OF ACT TWO]

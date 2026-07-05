@@ -1,7 +1,7 @@
 import wave
 
-from brehon import Story
-from brehon.audio import AudioRenderer, SilentBackend, Utterance
+from metaphrand import Story
+from metaphrand.audio import AudioRenderer, SilentBackend, Utterance
 
 
 def _story():
@@ -68,6 +68,51 @@ def test_em_dashes_normalised_for_speech():
     act = s.instantiate(root.id, "a", kind="act", id="act1")
     s.instantiate(act.id, "b", kind="beat", manifestation="A -- B -- C.", id="b1")
     assert AudioRenderer().utterances(s)[0].text == "A, B, C."
+
+
+def test_unicode_dash_and_emphasis_normalised_for_speech():
+    s = Story()
+    root = s.three_act("p", narrator_voice="n")
+    act = s.instantiate(root.id, "a", kind="act", id="act1")
+    s.instantiate(
+        act.id, "b", kind="beat",
+        manifestation="The lens—*hollow*—turns inward.", id="b1",
+    )
+    assert AudioRenderer().utterances(s)[0].text == "The lens, hollow, turns inward."
+
+
+def test_parse_screenplay_splits_voices():
+    from metaphrand.audio import parse_screenplay
+
+    script = ("INT. ROOM - NIGHT\n\nA man crosses the room.\n\n"
+              "RAY\n(quiet)\nDon't move.\n\nFADE OUT.")
+    assert parse_screenplay(script, {"RAY": "ray_v"}, "narr") == [
+        Utterance("narr", "A man crosses the room.", "screenplay"),
+        Utterance("ray_v", "Don't move.", "screenplay"),
+    ]
+
+
+def test_parse_screenplay_colon_cues():
+    from metaphrand.audio import parse_screenplay
+
+    script = "RAY:\nName the company.\n\nCARL (CONT'D):\nThe what?"
+    assert parse_screenplay(script, {"RAY": "rv", "CARL": "cv"}, "narr") == [
+        Utterance("rv", "Name the company.", "screenplay"),
+        Utterance("cv", "The what?", "screenplay"),
+    ]
+
+
+def test_parse_screenplay_standalone_wryly_keeps_speaker():
+    from metaphrand.audio import parse_screenplay
+
+    # a lone "(beat)" between a cue and its continuation must not hand the line
+    # to the narrator -- it stays with the character who was talking
+    script = ("TOMMY:\nHe didn't, but okay.\n\n(beat)\n\n"
+              "You've got all the words, Ray.")
+    assert parse_screenplay(script, {"TOMMY": "tv"}, "narr") == [
+        Utterance("tv", "He didn't, but okay.", "screenplay"),
+        Utterance("tv", "You've got all the words, Ray.", "screenplay"),
+    ]
 
 
 def test_to_wav_writes_valid_mono_pcm(tmp_path):

@@ -1,5 +1,5 @@
-from brehon import Story
-from brehon.render import FountainRenderer
+from metaphrand import Story
+from metaphrand.render import FountainRenderer
 
 
 def _story_with_one_scene() -> Story:
