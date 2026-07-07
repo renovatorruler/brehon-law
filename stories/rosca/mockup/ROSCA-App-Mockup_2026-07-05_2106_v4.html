@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>ROSCA App — interactive mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500;600;700;800&family=Wix+Madefor+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#5B7FFF; --blue-deep:#3B5BE0; --blue-press:#2E49C4; --blue-300:#9AB0FF;
+  --blue-100:#C9D5FF; --tint:#E9EEFF; --line:#D6E0FF; --line-2:#E8ECFA;
+  --bg:#F2F5FD; --paper:#FFFFFF; --ink:#0C1226; --ink-2:#2B3650; --muted:#5E6A85;
+  --display:'Wix Madefor Display',sans-serif; --body:'Wix Madefor Text',sans-serif;
+  --sh:0 1px 2px rgba(46,73,196,.05),0 24px 50px -28px rgba(46,73,196,.30);
+  --sim:#F59E0B; --sim-deep:#B45309; --sim-bg:#FFF7E8; --sim-line:#F4CC7B;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html,body{height:100%;}
+body{font-family:var(--body);background:var(--bg);color:var(--ink);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  background-image:linear-gradient(#5b7fff0d 1px,transparent 1px),linear-gradient(90deg,#5b7fff0d 1px,transparent 1px);
+  background-size:46px 46px;}
+.deckbar{font-family:var(--body);font-weight:700;font-size:11px;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--blue-deep);display:flex;align-items:center;gap:10px;}
+.deckbar::before{content:"";width:26px;height:2px;background:var(--blue);border-radius:2px;}
+.hint{font-size:12px;color:var(--muted);}
+.hint b{color:var(--sim-deep);font-weight:700;}
+#frame{width:394px;height:812px;background:linear-gradient(180deg,#1A2140,#0A0E1F);
+  border:1px solid #39406A;border-radius:38px;padding:10px;box-shadow:0 40px 80px -30px rgba(12,18,38,.55);
+  position:relative;flex:0 0 auto;}
+#phone{width:100%;height:100%;background:var(--bg);border-radius:28px;overflow:hidden;
+  position:relative;display:flex;flex-direction:column;}
+@media (max-width:480px),(max-height:860px){
+  body{gap:0;background:var(--bg);}
+  .deckbar,.hint{display:none;}
+  #frame{width:100vw;height:100dvh;border-radius:0;border:none;padding:0;box-shadow:none;}
+  #phone{border-radius:0;}
+}
+/* status bar */
+#sb{flex:0 0 auto;display:flex;justify-content:space-between;align-items:center;
+  padding:12px 18px 6px;font-weight:700;font-size:13px;color:var(--ink);}
+#sb .r{display:flex;gap:5px;align-items:center;font-size:11px;color:var(--ink-2);}
+/* app area */
+#app{flex:1;overflow-y:auto;overflow-x:hidden;position:relative;scrollbar-width:none;}
+#app::-webkit-scrollbar{display:none;}
+.page{padding:8px 18px 110px;}
+.eyebrow{font-weight:700;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--blue-deep);}
+h1.big{font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:-.02em;margin:2px 0 2px;}
+.sub{font-size:12.5px;color:var(--muted);line-height:1.45;}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;
+  box-shadow:var(--sh);padding:16px;margin-top:12px;}
+.chip{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--blue-deep);background:var(--tint);border-radius:999px;padding:4px 9px;}
+.bal{font-family:var(--display);font-weight:800;font-size:34px;letter-spacing:-.02em;margin:6px 0 2px;}
+.bal small{font-size:15px;color:var(--muted);font-weight:600;}
+.potcard{background:linear-gradient(135deg,#6E8FFF,#3B5BE0);color:#fff;border:none;position:relative;overflow:hidden;}
+.potcard::after{content:"";position:absolute;right:-40px;top:-52px;width:150px;height:150px;border-radius:50%;background:#ffffff14;}
+.potcard .lbl{font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;opacity:.85;}
+.potcard .bal{color:#fff;}
+.potcard .musd{position:absolute;top:16px;right:16px;background:#ffffff2e;color:#fff;
+  font-size:10px;font-weight:800;letter-spacing:.1em;border-radius:999px;padding:4px 10px;}
+.potcard .sub{color:#e9eeff;}
+.row{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid var(--line-2);}
+.row:last-child{border-bottom:none;}
+.av{flex:0 0 34px;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-family:var(--display);font-weight:800;font-size:13px;color:#fff;background:var(--blue);}
+.av.b2{background:var(--blue-deep);} .av.b3{background:var(--blue-300);}
+.av.lt{background:var(--blue-100);color:var(--blue-deep);} .av.lt2{background:#E6ECFF;color:var(--blue-deep);}
+.row .nm{flex:1;font-weight:600;font-size:14px;}
+.row .nm small{display:block;font-weight:500;font-size:11px;color:var(--muted);margin-top:1px;}
+.row .st{font-size:11.5px;font-weight:700;color:var(--blue-deep);display:flex;align-items:center;gap:5px;}
+.row .st.mut{color:var(--muted);font-weight:600;}
+.ck{width:14px;height:14px;}
+.btn{display:block;width:100%;border:none;border-radius:999px;background:var(--blue);color:#fff;
+  font-family:var(--body);font-weight:700;font-size:15px;padding:14px;cursor:pointer;margin-top:14px;}
+.btn:active{background:var(--blue-press);}
+.btn.sec{background:#fff;color:var(--blue-deep);border:1.5px solid var(--blue);}
+.btn.ghost{background:var(--tint);color:var(--blue-deep);}
+.btn.sm{width:auto;display:inline-block;padding:9px 16px;font-size:13px;margin-top:0;}
+.btn:disabled{opacity:.45;}
+.split2{display:flex;gap:10px;margin-top:14px;}
+.split2 .btn{margin-top:0;flex:1;}
+.dots12{display:flex;gap:4px;margin-top:10px;}
+.dots12 i{flex:1;height:5px;border-radius:3px;background:#ffffff45;}
+.dots12 i.on{background:#fff;}
+.note{font-size:11.5px;color:var(--muted);line-height:1.5;margin-top:10px;}
+.note b{color:var(--ink-2);}
+.banner{display:flex;gap:10px;align-items:flex-start;background:var(--tint);border:1px solid var(--line);
+  border-radius:14px;padding:12px;margin-top:12px;font-size:12.5px;color:var(--ink-2);line-height:1.45;}
+.banner b{color:var(--blue-deep);}
+.okband{background:#EAF7EE;border:1px solid #BFE5C8;color:#1D6B33;border-radius:14px;
+  padding:12px;margin-top:12px;font-size:12.5px;font-weight:600;line-height:1.45;}
+.warnband{background:#FDF0F0;border:1px solid #F2C7C7;color:#9B2C2C;border-radius:14px;
+  padding:12px;margin-top:12px;font-size:12.5px;font-weight:600;line-height:1.45;}
+.pendband{background:var(--sim-bg);border:1px dashed var(--sim);color:var(--sim-deep);border-radius:14px;
+  padding:12px;margin-top:12px;font-size:12.5px;font-weight:600;line-height:1.5;}
+/* nav */
+#nav{flex:0 0 auto;display:flex;border-top:1px solid var(--line-2);background:#fff;
+  padding:8px 6px calc(12px + env(safe-area-inset-bottom));}
+#nav button{flex:1;background:none;border:none;font-family:var(--body);font-size:10px;font-weight:600;
+  color:#8E99B9;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;}
+#nav button.on{color:var(--blue-deep);font-weight:700;}
+#nav svg{width:20px;height:20px;stroke:#8E99B9;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;}
+#nav button.on svg{stroke:var(--blue-deep);}
+/* modal (in-app full sheet) */
+#modal{position:absolute;inset:0;background:var(--bg);z-index:20;display:none;flex-direction:column;overflow-y:auto;}
+#modal.on{display:flex;}
+#modal .mhead{display:flex;align-items:center;gap:10px;padding:14px 18px 4px;}
+#modal .mhead .back{border:none;background:var(--paper);border:1px solid var(--line);width:34px;height:34px;
+  border-radius:50%;font-size:16px;color:var(--ink-2);cursor:pointer;}
+#modal .mbody{padding:6px 18px 40px;}
+/* pin pad */
+.pindots{display:flex;gap:12px;justify-content:center;margin:22px 0;}
+.pindots i{width:14px;height:14px;border-radius:50%;border:1.5px solid var(--blue-300);}
+.pindots i.on{background:var(--blue);border-color:var(--blue);}
+.pad{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:250px;margin:0 auto;}
+.pad button{background:var(--paper);border:1px solid var(--line);border-radius:16px;
+  font-family:var(--display);font-weight:700;font-size:20px;padding:14px 0;cursor:pointer;color:var(--ink);}
+.pad button:active{background:var(--tint);}
+/* amount pad */
+.amt{font-family:var(--display);font-weight:800;font-size:40px;text-align:center;margin:18px 0 4px;letter-spacing:-.02em;}
+.amt small{font-size:16px;color:var(--muted);}
+.quick{display:flex;gap:8px;justify-content:center;margin:8px 0 14px;}
+.quick button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 13px;
+  font-weight:700;font-size:12.5px;color:var(--blue-deep);cursor:pointer;}
+.paywho{display:flex;gap:8px;margin-top:10px;}
+.paywho button{flex:1;border:1px solid var(--line);background:#fff;border-radius:14px;padding:10px 6px;
+  font-size:11.5px;font-weight:600;color:var(--ink-2);cursor:pointer;}
+.paywho button.on{border-color:var(--blue);background:var(--tint);color:var(--blue-deep);font-weight:700;}
+/* success check */
+.bigok{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 0 20px;}
+.bigok .disc{width:86px;height:86px;border-radius:50%;background:var(--blue);display:flex;align-items:center;
+  justify-content:center;animation:pop .45s cubic-bezier(.16,1,.3,1);}
+@keyframes pop{from{transform:scale(.4);opacity:0;}to{transform:scale(1);opacity:1;}}
+.bigok svg{width:40px;height:40px;stroke:#fff;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+.bigok h2{font-family:var(--display);font-weight:800;font-size:20px;margin-top:16px;}
+/* ceremony list */
+.cstep{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--line-2);}
+.cstep:last-child{border-bottom:none;}
+.cstep .cnum{flex:0 0 26px;width:26px;height:26px;border-radius:50%;background:var(--tint);color:var(--blue-deep);
+  font-family:var(--display);font-weight:800;font-size:12px;display:flex;align-items:center;justify-content:center;}
+.cstep.done .cnum{background:var(--blue);color:#fff;}
+.cstep .ct{flex:1;font-size:13.5px;font-weight:600;line-height:1.4;}
+.cstep .ct small{display:block;font-weight:500;font-size:11.5px;color:var(--muted);margin-top:2px;}
+/* toast */
+#toast{position:absolute;left:14px;right:14px;top:14px;z-index:60;background:var(--ink);color:#fff;
+  border-radius:14px;padding:12px 14px;font-size:12.5px;font-weight:600;display:none;
+  box-shadow:0 18px 40px -12px rgba(12,18,38,.5);line-height:1.4;}
+#toast.on{display:block;animation:tin .3s cubic-bezier(.16,1,.3,1);}
+@keyframes tin{from{transform:translateY(-16px);opacity:0;}to{transform:translateY(0);opacity:1;}}
+#toast.sim{background:var(--sim-deep);}
+/* ============ SIMULATION LAYER (deliberately foreign styling) ============ */
+#fab{position:absolute;right:12px;bottom:86px;z-index:40;border:2px dashed var(--sim-deep);
+  background:repeating-linear-gradient(45deg,var(--sim),var(--sim) 10px,#f8b83d 10px,#f8b83d 20px);
+  color:#5b3305;font-family:var(--body);font-weight:800;font-size:11px;letter-spacing:.08em;
+  border-radius:14px;padding:10px 12px;cursor:pointer;box-shadow:0 12px 26px -10px rgba(180,83,9,.55);}
+#scrim{position:absolute;inset:0;background:rgba(12,18,38,.45);z-index:45;display:none;}
+#scrim.on{display:block;}
+#sheet{position:absolute;left:0;right:0;bottom:0;z-index:50;background:var(--sim-bg);
+  border:2px dashed var(--sim-deep);border-bottom:none;border-radius:22px 22px 0 0;
+  transform:translateY(105%);transition:transform .32s cubic-bezier(.16,1,.3,1);
+  max-height:78%;display:flex;flex-direction:column;}
+#sheet.on{transform:translateY(0);}
+#sheet .shead{padding:14px 16px 10px;border-bottom:1px dashed var(--sim-line);}
+#sheet .shead .tag{display:inline-block;background:var(--sim-deep);color:#fff;font-size:9.5px;font-weight:800;
+  letter-spacing:.18em;border-radius:6px;padding:3px 8px;}
+#sheet .shead h3{font-family:var(--display);font-weight:800;font-size:15px;color:#5b3305;margin-top:7px;}
+#sheet .shead p{font-size:11px;color:#8a5a10;margin-top:3px;line-height:1.4;}
+#sheet .sbody{overflow-y:auto;padding:10px 16px 20px;}
+.slab{font-size:9.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#8a5a10;margin:12px 0 6px;}
+.sact{display:flex;align-items:center;gap:11px;width:100%;background:#fff;border:1.5px dashed var(--sim);
+  border-radius:14px;padding:11px 12px;margin-bottom:8px;cursor:pointer;text-align:left;font-family:var(--body);}
+.sact:disabled{opacity:.4;cursor:default;}
+.sact .sav{flex:0 0 32px;width:32px;height:32px;border-radius:50%;background:var(--sim);color:#5b3305;
+  font-family:var(--display);font-weight:800;font-size:12px;display:flex;align-items:center;justify-content:center;}
+.sact .stx{flex:1;}
+.sact .stx b{display:block;font-size:13px;color:#3d2a05;}
+.sact .stx small{display:block;font-size:10.5px;color:#8a5a10;margin-top:1px;line-height:1.35;}
+.sclose{margin:2px 16px 16px;border:none;background:none;color:#8a5a10;font-weight:700;font-size:12px;
+  text-decoration:underline;cursor:pointer;font-family:var(--body);}
+/* duress — the tin (and the deep tabs, handled in render) vanish for a robber */
+body.duress .tincard{display:none!important;}
+</style>
+</head>
+<body>
+<div class="deckbar">Riften Labs · ROSCA app — interactive mockup</div>
+<div id="frame"><div id="phone">
+  <div id="sb"><span id="clock">9:41</span><span class="r">▮▮▮ ⌁ ▭</span></div>
+  <div id="app"></div>
+  <div id="modal"></div>
+  <div id="nav"></div>
+  <button id="fab" onclick="openSheet()">SIM · OTHER PARTIES</button>
+  <div id="scrim" onclick="closeSheet()"></div>
+  <div id="sheet"></div>
+  <div id="toast"></div>
+</div></div>
+<div class="hint">Blue = the product. <b>Amber dashed = simulation layer</b> — actions other people (or time) would take.</div>
+
+<script>
+/* ================= state ================= */
+/* THE APP OPENS AT THE STORY'S BEGINNING (Act 1 = onboarding).
+   phase: ob-invite -> ob-circle -> ob-cashin -> ob-contribute -> app.
+   Depth is summoned, never briefed: tinOpen/ringSet unlock Vault+Recovery.
+   Month six (the rich demo state) exists only as a SIM jump. */
+var S = {
+  phase:'ob-invite',
+  tab:'home',
+  pocket:0, tin:0, pot:1200, round:6,
+  contributed:false,
+  tinOpen:false, ringSet:false, surplus:false, monthSix:false,
+  suggestDeposit:0,
+  wd:null,            /* {amt,dest,mode,approved,vetoed,unlocked} */
+  friday:false,
+  refresh:{done:[]},  /* guardians who re-attested this Friday */
+  drill:null,         /* {confirms:[]} practice restore */
+  lost:false, restoreConfirms:[], restored:false,
+  heirArmed:false, heirFired:false,
+  duress:false,
+  act:[]
+};
+/* heart layer: the ledger of showing up is what a recovery vote spends */
+var GUARDS = [
+  {k:'A', n:'Amaka O.',  cls:'lt',  d:'214 Fridays'},
+  {k:'C', n:'Chinedu E.',cls:'b2',  d:'214 Fridays'},
+  {k:'B', n:'Bisi L.',   cls:'',    d:'102 Fridays'},
+  {k:'E', n:'Emeka',     cls:'b3',  d:'son · Houston'},
+  {k:'H', n:'Halima S.', cls:'lt2', d:'87 Fridays'},
+];
+function fm(x){return '$'+x.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g,',');}
+function fm0(x){return '$'+Math.round(x).toString().replace(/\B(?=(\d{3})+(?!\d))/g,',');}
+
+/* ================= toast ================= */
+var tmr=null;
+function toast(msg,sim){var t=document.getElementById('toast');t.textContent=msg;
+  t.className='on'+(sim?' sim':'');clearTimeout(tmr);tmr=setTimeout(function(){t.className='';},2600);}
+
+/* ================= icons ================= */
+var IC = {
+  home:'<svg viewBox="0 0 24 24"><path d="M4 11.5 12 5l8 6.5V20h-5.5v-5h-5v5H4z"/></svg>',
+  circle:'<svg viewBox="0 0 24 24"><circle cx="12" cy="5.5" r="2.1"/><circle cx="18.5" cy="12" r="2.1"/><circle cx="12" cy="18.5" r="2.1"/><circle cx="5.5" cy="12" r="2.1"/></svg>',
+  vault:'<svg viewBox="0 0 24 24"><rect x="4.5" y="5" width="15" height="14" rx="2.5"/><circle cx="12" cy="12" r="3.2"/><path d="M12 8.8v-1.6M12 16.8v-1.6M8.8 12H7.2M16.8 12h-1.6"/></svg>',
+  rec:'<svg viewBox="0 0 24 24"><path d="M12 4l6.5 2.4v4.4c0 4.2-2.8 7.2-6.5 8.3-3.7-1.1-6.5-4.1-6.5-8.3V6.4z"/><path d="M9.3 12l1.9 1.9 3.5-3.8"/></svg>',
+  ok:'<svg class="ck" viewBox="0 0 24 24" stroke="#3B5BE0" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>'
+};
+
+/* ================= nav / render ================= */
+function go(tab){S.tab=tab;closeModal();render();}
+function render(){
+  document.body.classList.toggle('duress',S.duress);
+  var app=document.getElementById('app');
+  var nav=document.getElementById('nav');
+  /* Act 1 — the invitation owns the screen; the world (nav) opens after */
+  if(S.phase!=='app'){
+    nav.innerHTML='';
+    app.innerHTML=obInvite();
+    return;
+  }
+  /* depth is summoned: Vault + Recovery exist only once the ring is sealed */
+  var deep=S.ringSet&&!S.duress;
+  if((!deep)&&(S.tab==='vault'||S.tab==='rec'))S.tab='home';
+  var tabs=[['home','Home',IC.home],['circle','Circle',IC.circle]];
+  if(deep){tabs.push(['vault','Vault',IC.vault]);tabs.push(['rec','Recovery',IC.rec]);}
+  nav.innerHTML=tabs.map(function(x){return '<button class="'+(S.tab===x[0]?'on':'')+'" onclick="go(\''+x[0]+'\')">'+x[2]+x[1]+'</button>';}).join('');
+  if(S.tab==='home')app.innerHTML=pgHome();
+  if(S.tab==='circle')app.innerHTML=pgCircle();
+  if(S.tab==='vault')app.innerHTML=pgVault();
+  if(S.tab==='rec')app.innerHTML=pgRec();
+}
+
+/* ================= ACT 1 — the invitation ================= */
+function obInvite(){
+  return '<div class="page" data-flow="ob-invite" style="display:flex;flex-direction:column;justify-content:center;min-height:100%">'+
+  '<div style="text-align:center;margin-bottom:6px"><div class="av lt" style="width:64px;height:64px;font-size:24px;margin:0 auto">A</div></div>'+
+  '<h1 class="big" style="text-align:center">Amaka O. invited you</h1>'+
+  '<div class="sub" style="text-align:center;margin-top:4px">Lagos Drivers Ajo</div>'+
+  '<div class="sub" style="text-align:center">12 members · $100 · Fridays</div>'+
+  '<button class="btn" onclick="pinFlow(joinDone)">Join</button>'+
+  '</div>';
+}
+function joinDone(){S.phase='app';S.tab='home';closeModal();render();}
+function payRound(){
+  pinFlow(function(){
+    S.pocket-=100;S.contributed=true;
+    S.act.unshift({t:'Round '+S.round+' pot', d:'Lagos Drivers Ajo', a:'−$100.00'});
+    okScreen('Paid','Round '+S.round+' · $100');render();
+  });
+}
+/* opening the tin reveals the keepers */
+function guardianPick(){
+  openModal(mhead('Keepers')+'<div class="mbody" data-flow="guardian-pick">'+
+  '<div class="card">'+
+    '<div class="row"><div class="av lt">A</div><div class="nm">Amaka O.<small>214 Fridays</small></div><div class="st">'+IC.ok+'Keeper</div></div>'+
+    '<div class="row"><div class="av b2">C</div><div class="nm">Chinedu E.<small>214 Fridays</small></div><div class="st">'+IC.ok+'Keeper</div></div>'+
+    '<div class="row"><div class="av">B</div><div class="nm">Bisi L.<small>102 Fridays</small></div><div class="st">'+IC.ok+'Keeper</div></div>'+
+    '<div class="row"><div class="av lt2">H</div><div class="nm">Halima S.<small>87 Fridays</small></div><div class="st">'+IC.ok+'Keeper</div></div>'+
+    '<div class="row"><div class="av b3">E</div><div class="nm">Emeka<small>son · Houston</small></div><div class="st">'+IC.ok+'Keeper</div></div></div>'+
+  '<div class="note">Any 3 can restore this wallet. None can move your money.</div>'+
+  '<button class="btn" onclick="sealRing()">Seal the tin</button>'+
+  '</div>');
+}
+function sealRing(){
+  S.tinOpen=true;S.ringSet=true;S.surplus=false;S.suggestDeposit=120;
+  closeModal();go('vault');
+}
+
+/* ================= pages ================= */
+function pgHome(){
+  /* state-driven prompt, not a wizard: the due round lives on Home until paid */
+  var due = (!S.contributed&&!S.duress)
+    ? '<div class="card" data-flow="ob-contribute"><span class="chip">Due Friday</span>'+
+      '<div class="row"><div class="av lt">A</div><div class="nm">Round '+S.round+' · pays Amaka O.</div><div class="st mut">$100</div></div>'+
+      (S.pocket>=100
+        ? '<button class="btn" onclick="payRound()">Pay $100</button>'
+        : '<button class="btn" onclick="openSheet()">Add money</button>')+
+      '</div>'
+    : '';
+  /* held card: the tin exists on screen only once the user's money summons it */
+  var tinBlock = S.tinOpen
+    ? '<div class="card potcard tincard" data-flow="tin-glance"><span class="musd">MUSD</span><div class="lbl">Tin · savings</div>'+
+      '<div class="bal">'+fm(S.tin)+'</div>'+
+      '<div class="sub">Withdrawals wait 72h or need a co-sign.</div></div>'
+    : (S.surplus
+        ? '<div class="card" data-flow="first-surplus"><span class="chip">Suggestion</span>'+
+          '<div class="sub" style="margin-top:8px;font-size:13.5px;color:var(--ink-2)">'+fm(S.pocket)+' is a lot for a pocket.</div>'+
+          '<button class="btn" onclick="guardianPick()">Open the tin</button></div>'
+        : '');
+  var proof = S.monthSix ?
+    '<div class="banner" onclick="go(\'rec\')">✓ <span>Friday: Halima restored her wallet — 3 neighbors, 4 minutes.</span></div>'
+    : '';
+  return '<div class="page" data-flow="home-glance">'+(S.duress?'<span data-flow="duress-view"></span>':'')+
+  '<div class="eyebrow">Lagos Drivers Ajo</div><h1 class="big">Good morning</h1>'+
+  due+
+  '<div class="card" data-flow="pocket-pay"><span class="chip">Pocket</span>'+
+    '<div class="bal">'+fm(S.pocket)+' <small>MUSD</small></div>'+
+    '<div class="split2"><button class="btn" onclick="openPay()">Pay</button>'+
+    '<button class="btn sec" onclick="toast(\'Show this code to get paid (mock).\')">Receive</button></div></div>'+
+  tinBlock+proof+
+  '<div class="card"><span class="chip">Activity</span>'+S.act.map(function(a){
+    return '<div class="row"><div class="nm">'+a.t+'<small>'+a.d+'</small></div><div class="st mut">'+a.a+'</div></div>';}).join('')+'</div>'+
+  '</div>';
+}
+function pgCircle(){
+  var paidDots='';for(var i=0;i<12;i++){paidDots+='<i class="'+(i<5||(S.contributed&&i===5)?'on':'')+'"></i>';}
+  var pot=S.pot+(S.contributed?100:0);
+  return '<div class="page" data-flow="circle-glance">'+
+  '<div class="eyebrow">Circle</div><h1 class="big">Lagos Drivers Ajo</h1>'+
+  '<div class="sub">Round '+S.round+' of 12 · 12 members · pays Amaka O. Friday</div>'+
+  '<div class="card potcard"><span class="musd">MUSD</span><div class="lbl">Pot · round '+S.round+' of 12</div>'+
+    '<div class="bal">'+fm0(pot)+'</div><div class="sub">Pays <b>Amaka O.</b> · Friday</div>'+
+    '<div class="dots12">'+paidDots+'</div>'+
+    '<div class="sub" style="margin-top:8px;opacity:.85">'+(S.contributed?'6':'5')+' paid in · '+(S.contributed?'6':'7')+' to go</div></div>'+
+  (S.contributed
+    ? '<div class="okband" data-flow="circle-contribute">Round '+S.round+' paid ✓</div>'
+    : '<button class="btn" data-flow="circle-contribute" onclick="openContrib()">Contribute $100</button>')+
+  (S.friday
+    ? '<div class="card" data-flow="friday-refresh"><span class="chip">Friday meeting — live</span>'+fridayList()+'</div>'
+    : '<div class="banner" data-flow="friday-refresh">📅 <span><b>Friday:</b> pot pays Amaka · share refresh · drill</span></div>')+
+  '<div class="card"><span class="chip">Members</span>'+
+    '<div class="row"><div class="av">T</div><div class="nm">You<small>seat 1</small></div><div class="st'+(S.contributed?'':' mut')+'">'+(S.contributed?IC.ok+'Paid':'Due Fri')+'</div></div>'+
+    '<div class="row"><div class="av lt">A</div><div class="nm">Amaka O.<small>receives this round</small></div><div class="st">'+IC.ok+'Paid</div></div>'+
+    '<div class="row"><div class="av b2">C</div><div class="nm">Chinedu E.</div><div class="st">'+IC.ok+'Paid</div></div>'+
+    '<div class="row"><div class="av lt2">F</div><div class="nm">Funke A.</div><div class="st">'+IC.ok+'Paid</div></div>'+
+    '<div class="row"><div class="av b3">Y</div><div class="nm">Yemi K.</div><div class="st mut">Due Fri</div></div>'+
+    '<div class="row"><div class="nm" style="color:var(--muted);font-size:12px">+ 7 more</div><div class="st mut">All 12 ›</div></div></div>'+
+  '</div>';
+}
+function fridayList(){
+  var g=S.refresh.done;
+  var steps=[
+    {t:'Pot — '+fm0(S.pot+(S.contributed?100:0))+' paid to Amaka O.',s:'witnessed',done:true},
+    {t:'Share refresh',s:g.length+' of 5 fresh',done:g.length>=5},
+    {t:'Restore drill — Halima',s:'wipe and restore, in the room',done:S.drillDone===true}
+  ];
+  return steps.map(function(st,i){return '<div class="cstep'+(st.done?' done':'')+'"><div class="cnum">'+(st.done?'✓':(i+1))+'</div><div class="ct">'+st.t+'<small>'+st.s+'</small></div></div>';}).join('')+
+  '<div class="note">Each guardian taps via <b>SIM</b>.</div>';
+}
+/* NOTE (drama pass): the old protection-briefing card was cut — exposition is
+   the enemy. Each rule now teaches itself at the moment it acts: the veto
+   explains itself when a veto lands; the 72h clock when it runs; duress when
+   the robber view is on; inheritance lives with the heir. */
+function pgVault(){
+  var w=S.wd, wdBlock='';
+  if(w&&!w.done){
+    if(w.vetoed){wdBlock='<div class="warnband" data-flow="guardian-veto">Blocked by Amaka. The money never moved.</div>';}
+    else if(w.mode==='wait'){
+      wdBlock='<div class="pendband" data-flow="tin-wait">⏳ '+fm(w.amt)+' → '+w.dest+'<br>'+(w.unlocked
+        ? '72h passed. No veto.'
+        : 'Unlocks in 72h. Any guardian can veto.')+'</div>'+
+        (w.unlocked?'<button class="btn" onclick="finishWd()">Release '+fm(w.amt)+'</button>':'');
+    } else {
+      wdBlock='<div class="pendband" data-flow="tin-cosign">'+fm(w.amt)+' → '+w.dest+' · needs a second factor:<br>▣ your card &nbsp;·&nbsp; Ⓔ Emeka (Houston · 2:47 AM)</div>';
+    }
+  }
+  var suggest = (S.suggestDeposit>0&&S.tin===0)
+    ? '<div class="card"><span class="chip">First deposit</span>'+
+      '<button class="btn" onclick="firstDeposit()">Move $'+S.suggestDeposit+' into the tin</button></div>'
+    : '';
+  return '<div class="page" data-flow="tin-withdraw">'+
+  '<div class="eyebrow">Vault</div><h1 class="big">The tin</h1>'+
+  '<div class="card potcard tincard"><span class="musd">MUSD</span><div class="lbl">Protected savings</div>'+
+    '<div class="bal">'+fm(S.tin)+'</div>'+
+    '<div class="sub">2-of-3: phone · card · Emeka</div></div>'+
+  suggest+wdBlock+
+  '<div class="split2"><button class="btn" onclick="openWd()" '+(w&&!w.done&&!w.vetoed||S.tin===0?'disabled':'')+'>Withdraw</button>'+
+  '<button class="btn ghost" data-flow="pocket-to-tin" onclick="potToTin()">Pocket → tin</button></div>'+
+  '</div>';
+}
+function firstDeposit(){
+  var d=S.suggestDeposit;S.suggestDeposit=0;S.tin+=d;S.pocket-=d;
+  S.act.unshift({t:'Pocket → tin', d:'deposits are instant, always', a:'$'+d+'.00'});
+  render();toast('Deposits are instant.');
+}
+function pgRec(){
+  return '<div class="page" data-flow="recovery-glance">'+
+  '<div class="eyebrow">Recovery</div><h1 class="big">Your circle protects your wallet</h1>'+
+  '<div class="banner">🛡 <span>5 hold shares · any 3 restore you · refreshed every Friday</span></div>'+
+  '<div class="card"><span class="chip">Guardians · any 3 restore</span>'+
+    GUARDS.map(function(g){return '<div class="row"><div class="av '+g.cls+'">'+g.k+'</div><div class="nm">'+g.n+'<small>'+g.d+'</small></div><div class="st">'+IC.ok+'Fresh</div></div>';}).join('')+'</div>'+
+  '<button class="btn sec" data-flow="practice-drill" onclick="startDrill()">Run a practice restore</button>'+
+  '<button class="btn ghost" data-flow="lost-phone-restore" onclick="lostPhone()">I lost my phone (demo)</button>'+
+  '<div class="card" data-flow="inheritance"><span class="chip">Inheritance</span>'+
+    '<div class="row"><div class="av lt">A</div><div class="nm">Adaeze (spouse)<small>silent 90 days → the tin transfers to her</small></div><div class="st">'+IC.ok+'Named</div></div>'+
+    (S.heirFired?'<div class="okband" data-flow="ninety-day-heir">90 days passed. Adaeze and the circle notified — 3 guardians confirm, the tin transfers.</div>':'')+
+  '</div>'+
+  '<div class="note">No seed phrase. The key exists only as shares: phone · card · guardians.</div>'+
+  '</div>';
+}
+
+/* ================= modal helpers ================= */
+function openModal(html){var m=document.getElementById('modal');m.innerHTML=html;m.classList.add('on');}
+function closeModal(){document.getElementById('modal').classList.remove('on');}
+function mhead(t){return '<div class="mhead"><button class="back" onclick="closeModal()">‹</button><div class="eyebrow" style="font-size:11px">'+t+'</div></div>';}
+
+/* ================= pay flow (pocket) ================= */
+var pay={amt:5,who:'Kiosk'};
+function openPay(){pay={amt:5,who:'Kiosk'};payScreen();}
+function payScreen(){
+  openModal(mhead('Pay from pocket')+'<div class="mbody">'+
+  '<div class="amt">$'+pay.amt+'<small> MUSD</small></div>'+
+  '<div class="quick">'+[2,5,20,60].map(function(v){return '<button onclick="pay.amt='+v+';payScreen()">$'+v+'</button>';}).join('')+'</div>'+
+  '<div class="eyebrow" style="margin-top:6px">To</div><div class="paywho">'+
+    ['Kiosk','Fuel','Chinedu E.'].map(function(w){return '<button class="'+(pay.who===w?'on':'')+'" onclick="pay.who=\''+w+'\';payScreen()">'+w+'</button>';}).join('')+'</div>'+
+  (pay.amt>S.pocket
+    ?'<div class="banner">More than the pocket holds — that\'s tin money.</div>'+(S.ringSet?'<button class="btn" onclick="closeModal();go(\'vault\')">Go to the vault</button>':'')
+    :'<button class="btn" onclick="pinFlow(payDone)">Pay with PIN</button>')+
+  '</div>');
+}
+function payDone(){
+  S.pocket-=pay.amt;S.act.unshift({t:'Paid '+pay.who,d:'pocket · PIN',a:'−'+fm(pay.amt)});
+  okScreen('Paid','$'+pay.amt+' to '+pay.who);render();
+}
+function openContrib(){
+  if(S.pocket<100){toast('Add money first.');return;}
+  pay={amt:100,who:'Lagos Drivers Ajo — round '+S.round};
+  pinFlow(function(){S.pocket-=100;S.contributed=true;
+    S.act.unshift({t:'Paid round '+S.round+' pot',d:'Lagos Drivers Ajo',a:'−$100.00'});
+    okScreen('Paid in','$100 to the round-'+S.round+' pot');render();});
+}
+/* PIN */
+var pinN=0,pinCb=null;
+function pinFlow(cb){pinN=0;pinCb=cb;pinScreen();}
+function pinScreen(){
+  var dots='';for(var i=0;i<4;i++)dots+='<i class="'+(i<pinN?'on':'')+'"></i>';
+  openModal(mhead('Your PIN')+'<div class="mbody" style="text-align:center">'+
+  '<div class="sub" style="margin-top:10px">Any 4 digits (mockup).</div>'+
+  '<div class="pindots">'+dots+'</div><div class="pad">'+
+  [1,2,3,4,5,6,7,8,9,'',0,'⌫'].map(function(k){return k===''?'<span></span>':'<button onclick="pinKey(\''+k+'\')">'+k+'</button>';}).join('')+
+  '</div></div>');
+}
+function pinKey(k){
+  if(k==='⌫'){pinN=Math.max(0,pinN-1);pinScreen();return;}
+  pinN++;if(pinN>=4){var cb=pinCb;pinCb=null;setTimeout(function(){cb&&cb();},220);}
+  pinScreen();
+}
+function okScreen(h,s){
+  openModal('<div class="bigok"><div class="disc"><svg viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5"/></svg></div>'+
+  '<h2>'+h+'</h2><div class="sub" style="margin-top:6px">'+s+'</div></div>'+
+  '<div class="mbody"><button class="btn" onclick="closeModal()">Done</button></div>');
+}
+
+/* ================= vault flows ================= */
+var wdDraft={amt:150,dest:'Cash out (agent)'};
+function openWd(){wdDraft={amt:150,dest:'Cash out (agent)'};wdScreen();}
+function wdScreen(){
+  openModal(mhead('Withdraw from the tin')+'<div class="mbody">'+
+  '<div class="amt">$'+wdDraft.amt+'<small> MUSD</small></div>'+
+  '<div class="quick">'+[80,150,300].map(function(v){return '<button onclick="wdDraft.amt='+v+';wdScreen()">$'+v+'</button>';}).join('')+'</div>'+
+  '<div class="eyebrow" style="margin-top:4px">To</div><div class="paywho">'+
+    ['Cash out (agent)','My pocket','New address'].map(function(w){return '<button class="'+(wdDraft.dest===w?'on':'')+'" onclick="wdDraft.dest=\''+w+'\';wdScreen()">'+w+'</button>';}).join('')+'</div>'+
+  
+  '<div class="split2"><button class="btn sec" onclick="startWd(\'wait\')">Wait 72h · free</button>'+
+  '<button class="btn" onclick="startWd(\'cosign\')">Co-sign now</button></div></div>');
+}
+function startWd(mode){
+  S.wd={amt:wdDraft.amt,dest:wdDraft.dest,mode:mode,approved:false,vetoed:false,unlocked:false,done:false};
+  closeModal();go('vault');
+  toast(mode==='wait'?'Guardians notified. The clock is running.':'Waiting for a second factor — open SIM.');
+}
+function finishWd(){
+  var w=S.wd;S.tin-=w.amt;w.done=true;
+  if(w.dest==='My pocket'){S.pocket+=w.amt;}
+  S.act.unshift({t:'Tin withdrawal — '+w.dest,d:w.mode==='wait'?'72h timer · no veto':'co-signed',a:'−'+fm(w.amt)});
+  okScreen('Released',fm(w.amt)+' → '+w.dest);render();
+}
+function potToTin(){
+  if(S.pocket<10){toast('Pocket is nearly empty (mock).');return;}
+  S.tin+=10;S.pocket-=10;S.act.unshift({t:'Pocket → tin',d:'deposits are instant, always',a:'$10.00'});
+  toast('Moved $10 to the tin.');render();
+}
+
+/* ================= recovery flows ================= */
+function startDrill(){S.drill={confirms:[]};drillScreen();}
+function drillScreen(){
+  var c=S.drill.confirms;
+  openModal(mhead('Practice restore — drill')+'<div class="mbody">'+
+  '<div class="sub">Wipes nothing. Proves a restore works.</div>'+
+  '<div class="card">'+GUARDS.slice(0,3).map(function(g){
+    var done=c.indexOf(g.k)>=0;
+    return '<div class="cstep'+(done?' done':'')+'"><div class="cnum">'+(done?'✓':g.k)+'</div><div class="ct">'+g.n+'<small>'+(done?'confirmed':'waiting')+'</small></div></div>';}).join('')+'</div>'+
+  (c.length>=3
+    ?'<div class="okband">Drill passed — 3 of 5 rebuilt your key.</div><button class="btn" onclick="S.drill=null;closeModal()">Done</button>'
+    :'<div class="pendband">'+c.length+' of 3 · guardians tap via SIM</div>')+
+  '</div>');
+}
+function lostPhone(){S.lost=true;S.restoreConfirms=[];lostScreen();}
+function lostScreen(){
+  var c=S.restoreConfirms;
+  openModal('<div class="mbody" style="padding-top:26px">'+
+  '<div class="eyebrow">A different, new phone</div><h1 class="big">Restore your wallet</h1>'+
+  '<div class="sub">The old phone held one share. One share moves nothing.</div>'+
+  '<div class="banner">Any <b>3 of 5</b> guardians restore you.</div>'+
+  '<div class="card">'+GUARDS.map(function(g){
+    var done=c.indexOf(g.k)>=0;
+    return '<div class="cstep'+(done?' done':'')+'"><div class="cnum">'+(done?'✓':g.k)+'</div><div class="ct">'+g.n+'<small>'+(done?'confirmed — share contributed':g.d)+'</small></div></div>';}).join('')+'</div>'+
+  (c.length>=3
+    ?'<div class="okband">Key rebuilt from '+c.length+' shares ✓</div><button class="btn" onclick="restoredDone()">Open my wallet</button>'
+    :'<div class="pendband">'+c.length+' of 3 shares · guardians confirm via SIM</div>')+
+  '</div>');
+}
+function restoredDone(){
+  S.lost=false;S.restored=true;closeModal();go('home');
+  toast('Same money, new phone.');
+}
+
+/* ================= SIMULATION layer ================= */
+function openSheet(){buildSheet();document.getElementById('scrim').classList.add('on');document.getElementById('sheet').classList.add('on');}
+function closeSheet(){document.getElementById('scrim').classList.remove('on');document.getElementById('sheet').classList.remove('on');}
+function sim(label,fn){closeSheet();setTimeout(function(){fn();toast('SIM — '+label,true);},260);}
+function sact(av,b,s,call,dis){return '<button class="sact" '+(dis?'disabled':'')+' onclick="'+call+'"><span class="sav">'+av+'</span><span class="stx"><b>'+b+'</b><small>'+s+'</small></span></button>';}
+function buildSheet(){
+  var b='';
+  /* during Act 1 the world offers only the skip */
+  if(S.phase!=='app'){
+    b+='<div class="slab">World controls</div>'
+      +sact('6','Skip to month six','full tin, deep history','simMonthSix()')
+      +sact('↺','Restart','back to the invitation','location.reload()');
+    document.getElementById('sheet').innerHTML=
+    '<div class="shead"><span class="tag">SIMULATION LAYER</span>'+
+    '<h3>Other parties &amp; time</h3><p>Not part of the app. The taps other people (or time) would make.</p></div>'+
+    '<div class="sbody">'+b+'</div>'+
+    '<button class="sclose" onclick="closeSheet()">close</button>';
+    return;
+  }
+  /* contextual */
+  if(S.wd&&!S.wd.done&&!S.wd.vetoed&&S.wd.mode==='cosign'){
+    b+='<div class="slab">Pending — tin co-sign ('+fm(S.wd.amt)+')</div>'
+      +sact('▣','Tap the NFC card','second factor · wakes nobody','simCard()')
+      +sact('E','Approve as Emeka','his phone asks · 2:47 AM in Houston','simEmeka()')
+      +sact('A','Veto as Amaka','one guardian can stop it','simVeto()');
+  }
+  if(S.wd&&!S.wd.done&&!S.wd.vetoed&&S.wd.mode==='wait'){
+    b+='<div class="slab">Pending — 72h timer ('+fm(S.wd.amt)+')</div>'
+      +sact('⏱','Advance time +72h','the window passes with no veto','simTimer()',S.wd.unlocked)
+      +sact('A','Veto as Amaka','inside the 72h window','simVeto()');
+  }
+  if(S.drill){
+    b+='<div class="slab">Practice restore — guardians confirm</div>';
+    GUARDS.slice(0,3).forEach(function(g){
+      var done=S.drill.confirms.indexOf(g.k)>=0;
+      b+=sact(g.k,'Confirm as '+g.n,done?'confirmed':'their tap, their phone','simDrill(\''+g.k+'\')',done);
+    });
+  }
+  if(S.lost){
+    b+='<div class="slab">Restore ceremony — guardians (any 3)</div>';
+    GUARDS.forEach(function(g){
+      var done=S.restoreConfirms.indexOf(g.k)>=0;
+      b+=sact(g.k,'Confirm as '+g.n,done?'share contributed':'confirms in person','simRestore(\''+g.k+'\')',done||S.restoreConfirms.length>=3);
+    });
+  }
+  if(S.friday&&S.refresh.done.length<5){
+    b+='<div class="slab">Friday meeting — share refresh</div>';
+    GUARDS.forEach(function(g){
+      var done=S.refresh.done.indexOf(g.k)>=0;
+      b+=sact(g.k,'Re-attest as '+g.n,done?'share fresh':'proves the share still reads','simRefresh(\''+g.k+'\')',done);
+    });
+  }
+  /* global */
+  b+='<div class="slab">World controls</div>';
+  if(!S.contributed&&S.pocket<100)b+=sact('C','Cash-in at an agent','+$137.50 → pocket','simCashIn()');
+  if(S.contributed&&!S.tinOpen&&!S.surplus)b+=sact('$','Pay-day arrives','+$120 → pocket','simSurplus()');
+  if(!S.monthSix)b+=sact('6','Jump to month six','full tin, deep history','simMonthSix()');
+  if(!S.friday&&S.ringSet)b+=sact('📅','Jump to Friday','pot payout · share refresh · drill','simFriday()');
+  if(S.ringSet)b+=sact('👁',S.duress?'Robber leaves':'Robber view (duress PIN)','what a thief sees','simDuress()');
+  if(!S.heirFired&&S.ringSet)b+=sact('🕯','90 days of silence','the tin starts walking to Adaeze','simHeir()');
+  b+=sact('↺','Restart','back to the invitation','location.reload()');
+  document.getElementById('sheet').innerHTML=
+  '<div class="shead"><span class="tag">SIMULATION LAYER</span>'+
+  '<h3>Other parties &amp; time</h3><p>Not part of the app. The taps other people (or time) would make.</p></div>'+
+  '<div class="sbody">'+b+'</div>'+
+  '<button class="sclose" onclick="closeSheet()">close</button>';
+}
+function simCard(){closeSheet();S.wd.approved=true;finishWd();toast('SIM — card tapped. 2 of 3 factors met.',true);}
+function simEmeka(){closeSheet();S.wd.approved=true;finishWd();toast('SIM — Emeka approved from Houston. 2 of 3 met.',true);}
+function simVeto(){closeSheet();S.wd.vetoed=true;render();go('vault');toast('SIM — Amaka vetoed. Money never moved.',true);}
+function simTimer(){closeSheet();S.wd.unlocked=true;render();go('vault');toast('SIM — 72 hours passed. No veto.',true);}
+/* ceremony taps keep the sheet open (chained guardian confirms) but rebuild it */
+function simDrill(k){S.drill.confirms.push(k);drillScreen();buildSheet();toast('SIM — '+k+' confirmed.',true);
+  if(S.drill.confirms.length>=3)closeSheet();}
+function simRestore(k){S.restoreConfirms.push(k);lostScreen();buildSheet();toast('SIM — share from '+k+' contributed.',true);
+  if(S.restoreConfirms.length>=3)closeSheet();}
+function simRefresh(k){S.refresh.done.push(k);if(S.refresh.done.length>=5)S.drillDone=true;go('circle');buildSheet();
+  toast('SIM — '+k+' re-attested.',true);if(S.refresh.done.length>=5)closeSheet();}
+function simFriday(){closeSheet();S.friday=true;go('circle');toast('SIM — it\'s Friday. The room is full.',true);}
+function simSurplus(){closeSheet();S.surplus=true;S.pocket+=120;go('home');toast('SIM — pay-day: +$120.',true);}
+function simCashIn(){closeSheet();S.pocket+=137.50;S.act.unshift({t:'Agent cash-in', d:'cash → pocket', a:'+$137.50'});go('home');toast('SIM — agent loaded $137.50.',true);}
+function simMonthSix(){closeSheet();
+  S.phase='app';S.monthSix=true;S.tinOpen=true;S.ringSet=true;S.surplus=false;S.suggestDeposit=0;
+  S.pocket=137.50;S.tin=410.00;S.contributed=false;
+  S.act=[
+    {t:'Received from Emeka (Houston)', d:'remittance', a:'+$180.00'},
+    {t:'Paid round 5 pot', d:'Lagos Drivers Ajo', a:'−$100.00'},
+    {t:'Fuel', d:'pocket · PIN', a:'−$4.20'},
+  ];
+  go('home');toast('SIM — month six.',true);}
+function simDuress(){closeSheet();S.duress=!S.duress;if(S.duress&&(S.tab==='vault'||S.tab==='rec'))S.tab='home';render();
+  toast(S.duress?'SIM — duress PIN. A robber sees this.':'SIM — full wallet back.',true);}
+function simHeir(){closeSheet();S.heirFired=true;go('rec');toast('SIM — 90 silent days. Adaeze and the circle notified.',true);}
+
+render();
+</script>
+</body>
+</html>

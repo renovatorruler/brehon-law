@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>ROSCA — the table</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500;600;700;800&family=Wix+Madefor+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#5B7FFF; --blue-deep:#3B5BE0; --blue-press:#2E49C4; --blue-300:#9AB0FF;
+  --blue-100:#C9D5FF; --tint:#E9EEFF; --line:#D6E0FF; --line-2:#E8ECFA;
+  --bg:#F2F5FD; --paper:#FFFFFF; --ink:#0C1226; --ink-2:#2B3650; --muted:#5E6A85;
+  --display:'Wix Madefor Display',sans-serif; --body:'Wix Madefor Text',sans-serif;
+  --sh:0 1px 2px rgba(46,73,196,.05),0 24px 50px -28px rgba(46,73,196,.30);
+  --sim:#F59E0B; --sim-deep:#B45305; --sim-bg:#FFF7E8; --sim-line:#F4CC7B;
+  --under:#101623;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;touch-action:manipulation;}
+html,body{height:100%;}
+body{font-family:var(--body);background:var(--bg);color:var(--ink);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  background-image:linear-gradient(#5b7fff0d 1px,transparent 1px),linear-gradient(90deg,#5b7fff0d 1px,transparent 1px);
+  background-size:46px 46px;}
+.deckbar{font-weight:700;font-size:11px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--blue-deep);display:flex;align-items:center;gap:10px;}
+.deckbar::before{content:"";width:26px;height:2px;background:var(--blue);border-radius:2px;}
+#frame{width:394px;height:812px;background:linear-gradient(180deg,#1A2140,#0A0E1F);
+  border:1px solid #39406A;border-radius:38px;padding:10px;box-shadow:0 40px 80px -30px rgba(12,18,38,.55);
+  position:relative;flex:0 0 auto;}
+#phone{width:100%;height:100%;background:var(--bg);border-radius:28px;overflow:hidden;
+  position:relative;display:flex;flex-direction:column;transition:background .4s;}
+#phone.dark{background:var(--under);}
+@media (max-width:480px),(max-height:860px){
+  body{gap:0;background:var(--bg);}
+  .deckbar{display:none;}
+  #frame{width:100vw;height:100dvh;border-radius:0;border:none;padding:0;box-shadow:none;}
+  #phone{border-radius:0;}
+}
+#app{flex:1;overflow-y:auto;overflow-x:hidden;position:relative;scrollbar-width:none;}
+#app::-webkit-scrollbar{display:none;}
+.hd{padding:16px 18px 0;}
+.eyebrow{font-weight:700;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--blue-deep);}
+#phone.dark .eyebrow{color:var(--blue-300);}
+h1.big{font-family:var(--display);font-weight:800;font-size:21px;letter-spacing:-.02em;margin:2px 0 0;}
+#phone.dark h1.big{color:#F3F6FA;}
+.sub{font-size:12.5px;color:var(--muted);line-height:1.45;}
+svg text{font-family:var(--body);}
+svg .dn{font-family:var(--display);}
+.stage{display:block;margin:0 auto;}
+g[onclick]{cursor:pointer;}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+.pulse{animation:pulse 1.6s ease-in-out infinite;}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;
+  box-shadow:var(--sh);padding:16px;margin-top:12px;}
+.row{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid var(--line-2);}
+.row:last-child{border-bottom:none;}
+.av{flex:0 0 34px;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-family:var(--display);font-weight:800;font-size:13px;color:#fff;background:var(--blue);}
+.av.b2{background:var(--blue-deep);} .av.b3{background:var(--blue-300);}
+.av.lt{background:var(--blue-100);color:var(--blue-deep);} .av.lt2{background:#E6ECFF;color:var(--blue-deep);}
+.row .nm{flex:1;font-weight:600;font-size:14px;}
+.row .nm small{display:block;font-weight:500;font-size:11px;color:var(--muted);margin-top:1px;}
+.row .st{font-size:11.5px;font-weight:700;color:var(--blue-deep);}
+.row .st.mut{color:var(--muted);font-weight:600;}
+.btn{display:block;width:100%;border:none;border-radius:999px;background:var(--blue);color:#fff;
+  font-family:var(--body);font-weight:700;font-size:15px;padding:14px;cursor:pointer;margin-top:14px;}
+.btn:active{background:var(--blue-press);}
+.btn.sec{background:#fff;color:var(--blue-deep);border:1.5px solid var(--blue);}
+.btn:disabled{opacity:.45;}
+.split2{display:flex;gap:10px;margin-top:14px;}
+.split2 .btn{margin-top:0;flex:1;}
+.note{font-size:11.5px;color:var(--muted);line-height:1.5;margin-top:10px;}
+.okband{background:#EAF7EE;border:1px solid #BFE5C8;color:#1D6B33;border-radius:14px;
+  padding:12px;margin-top:12px;font-size:12.5px;font-weight:600;}
+.warnband{background:#FDF0F0;border:1px solid #F2C7C7;color:#9B2C2C;border-radius:14px;
+  padding:12px;margin-top:12px;font-size:12.5px;font-weight:600;}
+.pendband{background:var(--tint);border:1px solid var(--line);color:var(--ink-2);border-radius:14px;
+  padding:12px;margin-top:12px;font-size:12.5px;font-weight:600;line-height:1.5;}
+.keys{display:flex;gap:8px;margin-top:12px;}
+.key{flex:1;border:1px solid var(--line);border-radius:14px;padding:10px 6px;text-align:center;
+  font-size:11px;font-weight:600;color:var(--ink-2);background:#fff;}
+.key.on{border-color:var(--blue);background:var(--tint);color:var(--blue-deep);font-weight:700;}
+.key.hot{border-color:var(--sim);background:#FFF7E8;color:var(--sim-deep);font-weight:700;}
+.gring{display:flex;gap:10px;margin-top:10px;}
+.gring .av{width:38px;height:38px;font-size:14px;}
+/* product bottom sheet — the home never gets replaced */
+#pscrim{position:absolute;inset:0;background:rgba(12,18,38,.4);z-index:18;display:none;}
+#pscrim.on{display:block;}
+#psheet{position:absolute;left:0;right:0;bottom:0;z-index:19;background:var(--paper);
+  border-radius:22px 22px 0 0;box-shadow:0 -18px 50px -20px rgba(12,18,38,.4);
+  transform:translateY(105%);transition:transform .3s cubic-bezier(.16,1,.3,1);
+  max-height:84%;display:flex;flex-direction:column;}
+#psheet.on{transform:translateY(0);}
+#psheet .grab{width:40px;height:4px;border-radius:2px;background:var(--line);margin:10px auto 0;}
+#psheet .phead{display:flex;align-items:center;justify-content:space-between;padding:10px 18px 4px;}
+#psheet .phead .ttl{font-family:var(--display);font-weight:800;font-size:17px;}
+#psheet .phead .x{border:none;background:var(--bg);width:30px;height:30px;border-radius:50%;
+  font-size:14px;color:var(--ink-2);cursor:pointer;}
+#psheet .pbody{overflow-y:auto;padding:2px 18px 96px;}
+.pindots{display:flex;gap:12px;justify-content:center;margin:20px 0;}
+.pindots i{width:14px;height:14px;border-radius:50%;border:1.5px solid var(--blue-300);}
+.pindots i.on{background:var(--blue);border-color:var(--blue);}
+.pad{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:250px;margin:0 auto;}
+.pad button{background:var(--bg);border:1px solid var(--line);border-radius:16px;
+  font-family:var(--display);font-weight:700;font-size:20px;padding:14px 0;cursor:pointer;color:var(--ink);}
+.pad button:active{background:var(--tint);}
+.amt{font-family:var(--display);font-weight:800;font-size:38px;text-align:center;margin:14px 0 4px;letter-spacing:-.02em;}
+.amt small{font-size:16px;color:var(--muted);}
+.quick{display:flex;gap:8px;justify-content:center;margin:8px 0 10px;}
+.quick button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 13px;
+  font-weight:700;font-size:12.5px;color:var(--blue-deep);cursor:pointer;}
+.paywho{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap;}
+.paywho button{flex:1 1 30%;border:1px solid var(--line);background:#fff;border-radius:14px;padding:10px 6px;
+  font-size:11.5px;font-weight:600;color:var(--ink-2);cursor:pointer;}
+.paywho button.on{border-color:var(--blue);background:var(--tint);color:var(--blue-deep);font-weight:700;}
+.bigok{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:34px 0 8px;}
+.bigok .disc{width:78px;height:78px;border-radius:50%;background:var(--blue);display:flex;align-items:center;
+  justify-content:center;animation:pop .45s cubic-bezier(.16,1,.3,1);}
+@keyframes pop{from{transform:scale(.4);opacity:0;}to{transform:scale(1);opacity:1;}}
+.bigok svg{width:36px;height:36px;stroke:#fff;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+.bigok h2{font-family:var(--display);font-weight:800;font-size:19px;margin-top:14px;}
+#toast{position:absolute;left:14px;right:14px;top:14px;z-index:60;background:var(--ink);color:#fff;
+  border-radius:14px;padding:12px 14px;font-size:12.5px;font-weight:600;display:none;
+  box-shadow:0 18px 40px -12px rgba(12,18,38,.5);line-height:1.4;}
+#toast.on{display:block;animation:tin .3s cubic-bezier(.16,1,.3,1);}
+@keyframes tin{from{transform:translateY(-16px);opacity:0;}to{transform:translateY(0);opacity:1;}}
+#toast.sim{background:var(--sim-deep);}
+#fab{position:absolute;right:12px;bottom:18px;z-index:40;border:2px dashed var(--sim-deep);
+  background:repeating-linear-gradient(45deg,var(--sim),var(--sim) 10px,#f8b83d 10px,#f8b83d 20px);
+  color:#5b3305;font-family:var(--body);font-weight:800;font-size:11px;letter-spacing:.08em;
+  border-radius:14px;padding:10px 12px;cursor:pointer;box-shadow:0 12px 26px -10px rgba(180,83,9,.55);}
+#scrim{position:absolute;inset:0;background:rgba(12,18,38,.45);z-index:45;display:none;}
+#scrim.on{display:block;}
+#sheet{position:absolute;left:0;right:0;bottom:0;z-index:50;background:var(--sim-bg);
+  border:2px dashed var(--sim-deep);border-bottom:none;border-radius:22px 22px 0 0;
+  transform:translateY(105%);transition:transform .32s cubic-bezier(.16,1,.3,1);
+  max-height:78%;display:flex;flex-direction:column;}
+#sheet.on{transform:translateY(0);}
+#sheet .shead{padding:14px 16px 10px;border-bottom:1px dashed var(--sim-line);}
+#sheet .shead .tag{display:inline-block;background:var(--sim-deep);color:#fff;font-size:9.5px;font-weight:800;
+  letter-spacing:.18em;border-radius:6px;padding:3px 8px;}
+#sheet .shead h3{font-family:var(--display);font-weight:800;font-size:15px;color:#5b3305;margin-top:7px;}
+#sheet .shead p{font-size:11px;color:#8a5a10;margin-top:3px;line-height:1.4;}
+#sheet .sbody{overflow-y:auto;padding:10px 16px 20px;}
+.slab{font-size:9.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#8a5a10;margin:12px 0 6px;}
+.sact{display:flex;align-items:center;gap:11px;width:100%;background:#fff;border:1.5px dashed var(--sim);
+  border-radius:14px;padding:11px 12px;margin-bottom:8px;cursor:pointer;text-align:left;font-family:var(--body);}
+.sact:disabled{opacity:.4;cursor:default;}
+.sact .sav{flex:0 0 32px;width:32px;height:32px;border-radius:50%;background:var(--sim);color:#5b3305;
+  font-family:var(--display);font-weight:800;font-size:12px;display:flex;align-items:center;justify-content:center;}
+.sact .stx{flex:1;}
+.sact .stx b{display:block;font-size:13px;color:#3d2a05;}
+.sact .stx small{display:block;font-size:10.5px;color:#8a5a10;margin-top:1px;line-height:1.35;}
+.sclose{margin:2px 16px 16px;border:none;background:none;color:#8a5a10;font-weight:700;font-size:12px;
+  text-decoration:underline;cursor:pointer;font-family:var(--body);}
+</style>
+</head>
+<body>
+<div class="deckbar">Riften Labs · the table — interactive mockup</div>
+<div id="frame"><div id="phone">
+  <div id="app"></div>
+  <div id="pscrim" onclick="closeP()"></div>
+  <div id="psheet"></div>
+  <button id="fab" onclick="openSheet()">SIM · OTHER PARTIES</button>
+  <div id="scrim" onclick="closeSheet()"></div>
+  <div id="sheet"></div>
+  <div id="toast"></div>
+</div></div>
+
+<script>
+/* ============ THE TABLE — the circle IS the interface ============
+   The metaphor lives in the LAYOUT (seats, pot, week-ring, savings under your
+   seat). The interactions are standard product patterns: everything tappable,
+   bottom sheets, plain words. The home stage is never replaced. */
+
+var POS={A:[197,130],F:[266,149],C:[315,202],Y:[330,268],K:[315,334],H:[266,387],
+         B:[128,387],O:[79,334],D:[64,268],S:[79,202],G:[128,149],T:[197,406]};
+var NAME={A:'Amaka O.',C:'Chinedu E.',B:'Bisi L.',H:'Halima S.',E:'Emeka',F:'Funke A.',
+          Y:'Yemi K.',K:'Kunle A.',O:'Ojo T.',D:'Dele I.',S:'Sade M.',G:'Gbenga F.',T:'You'};
+var SHORT={A:'Amaka',C:'Chinedu',B:'Bisi',H:'Halima',F:'Funke',Y:'Yemi',K:'Kunle',
+           O:'Ojo',D:'Dele',S:'Sade',G:'Gbenga',T:'You'};
+var FRIDAYS={A:214,C:214,B:102,H:87,F:190,Y:26,K:26,O:61,D:143,S:88,G:150,T:214};
+var RING={A:3,C:2,D:1,G:1,F:1,T:2,H:1,B:1,Y:0,K:0,O:0,S:0};
+var KEEPERS=['A','C','B','H','E'];   /* E = Emeka (Houston), remote — no seat */
+var SOLID={A:'#C9D5FF',F:'#3B5BE0',C:'#5B7FFF',H:'#9AB0FF',D:'#5B7FFF',G:'#3B5BE0',T:'#5B7FFF'};
+
+var S={
+  phase:'invite',
+  pinSet:false, funded:false, contributed:false, awaitAgent:false,
+  ringSet:false, monthSix:false, duress:false,
+  friday:0, refreshDone:[], drillDark:false, drillConfirms:[],
+  lost:false, restoreConfirms:[], wd:null, heirFired:false,
+  pocket:0, tin:0, round:6, receiver:'A', potMoved:false,
+  paid:['A','F','C','D','G'],
+};
+function fm(x){return '$'+x.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g,',');}
+var tmr=null;
+function toast(m,sim){var t=document.getElementById('toast');t.textContent=m;
+  t.className='on'+(sim?' sim':'');clearTimeout(tmr);tmr=setTimeout(function(){t.className='';},2600);}
+
+/* ============ render ============ */
+function render(){
+  document.getElementById('phone').className=S.lost?'dark':'';
+  var app=document.getElementById('app');
+  if(S.phase==='invite'){app.innerHTML=inviteHtml();return;}
+  if(S.lost){app.innerHTML=lostHtml();return;}
+  app.innerHTML=stageHtml();
+}
+
+/* ---- the invitation ---- */
+function inviteHtml(){
+  return '<div data-flow="ob-invite" style="display:flex;flex-direction:column;justify-content:center;height:100%;padding:0 30px;text-align:center">'+
+  '<div class="av lt" style="width:64px;height:64px;font-size:24px;margin:0 auto 8px">A</div>'+
+  '<h1 class="big">Amaka O. invited you</h1>'+
+  '<div class="sub" style="margin-top:4px">Lagos Drivers Ajo</div>'+
+  '<div class="sub">12 seats · $100 · Fridays</div>'+
+  '<button class="btn" onclick="pinFlow(joinDone,\'Set your PIN\')">Take your seat</button>'+
+  '</div>';
+}
+function joinDone(){S.pinSet=true;S.phase='app';closeP();render();}
+
+/* ---- the stage: everything on it answers a tap ---- */
+function seatSvg(k){
+  var p=POS[k],x=p[0],y=p[1];
+  var isYou=k==='T', r=isYou?20:15;
+  var paid=S.paid.indexOf(k)>=0, recv=k===S.receiver;
+  var fill,txt='#fff',stroke='';
+  if(S.drillDark&&k==='H'){fill='#26304a';txt='#3B4A6B';}
+  else if(paid||isYou){fill=SOLID[k]||'#5B7FFF';if(k==='A')txt='#3B5BE0';}
+  else if(recv){fill='#C9D5FF';txt='#3B5BE0';}
+  else{fill='#EDF1FE';txt='#8E99B9';stroke='stroke="#C9D5FF"';}
+  var rings='';
+  for(var i=1;i<=(RING[k]||0);i++)rings+='<circle r="'+(r+3+i*3)+'" fill="none" stroke="'+(i===1?'#D6E0FF':'#E8ECFA')+'"/>';
+  var badge='';
+  if(S.refreshDone.indexOf(k)>=0)badge='<circle cx="'+(r-2)+'" cy="'+(-r+2)+'" r="6" fill="#3B5BE0"/><text x="'+(r-2)+'" y="'+(-r+5)+'" text-anchor="middle" font-size="8" fill="#fff">✓</text>';
+  return '<g transform="translate('+x+' '+y+')" onclick="seatInfo(\''+k+'\')">'+
+    '<circle r="'+(r+11)+'" fill="transparent"/>'+rings+
+    '<circle r="'+r+'" fill="'+fill+'" '+stroke+(isYou?' stroke="#fff" stroke-width="2"':'')+'/>'+
+    '<text y="4" text-anchor="middle" class="dn" font-weight="800" font-size="'+(isYou?11:10.5)+'" fill="'+txt+'">'+k+'</text>'+
+    '<text y="'+(r+13)+'" text-anchor="middle" font-size="8.5" font-weight="'+(isYou?'700':'500')+'" fill="'+(isYou?'#3B5BE0':'#8E99B9')+'">'+SHORT[k]+'</text>'+badge+'</g>';
+}
+function stageHtml(){
+  var potPos=S.potMoved?POS[S.receiver]:[197,268];
+  var coins='';
+  if(!S.potMoved)S.paid.forEach(function(k){
+    var p=POS[k],dx=p[0]-197,dy=p[1]-268,L=Math.sqrt(dx*dx+dy*dy);
+    coins+='<circle cx="'+(197+dx/L*56).toFixed(1)+'" cy="'+(268+dy/L*56).toFixed(1)+'" r="7" fill="#5B7FFF" stroke="#fff" stroke-width="1.6"/>';
+  });
+  var recvPath='';
+  if(!S.potMoved){
+    var rp=POS[S.receiver];
+    recvPath='<path d="M'+(197+(rp[0]-197)*.4)+','+(268+(rp[1]-268)*.4)+' L'+(197+(rp[0]-197)*.68)+','+(268+(rp[1]-268)*.68)+'" fill="none" stroke="#9AB0FF" stroke-width="2" stroke-dasharray="3 6"/>';
+  }
+  var seats='';for(var k in POS)seats+=seatSvg(k);
+  var pouch='<g id="pouch" data-flow="pocket-pay" onclick="openPay()" transform="translate(110 484)">'+
+    '<rect x="-72" y="-24" width="144" height="48" rx="16" fill="#fff" stroke="#D6E0FF"/>'+
+    '<text x="-58" y="-6" font-size="8" font-weight="700" letter-spacing="1.5" fill="#8E99B9">SPENDING</text>'+
+    '<text x="-58" y="12" font-size="14" font-weight="800" class="dn" fill="#0C1226">'+fm(S.pocket)+'</text></g>';
+  var save='';
+  if(!S.duress){
+    save=S.ringSet
+      ?'<g id="savebar" data-flow="tin-glance" onclick="savingsSheet()" transform="translate(284 484)">'+
+       '<rect x="-72" y="-24" width="144" height="48" rx="16" fill="#fff" stroke="#D6E0FF"/>'+
+       '<text x="-58" y="-6" font-size="8" font-weight="700" letter-spacing="1.5" fill="#8E99B9">SAVINGS</text>'+
+       '<text x="-58" y="12" font-size="14" font-weight="800" class="dn" fill="#0C1226">'+fm(S.tin)+'</text>'+
+       '<text x="58" y="5" text-anchor="end" font-size="13" fill="#9AB0FF">›</text></g>'
+      :'<g id="savebar" data-flow="tin-glance" onclick="guardianPick()" transform="translate(284 484)">'+
+       '<rect x="-72" y="-24" width="144" height="48" rx="16" fill="#fff" stroke="#C9D5FF" stroke-dasharray="4 4"/>'+
+       '<text x="-58" y="-6" font-size="8" font-weight="700" letter-spacing="1.5" fill="#8E99B9">SAVINGS</text>'+
+       '<text x="-58" y="12" font-size="11.5" font-weight="700" fill="#3B5BE0">Set up ›</text></g>';
+  }
+  var action='';
+  if(!S.funded){
+    action='<g id="addpill" data-flow="setup" class="pulse" onclick="openAddMoney()" transform="translate(197 540)">'+
+      '<rect x="-70" y="-16" width="140" height="32" rx="16" fill="#5B7FFF"/>'+
+      '<text y="4" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">Add money</text></g>';
+  } else if(!S.contributed&&S.friday===0&&!S.duress){
+    action='<g id="duecoin" data-flow="circle-contribute" onclick="payRound()" transform="translate(197 540)">'+
+      '<rect x="-90" y="-16" width="180" height="32" rx="16" fill="#fff" stroke="#5B7FFF" stroke-width="1.5"/>'+
+      '<circle cx="-70" r="7" fill="#fff" stroke="#5B7FFF" stroke-width="2" stroke-dasharray="3 3"/>'+
+      '<text x="-54" y="4" font-size="11.5" font-weight="700" fill="#3B5BE0">Pay round '+S.round+' · $100</text></g>';
+  }
+  var fri=S.friday>0;
+  var week=fri
+    ?'<circle cx="197" cy="268" r="168" fill="none" stroke="#5B7FFF" stroke-width="7"/>'
+    :'<circle cx="197" cy="268" r="168" fill="none" stroke="#E8ECFA" stroke-width="7"/>'+
+     '<path d="M197,100 A168,168 0 1 1 43.2,338" fill="none" stroke="#5B7FFF" stroke-width="7" stroke-linecap="round" transform="rotate(118 197 268)"/>';
+  var friPill='<g data-flow="friday-refresh" onclick="friInfo()" transform="translate(197 88)">'+
+    '<rect x="-34" y="-14" width="68" height="22" rx="11" fill="'+(fri?'#F59E0B':'#3B5BE0')+'"/>'+
+    '<text y="1" text-anchor="middle" font-size="9.5" font-weight="800" fill="#fff">'+(fri?'FRI · LIVE':'FRI')+'</text></g>';
+  return '<div class="hd"><div class="eyebrow">Lagos Drivers Ajo</div>'+
+  '<h1 class="big">Round '+S.round+' · pays '+NAME[S.receiver]+'</h1></div>'+
+  (S.duress?'<span data-flow="duress-view"></span>':'')+
+  (S.friday===3?'<span data-flow="practice-drill"></span>':'')+
+  '<svg class="stage" data-flow="home-glance" viewBox="0 0 394 572" width="394" height="572">'+
+    week+friPill+
+    '<circle cx="197" cy="268" r="136" fill="#FFFFFF" stroke="#D6E0FF"/>'+
+    '<circle cx="197" cy="268" r="124" fill="none" stroke="#EEF2FF" stroke-width="2"/>'+
+    recvPath+
+    '<defs><linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6E8FFF"/><stop offset="1" stop-color="#3B5BE0"/></linearGradient>'+
+    '<filter id="shf" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#2E49C4" flood-opacity="0.3"/></filter></defs>'+
+    '<g id="pot" onclick="potInfo()" style="cursor:pointer" transform="translate('+potPos[0]+' '+potPos[1]+')"><circle r="'+(S.potMoved?30:44)+'" fill="url(#pg)" filter="url(#shf)"/>'+
+    '<text y="-3" text-anchor="middle" class="dn" font-size="'+(S.potMoved?11:15)+'" font-weight="800" fill="#fff">$1,200</text>'+
+    '<text y="12" text-anchor="middle" font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#D7E0FF">MUSD · POT</text></g>'+
+    coins+
+    '<g data-flow="circle-glance">'+seats+'</g>'+
+    pouch+save+action+
+  '</svg>';
+}
+
+/* ---- who is what: tap anything ---- */
+function seatInfo(k){
+  var paid=S.paid.indexOf(k)>=0, recv=k===S.receiver, keep=KEEPERS.indexOf(k)>=0;
+  var rows='<div class="row"><div class="nm">Fridays together</div><div class="st mut">'+FRIDAYS[k]+'</div></div>'+
+    '<div class="row"><div class="nm">Round '+S.round+'</div><div class="st'+(paid?'':' mut')+'">'+(paid?'Paid ✓':'Due Friday')+'</div></div>'+
+    (recv?'<div class="row"><div class="nm">This round\'s pot</div><div class="st">Receives it Friday</div></div>':'')+
+    (keep&&S.ringSet?'<div class="row"><div class="nm">Your savings</div><div class="st">Holds a key share</div></div>':'');
+  if(k==='T')rows='<div class="row"><div class="nm">Seat 1 · Fridays</div><div class="st mut">'+FRIDAYS.T+'</div></div>'+
+    '<div class="row"><div class="nm">Round '+S.round+'</div><div class="st'+(S.contributed?'':' mut')+'">'+(S.contributed?'Paid ✓':'Due Friday · $100')+'</div></div>'+
+    '<div class="row"><div class="nm">Spending</div><div class="st mut">'+fm(S.pocket)+'</div></div>'+
+    (S.ringSet?'<div class="row"><div class="nm">Savings</div><div class="st mut">'+fm(S.tin)+'</div></div>':'');
+  openP(NAME[k],'<div data-flow="circle-glance">'+
+    '<div class="row" style="border:none;padding-top:2px"><div class="av '+(k==='A'?'lt':k==='C'?'b2':'')+'">'+(k==='T'?'T':k)+'</div>'+
+    '<div class="nm">'+NAME[k]+'<small>'+(k==='T'?'you':'circle member')+'</small></div></div>'+rows+
+    (k==='T'&&!S.contributed&&S.funded?'<button class="btn" onclick="closeP();payRound()">Pay round '+S.round+' · $100</button>':'')+
+    '</div>');
+}
+function potInfo(){
+  var paidRows=Object.keys(POS).map(function(k){
+    var p=S.paid.indexOf(k)>=0;
+    return '<div class="row"><div class="nm">'+NAME[k]+'</div><div class="st'+(p?'':' mut')+'">'+(p?'Paid ✓':'Due')+'</div></div>';
+  }).join('');
+  openP('The pot — round '+S.round,'<div data-flow="circle-contribute">'+
+    '<div class="row" style="border:none"><div class="nm">$1,200 MUSD<small>$100 × 12 seats</small></div>'+
+    '<div class="st">Pays '+NAME[S.receiver]+' · Friday</div></div>'+
+    '<div class="pendband">'+S.paid.length+' of 12 paid in</div>'+paidRows+
+    (!S.contributed&&S.funded?'<button class="btn" onclick="closeP();payRound()">Pay your $100</button>':'')+
+    '</div>');
+}
+function friInfo(){
+  openP('Friday','<div>'+
+    '<div class="row"><div class="nm">The pot pays out<small>'+NAME[S.receiver]+' takes $1,200</small></div></div>'+
+    '<div class="row"><div class="nm">Keepers refresh<small>each proves their key share still works</small></div></div>'+
+    '<div class="row"><div class="nm">One restore drill<small>one member wipes and recovers, for practice</small></div></div>'+
+    '</div>');
+}
+
+/* ---- savings: a plain sheet over the same home ---- */
+function savingsSheet(){
+  var w=S.wd, band='';
+  if(w&&!w.done){
+    if(w.vetoed)band='<div class="warnband" data-flow="guardian-veto">Cancelled by Amaka. The money never moved.</div>';
+    else if(w.mode==='wait')band='<div class="pendband" data-flow="tin-wait">Withdrawing '+fm(w.amt)+' → '+w.dest+'<br>'+
+      (w.unlocked?'Ready to release.':'Unlocks in 72h. Any keeper can cancel it.')+'</div>'+
+      (w.unlocked?'<button class="btn" onclick="finishWd()">Release '+fm(w.amt)+'</button>':'');
+    else band='<div class="pendband" data-flow="tin-cosign">Withdrawing '+fm(w.amt)+' → '+w.dest+'<br>Needs a second key — your card or Emeka.</div>';
+  }
+  var cos=w&&!w.done&&!w.vetoed&&w.mode==='cosign';
+  openP('Savings','<div data-flow="tin-glance">'+
+    '<div class="amt">'+fm(S.tin)+'<small> MUSD</small></div>'+
+    '<div class="keys"><div class="key on">This phone ✓</div><div class="key'+(cos?' hot':'')+'">Your card</div><div class="key'+(cos?' hot':'')+'">Emeka</div></div>'+
+    '<div class="note" style="text-align:center;margin-top:8px">Any 2 keys sign a withdrawal. Deposits are instant.</div>'+
+    band+
+    '<div class="split2"><button class="btn sec" data-flow="pocket-to-tin" onclick="depositSheet()">Deposit</button>'+
+    '<button class="btn" data-flow="tin-withdraw" onclick="withdrawSheet()" '+(w&&!w.done&&!w.vetoed?'disabled':'')+'>Withdraw</button></div>'+
+    '<div class="row" style="margin-top:14px" data-flow="recovery-glance"><div class="nm">Keepers<small>any 3 can restore this wallet if the phone is lost</small></div></div>'+
+    '<div class="gring">'+
+      '<div class="av lt">A</div><div class="av b2">C</div><div class="av">B</div><div class="av lt2">H</div><div class="av b3">E</div>'+
+    '</div>'+
+    '<div class="note" data-flow="inheritance">If this phone is silent for 90 days, savings transfer to Adaeze.</div>'+
+    (S.heirFired?'<div class="okband" data-flow="ninety-day-heir">90 days passed. Adaeze and the keepers were notified — 3 confirmations transfer it.</div>':'')+
+    '</div>');
+}
+function depositSheet(){
+  openP('Deposit to savings','<div data-flow="pocket-to-tin">'+
+    '<div class="note" style="text-align:center">From spending ('+fm(S.pocket)+'). Instant.</div>'+
+    '<div class="quick" style="margin-top:12px">'+[20,50,100].map(function(v){
+      return '<button onclick="doDeposit('+v+')">$'+v+'</button>';}).join('')+'</div>'+
+    '</div>');
+}
+function doDeposit(v){
+  if(S.pocket<v){toast('Spending balance is short.');return;}
+  S.pocket-=v;S.tin+=v;closeP();render();toast('Deposited '+fm(v)+'.');
+}
+var wdDraft={amt:80,dest:'Cash out at an agent'};
+function withdrawSheet(){
+  openP('Withdraw from savings','<div data-flow="tin-withdraw">'+
+    '<div class="amt">$'+wdDraft.amt+'<small> MUSD</small></div>'+
+    '<div class="quick">'+[40,80,120].map(function(v){return '<button onclick="wdDraft.amt='+v+';withdrawSheet()">$'+v+'</button>';}).join('')+'</div>'+
+    '<div class="eyebrow" style="margin-top:4px">To</div><div class="paywho">'+
+      ['Cash out at an agent','To spending','New address'].map(function(w){return '<button class="'+(wdDraft.dest===w?'on':'')+'" onclick="wdDraft.dest=\''+w+'\';withdrawSheet()">'+w+'</button>';}).join('')+'</div>'+
+    '<button class="btn" onclick="startWd(\'cosign\')">Now — with a second key</button>'+
+    '<button class="btn sec" onclick="startWd(\'wait\')">In 72 hours — free</button>'+
+    '<div class="note">The second key is your card or Emeka. The 72-hour way needs nobody, and any keeper can cancel it.</div>'+
+    '</div>');
+}
+function startWd(mode){
+  S.wd={amt:wdDraft.amt,dest:wdDraft.dest,mode:mode,vetoed:false,unlocked:false,done:false};
+  savingsSheet();
+  toast(mode==='wait'?'Withdrawal started. Keepers can see it.':'Waiting for a second key.');
+}
+function finishWd(){
+  var w=S.wd;S.tin-=w.amt;w.done=true;
+  if(w.dest==='To spending')S.pocket+=w.amt;
+  closeP();render();toast('Sent '+fm(w.amt)+' → '+w.dest+'.');
+}
+
+/* ---- pay from spending: members + scan ---- */
+var pay={amt:5,who:'C'};
+function openPay(){if(!S.funded){openAddMoney();return;}pay={amt:5,who:'C'};payScreen();}
+function payScreen(){
+  var whoBtns='<button class="'+(pay.who==='scan'?'on':'')+'" onclick="pay.who=\'scan\';payScreen()">Scan QR</button>'+
+    ['C','H','B','F','G'].map(function(k){
+      return '<button class="'+(pay.who===k?'on':'')+'" onclick="pay.who=\''+k+'\';payScreen()">'+SHORT[k]+'</button>';}).join('');
+  openP('Pay','<div data-flow="pocket-pay">'+
+    '<div class="amt">$'+pay.amt+'<small> MUSD</small></div>'+
+    '<div class="quick">'+[2,5,20,60].map(function(v){return '<button onclick="pay.amt='+v+';payScreen()">$'+v+'</button>';}).join('')+'</div>'+
+    '<div class="eyebrow" style="margin-top:4px">To</div><div class="paywho">'+whoBtns+'</div>'+
+    (pay.who==='scan'
+      ?'<div class="pendband">Camera is off in the mockup — pick a member instead.</div>'
+      :(pay.amt>S.pocket
+        ?'<div class="pendband">More than spending holds'+(S.ringSet?' — that\'s in savings.':'.')+'</div>'
+        :'<button class="btn" onclick="pinFlow(payDone)">Pay '+SHORT[pay.who]+' · PIN</button>'))+
+    '</div>');
+}
+function payDone(){S.pocket-=pay.amt;closeP();render();toast('Paid '+fm(pay.amt)+' to '+NAME[pay.who]+'.');}
+function payRound(){
+  if(S.pocket<100){toast('Add money first.');openAddMoney();return;}
+  pinFlow(function(){
+    S.pocket-=100;S.contributed=true;S.paid.push('T');
+    closeP();render();toast('Round '+S.round+' paid.');
+  });
+}
+
+/* ---- PIN (in the product sheet) ---- */
+var pinN=0,pinCb=null,pinTitle='Your PIN';
+function pinFlow(cb,title){pinN=0;pinCb=cb;pinTitle=title||'Your PIN';pinScreen();}
+function pinScreen(){
+  var dots='';for(var i=0;i<4;i++)dots+='<i class="'+(i<pinN?'on':'')+'"></i>';
+  openP(pinTitle,'<div style="text-align:center">'+
+  '<div class="sub">Any 4 digits (mockup).</div>'+
+  '<div class="pindots">'+dots+'</div><div class="pad">'+
+  [1,2,3,4,5,6,7,8,9,'',0,'⌫'].map(function(k){return k===''?'<span></span>':'<button onclick="pinKey(\''+k+'\')">'+k+'</button>';}).join('')+
+  '</div><div style="height:14px"></div></div>');
+}
+function pinKey(k){
+  if(k==='⌫'){pinN=Math.max(0,pinN-1);pinScreen();return;}
+  pinN++;if(pinN>=4){var cb=pinCb;pinCb=null;setTimeout(function(){cb&&cb();},200);}
+  pinScreen();
+}
+
+/* ---- add money: QR; the agent's scan is the other party's half ---- */
+function qrSvg(){
+  var out='',n=21,c=6;
+  function f(x,y){out+='<rect x="'+(x*c)+'" y="'+(y*c)+'" width="'+c+'" height="'+c+'"/>';}
+  function fin(ox,oy){for(var i=0;i<7;i++)for(var j=0;j<7;j++){var e=(i===0||i===6||j===0||j===6),m=(i>=2&&i<=4&&j>=2&&j<=4);if(e||m)f(ox+i,oy+j);}}
+  fin(0,0);fin(14,0);fin(0,14);
+  for(var x=0;x<n;x++)for(var y=0;y<n;y++){var inF=(x<9&&y<9)||(x>11&&y<9)||(x<9&&y>11);
+    if(!inF&&((x*31+y*17+x*y*7)%9<4))f(x,y);}
+  return '<svg viewBox="0 0 '+(n*c)+' '+(n*c)+'" width="150" height="150" fill="#0C1226">'+out+'</svg>';
+}
+function openAddMoney(){S.awaitAgent=true;addMoneyScreen();}
+function addMoneyScreen(){
+  openP('Add money','<div data-flow="add-money" style="text-align:center">'+
+  (S.funded
+    ?'<div class="bigok"><div class="disc"><svg viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5"/></svg></div>'+
+     '<h2>+$137.50</h2><div class="sub" style="margin-top:4px">Loaded by the agent</div></div>'+
+     '<button class="btn" onclick="S.awaitAgent=false;closeP();render()">Done</button>'
+    :'<div class="card" style="display:inline-block;padding:18px 18px 12px">'+qrSvg()+'</div>'+
+     '<div class="sub" style="margin-top:10px">Show this code at any agent.</div>'+
+     '<div class="pendband" style="text-align:left">Waiting for an agent…</div>')+
+  '</div>');
+}
+/* keepers */
+function guardianPick(){
+  openP('Set up savings','<div data-flow="guardian-pick">'+
+  '<div class="note" style="margin-top:0">Savings lock behind keepers — people who can restore this wallet.</div>'+
+  '<div class="card" style="margin-top:10px">'+
+    '<div class="row"><div class="av lt">A</div><div class="nm">Amaka O.<small>214 Fridays</small></div><div class="st">Keeper</div></div>'+
+    '<div class="row"><div class="av b2">C</div><div class="nm">Chinedu E.<small>214 Fridays</small></div><div class="st">Keeper</div></div>'+
+    '<div class="row"><div class="av">B</div><div class="nm">Bisi L.<small>102 Fridays</small></div><div class="st">Keeper</div></div>'+
+    '<div class="row"><div class="av lt2">H</div><div class="nm">Halima S.<small>87 Fridays</small></div><div class="st">Keeper</div></div>'+
+    '<div class="row"><div class="av b3">E</div><div class="nm">Emeka<small>son · Houston</small></div><div class="st">Keeper</div></div></div>'+
+  '<div class="note">Any 3 can restore this wallet. None can move your money.</div>'+
+  '<button class="btn" onclick="sealRing()">Turn on savings</button>'+
+  '</div>');
+}
+function sealRing(){S.ringSet=true;closeP();render();toast('Savings is on.');savingsSheet();}
+
+/* ---- lost phone (a different device — the one legit full-screen swap) ---- */
+function lostHtml(){
+  var c=S.restoreConfirms, beams='';
+  c.forEach(function(k){
+    var p=POS[k]||[197,120];
+    beams+='<line x1="'+p[0]+'" y1="'+p[1]+'" x2="197" y2="406" stroke="#5B7FFF" stroke-width="2" stroke-dasharray="2 6"/>';
+  });
+  var seats='';
+  for(var k in POS){
+    if(k==='T'){var ok=c.length>=3;
+      seats+='<g transform="translate(197 406)"><circle r="20" fill="'+(ok?'#5B7FFF':'#26304a')+'" stroke="'+(ok?'#fff':'#39406A')+'" stroke-width="2"/><text y="5" text-anchor="middle" class="dn" font-weight="800" font-size="11" fill="'+(ok?'#fff':'#3B4A6B')+'">T</text><text y="33" text-anchor="middle" font-size="8.5" fill="#8E99B9">You</text></g>';}
+    else{var lit=c.indexOf(k)>=0;
+      seats+='<g transform="translate('+POS[k][0]+' '+POS[k][1]+')"><circle r="15" fill="'+(lit?'#5B7FFF':'#1C2438')+'" stroke="'+(lit?'#9AB0FF':'#2B3650')+'"/><text y="4" text-anchor="middle" class="dn" font-weight="800" font-size="10.5" fill="'+(lit?'#fff':'#3B4A6B')+'">'+k+'</text><text y="28" text-anchor="middle" font-size="8.5" fill="'+(lit?'#9AB0FF':'#3B4A6B')+'">'+SHORT[k]+'</text></g>';}
+  }
+  return '<div class="hd" data-flow="lost-phone-restore"><div class="eyebrow">A different, new phone</div>'+
+  '<h1 class="big">Restore your wallet</h1>'+
+  '<div class="sub" style="color:#8E99B9">3 of your 5 keepers confirm, in person.</div></div>'+
+  '<svg class="stage" viewBox="0 0 394 540" width="394" height="540">'+
+    '<circle cx="197" cy="268" r="136" fill="#161d30" stroke="#39406A"/>'+beams+seats+
+    '<text x="197" y="490" text-anchor="middle" font-size="10" fill="#8E99B9">'+c.length+' of 3 confirmed</text>'+
+  '</svg>'+
+  (c.length>=3?'<div style="padding:0 18px"><button class="btn" onclick="restoredDone()">Open my wallet</button></div>'
+              :'<div style="padding:0 18px"><div class="pendband">Keepers confirm via SIM.</div></div>');
+}
+function restoredDone(){S.lost=false;S.restoreConfirms=[];render();toast('Restored. Same money, new phone.');}
+
+/* ---- product sheet plumbing ---- */
+function openP(title,body){
+  document.getElementById('psheet').innerHTML=
+    '<div class="grab"></div><div class="phead"><div class="ttl">'+title+'</div>'+
+    '<button class="x" onclick="closeP()">✕</button></div><div class="pbody">'+body+'</div>';
+  document.getElementById('pscrim').classList.add('on');
+  document.getElementById('psheet').classList.add('on');
+}
+function closeP(){S.awaitAgent=false;
+  document.getElementById('pscrim').classList.remove('on');
+  document.getElementById('psheet').classList.remove('on');}
+
+/* ============ SIMULATION layer ============ */
+function openSheet(){buildSheet();document.getElementById('scrim').classList.add('on');document.getElementById('sheet').classList.add('on');}
+function closeSheet(){document.getElementById('scrim').classList.remove('on');document.getElementById('sheet').classList.remove('on');}
+function sact(av,b,s,call,dis){return '<button class="sact" '+(dis?'disabled':'')+' onclick="'+call+'"><span class="sav">'+av+'</span><span class="stx"><b>'+b+'</b><small>'+s+'</small></span></button>';}
+function buildSheet(){
+  var b='';
+  if(S.phase==='invite'){
+    b+='<div class="slab">World controls</div>'
+      +sact('6','Skip to month six','a mature wallet','simMonthSix()')
+      +sact('↺','Restart','back to the invitation','location.reload()');
+  } else {
+    if(S.awaitAgent&&!S.funded)
+      b+='<div class="slab">Pending — add money</div>'+sact('M','Agent scans the code','+$137.50 → spending','simAgentScan()');
+    if(S.wd&&!S.wd.done&&!S.wd.vetoed&&S.wd.mode==='cosign')
+      b+='<div class="slab">Pending — second key ('+fm(S.wd.amt)+')</div>'
+        +sact('▣','Tap the NFC card','the second key','simCard()')
+        +sact('E','Sign as Emeka','Houston · 2:47 AM','simEmeka()')
+        +sact('A','Cancel as Amaka','any keeper can','simVeto()');
+    if(S.wd&&!S.wd.done&&!S.wd.vetoed&&S.wd.mode==='wait')
+      b+='<div class="slab">Pending — 72h withdrawal ('+fm(S.wd.amt)+')</div>'
+        +sact('⏱','Let 72 hours pass','no keeper objects','simTimer()',S.wd.unlocked)
+        +sact('A','Cancel as Amaka','inside the window','simVeto()');
+    if(S.lost){
+      b+='<div class="slab">Restore — keepers confirm (any 3)</div>';
+      KEEPERS.forEach(function(k){
+        var done=S.restoreConfirms.indexOf(k)>=0;
+        b+=sact(k,'Confirm as '+NAME[k],done?'confirmed':'in person','simRestore(\''+k+'\')',done||S.restoreConfirms.length>=3);
+      });
+    }
+    if(S.friday===1)b+='<div class="slab">Friday — the meeting</div>'
+      +sact('◎','Pay out the pot','$1,200 to '+NAME[S.receiver],'simPayout()');
+    if(S.friday===2){
+      b+='<div class="slab">Friday — keepers refresh</div>';
+      KEEPERS.forEach(function(k){
+        var done=S.refreshDone.indexOf(k)>=0;
+        b+=sact(k,'Refresh key — '+NAME[k],done?'done':'proves the share works','simRefresh(\''+k+'\')',done);
+      });
+    }
+    if(S.friday===3){
+      b+='<div class="slab">Friday — the drill</div>';
+      if(!S.drillDark)b+=sact('H','Halima wipes her phone','a practice restore','simDrillStart()');
+      else ['A','C','B'].forEach(function(k){
+        var done=S.drillConfirms.indexOf(k)>=0;
+        b+=sact(k,'Confirm — '+NAME[k],done?'done':'restores her share','simDrillConfirm(\''+k+'\')',done);
+      });
+    }
+    if(S.friday===4)b+='<div class="slab">Friday — close</div>'
+      +sact('✓','Close the meeting','round '+(S.round+1)+' starts · pays '+NAME['F'],'simCloseFriday()');
+    b+='<div class="slab">World controls</div>';
+    if(S.funded&&S.contributed)b+=sact('$','Pay-day','+$120 → spending','simSurplus()');
+    if(S.friday===0&&S.contributed)b+=sact('📅','It\'s Friday','the meeting starts','simFriday()');
+    if(S.ringSet)b+=sact('👁',S.duress?'Robber leaves':'Robber view (duress PIN)','savings disappear from the screen','simDuress()');
+    if(S.ringSet&&!S.lost)b+=sact('✕','Steal the phone','then restore on a new one','simStolen()');
+    if(S.ringSet&&!S.heirFired)b+=sact('🕯','90 days of silence','inheritance kicks in','simHeir()');
+    if(!S.monthSix)b+=sact('6','Jump to month six','a mature wallet','simMonthSix()');
+    b+=sact('↺','Restart','back to the invitation','location.reload()');
+  }
+  document.getElementById('sheet').innerHTML=
+  '<div class="shead"><span class="tag">SIMULATION LAYER</span>'+
+  '<h3>Other parties &amp; time</h3><p>Not part of the app. The taps other people (or time) would make.</p></div>'+
+  '<div class="sbody">'+b+'</div>'+
+  '<button class="sclose" onclick="closeSheet()">close</button>';
+}
+function simAgentScan(){closeSheet();S.pocket+=137.50;S.funded=true;addMoneyScreen();toast('SIM — agent loaded $137.50.',true);}
+function simCard(){closeSheet();finishWd();toast('SIM — card signed. Sent.',true);}
+function simEmeka(){closeSheet();finishWd();toast('SIM — Emeka signed. Sent.',true);}
+function simVeto(){closeSheet();S.wd.vetoed=true;savingsSheet();toast('SIM — Amaka cancelled it.',true);}
+function simTimer(){closeSheet();S.wd.unlocked=true;savingsSheet();toast('SIM — 72 hours passed.',true);}
+function simSurplus(){closeSheet();S.pocket+=120;closeP();render();toast('SIM — pay-day: +$120.',true);}
+function simFriday(){closeSheet();S.friday=1;closeP();render();toast('SIM — Friday. The meeting starts.',true);}
+function simPayout(){closeSheet();S.potMoved=true;S.friday=2;render();toast('SIM — pot paid to '+NAME[S.receiver]+'.',true);}
+function simRefresh(k){S.refreshDone.push(k);render();
+  if(S.refreshDone.length>=5)S.friday=3;
+  buildSheet();toast('SIM — '+NAME[k]+' refreshed.',true);}
+function simDrillStart(){S.drillDark=true;render();buildSheet();toast('SIM — Halima wiped her phone. Drill.',true);}
+function simDrillConfirm(k){S.drillConfirms.push(k);
+  if(S.drillConfirms.length>=3){S.drillDark=false;S.friday=4;render();buildSheet();toast('SIM — Halima restored. Drill passed.',true);}
+  else{buildSheet();toast('SIM — '+NAME[k]+' confirmed.',true);}}
+function simCloseFriday(){closeSheet();
+  S.round++;S.receiver='F';S.paid=[];S.contributed=false;S.potMoved=false;
+  S.friday=0;S.refreshDone=[];S.drillConfirms=[];render();
+  toast('SIM — round '+S.round+' started. Pays '+NAME['F']+'.',true);}
+function simDuress(){closeSheet();S.duress=!S.duress;closeP();render();
+  toast(S.duress?'SIM — duress PIN. Savings are invisible.':'SIM — full wallet back.',true);}
+function simStolen(){closeSheet();S.lost=true;S.restoreConfirms=[];closeP();render();toast('SIM — the phone is gone.',true);}
+function simRestore(k){S.restoreConfirms.push(k);render();buildSheet();toast('SIM — '+NAME[k]+' confirmed.',true);
+  if(S.restoreConfirms.length>=3)closeSheet();}
+function simHeir(){closeSheet();S.heirFired=true;render();savingsSheet();toast('SIM — 90 silent days.',true);}
+function simMonthSix(){closeSheet();
+  S.phase='app';S.monthSix=true;S.pinSet=true;S.funded=true;S.contributed=false;
+  S.ringSet=true;S.pocket=137.50;S.tin=410.00;S.lost=false;closeP();render();toast('SIM — month six.',true);}
+
+render();
+</script>
+</body>
+</html>

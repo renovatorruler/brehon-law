@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The ROSCA Path</title>
+<style>
+  @page { size: 338.67mm 190.5mm; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { font-size: 12pt; }
+  body {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: #e8ecf2; background: #0e1218;
+    -weasy-hyphens: none;
+  }
+  .slide {
+    position: relative;
+    width: 338.67mm; height: 190.5mm;
+    background: #0e1218;
+    padding: 22mm 26mm 20mm 26mm;
+    page-break-after: always;
+    overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .slide:last-child { page-break-after: auto; }
+
+  .kicker {
+    font-size: 11pt; letter-spacing: 3.5px; text-transform: uppercase;
+    color: #d4a95e; font-weight: 700;
+  }
+  .rule { width: 46px; height: 2px; background: #d4a95e; margin-top: 6mm; opacity: .85; }
+
+  .body { margin: auto 0; }           /* vertically center the content block */
+  .headline {
+    font-family: Georgia, "Times New Roman", serif; font-weight: 700;
+    font-size: 40pt; line-height: 1.12; color: #f3f6fa; max-width: 268mm;
+  }
+  .support {
+    font-size: 15.5pt; line-height: 1.5; color: #aab3bf;
+    max-width: 214mm; margin-top: 9mm;
+  }
+  .hl { color: #d4a95e; }
+  .turn {
+    font-family: Georgia, serif; font-style: italic;
+    font-size: 16pt; color: #dbe2ea; margin-top: 11mm;
+  }
+
+  .stats { margin-top: 12mm; font-size: 13pt; color: #7f8a99; letter-spacing: .3px; }
+  .stats .hl { font-weight: 700; letter-spacing: 0; }
+
+  .cols { display: flex; margin-top: 11mm; }
+  .card { flex: 1; padding-right: 16mm; }
+  .card:last-child { padding-right: 0; }
+  .card h3 {
+    font-size: 10.5pt; letter-spacing: 2px; text-transform: uppercase;
+    color: #d4a95e; font-weight: 700; margin-bottom: 4.5mm;
+  }
+  .card p { font-size: 13pt; line-height: 1.45; color: #b0b9c5; }
+
+  .grid { display: flex; flex-wrap: wrap; margin-top: 10mm; }
+  .grid .card { flex: 0 0 46%; padding-right: 8%; margin-bottom: 9mm; }
+
+  .names {
+    font-family: Georgia, serif; font-size: 17pt; color: #cfd6df;
+    letter-spacing: .5px; margin-top: 10mm; line-height: 1.6;
+  }
+  .names .sep { color: #4a5460; }
+
+  .regions { margin-top: 10mm; }
+  .region {
+    display: flex; align-items: baseline;
+    border-top: 1px solid #1e2530; padding: 3.4mm 0; font-size: 12.5pt;
+  }
+  .region .place { flex: 0 0 46%; color: #cbd3dd; }
+  .region .place b { color: #f3f6fa; font-weight: 600; }
+  .region .name { flex: 1; color: #7f8a99; font-style: italic; }
+  .region .pct { flex: 0 0 60px; text-align: right; color: #d4a95e; font-weight: 700; }
+  .source { margin-top: 8mm; font-size: 10pt; color: #5b6675; letter-spacing: .5px; }
+
+  .footer {
+    position: absolute; left: 26mm; right: 26mm; bottom: 11mm;
+    display: flex; justify-content: space-between;
+    font-size: 8.5pt; letter-spacing: 1.5px; text-transform: uppercase; color: #46505d;
+  }
+
+  /* title + close: bigger, calmer */
+  .cover .headline { font-size: 66pt; letter-spacing: -.5px; }
+  .cover .support { font-size: 17pt; margin-top: 11mm; }
+  .close .headline { font-size: 52pt; line-height: 1.1; }
+</style>
+</head>
+<body>
+
+<!-- 1 · TITLE -->
+<section class="slide cover">
+  <div class="kicker">Riften Labs · A Proposal</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">The ROSCA Path</div>
+    <div class="support">Banking the unbanked. The dollars already exist. The
+      missing piece is a way for ordinary people to hold them.</div>
+  </div>
+  <div class="footer"><span>The ROSCA Path</span><span>June 2026</span></div>
+</section>
+
+<!-- 2 · THE OPPORTUNITY -->
+<section class="slide">
+  <div class="kicker">The Opportunity</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">The dollars exist. The people exist.<br>Nothing connects them.</div>
+    <div class="support">1.4 billion adults have no bank, and their money is
+      melting: the naira lost 70% of its dollar value in two years. Meanwhile
+      $322 billion in stablecoin dollars sits ready. Supply isn't the problem.
+      The way in is.</div>
+    <div class="stats"><span class="hl">1.4B</span> unbanked adults &nbsp;·&nbsp;
+      <span class="hl">$322B</span> stablecoins ready &nbsp;·&nbsp;
+      <span class="hl">&minus;70%</span> naira vs USD, two years</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>02</span></div>
+</section>
+
+<!-- 3 · THE WALL -->
+<section class="slide">
+  <div class="kicker">The Wall</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">To hold digital dollars, you have to hold a key.</div>
+    <div class="support">Twelve words on a slip of paper. Lose them and the money
+      is gone for good: no reset, no branch. Hand them to a company, and you have
+      rebuilt the bank you were trying to skip. This is the wall the whole
+      industry keeps hitting.</div>
+    <div class="stats"><span class="hl">$12B+</span> stolen or scammed from crypto
+      users in 2024 &nbsp;·&nbsp; <span class="hl">$0</span> returned</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>03</span></div>
+</section>
+
+<!-- 4 · TWO WAYS TO FAIL -->
+<section class="slide">
+  <div class="kicker">Fifteen Years of Trying</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">Two ways to cross it. Both have failed.</div>
+    <div class="cols">
+      <div class="card">
+        <h3>Teach everyone</h3>
+        <p>Seed-phrase drills and warning screens. Fifteen years on, self-custody
+          is still a hobby for the technical.</p>
+      </div>
+      <div class="card">
+        <h3>Trust your circle</h3>
+        <p>"Social recovery" is the right idea: the people you trust restore your
+          key. But the circle rusts. Few can name five guardians who will show up
+          in year three, and the first real attempt comes on the worst day of a
+          life.</p>
+      </div>
+    </div>
+    <div class="turn">The cryptography holds. The humans rust.</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>04</span></div>
+</section>
+
+<!-- 5 · THE HINGE -->
+<section class="slide">
+  <div class="kicker">What's Actually Missing</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">Social recovery has never had one thing:
+      <span class="hl">trust with a maintenance schedule.</span></div>
+    <div class="support">A group that stays intact, and stays in practice, on a
+      calendar. Find that, and self-custody stops being a hobby.</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>05</span></div>
+</section>
+
+<!-- 6 · FIELDWORK -->
+<section class="slide">
+  <div class="kicker">Fieldwork</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">It already exists. It's older than the bank.</div>
+    <div class="support">Ask how you say "bank" in any language: banco, banque,
+      banka, банк, बैंक. The same loanword everywhere the European bank arrived.
+      The institution was imported. What was there first has a native name in
+      every culture.</div>
+    <div class="names">tanda <span class="sep">·</span> hui <span class="sep">·</span>
+      susu <span class="sep">·</span> esusu <span class="sep">·</span> equb
+      <span class="sep">·</span> gam'eya <span class="sep">·</span> arisan
+      <span class="sep">·</span> pardner <span class="sep">·</span> tontine
+      <span class="sep">·</span> chit <span class="sep">·</span> kameti</div>
+    <div class="turn">All one thing: a rotating savings and credit association.</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>06</span></div>
+</section>
+
+<!-- 7 · THE SCALE -->
+<section class="slide">
+  <div class="kicker">The Scale</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">Hundreds of millions already run one.</div>
+    <div class="support">Over a thousand years old, almost entirely outside any
+      bank. Roughly one in four of the world's unbanked already saves this way.</div>
+    <div class="regions">
+      <div class="region"><span class="place"><b>South Asia</b></span><span class="name">chit / kameti</span><span class="pct">25%</span></div>
+      <div class="region"><span class="place"><b>West Africa</b></span><span class="name">susu / esusu</span><span class="pct">16%</span></div>
+      <div class="region"><span class="place"><b>East &amp; South Africa</b></span><span class="name">equb / stokvel</span><span class="pct">12%</span></div>
+      <div class="region"><span class="place"><b>China</b></span><span class="name">hui</span><span class="pct">10%</span></div>
+      <div class="region"><span class="place"><b>Arab world</b></span><span class="name">gam'eya</span><span class="pct">10%</span></div>
+      <div class="region"><span class="place"><b>Latin America</b></span><span class="name">tanda</span><span class="pct">5%</span></div>
+    </div>
+    <div class="source">Source: World Bank Global Findex, 2021 / 2024</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>07</span></div>
+</section>
+
+<!-- 8 · THE RECOGNITION -->
+<section class="slide">
+  <div class="kicker">The Recognition</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">A ROSCA is exactly what social recovery was missing.</div>
+    <div class="cols">
+      <div class="card">
+        <h3>The circle is the quorum</h3>
+        <p>Ten to twenty neighbors who already meet, and the pot keeps them showing
+          up. The group that never decays.</p>
+      </div>
+      <div class="card">
+        <h3>The meeting is the practice</h3>
+        <p>Money on the table every cycle, in front of everyone. The drill that
+          keeps recovery rehearsed.</p>
+      </div>
+    </div>
+    <div class="turn">The two things that make social recovery rust are the two
+      things a ROSCA already solves.</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>08</span></div>
+</section>
+
+<!-- 9 · THE DESIGN -->
+<section class="slide">
+  <div class="kicker">The Design</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">Turn the circle into the recovery ring.</div>
+    <div class="support">The weekly meeting becomes a key ceremony; the members
+      become the guardians. Once a cycle, one member wipes his phone and restores
+      his wallet in the room, in front of everyone. The fire drill that makes
+      recovery boring.</div>
+    <div class="stats"><span class="hl">12</span> in the circle &nbsp;·&nbsp;
+      <span class="hl">5</span> hold shares &nbsp;·&nbsp; any
+      <span class="hl">3</span> restore</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>09</span></div>
+</section>
+
+<!-- 10 · WHAT WE BUILD -->
+<section class="slide">
+  <div class="kicker">What We Build</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">The ROSCA app.</div>
+    <div class="support">The savings circle they already run, on the phone they
+      already have. Contribute to the pot, watch it rotate, and let the circle
+      restore your wallet if a phone is lost. No seed phrase to guard.</div>
+    <div class="turn">The circle is the home screen. The circle is the recovery.</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>10</span></div>
+</section>
+
+<!-- 11 · WHY RIFTEN -->
+<section class="slide">
+  <div class="kicker">Why Riften</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">We bring the two things the circle can't make itself.</div>
+    <div class="cols">
+      <div class="card">
+        <h3>MUSD — the dollar</h3>
+        <p>A dollar the circle can hold without a bank. Minted non-custodially: we
+          issue it, and we never hold their money.</p>
+      </div>
+      <div class="card">
+        <h3>BCH — the rails</h3>
+        <p>Moves that dollar for sub-cent fees. The only rails a five-dollar-a-day
+          member can actually afford.</p>
+      </div>
+    </div>
+    <div class="turn">Not a bank. Not a custodian. We supply the dollar and the
+      rails; the circle does the rest.</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>11</span></div>
+</section>
+
+<!-- 12 · THE BUSINESS -->
+<section class="slide">
+  <div class="kicker">The Business</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">Every member arrives already trained in self-custody.</div>
+    <div class="cols">
+      <div class="card">
+        <h3>Free distribution</h3>
+        <p>One circle is twelve users who onboard each other. The circles multiply
+          on their own.</p>
+      </div>
+      <div class="card">
+        <h3>Standing demand</h3>
+        <p>Every cycle, contributions are dollars minted and held on our rails.</p>
+      </div>
+      <div class="card">
+        <h3>Zero acquisition cost</h3>
+        <p>No cost to win the one behavior the whole industry burns money failing
+          to teach.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>12</span></div>
+</section>
+
+<!-- 13 · WHAT COULD BREAK -->
+<section class="slide">
+  <div class="kicker">What Could Break</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">We've pressure-tested it.</div>
+    <div class="grid">
+      <div class="card">
+        <h3>Collusion</h3>
+        <p>The pot is worth less than the reputation it would burn. The reason
+          esusu doesn't get robbed today.</p>
+      </div>
+      <div class="card">
+        <h3>A circle frays</h3>
+        <p>The key never leaves the member. A stale share surfaces at the next
+          drill, while it still costs nothing.</p>
+      </div>
+      <div class="card">
+        <h3>The freeze</h3>
+        <p>The first restore happens in a room that won't let you fail, beside
+          someone who has done it before.</p>
+      </div>
+      <div class="card">
+        <h3>Regulators</h3>
+        <p>We never hold funds. Non-custodial means nothing to seize, and nothing
+          to license.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>13</span></div>
+</section>
+
+<!-- 14 · THE ASK -->
+<section class="slide">
+  <div class="kicker">The Ask</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">Ten circles in Lagos. Ninety days.</div>
+    <div class="support">Ten real esusu circles running on MUSD and BCH. One squad,
+      building the recovery ring as a product, not a side quest. One metric that
+      matters:</div>
+    <div class="turn">The first lost phone, restored in a church hall, with nothing
+      missing.</div>
+    <div class="stats"><span class="hl">10</span> circles &nbsp;·&nbsp;
+      <span class="hl">90</span> days &nbsp;·&nbsp; <span class="hl">1</span> proof</div>
+  </div>
+  <div class="footer"><span>Riften Labs</span><span>14</span></div>
+</section>
+
+<!-- 15 · THE CLOSE -->
+<section class="slide close">
+  <div class="kicker">The Close</div>
+  <div class="rule"></div>
+  <div class="body">
+    <div class="headline">Don't build a bank.<br>Don't build a wallet.</div>
+    <div class="support">Use the trust that's already there, a structure hundreds
+      of millions already run, to carry a genuinely new technology to the people
+      who need it most.</div>
+  </div>
+  <div class="footer"><span>Riften Labs · The ROSCA Path</span><span>June 2026</span></div>
+</section>
+
+</body>
+</html>
