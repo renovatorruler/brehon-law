@@ -14,6 +14,32 @@ THE INSULT IS THE RECRUITER: "it's just flags," "old-timers still know how
 to build things." The regime's contempt brings the men in — rage fuel on
 the page, and the regime pays for the instrument of its own humiliation.
 
+## 1b · Why patriots take the job (the custodial yes)
+They would never help take the flags down — but making sure the flags come
+down RIGHT is the flag code itself: colors are retired with honors, by
+hands that know how. The yes, spoken at the hall (Gunny's to make): "If
+they're coming down regardless — and they are — then they come down right.
+Folded right, cased right, carried right. Not by the lowest bidder." The
+regime thinks it hired cheap labor; the men are mounting an honor guard
+over their own flags' caskets. The step-in at the midpoint becomes
+inevitable, not convenient: an honor guard escorts the colors.
+- The audience's theory shop stays open (swap? sabotage? steal them back
+  on Earth before the gifting?) — none confirmed; the midpoint beats them
+  all.
+- THE SOCIAL COST (new, load-bearing): the town hears the olds are
+  building the boxes and reads it as collaboration. The diner goes cold —
+  Buck won't look at Cricket; the coffee comes slower; nobody says the
+  word. The men take it in silence (they can't explain). Heart-ledger runs
+  negative through the middle; at the reveal, Buck's "There they are."
+  becomes an apology. The reveal redeems them in their town's eyes, not
+  just against the regime.
+
+## Marwani line change (applied, sc04)
+"Flags of surrender, if we are honest" → "Some call those flags of
+surrender. I call them flags of peace. Let this be our gesture to the rest
+of the world: we come in peace." — the regime perverting the Apollo 11
+plaque; rhymes at the standoff against "We came in the mail."
+
 ## 2 · Who knows what, when
 - MACK: knows four of six cases are configured for men. States nothing.
   Runs the job straight. (Whether he hoped or planned stays unanswerable —
