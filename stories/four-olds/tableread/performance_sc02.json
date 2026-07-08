@@ -1,0 +1,51 @@
+{
+ "title": "THE FOUR OLDS — sc02 the bank, table read",
+ "model_id": "eleven_v3",
+ "cast": {
+  "N":       {"voice": "Dejuan (library)",     "voice_id": "dIa7afHH94O36L8tjJ0L"},
+  "CRICKET": {"voice": "Omar Reyes (library)", "voice_id": "KevF1uu5w9Pp4ccC5W9K"},
+  "OFFICER": {"voice": "Ryan (library)",       "voice_id": "bO5h0vChrZCBN2GYUhC5"}
+ },
+ "beats": [
+  {"caption": "INT. FIRST PLAINS BANK - LOAN OFFICE - DAY",
+   "panel": {"gen": "Small-town bank loan office, a young loan officer in a too-new tie on a desk phone behind a cluttered desk, an old farmer in a pressed white shirt buttoned to the collar sitting across from him holding a squared manila folder on his knees, fluorescent light, venetian blinds, a cardboard promotional sign on an easel in the background."},
+   "lines": [
+    {"role": "N", "text": "[calm] First Plains Bank, Broken Bow, Nebraska. Fluorescent light, carpet tiles. A cardboard sign by the door: The Stewardship Act — working for communities like yours. Nobody is looking at it. Cricket Dawes, seventy-nine, waits in a pressed white shirt, a manila folder square on his knees. In the loan office, the officer is on the phone."},
+    {"role": "OFFICER", "text": "[distracted, wrapping up a call] — no, the culvert's the county's. That's not ours, tell him to call Roads. Roads. R-O— I have to go. [exhales, recovering] Mr. Dawes. Sorry. Everybody's got a flooded something this week."},
+    {"role": "N", "text": "Cricket opens the folder. Tab dividers, fifty years of order. He slides the county letter across."},
+    {"role": "OFFICER", "text": "[polite, already typing] I've got it on screen, you don't need—"},
+    {"role": "N", "text": "[dry] Cricket slides the assessment appeal receipt across too. The officer takes it to be polite and sets it down without reading it."},
+    {"role": "CRICKET", "text": "[level, unhurried] County reassessed in March. Four thousand two hundred six dollars, due the fifteenth. I have two thousand one hundred."},
+    {"role": "OFFICER", "text": "[typing, hopeful] Okay. So there was a program for exactly this. Hardship deferral on ag-adjacent parcels, it's — hang on. [reading, losing the thread] \"Suspended pending alignment review of county remittance instruments under the\" — um. It's paused. Not paused — there's no — there isn't a mechanism right now. Is what that means."},
+    {"role": "CRICKET", "text": "[flat] When does it come back?"},
+    {"role": "OFFICER", "text": "[quietly defeated] It doesn't say. It's federal now. The language doesn't — it doesn't say."}
+   ]},
+  {"caption": "ON HIS SCREEN",
+   "panel": {"insert": ["NASA  —  $0.00  QUARTERLY", "", "DAWES, E. — ASTRONAUT (ACTIVE)"]},
+   "lines": [
+    {"role": "N", "text": "[quiet] A silence. The officer scrolls Cricket's accounts, filling it."},
+    {"role": "OFFICER", "text": "[making small talk, then puzzled] You've banked here — wow. Sixty-one years. That's longer than my dad's been alive. [squinting] There's a deposit here from NASA. Every quarter. For zero dollars and zero cents. That's got to be a glitch, I can put a ticket in and get it scrubbed off your—"},
+    {"role": "CRICKET", "text": "[sharp, too fast] Leave it."},
+    {"role": "N", "text": "[hushed] Too fast. Too hard. The officer looks up. Cricket sits exactly as he was, level again."},
+    {"role": "CRICKET", "text": "[quiet, even] It's been there fifty years. It can stay."},
+    {"role": "OFFICER", "text": "[carefully] ...Sure."}
+   ]},
+  {"caption": "INT. FIRST PLAINS BANK - LOAN OFFICE - DAY",
+   "panel": {"reuse": "sc02_00.png"},
+   "lines": [
+    {"role": "N", "text": "He closes that window. Sits back. Thinks. Then he pulls a form from the drawer and talks while he fills it in, not looking up."},
+    {"role": "OFFICER", "text": "[casual, working, not looking up] What I can do is — our scanner's been down, there's a whole tray of stuff that hasn't been logged, things get received when they get received — [a stamp thunks] — so your paperwork came in next cycle. That's sixty days before anything goes delinquent. Don't tell my branch manager. [beat, wry] Or do, honestly. She does it too."},
+    {"role": "N", "text": "Cricket looks at the stamp. Puts the copy in the folder, in order, and stands."},
+    {"role": "CRICKET", "text": "[plain] What do I owe you?"},
+    {"role": "OFFICER", "text": "[deadpan, then catching his own joke] It's a bank, Mr. Dawes. You owe us four thousand dollars."},
+    {"role": "N", "text": "A beat. Almost a smile out of Cricket. He stops at the door, half turned."},
+    {"role": "CRICKET", "text": "[offhand, practical] Your culvert caller. If that's the one under Route 12 by the Hollen place, that's county, he's right. But Roads won't get to it till October. Log chain and a tractor, some Saturday. Hour of work."},
+    {"role": "OFFICER", "text": "[a beat, quietly impressed] ...I'll pass that on."}
+   ]},
+  {"caption": "EXT. FIRST PLAINS BANK, PARKING LOT - DAY",
+   "panel": {"gen": "View from inside an old pickup truck cab, an elderly farmer's weathered hands resting on the steering wheel with keys, through the windshield a small-town courthouse square with an American flag on a tall pole against the sky, manila folder on the bench seat."},
+   "lines": [
+    {"role": "N", "text": "[slow] Cricket sits in his pickup, folder on the bench seat, keys in his hand. Through the windshield: the courthouse across the square, and above it, the flag, moving. [beat] He watches it one moment. He starts the truck."}
+   ]}
+ ]
+}
