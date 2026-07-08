@@ -1,0 +1,63 @@
+{
+ "title": "THE FOUR OLDS — sc03 the barn and the Tuesday net",
+ "model_id": "eleven_v3",
+ "cast": {
+  "N":       {"voice": "Dejuan (library)",  "voice_id": "dIa7afHH94O36L8tjJ0L"},
+  "CRICKET": {"voice": "Ken (library)",     "voice_id": "sP6cqUGhZxuStGV0pn9o"},
+  "DUTCH":   {"voice": "Mike W (library)",  "voice_id": "ltbmbnwfUORor5VY3adr"},
+  "STITCH":  {"voice": "Jim Cox (library)", "voice_id": "FPofnDi5DdNeTktLQ0u9"},
+  "GUNNY":   {"voice": "Moe M (library)",   "voice_id": "9oa4l5rZznK9dXRwFpSB"},
+  "PEG":     {"voice": "Carol (library)",   "voice_id": "5u41aNhyCU6hXOcjPPv0"}
+ },
+ "beats": [
+  {"caption": "INT. DAWES BARN - NIGHT",
+   "panel": {"gen": "Interior of a Nebraska barn at night lit by a single hanging work light: a homebuilt spacecraft simulator of plywood and salvaged instrument panels with a real crew couch bolted to a welded frame, and along the whole back wall, floor-to-roof shelves packed with hundreds of identical spiral notebooks, an old man in the couch wearing a headset, a glowing ham radio on the bench at his elbow."},
+   "lines": [
+    {"role": "N", "text": "[calm] The Dawes barn. A work light on a beam. Filling half the barn: a homebuilt simulator — plywood, angle iron, salvaged instrument panels, a real crew couch bolted to a welded frame. Every switch is real. Every label is hand-lettered. Along the back wall, floor to roof: spiral notebooks, hundreds of them, spines out, each spine dated in the same hand. The first shelf starts in nineteen seventy-two. Cricket drops into the couch and brings the panel up. An amber bus light steadies. He keys the ham rig."},
+    {"role": "CRICKET", "text": "[steady, routine] Net's open. Tuesday, nineteen-oh-two local."},
+    {"role": "STITCH", "fx": "radio", "text": "[warm drawl] There he is."},
+    {"role": "DUTCH", "fx": "radio", "text": "[brisk, no preamble] Bus B first. What's it read."},
+    {"role": "CRICKET", "text": "[matter-of-fact] Twenty-eight point one."},
+    {"role": "DUTCH", "fx": "radio", "text": "[grudging] Huh. Okay. So it held. I still don't like the way it sagged last week. When's the last time you pulled that relay — don't answer, I have it here. Eighty-four. You put that relay in in eighty-four."},
+    {"role": "STITCH", "fx": "radio", "text": "[dry, needling] Is he doing the relay again?"},
+    {"role": "DUTCH", "fx": "radio", "text": "[defensive, factual] It's a forty-year-old relay, is all I'm saying. I'm allowed to say it."},
+    {"role": "GUNNY", "fx": "radio", "text": "[firm, drill-floor courtesy] It is nineteen-oh-three, gentlemen. Commander, run your checklist."},
+    {"role": "CRICKET", "text": "[crisp] Guidance internal. Tanks at sixty-two percent, simulated. Descent program loaded."}
+   ]},
+  {"caption": "INT. DAWES BARN - NIGHT",
+   "panel": {"reuse": "sc03_00.png"},
+   "lines": [
+    {"role": "N", "text": "The barn door rolls open a foot. Peg, seventy-seven, in a house coat, sets a thermos on the workbench."},
+    {"role": "PEG", "text": "[dry, unimpressed] Tell Elmore his wife wants him off by ten."},
+    {"role": "N", "text": "Cricket lifts two fingers off the throttle without looking back. Peg pulls the door to behind her."},
+    {"role": "STITCH", "fx": "radio", "text": "[perking up] Was that Peg?"},
+    {"role": "CRICKET", "text": "[deadpan] Coffee's here."},
+    {"role": "STITCH", "fx": "radio", "text": "[starting in] Tell her I said—"},
+    {"role": "DUTCH", "fx": "radio", "text": "[cutting him off] It's an open checklist, people."},
+    {"role": "N", "text": "[low, tightening] Cricket flies. Hands easy on the controls. The panel needles track. Then an ammeter needle drops and wanders. A low buzz under the hum."},
+    {"role": "CRICKET", "text": "[flat, alert] Bus B again. Needle's walking."},
+    {"role": "DUTCH", "fx": "radio", "text": "[sharp, diagnostic] That buzz. Steady or does it stutter?"},
+    {"role": "CRICKET", "text": "Stutters."},
+    {"role": "DUTCH", "fx": "radio", "text": "[certain] Inverter case. Kick it, low left corner."},
+    {"role": "N", "text": "[beat] Cricket kicks the case, low left corner. The needle climbs home. The buzz quits. Nobody says anything about it. The checklist goes on."},
+    {"role": "CRICKET", "text": "[quiet focus] Three hundred feet. Drifting left. Correcting."},
+    {"role": "N", "text": "[hushed] Silence on the net. Only the hum and the switch clicks. His hands make small moves. The rate needle eases down. Down. A panel lamp lights: CONTACT."},
+    {"role": "CRICKET", "text": "[even, a breath of satisfaction] Contact light. Engine stop."},
+    {"role": "STITCH", "fx": "radio", "text": "[needling, affectionate] Hair late on the throttle there at the end."},
+    {"role": "GUNNY", "fx": "radio", "text": "[final] The man is on the ground, Colonel."},
+    {"role": "STITCH", "fx": "radio", "text": "[mock innocence] I'm just saying what I saw."},
+    {"role": "CRICKET", "text": "[closing the book] Net closed. Same time Tuesday."},
+    {"role": "DUTCH", "fx": "radio", "text": "[plain] God willing."}
+   ]},
+  {"caption": "THE LOGBOOK",
+   "panel": {"insert": ["T+2,806", "", "BUS B CORRECTED.", "CONTACT 19:41.", "CREW PRESENT BY RADIO."]},
+   "lines": [
+    {"role": "N", "text": "[quiet] Cricket keys the mic twice — two clicks. Two clicks come back. Then two more. Then two more. He powers the rig down, takes a fresh page, and writes in block letters: T plus two thousand eight hundred six. Bus B corrected. Contact, nineteen forty-one. Crew present by radio. [beat] He shelves the notebook with the others, runs his thumb once down the dated spines on his way to the light — nineteen seventy-four, nineteen eighty-eight, two thousand three — and pulls the cord."}
+   ]},
+  {"caption": "EXT. DAWES BARN - NIGHT",
+   "panel": {"gen": "A Nebraska farmyard at night, an old man padlocking the rolling door of a big dark barn, warm porch light glowing from the white farmhouse across the yard, night sky above, brush-ink heavy blacks."},
+   "lines": [
+    {"role": "N", "text": "[slow] He rolls the door shut and snaps a padlock through the hasp. Tests it with one pull. [beat] Beyond the barn, the farmhouse porch light. He crosses to the house, thermos under his arm."}
+   ]}
+ ]
+}

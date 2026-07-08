@@ -112,7 +112,37 @@ def main() -> int:
             panel = caption_panel(raw, beat["caption"])
 
         lines = beat.get("lines", [])
-        if lines:
+        if lines and any(l.get("fx") for l in lines):
+            # per-line mode: lines with fx (e.g. radio) are synthesized solo,
+            # filtered, then stitched with the rest in order.
+            digest = hashlib.sha1(json.dumps(lines, sort_keys=True).encode()).hexdigest()[:12]
+            audio = os.path.join(segs, f"seg{n:02}_{digest}.mp3")
+            if not os.path.exists(audio):
+                print(f"beat {n}: {len(lines)} lines -> per-line takes (fx)")
+                parts = []
+                for i, l in enumerate(lines):
+                    raw = os.path.join(segs, f"b{n:02}_l{i:02}_{digest}.mp3")
+                    open(raw, "wb").write(
+                        bk.elevenlabs_tts(l["text"], cast[l["role"]]["voice_id"],
+                                          model=perf.get("model_id", "eleven_v3")))
+                    if l.get("fx") == "radio":
+                        fx = raw.replace(".mp3", "_fx.mp3")
+                        subprocess.run(
+                            ["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-af",
+                             "highpass=f=320,lowpass=f=3200,acompressor=threshold=-18dB:"
+                             "ratio=4,volume=4dB", fx], check=True)
+                        raw = fx
+                    parts.append(raw)
+                lst_a = os.path.join(segs, f"b{n:02}_parts.txt")
+                with open(lst_a, "w") as f:
+                    for p in parts:
+                        f.write(f"file '{p}'\n")
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat",
+                                "-safe", "0", "-i", lst_a, "-af", "apad=pad_dur=0.25",
+                                audio], check=True)
+            else:
+                print(f"beat {n}: cached")
+        elif lines:
             inputs = [{"text": l["text"], "voice_id": cast[l["role"]]["voice_id"]}
                       for l in lines]
             digest = hashlib.sha1(json.dumps(inputs, sort_keys=True).encode()).hexdigest()[:12]
