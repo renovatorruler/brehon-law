@@ -3,7 +3,7 @@
  "model_id": "eleven_v3",
  "cast": {
   "N":       {"voice": "Dejuan (library)",     "voice_id": "dIa7afHH94O36L8tjJ0L"},
-  "CRICKET": {"voice": "Omar Reyes (library)", "voice_id": "KevF1uu5w9Pp4ccC5W9K"},
+  "CRICKET": {"voice": "Ken (library)", "voice_id": "sP6cqUGhZxuStGV0pn9o"},
   "OFFICER": {"voice": "Ryan (library)",       "voice_id": "bO5h0vChrZCBN2GYUhC5"}
  },
  "beats": [
@@ -15,9 +15,9 @@
     {"role": "N", "text": "Cricket opens the folder. Tab dividers, fifty years of order. He slides the county letter across."},
     {"role": "OFFICER", "text": "[polite, already typing] I've got it on screen, you don't need—"},
     {"role": "N", "text": "[dry] Cricket slides the assessment appeal receipt across too. The officer takes it to be polite and sets it down without reading it."},
-    {"role": "CRICKET", "text": "[level, unhurried] County reassessed in March. Four thousand two hundred six dollars, due the fifteenth. I have two thousand one hundred."},
+    {"role": "CRICKET", "text": "[steady, matter-of-fact] County reassessed in March. Four thousand two hundred six dollars, due the fifteenth. I have two thousand one hundred."},
     {"role": "OFFICER", "text": "[typing, hopeful] Okay. So there was a program for exactly this. Hardship deferral on ag-adjacent parcels, it's — hang on. [reading, losing the thread] \"Suspended pending alignment review of county remittance instruments under the\" — um. It's paused. Not paused — there's no — there isn't a mechanism right now. Is what that means."},
-    {"role": "CRICKET", "text": "[flat] When does it come back?"},
+    {"role": "CRICKET", "text": "[dry] When does it come back?"},
     {"role": "OFFICER", "text": "[quietly defeated] It doesn't say. It's federal now. The language doesn't — it doesn't say."}
    ]},
   {"caption": "ON HIS SCREEN",
@@ -27,7 +27,7 @@
     {"role": "OFFICER", "text": "[making small talk, then puzzled] You've banked here — wow. Sixty-one years. That's longer than my dad's been alive. [squinting] There's a deposit here from NASA. Every quarter. For zero dollars and zero cents. That's got to be a glitch, I can put a ticket in and get it scrubbed off your—"},
     {"role": "CRICKET", "text": "[sharp, too fast] Leave it."},
     {"role": "N", "text": "[hushed] Too fast. Too hard. The officer looks up. Cricket sits exactly as he was, level again."},
-    {"role": "CRICKET", "text": "[quiet, even] It's been there fifty years. It can stay."},
+    {"role": "CRICKET", "text": "[calm, firm] It's been there fifty years. It can stay."},
     {"role": "OFFICER", "text": "[carefully] ...Sure."}
    ]},
   {"caption": "INT. FIRST PLAINS BANK - LOAN OFFICE - DAY",
@@ -36,7 +36,7 @@
     {"role": "N", "text": "He closes that window. Sits back. Thinks. Then he pulls a form from the drawer and talks while he fills it in, not looking up."},
     {"role": "OFFICER", "text": "[casual, working, not looking up] What I can do is — our scanner's been down, there's a whole tray of stuff that hasn't been logged, things get received when they get received — [a stamp thunks] — so your paperwork came in next cycle. That's sixty days before anything goes delinquent. Don't tell my branch manager. [beat, wry] Or do, honestly. She does it too."},
     {"role": "N", "text": "Cricket looks at the stamp. Puts the copy in the folder, in order, and stands."},
-    {"role": "CRICKET", "text": "[plain] What do I owe you?"},
+    {"role": "CRICKET", "text": "[direct] What do I owe you?"},
     {"role": "OFFICER", "text": "[deadpan, then catching his own joke] It's a bank, Mr. Dawes. You owe us four thousand dollars."},
     {"role": "N", "text": "A beat. Almost a smile out of Cricket. He stops at the door, half turned."},
     {"role": "CRICKET", "text": "[offhand, practical] Your culvert caller. If that's the one under Route 12 by the Hollen place, that's county, he's right. But Roads won't get to it till October. Log chain and a tractor, some Saturday. Hour of work."},
