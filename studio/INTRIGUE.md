@@ -32,6 +32,15 @@ chain: something revealed completely later, hinted earlier.
    piece of texture, a throwaway. If it looks unrelated, it must BE
    related — unrelated-looking and actually-unrelated is a cheat.
 
+6. **The rug rule.** When everyone — room and audience — can infer the
+   purpose, nobody states it. Characters speak only the pretext ("come up
+   and look at my rug"); the camera may show the truth (a manifest header,
+   a date); the inference is the audience's to make, and making it is the
+   pleasure. The intrigue survives even when everyone knows, because the
+   question becomes whether it's really what it looks like. Explicit
+   purpose-naming in dialogue is a show-don't-tell violation of the
+   intrigue layer.
+
 ## The audit procedure
 
 For each chain, card it: hints (scene, what it looks like at plant time,
