@@ -1,0 +1,30 @@
+{
+ "title": "THE FOUR OLDS — sc05b Pell's quota",
+ "model_id": "eleven_v3",
+ "cast": {
+  "N":        {"voice": "Dejuan (library)",     "voice_id": "dIa7afHH94O36L8tjJ0L"},
+  "PELL":     {"voice": "Reginald (library)",    "voice_id": "FhztqDnr1aPqLSEpGz3v"},
+  "HOLLOWAY": {"voice": "Wesley (library)",      "voice_id": "VkL7Dlo4mlO2YXRw09M7"}
+ },
+ "beats": [
+  {"caption": "INT. FEDERAL COMPLIANCE FIELD OFFICE - DAY",
+   "panel": {"gen": "A cramped converted storefront office with folding tables and a space heater, fluorescent tubes overhead, a laminated motivational poster on the wall reading HARMONY IS A VERB above a small plaque photo. At a folding desk, the man from the attached reference sheet sits before an open laptop mid video call, matching his face exactly.",
+    "refs": ["refsheets/pell.png"], "pro": true},
+   "lines": [
+    {"role": "N", "text": "[dry] A converted storefront. Folding tables, a space heater, a laminated poster on the wall: Harmony is a verb — above it, a photo plaque, Q3 Compliance Excellence Award, Pell two years younger holding it with both hands like a fish. He's at a folding desk, laptop open on a call. On the screen: Director Holloway, gray, unreadable, better light than this room has."},
+    {"role": "PELL", "text": "[bright, reading off a checklist, performing competence] Dawes parcel, closed this morning. Apparatus recovered, tagged federal interest. Full cooperation on-site. Well — cooperation."},
+    {"role": "HOLLOWAY", "text": "[flat, unimpressed] That's one."},
+    {"role": "PELL", "text": "[pushing, a little desperate] It's a significant one, sir. Fifty years of unlogged—"},
+    {"role": "HOLLOWAY", "text": "[cutting him off, not really listening, distracted by something else on his end] Ohio's regional is at six this week. You're regional too. Forty-one parcels flagged, one closure since binding. That's the number I'm reading right now, off a spreadsheet, with your name on the tab."},
+    {"role": "N", "text": "[quiet] Pell's smile holds a half-second too long."},
+    {"role": "PELL", "text": "[recovering, brisk] Understood. I'll accelerate the schedule."},
+    {"role": "HOLLOWAY", "text": "[already moving on, bored] Accelerate it before the Fourth. I've got a call in nine minutes."},
+    {"role": "N", "text": "[flat] The screen goes to the call's end card before Pell can answer. He sits a moment, the dead laptop reflecting the fluorescent tubes overhead."}
+   ]},
+  {"caption": "THE DISTRICT BINDER",
+   "panel": {"insert": ["DAWES, E. — CLOSED", "", "HOLLENBECK GRAIN & FEED", "FLAGGED — PRIORITY REVIEW"]},
+   "lines": [
+    {"role": "N", "text": "[slow] He pulls the district binder over, flips past Dawes, closed, and runs his finger down a long column of names. He stops on one, uncaps a highlighter, and drags it across the line, slow, hard enough to bleed through the page. [beat] He closes the binder. Squares it on the desk. Takes his lanyard off the hook by the door, and puts it back on."}
+   ]}
+ ]
+}
