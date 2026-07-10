@@ -1,0 +1,17 @@
+four-olds-sky-king-second-telling — INT. CRATE D - CONTINUOUS
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/draft/engine_sky_king_2.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A knuckle raps the crate wall in short bursts, stops, then starts again.
+ACTION: Cricket thumbs his mic.
+ACTION: CRICKET (FILTERED): We've had the mic the whole trip, you know. You don't have to keep tapping at me.
+ACTION: The tapping stops.
+ACTION: STITCH (FILTERED): Yeah. Old habit. Fifty years of it, it's hard to shake.
+ACTION: Cricket picks at the strap across his chest.
+ACTION: CRICKET (FILTERED): Can I ask you something about Sky King.
+ACTION: STITCH (FILTERED): Go ahead.
+ACTION: CRICKET (FILTERED): Did he ever get to fly it again?
+ACTION: The answer takes a second, then it comes back easy, a smile in it.
+ACTION: STITCH (FILTERED): He flew it. The rest of his life.
+ACTION: Cricket's mouth pulls up at one corner.
+ACTION: He turns his hands over in his lap and works his thumb slow along one knuckle.

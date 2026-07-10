@@ -1,0 +1,10 @@
+{
+  "id": "four-olds-sky-king-first-telling",
+  "slug": "INT. TRI-COUNTY AUCTION BARN - DAY (LATER)",
+  "seedHash": "30d586afea7b022756635fa6528a29a6d831bc5aa1196e605490984f5f068c71",
+  "sceneHash": "918a37a3734f9344f03a8edb81172c84bf633886116f54a545988df637bf8b8c",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

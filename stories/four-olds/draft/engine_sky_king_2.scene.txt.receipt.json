@@ -1,0 +1,10 @@
+{
+  "id": "four-olds-sky-king-second-telling",
+  "slug": "INT. CRATE D - CONTINUOUS",
+  "seedHash": "252d460efa58373b49e03622056a3e275b158953170c5c1ed58666494c2b64d0",
+  "sceneHash": "e24b198ab75c395b67607bb414d44798e3c8b1bacf6ab8967d4c5f712078a253",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
