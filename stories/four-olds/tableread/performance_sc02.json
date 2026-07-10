@@ -40,12 +40,15 @@
     {"role": "OFFICER", "text": "[deadpan, then catching his own joke] It's a bank, Mr. Dawes. You owe us four thousand dollars."},
     {"role": "N", "text": "A beat. Almost a smile out of Cricket. He stops at the door, half turned."},
     {"role": "CRICKET", "text": "[offhand, practical] Your culvert caller. If that's the one under Route 12 by the Hollen place, that's county, he's right. But Roads won't get to it till October. Log chain and a tractor, some Saturday. Hour of work."},
-    {"role": "OFFICER", "text": "[a beat, quietly impressed] ...I'll pass that on."}
+    {"role": "N", "text": "[warm, quiet] Cricket's already turning for the door. He lifts two fingers off the folder — a wave that isn't quite a wave — and doesn't look back."},
+    {"role": "OFFICER", "text": "[watching him go, something shifting] ...I'll pass that on. Every quarter, huh."}
    ]},
   {"caption": "EXT. FIRST PLAINS BANK, PARKING LOT - DAY",
    "panel": {"gen": "View from inside an old pickup truck cab, an elderly farmer's weathered hands resting on the steering wheel with keys, through the windshield a small-town courthouse square with an American flag on a tall pole against the sky, manila folder on the bench seat."},
    "lines": [
-    {"role": "N", "text": "[slow] Cricket sits in his pickup, folder on the bench seat, keys in his hand. Through the windshield: the courthouse across the square, and above it, the flag, moving. [beat] He watches it one moment. He starts the truck."}
+    {"role": "N", "text": "[slow] Cricket sits in his pickup, folder on the bench seat, keys in his hand. Through the windshield: the courthouse across the square, and above it, the flag, moving. He watches it one moment. Then, alone, where nobody can charge him for it, he lets his shoulders down half an inch and breathes out long, like he's been holding it since before the meeting started."},
+    {"role": "CRICKET", "text": "[to himself, dry, almost a laugh] Working for communities like yours."},
+    {"role": "N", "text": "[light] He almost laughs. Doesn't, quite. Starts the truck."}
    ]}
  ]
 }
