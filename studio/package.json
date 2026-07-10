@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "rescript": "^11.1.4"
+  },
+  "dependencies": {
+    "playwright": "^1.61.1"
   }
 }
