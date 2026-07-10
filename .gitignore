@@ -30,6 +30,7 @@ venv/
 *.m4a
 *.wav
 *.glb
+*.pdf
 
 # ffmpeg 2-pass stats (junk)
 *.mbtree
