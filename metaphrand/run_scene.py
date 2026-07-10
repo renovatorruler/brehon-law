@@ -19,15 +19,17 @@ import argparse
 from metaphrand.passes import SCENE_PASSES, repair, _claude
 from metaphrand import craftlint
 
-AUTHOR_PROMPT = """You are writing ONE scene of a grounded Hindi crime drama — the register of \
-Paatal Lok / Kohrra: realistic, restrained, no melodrama — set in the Malwa opium belt of 1990s \
-Madhya Pradesh.
+# project data for the Hindi/AMAL script; the pipeline itself is general (see `register` below).
+_AMAL_REGISTER = """a grounded Hindi crime drama — the register of Paatal Lok / Kohrra: realistic, \
+restrained, no melodrama — set in the Malwa opium belt of 1990s Madhya Pradesh.
 
 FORMAT, exactly:
 - a header line:  ## दृश्य N — <title>
 - action lines prefixed "N:" — Hindi prose describing ONLY what a camera sees and what people do. \
 Never name a feeling, a relationship, or a theme. Every action line must be a SHOT.
-- dialogue as  नाम: पंक्ति . Malwi dialect in local/village mouths, plain Hindi for officials.
+- dialogue as  नाम: पंक्ति . Malwi dialect in local/village mouths, plain Hindi for officials."""
+
+AUTHOR_PROMPT = """You are writing ONE scene of {register}
 
 Hold every held card in the context below — never state it or clearly imply it.
 
@@ -40,17 +42,18 @@ CONTEXT — canon to honor, and HELD CARDS to keep buried:
 Write the scene now. Output ONLY the scene, nothing before or after."""
 
 
-def author(brief: str, context: str) -> str:
-    return _claude(AUTHOR_PROMPT.format(brief=brief or "(none)", context=context or "(none)"))
+def author(brief: str, context: str, register: str = _AMAL_REGISTER) -> str:
+    return _claude(AUTHOR_PROMPT.format(brief=brief or "(none)", context=context or "(none)",
+                                         register=register))
 
 
-def compose(brief="", context="", draft=None, rounds=1, only=None):
+def compose(brief="", context="", draft=None, rounds=1, only=None, register: str = _AMAL_REGISTER):
     """Returns (text, log, floor_report, clean)."""
     passes = SCENE_PASSES
     if only:
         wanted = {n.strip() for n in only}
         passes = [p for p in SCENE_PASSES if p.name in wanted or p.name == "editorial"]
-    text = draft if draft is not None else author(brief, context)
+    text = draft if draft is not None else author(brief, context, register)
     text, log = repair(text, passes, context, rounds)
     ok_floor, floor_report = craftlint.gate(text, mode="screenplay")
     still = [l for l in log if "still flags" in l]
@@ -66,14 +69,17 @@ def main(argv):
     ap.add_argument("--out", help="write the gated scene here (else stdout)")
     ap.add_argument("--rounds", type=int, default=1)
     ap.add_argument("--only", help="comma-separated pass names to run (subset)")
+    ap.add_argument("--register", help="path to a register/format brief for a non-AMAL project "
+                                        "(default: the AMAL Hindi-crime-drama register)")
     a = ap.parse_args(argv)
 
     brief = open(a.brief, encoding="utf-8").read() if a.brief else ""
     context = open(a.context, encoding="utf-8").read() if a.context else ""
     draft = open(a.draft, encoding="utf-8").read() if a.draft else None
     only = a.only.split(",") if a.only else None
+    register = open(a.register, encoding="utf-8").read() if a.register else _AMAL_REGISTER
 
-    text, log, floor_report, clean = compose(brief, context, draft, a.rounds, only)
+    text, log, floor_report, clean = compose(brief, context, draft, a.rounds, only, register)
 
     sys.stderr.write("=== repair log (each pass: test -> fix -> re-test) ===\n")
     sys.stderr.write("\n".join(log) + "\n\n")

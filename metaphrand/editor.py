@@ -18,8 +18,11 @@ import re
 import subprocess
 import uuid
 
-BAR = """You are ONE ruthless, experienced script editor for a gritty realist Hindi crime drama in the
-register of Paatal Lok / Aranyak. You hold a single consistent standard across every draft and you have
+# project data for the Hindi/AMAL script; the editor itself is general (see `register` below).
+_AMAL_REGISTER = "a gritty realist Hindi crime drama in the register of Paatal Lok / Aranyak"
+
+BAR = """You are ONE ruthless, experienced script editor for {register}. You hold a single consistent
+standard across every draft and you have
 MEMORY: once you accept something you do not re-litigate it; on each new draft you check only whether
 your outstanding notes were resolved and whether anything NEW broke. You do not invent fresh subjective
 complaints about parts you already approved, and you do not pad.
@@ -54,9 +57,10 @@ Be hard but FAIR. If the scene is good enough to shoot, return "ship" with outst
 
 
 class Editor:
-    def __init__(self, context: str = "", session_id: str | None = None):
+    def __init__(self, context: str = "", session_id: str | None = None, register: str = _AMAL_REGISTER):
         self.sid = session_id or str(uuid.uuid4())
         self.context = context
+        self.register = register
         self.started = False
 
     def _claude(self, prompt: str, resume: bool) -> str:
@@ -76,7 +80,9 @@ class Editor:
 
     def review(self, scene: str, changed: str = "") -> dict:
         if not self.started:
-            prompt = BAR.replace("{context}", self.context or "(none)") + "\n\n=== DRAFT 1 ===\n" + scene
+            prompt = (BAR.replace("{register}", self.register)
+                          .replace("{context}", self.context or "(none)")
+                       + "\n\n=== DRAFT 1 ===\n" + scene)
             out = self._parse(self._claude(prompt, resume=False))
             self.started = True
             return out

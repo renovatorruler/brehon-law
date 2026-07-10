@@ -76,8 +76,8 @@ def test_pass(p: Pass, text: str, context: str = "") -> Result:
 def fix_pass(p: Pass, text: str, findings: list, context: str = "") -> str:
     fb = ("\n\nFix exactly these problems, change nothing else:\n- " + "\n- ".join(findings)) if findings else ""
     return _claude(_ctx(p.fix, context) + fb
-                   + "\n\nReturn ONLY the rewritten scene in the same format (English action, "
-                     "Devanagari dialogue), nothing else.\n\n=== SCENE ===\n" + text)
+                   + "\n\nReturn ONLY the rewritten scene in the exact same format and language as the "
+                     "input, nothing else.\n\n=== SCENE ===\n" + text)
 
 
 def _editorial(text: str) -> Result:
@@ -194,8 +194,7 @@ SCENE_PASSES = [
     Pass("shrink-wrap", "scene",
          "You are a density editor. Flag any passage that is skeletal, generic, or shrink-wrapped: the "
          "abstract where the specific belongs, the placeholder where the lived particular detail of "
-         "THIS exact world (Malwa, the opium belt, 1990s rural India) belongs. The world must be felt, "
-         "not gestured at.",
+         "THIS exact world belongs (world/canon: {{CONTEXT}}). The world must be felt, not gestured at.",
          "Flesh the thin places with specific, lived, particular detail of this exact world — without "
          "padding or purple prose."),
     Pass("concreteness", "scene",
