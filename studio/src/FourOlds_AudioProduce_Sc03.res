@@ -133,7 +133,7 @@ let main = async () => {
                         sh("/opt/homebrew/bin/ffmpeg -y -loglevel error -i " ++ mp3 ++ " -ar 44100 -ac 2 " ++ wav)
                       }
                     }
-                    Js.Array2.push(entries, (i, "evt", wav))->ignore
+                    Js.Array2.push(entries, (i, "dlg", wav))->ignore
                     Js.Array2.push(
                       perf,
                       `{"i":${Belt.Int.toString(i)},"role":"${who}","radio":${radio ? "true" : "false"},"text":${Js.Json.stringify(Js.Json.string(speak))}}`,
@@ -160,7 +160,7 @@ let main = async () => {
                   bedCount := bedCount.contents + 1
                   Js.Array2.push(entries, (i, "bed", wav))->ignore
                 } else {
-                  Js.Array2.push(entries, (i, "evt", wav))->ignore
+                  Js.Array2.push(entries, (i, "sfx", wav))->ignore
                 }
                 Js.Array2.push(
                   perf,
@@ -177,18 +177,32 @@ let main = async () => {
         }
       await go(0)
 
-      /* ---- mix: events concatenated with gaps; beds looped under ---- */
-      let evts = entries->Belt.Array.keep(((_, k, _)) => k == "evt")
+      /* ---- mix: events concatenated with kind-aware gaps; beds looped under.
+         dialogue-to-dialogue rides tight (conversation breathes); anything
+         touching a sound effect gets more air. ---- */
+      let evts = entries->Belt.Array.keep(((_, k, _)) => k != "bed")
       let beds = entries->Belt.Array.keep(((_, k, _)) => k == "bed")
-      /* silence gap between events */
-      let gap = outDir ++ "gap.wav"
-      if !existsSync(gap) {
-        sh("/opt/homebrew/bin/ffmpeg -y -loglevel error -f lavfi -i anullsrc=r=44100:cl=stereo -t 0.4 " ++ gap)
+      let gapS = outDir ++ "gap_s.wav"
+      let gapM = outDir ++ "gap_m.wav"
+      if !existsSync(gapS) {
+        sh("/opt/homebrew/bin/ffmpeg -y -loglevel error -f lavfi -i anullsrc=r=44100:cl=stereo -t 0.15 " ++ gapS)
       }
+      if !existsSync(gapM) {
+        sh("/opt/homebrew/bin/ffmpeg -y -loglevel error -f lavfi -i anullsrc=r=44100:cl=stereo -t 0.5 " ++ gapM)
+      }
+      let nEvts = Belt.Array.length(evts)
       let listFile = outDir ++ "concat.txt"
       let lines =
         evts
-        ->Belt.Array.map(((_, _, w)) => "file '" ++ w ++ "'\nfile '" ++ gap ++ "'")
+        ->Belt.Array.mapWithIndex((ix, (_, k, w)) => {
+          if ix == nEvts - 1 {
+            "file '" ++ w ++ "'"
+          } else {
+            let (_, nk, _) = Belt.Array.getExn(evts, ix + 1)
+            let g = k == "dlg" && nk == "dlg" ? gapS : gapM
+            "file '" ++ w ++ "'\nfile '" ++ g ++ "'"
+          }
+        })
         ->Belt.Array.joinWith("\n", x => x)
       writeFileSync(listFile, bufferFrom(lines))
       let eventsWav = outDir ++ "events.wav"

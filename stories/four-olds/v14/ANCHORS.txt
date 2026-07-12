@@ -1,6 +1,6 @@
 sc01_cold_open.scene.txt|HISTORY IS HEALING
 sc02_bank.scene.txt|ASTRONAUT|owe us four thousand
-sc03_barn_net.scene.txt|Contact light
+sc03_barn_net.scene.txt|eight hundred and six|Same time Tuesday
 sc04_accord.scene.txt|flags of peace
 sc06_seizure.scene.txt|move me, Wade
 sc07_fireworks.scene.txt|drive you home
