@@ -1,117 +1,59 @@
-audio-03-barn-net — SCENE 3. THE DAWES BARN - NIGHT
+audio-03-barn-net-v5 — SCENE 3. THE DAWES BARN - NIGHT
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a03_barn_net.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: Wind pulls along the barn boards in long draws, and the seams tick where the cold works through.
-ACTION: A breaker snaps over, then a second, then a third, and the trainer's hum rises under the room and settles.
-ACTION: The percolator catches on the hot plate and starts a slow, uneven knock.
-ACTION: Out on the grade, gravel turns under tires as one truck climbs toward the barn.
-ACTION: The engine dies, a door slams, and boots come across the plank floor.
-GUNNY: Evening.
+ACTION: Wind works at the barn boards. Under it the flight trainer holds one low electrical hum, and the percolator knocks uneven on the hot plate.
+ACTION: Out on the gravel a truck comes up the drive, slows, and shuts off. A door opens and claps to. Boots cross the yard.
+GUNNY: (approaching) Earl. It's froze solid out there.
 CRICKET: Gunny.
-GUNNY: Percolator's already going. You slept out here again.
-CRICKET: Coffee's coffee.
-ACTION: A second truck comes up the gravel, idles a moment, and shuts off, and another door slams.
-STITCH: (approaching) Cold enough for you? My hangar door froze halfway down and I just left it froze. Figured I'd get to it when it thaws, or maybe I won't.
-CRICKET: Evening, Stitch.
-STITCH: Cricket. Gunny. That wind's coming straight down out of Canada and nobody asked it to.
-GUNNY: Wipe your damn boots. I swept in here.
-ACTION: A third truck rolls in slow, the engine ticking as it cools, and a door thumps shut.
-DUTCH: (approaching, off) Did anybody touch the trainer before I got the temperature logged?
-GUNNY: Nobody touched your trainer, Dutch.
-DUTCH: Evening, Cricket. It reads fifty-one degrees in here. I'll write down fifty-one.
-CRICKET: There's a cup by the breakers if you want it.
-GUNNY: Alright. We're past the hour again.
-STITCH: The hour's a suggestion, Gunny. We got here when we got here.
-GUNNY: Headsets. Both of you. Dutch, you too.
-ACTION: Chairs drag on the plank floor, and four headset cans settle over four heads with the soft double click of the jacks going in.
-ACTION: A thin carrier hiss opens up under the room and rides beneath the filtered voices.
-GUNNY (RADIO): (into radio) Net check. Gunny, loud and clear.
-STITCH (RADIO): (into radio) Got you loud, Gunny.
-DUTCH (RADIO): Reading you.
-CRICKET (RADIO): I've got the loop.
-GUNNY (RADIO): (into radio) Apollo Eighteen. Lunar descent rehearsal. Number two thousand, eight hundred and six.
-STITCH: (room, to Cricket) He says the whole number every week like there's a stenographer under the workbench.
-GUNNY (RADIO): (into radio) Say again for the loop.
-STITCH: I didn't key up, Gunny.
-GUNNY (RADIO): (into radio) Then key up. If it's not on the loop it didn't happen.
-STITCH (RADIO): (into radio, dry) Backup pilot's on the loop and just tickled about it.
-GUNNY (RADIO): (into radio) Copy tickled.
-STITCH: (room) Two thousand eight hundred and change. Call it three thousand Tuesdays and be done, Cricket. Nobody's out here counting the pennies but Dutch.
-DUTCH: (room) I'm counting the pennies.
-CRICKET: (room) Two thousand, eight hundred and six.
-CRICKET (RADIO): (into radio) Program's loaded. Starting the clock. Ten thousand feet.
-STITCH: (room) You see that landing come down Sunday? On the set at the diner?
-DUTCH: (room) I saw it.
-GUNNY: (room) We all saw it. Marge had it up over the pie case with the sound turned off, which was a mercy.
-STITCH: (room) Long. He floated it. Sitting up there hunting for a flat spot with the fuel light already on him.
-CRICKET (RADIO): (into radio) Eight thousand feet. Coming down at ninety.
-DUTCH: (room) He came in eleven seconds long on the braking burn. I wrote it on a napkin at the diner and I wrote it again at the house to be sure of the napkin.
-STITCH: (room) Eleven. See, I'm not making it up.
-DUTCH: (room, dry) Eleven and a half. I rounded the half off for Marge.
-GUNNY: (room) You come in long on the boat, you put the reactor in somebody's front room.
-STITCH: (room) And that fella's got a patch on his arm and a parade waiting on him in Houston.
-CRICKET (RADIO): (into radio) Six thousand. Down at eighty, holding it.
-DUTCH: (room) Not one of those boys would have passed my physical. I'd have washed him out on the eyes before he sat down.
-STITCH: (room) You'd have washed him out in the parking lot before he ever got near the eye chart.
-DUTCH: (room, dry) I'd have been fair about it.
-ACTION: Under the room the trainer's hum sags a quarter step and thins out.
-ACTION: A buzz starts up beneath the hum, catching and dropping and catching again.
-CRICKET (RADIO): (into radio) Caution. Bus B.
-GUNNY (RADIO): (into radio) Say again. Bus B?
-CRICKET (RADIO): (into radio) Bus B. I'm calling the walk.
-STITCH: (room) There she goes again. Every damn Tuesday, right on the dot.
-DUTCH: (room, not moving) That relay went in the spring of 'seventy-six. April. It's been doing this since Carter was running for the job.
-GUNNY: (room) Steady, or does it stutter?
-ACTION: The buzz breaks up ragged, almost clears, then catches hard again.
-CRICKET: (room) Stutters.
-ACTION: A page turns, slow, under the next voice.
-DUTCH: (room) Kick it. Low left corner.
-ACTION: A boot comes down flat on sheet metal, one hard bang.
-ACTION: The buzz cuts out, and the hum climbs back up full and holds clean.
-DUTCH: (room, dry) Same corner as last time.
-GUNNY: (room) You didn't even look up off your page.
-DUTCH: (room) No.
-CRICKET (RADIO): (into radio) Bus B corrected. Back on the card. Four thousand feet.
-STITCH: (room) See, Sunday's boy, right about here's where he starts sweating through the patch.
-GUNNY: (room) Loop, Stitch.
-STITCH (RADIO): (into radio) I said the man was sweating.
-GUNNY (RADIO): (into radio) Copy sweating.
-STITCH: (room) One of these Tuesdays that trainer's gonna quit for good and take April 'seventy-six down with it.
-CRICKET: (room) We'll get it done.
-CRICKET (RADIO): (into radio) Two thousand feet. Coming down at fifty.
-CRICKET (RADIO): (into radio) One thousand. Looking good.
-STITCH: (room) And that's the thing about Sunday, is he had the gas, he had plenty of gas, he just wouldn't trust it—
-CRICKET (RADIO): (into radio) Seven hundred feet.
-CRICKET (RADIO): (into radio) Five hundred. Down at twenty.
-ACTION: The room goes quiet, and the percolator gives one last knock and settles off in the corner.
-ACTION: The hum holds alone, and four men breathe under it.
-CRICKET (RADIO): (into radio) Three hundred feet.
-ACTION: Nothing keys up, and the hum runs on by itself for one long beat.
-CRICKET (RADIO): (into radio) Contact light. Engine stop.
-ACTION: The hum holds alone through another long beat, and no one on the loop says a word.
-DUTCH: (room) You were down at three feet a second with fuel still on the gauge. That's the number.
-STITCH: (room) Sunday's boy doesn't see three feet a second in his sleep.
-GUNNY: (room) That's how it's flown.
-CRICKET: (room) It's just the card.
-GUNNY (RADIO): (into radio) That's the run. Net closed. Same time Tuesday.
-CRICKET (RADIO): (into radio) God willing.
-ACTION: A transmit key clicks twice on the loop, and two clicks answer it back from across the barn.
-ACTION: The headset jacks pull free one after another, and the carrier hiss drops out of the room.
-ACTION: A pen scratches across a log page.
-CRICKET: (low, to himself) T plus two thousand eight hundred six. Bus B corrected. Crew present.
-STITCH: Well. That's me. Got a froze door at home to go stand and look at.
-GUNNY: Mud at the door on your way out, Stitch.
-STITCH: I'll get it Tuesday.
-DUTCH: Fifty-one when we started. I'm logging forty-nine.
-CRICKET: Night, Dutch.
-DUTCH: Cricket.
-GUNNY: Same road Tuesday.
-CRICKET: Gunny.
-ACTION: Chairs scrape back from the bench, and three sets of boots go out across the planks toward the door.
-ACTION: Outside, one truck turns over and catches, then a second, then a third, each pulling away down the grade.
-ACTION: The gravel sound thins as the trucks drop off the property one by one, and the last of it goes under the wind.
-ACTION: Inside, the breakers go over one at a time, and the trainer's hum steps down and quits.
-ACTION: A hasp rattles, and a padlock pulls shut with one hard click.
-ACTION: Boots cross the yard, climb two porch steps, and a screen door claps once and settles.
-ACTION: Wind works the barn boards alone, and nothing else moves on the property.
+GUNNY: Coffee's already going.
+ACTION: A tin cup sets down on the workbench.
+GUNNY: You slept out here again.
+CRICKET: Percolator's ahead of you. Get yourself a cup.
+GUNNY: I asked did you sleep out here.
+CRICKET: There's a chair by the trainer.
+ACTION: Two more trucks come up the gravel, one behind the other, and cut off. Doors, and two sets of boots on the boards.
+STITCH: (approaching) That road past the culvert is a sheet of ice, I come up on it near sideways. Evening, Earl. Gunny.
+DUTCH: My defroster quit back in November. I drove the whole way with the window cracked.
+CRICKET: Dutch. Stitch. Coffee's on.
+GUNNY: All right. Barn's secured, coffee's poured. We'll open her up.
+GUNNY: Apollo Eighteen. Lunar descent rehearsal. Number two thousand, eight hundred and six.
+CRICKET: Here.
+DUTCH: Present.
+STITCH: Accounted for.
+STITCH: I stayed up Sunday night and watched that landing again. The whole business. That boy they run the parade for down in Houston.
+STITCH: Computer flew it, Gunny. Flew the approach, found its own spot, and set it down, and he just had his hands in his lap the whole way.
+GUNNY: If you're bringing a case you'll bring it in order. Cricket's the bench, same as he always is.
+STITCH: That's what I'm doing. I'm prosecuting. Cricket, I want a finding out of you tonight.
+CRICKET: Go ahead.
+ACTION: A ledger page turns.
+DUTCH: (reading) He had it in hand from four hundred feet. October the ninth. Says so right there where I wrote it down.
+STITCH: Four hundred feet. All right, four hundred feet of flying on a landing the box already had finished for him.
+DUTCH: Three hundred and eighty. I took it off the loop myself, so we'll use the real one.
+STITCH: See now, that there is about the last little sliver of it, and they hang a medal on the man and march him down the street.
+GUNNY: One man at a time. We hear the figure, then we hear the argument. There's an order to a proceeding, McGrew.
+STITCH: I've heard the figure. In my court a computer landing doesn't earn a fella a parade. Call that a rule of evidence.
+DUTCH: There isn't any such rule.
+STITCH: There is now. Entered it just this second.
+GUNNY: You can't go entering rules in the middle of your own prosecution.
+STITCH: I'm the prosecutor and the historian both, Gunny, so I surely can.
+ACTION: A cup knocks down on the workbench.
+STITCH: Cricket. Does hand-flying from three hundred and eighty count for the man or don't it.
+CRICKET: Manual's manual. Count it.
+STITCH: The bench counts it, and I'll tell you it still doesn't come to a whole lot.
+STITCH: Here's my finding. Not a one of these kids they're decorating would've got past the flight surgeon in our day, and you all know that as well as I do.
+DUTCH: That part's true. On the medical alone they'd have washed every one of them out.
+GUNNY: Is that the finding of this crew, then.
+DUTCH: Concur.
+GUNNY: Dawes.
+ACTION: The percolator knocks twice on the hot plate.
+GUNNY: Let the record show he concurs.
+GUNNY: All right. Cups in the sink. Mind the cord on the trainer going out.
+GUNNY: Net closed. Same time Tuesday.
+CRICKET: God willing.
+ACTION: Chairs scrape back and boots cross to the door.
+ACTION: Out in the yard three truck doors clap shut, not together.
+ACTION: One engine turns over and rolls down the gravel. After a while a second pulls out behind it.
+ACTION: The third truck starts and goes, and the gravel goes quiet.
+ACTION: A padlock hasp pulls closed with one pull.
+ACTION: Wind runs along the barn boards. Off across the yard a screen door bangs once and settles.

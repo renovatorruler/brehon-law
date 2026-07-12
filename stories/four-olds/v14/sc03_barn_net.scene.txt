@@ -2,88 +2,48 @@ v14-03-barn-net — INT. DAWES BARN - NIGHT
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc03_barn_net.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: A pull-cord CLICKS.
-ACTION: Light drops over the APOLLO PROCEDURES TRAINER. Hand-machined gauges sit crooked in a welded panel, each one filed and fitted by hand. A crew couch is bolted into a steel cradle below a triangular window.
-ACTION: The window looks out at a Moon painted on the barn boards, gray and cratered, taller than a man.
-ACTION: ALONG THE BACK WALL -- spiral notebooks stand floor to roof. Every spine is dated in the same block hand. The bottom shelf starts in 1972.
-ACTION: Folding chairs lean on a card table. A percolator sits cold on an upturned crate. The room is half flight facility and half clubhouse, and nobody who built it ever noticed the difference.
-ACTION: Headlights swing across the painted Moon and hold there.
-ACTION: Outside, a pickup rolls up the dirt drive and parks by the fence. A second set of lights follows it up. A third pulls in behind.
-ACTION: CRICKET DAWES -- 79, seed-corn cap, a wedding band he still turns with his thumb -- stands at the panel already, going down a checklist with a golf pencil.
-ACTION: The barn door rolls back. GUNNY TIBBS -- 71, Navy ballcap, a folded flag carried flat in both arms -- comes in first and sets the flag on the card table before he says a word.
-GUNNY: Percolator's cold, Cricket.
-CRICKET: It'll come up.
-ACTION: STITCH McGREW -- 74, a paper sack of something warm under one arm -- holds the door for the last man.
-STITCH: Brought kolaches. Sausage and the other kind.
-ACTION: DUTCH HAAS -- 76, a black ledger and a mechanical pencil, nothing else in his hands -- steps around him without looking at the sack.
-DUTCH: You bring 'em every week and I tell you every week I don't eat before a descent.
-STITCH: Yeah, I know. Bring 'em anyway.
-GUNNY: Headsets. We're eight minutes down.
-ACTION: The four of them take their chairs in a loose ring near the panel. They pull headsets on over their caps. Nobody moves more than a few feet apart.
-ACTION: Gunny keys his loop. His voice goes flat and formal.
-GUNNY (RADIO): Apollo Eighteen. Lunar descent rehearsal. Number two thousand, eight hundred and six.
-ACTION: He waits. He can hear Stitch breathing through eight feet of open air, and he waits for it on the loop anyway.
-GUNNY (RADIO): Stitch. Comm check.
-STITCH (RADIO): Loud and clear, Gun.
-GUNNY (RADIO): Say again.
-STITCH (RADIO): Loud and clear.
-ACTION: Cricket sets his hand on the throttle. The needles come alive on the panel.
-CRICKET (RADIO): Program's in. Coming up on high gate.
-STITCH (RADIO): You watch that thing last night? The landing?
-DUTCH (RADIO): We are on the loop.
-STITCH (RADIO): I know where we are. I'm asking did you watch it.
-CRICKET (RADIO): Four thousand feet.
-STITCH (RADIO): 'Cause I watched it twice. Computer flew those two boys down, held both their hands the whole way, and he still come in long. Rolled right on past his own mark.
-DUTCH (RADIO): Nine hundred feet long. Not that it matters to your point.
-STITCH (RADIO): It don't matter to my point.
-DUTCH (RADIO): I know it don't. I'm putting the number right.
-CRICKET (RADIO): Three thousand. Coming down.
-STITCH (RADIO): And that fella's got a patch on his arm and a parade in Houston.
-GUNNY (RADIO): Loop discipline. Both of you.
-ACTION: A needle low on the panel takes a small drop. It comes back. Then it dips again and starts a slow walk downward.
-DUTCH (RADIO): (not looking up) Bus B.
-CRICKET (RADIO): Confirm.
-DUTCH (RADIO): (reading his ledger) It's that relay again. I wrote it up back in eighty-four. It's all in the book.
-GUNNY (RADIO): Steady or does it stutter?
-DUTCH (RADIO): It stutters. Give it a second and it'll drop again.
-ACTION: The needle jumps, hangs, jumps again.
-DUTCH (RADIO): There. Kick it. Low left corner.
-ACTION: Cricket brings the heel of his boot up under the panel and raps the low left corner once, without looking at it.
-ACTION: The needle climbs and settles home.
-DUTCH (RADIO): (a beat) I've said for years it wants a new relay.
-STITCH (RADIO): You have said that.
-DUTCH (RADIO): I'm allowed to say it. It's my write-up.
-CRICKET (RADIO): Fifteen hundred feet.
-STITCH (RADIO): All I'm saying is, put either one of those boys from last night in that seat with a stuttering bus and no computer, and where do they set down.
-DUTCH (RADIO): They don't set down. Hell, they don't even clear the physical to get in the seat.
-STITCH (RADIO): Now that is the truth.
-GUNNY (RADIO): Seven hundred feet. Quiet on the loop.
-CRICKET (RADIO): Seven hundred. Down at twenty.
-ACTION: Cricket eases the throttle back. The barn is loud with three men who have opinions.
-CRICKET (RADIO): Three hundred feet.
-ACTION: Nobody says anything. Nobody reaches for a kolache. The room goes still on its own, and no one asked it to.
-ACTION: A blue CONTACT LIGHT blinks on the panel.
-CRICKET (RADIO): Contact light. Engine stop.
-ACTION: For one beat the barn holds nothing but the tick of the cooling percolator.
-STITCH (RADIO): (off the gauge) Half a foot a second at the deck.
-DUTCH (RADIO): Little left of center.
-CRICKET (RADIO): On the line.
-ACTION: They pull the headsets down around their necks. The room comes back to room volume.
+ACTION: A pull-cord CLICKS, and a bare bulb comes up over the APOLLO PROCEDURES TRAINER that fills half the barn.
+ACTION: The other half holds a card table and folding chairs, with a percolator working on a hot plate. The back wall carries the logbooks, spines dated from 1972.
+ACTION: The trainer hums under the whole room, low and constant.
+ACTION: HEADLIGHTS rake across the logbook wall. Three trucks come up the drive nose to tail and stop where they always stop.
+ACTION: GUNNY TIBBS, 71, in a Navy ball cap, gets to the door first and props it open with his boot.
+GUNNY: Dutch. You're late by my watch.
+ACTION: DUTCH HAAS, 76, thin, a canvas ledger under one arm, crosses the yard without hurrying.
+DUTCH: Your watch runs two minutes fast. It has since April.
+ACTION: STITCH McGREW, 74, ambles in behind him, coat open, in no hurry about any of it.
+STITCH: Evening, Gunny. Evening, Dutch.
+ACTION: Inside, CRICKET DAWES, 79, stands at the percolator with his back to the door. It's already going, already loud.
+ACTION: Gunny stops in the doorway and looks at the cot folded up in the corner, then at the coffee.
+GUNNY: You slept out here again.
+CRICKET: Percolator's about done. Cups are by the sink.
+ACTION: Gunny sets his cap square, takes a clipboard off its nail, and comes to attention.
+GUNNY: Apollo Eighteen. Lunar descent rehearsal. Number two thousand, eight hundred and six.
+ACTION: Nobody laughs. Stitch pours himself a cup. Dutch opens the ledger flat on the table and smooths the page.
+STITCH: Well. Got a motion on the floor. That landing they threw the parade for, out of Houston.
+GUNNY: We're not in session yet.
+STITCH: (to Gunny) We're in session. I'm prosecuting.
+STITCH: Computer flew the whole thing top to bottom. Fella never laid a hand on it. Came in long, good half mile, maybe better, and they've got him on a float down Main Street with a band behind him.
+DUTCH: (reading) Four hundred yards. I wrote it down Thursday, the ninth, off the television.
+STITCH: Four hundred yards is what the network will own up to.
+GUNNY: You can't enter what they won't even show. That's not evidence.
+STITCH: (to Gunny) Rule of the barn. Whatever the computer did, the pilot didn't. Been on the books since '73.
+GUNNY: There's no such damn rule.
+STITCH: There is now.
+DUTCH: The machine flew it inside its own limits. That part's on the record too.
+STITCH: Then he didn't fly anything. He just sat there.
+ACTION: They all look at Cricket. He tops off his cup and keeps his back to them.
+CRICKET: Machine landed it. He rode it down.
+ACTION: Stitch points a finger at Cricket, satisfied, and turns back to the table.
+STITCH: That's the finding. Now the verdict.
+STITCH: Any one of us, thirty years back, puts it down by hand, right on the line.
+GUNNY: The unit concurs.
+DUTCH: For the record, my figure stands.
+STITCH: (to Dutch) So noted. How do you vote.
+DUTCH: Guilty. Not one of those boys would have cleared our physical.
+ACTION: Cricket sips his coffee and says nothing. Gunny marks it down as unanimous.
+ACTION: Gunny hangs the clipboard back on its nail and squares his cap a last time.
 GUNNY: Net closed. Same time Tuesday.
 CRICKET: God willing.
-ACTION: Stitch is already up, tearing the sack open on the card table. The percolator starts to knock.
-STITCH: Sausage or the other kind, Gun.
-GUNNY: The other kind. And leave the flag be, you've got grease on you.
-DUTCH: He flew it long and they gave him a parade.
-STITCH: Let it go, Dutch.
-DUTCH: I let it go. I'm just saying it once more and then I'm done with it.
-ACTION: Cricket pours four cups and does not sit down with them. He carries his to the panel and opens a fresh notebook.
-ACTION: He writes in ballpoint block letters, pressing hard. T+2,806. BUS B CORRECTED. CONTACT 19:41. CREW PRESENT.
-ACTION: One truck cranks outside. Then another.
-GUNNY: You want the flag inside or on the porch pole tonight.
-CRICKET: Porch is fine.
-ACTION: The three of them go out. Cricket runs a thumb down the dated spines on the back wall on his way to the door, slow, the whole shelf, and does not stop on any one of them.
-ACTION: Taillights swing around in the yard and shrink down the drive, one behind the other, and turn onto the section road.
-ACTION: Cricket rolls the barn door shut and tests the padlock with one pull.
-ACTION: Past the yard the farmhouse stands square against the sky with no lights on inside it.
-ACTION: He stands in the dark a moment, then starts across the grass toward it.
+ACTION: Engines turn over in the yard. Taillights pull down the drive, one, then the next, then the last.
+ACTION: Cricket runs a padlock through the door hasp and pulls it once to check it.
+ACTION: Past the yard the farmhouse stands dark, no light in any window.
