@@ -43,18 +43,22 @@ sells the picture.
    then silence ..." Once or twice a script. Otherwise the camera is
    implied.
 
-8. **One muscular simile per beat, maximum — concrete and opinionated.**
-   Sheridan's are earthy and load-bearing: "long and lean, like a young
-   horse"; "fat is a rich man's jacket." Never decorative stacking, never a
-   conceit the camera can't photograph around.
+8. **NO similes, no aphorisms — the Sheridan license does NOT transfer.**
+   Sheridan writes "fat is a rich man's jacket." We do not. USER RULING
+   (2026-07-11, explicit): these constructions are exactly what an AI
+   over-generates — "the proper way to use AI is to put a ban on these
+   kinds of metaphors." We adopt his camera (rules 1–7), not his jewelry.
+   Where Sheridan reaches for a simile, state the plain fact the lens sees.
 
 9. **Interior cues are legal when harnessed to an action.** "Takes a moment
    to find the strength to open it. Finds it, pushes open the door." Short,
    physical, then move.
 
 10. **The author may editorialize in one hard line when it sells the
-    moment.** "But it is impossible to look past the sadness." Earned,
-    sparing — roughly once a scene, not once a paragraph.
+    moment — but the line must be a plain fact, not a figure.** "Painted on
+    the barn wall by a man who has never seen it and never stopped looking"
+    passes (it's information). "Fat is a rich man's jacket" fails (it's a
+    coined epigram — see rule 8). Once a scene, maximum.
 
 11. **Dialogue stays spare.** The action lines carry the menace between the
     lines. When a dialogue scene is working, action shrinks to one-liners:
@@ -102,7 +106,7 @@ These do not conflict; they divide territory:
 > Black. A pull-cord CLICKS -- a work light swings on its beam ...
 >
 > Filling half the barn: an APOLLO PROCEDURES TRAINER. The real thing. NASA
-> gray, switches worn smooth as river stones ...
+> gray, switches worn smooth by fifty years of the same hands ...
 >
 > Some gauges aren't factory. Machined by hand. Lettered by hand. Cricket
 > built his own parts when NASA stopped answering the phone.
