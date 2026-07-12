@@ -1,0 +1,10 @@
+{
+  "id": "audio-03-barn-net",
+  "slug": "SCENE 3. THE DAWES BARN - NIGHT",
+  "seedHash": "399e47872fe1bd25dc472a4ec2d16a9c0279a8c873e5463da93693ae853609ab",
+  "sceneHash": "c3863389d5201c650a67ae1f15fb553f6d89d912b6602a18e501388fb8135c0b",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
