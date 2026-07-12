@@ -208,7 +208,24 @@ let waitForResult = (prompt: string): promise<string> =>
   Js.Promise.make((~resolve, ~reject) => {
     pending := Some(text => resolve(. text))
     pendingErr := Some(e => reject(. e))
-    pendingTimer := Some(setTimeout(() => settleErr("model turn timed out"), timeoutMs))
+    pendingTimer := Some(
+      setTimeout(() => {
+        /* a timed-out turn's answer may still arrive later; if the warm child
+           lives on, the NEXT ask consumes that stale answer and every turn
+           after it is off by one (caught 2026-07-12: post-timeout scenes
+           contained the previous seed's scene). Poison the child: kill and
+           clear it so the next ask spawns fresh. Costs one cache warm-up,
+           buys correctness. */
+        switch child.contents {
+        | Some(c) => {
+            child := None
+            kill(c)->ignore
+          }
+        | None => ()
+        }
+        settleErr("model turn timed out")
+      }, timeoutMs),
+    )
     let c = ensureChild()
     write(stdinOf(c), userMsg(prompt))->ignore
   })

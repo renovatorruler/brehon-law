@@ -1,0 +1,45 @@
+sc01_cold_open.scene.txt|HISTORY IS HEALING
+sc02_bank.scene.txt|ASTRONAUT|owe us four thousand
+sc03_barn_net.scene.txt|Contact light
+sc04_accord.scene.txt|flags of peace
+sc05_pell_holloway.scene.txt|DAWES
+sc06_seizure.scene.txt|move me, Wade
+sc07_fireworks.scene.txt|drive you home
+sc08_diner.scene.txt|I said it quiet
+sc09_grave.scene.txt|selling something
+sc10_legion.scene.txt|heritage-labor|When's Monday
+sc11_baytwo.scene.txt|Keep your tools
+sc12_promotion.scene.txt|Special Administrator
+sc13_shop.scene.txt|about fit in there
+sc14_seminar.scene.txt|already know what yours are
+sc15_rage1.scene.txt|COOKOUT|cookout
+sc16_build_repaint.scene.txt|cheaper than a receiver
+sc17_sky_king.scene.txt|ever heard of Sky King
+sc18_anthem.scene.txt|Not anymore, bud
+sc19_lights_out.scene.txt|Same time Tuesday
+sc20_decision.scene.txt|time me getting in
+sc21_conversion.scene.txt|soda lime|granules
+sc22a_mack.scene.txt|manifest breathes
+sc22b_tradecraft.scene.txt|Valley Forge
+sc23_physicals.scene.txt|mine now, son
+sc24_proof.scene.txt|non-functional
+sc25_suits.scene.txt|tag
+sc26_inspection.scene.txt|absorbent
+sc27_vess.scene.txt|calendar's clean
+sc28_sendoffs.scene.txt|zinnia
+sc29_weigh_in.scene.txt|alibration drift
+sc30_loadout.scene.txt|ALL CLEAR
+sc31_launch.scene.txt|primer
+sc32_crate_life.scene.txt|NO ANOMALY
+sc33_offer.scene.txt|never had
+sc34_tli.scene.txt|NO ABORT FROM HERE
+sc35_landing.scene.txt|ound off
+sc36_empty_sites.scene.txt|not present
+sc37_reveal.scene.txt|There they are
+sc38_standoff.scene.txt|came in the mail
+sc39_wall.scene.txt|not my commander
+sc40_hale.scene.txt|read this one
+sc41_vess_pell.scene.txt|cooperated
+sc42_look_up.scene.txt|Look up
+sc43_fourth.scene.txt|God bless America
+sc44_coda.scene.txt|THE END
