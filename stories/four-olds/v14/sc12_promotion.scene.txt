@@ -1,0 +1,24 @@
+v14-12-promotion — INT. FEDERAL BUILDING, WASHINGTON - CONFERENCE ROOM - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc12_promotion.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A long table fills the conference room, and a dozen senior staffers sit down both sides with notepads and water glasses.
+ACTION: HOLLOWAY, 50s, stands at the head with a thin folder in his hand.
+ACTION: PELL, 50s, sits near the foot in his good jacket, his lanyard squared on his chest.
+HOLLOWAY: Last thing. The Unity Day recovery needs a lead out front, and it needs somebody who closes clean. Eleven years, nobody in this building closes cleaner than Pell.
+HOLLOWAY: The Nebraska parcel last month, the aerospace pull, that was him. Exactly the kind of rigor this program's been missing.
+HOLLOWAY: So. Special Administrator, Lunar Heritage Recovery. That's you.
+HOLLOWAY: You'd be out front on it, the press, the whole artifact side. And nothing ships that day without your sign-off. Congratulations.
+ACTION: Down both sides of the table, the senior staff find something to read on their notepads at the same moment.
+ACTION: Holloway looks down the table at WHITFIELD, a senior staffer with a full calendar open in front of her.
+HOLLOWAY: Whitfield, your shop want in on the artifact side, or --
+WHITFIELD: Scheduling conflict.
+ACTION: Pell sits up as Holloway slides the folder down the table to him.
+PELL: Thank you. I mean it. Eleven years, I always told myself the work was the thing, you don't do it to get—
+PELL: I won't let the Accord down.
+ACTION: Nobody looks up at him. At the far end a staffer squares a fresh stack of agendas and slides the top one to her neighbor.
+HOLLOWAY: Good. That's the hour. Whitfield, walk with me.
+ACTION: Holloway is already at the door, and someone holds it open for him a beat too fast.
+ACTION: Pell gathers the folder up in both hands and goes out after them.
+ACTION: In the corridor he stops alone at a lit trophy case along the wall.
+ACTION: He straightens his lanyard in the dark glass over the awards, then goes on down the hall.

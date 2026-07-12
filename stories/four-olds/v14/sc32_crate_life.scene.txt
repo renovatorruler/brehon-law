@@ -1,0 +1,41 @@
+v14-32-crate-life — INT. HARMONY ONE, CARGO BAY - SHIP'S NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc32_crate_life.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A panel swings inward on crate C, and GUNNY TIBBS, 71, folds out into the dark in thermal underwear and gray wool socks, a penlight hooded in his fist.
+ACTION: He hands himself along the crates, works a spent canister loose from a service port and seats a fresh one.
+ACTION: At crate D he threads a steel thermos through the port, and it slides out of sight inside.
+CRICKET (WHISPER): Obliged.
+ACTION: The bay door seal hisses.
+ACTION: Gunny goes flat behind crate F, his socks drifting up loose behind him, the penlight dead in his hand.
+ACTION: LINDQVIST pushes in on a handhold and walks a flashlight down the painted crate numbers.
+ACTION: The beam crosses crate F and keeps going.
+LINDQVIST: It's freezing down here. Nobody bothers heating the cargo end.
+ACTION: A vent hatch hangs half open by Gunny's shoulder. He pushes it flush with one finger.
+ACTION: Lindqvist pulls himself back through the hatch, and the light leaves with him.
+ACTION: Gunny comes off the crate and pushes to the window, both hands on the frame.
+ACTION: The Moon fills a third of the glass. He holds there and looks at it a long time ...
+ACTION: He folds back into crate C and draws the panel shut.
+ACTION: Four amber lights hold in the dark.
+ACTION: A run of knuckle taps travels crate to crate, slow and patterned.
+ACTION: Inside crate A, a penlight clicks on over a spiral notebook, and Dutch pencils one letter, waits, pencils the next.
+ACTION: ON THE PAGE -- the pencil has spelled out, ANYONE ELSE'S HOTEL GOT ROOM SERVICE.
+ACTION: Dutch raps back on the crate wall with the pencil butt, slow and even.
+ACTION: ON THE PAGE -- under it, in his own hand, TOLD HIM. TAKE IT UP WITH THE SPEC AUTHOR.
+ACTION: A cone of worklight crosses the bay, and OBSERVER SHEN drifts in behind it, reading serials off the crate faces into a tablet.
+ACTION: He taps the stylus to each tag as he passes it.
+ACTION: He stops at crate D. His head tilts a few degrees.
+ACTION: He drifts in close and reads the inspection tag, which an inspector named Pell has signed and marked as cleared.
+ACTION: The gauge beside it reads nominal.
+ACTION: He works the glove off his right hand and wedges it under his arm.
+ACTION: He lays his bare palm flat against the crate skin.
+ACTION: The palm holds there. Five seconds go by, then eight.
+ACTION: WITH CRICKET -- inside crate D he lies dead still and holds a breath all the way in.
+ACTION: Brandt, the commander of the Harmony crew, leans in from the corridor with one hand on the frame.
+BRANDT: Shen. Burn prep's on. Strap in, twenty minutes.
+ACTION: The palm lifts. Shen works the glove back on.
+ACTION: The stylus moves. LOT D. SEALS INTACT. PURGE NOMINAL. NO ANOMALY.
+ACTION: Shen pushes off after Brandt, and the worklight goes with him.
+ACTION: The bay lights bank down to standby.
+ACTION: From crate C, two soft knocks.
+ACTION: Inside crate D, Cricket taps back twice against the wall.

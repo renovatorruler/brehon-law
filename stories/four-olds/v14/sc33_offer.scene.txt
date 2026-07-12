@@ -1,0 +1,38 @@
+v14-33-offer — EXT. DAWES FARM, PORCH - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc33_offer.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A washed black SUV sits in the farm lane with the engine still running.
+ACTION: DANNY DAWES, 50, stands just inside the screen door with one hand on the frame.
+ACTION: An AIDE in a pressed suit waits on the bottom step and holds a phone up flat on his palm.
+ACTION: On the phone, PRESIDENT ZORAN MARWANI, 41, smiles up at the door.
+MARWANI: I won't take your whole morning. I wanted to bring this one myself. We're amending the record. Apollo Eighteen goes back in the rolls, your father's name on the crew, where it should have been the whole time.
+ACTION: A breeze moves the wash hanging on the line at the side of the house.
+MARWANI: Flown status, by my own order. The wings. The whole history, put right.
+MARWANI: One small thing back. On the Fourth he stays home, sits out on his porch, lets the day go by where folks can see him. That's all of it. A good man at peace with all of us.
+DANNY: He's out.
+ACTION: Marwani keeps the smile and tips his head a little.
+MARWANI: Of course. When he's back, would you tell him the President drove all this way to ask him himself?
+DANNY: I'll pass it along if he calls.
+MARWANI: Mr. Dawes --
+DANNY: You have a good day now.
+ACTION: The screen door claps shut.
+ACTION: The aide stands on the step with the phone still held out to the empty doorway.
+ACTION: That night out on Ridge Road, a pickup sits pulled off in the grass with its lights out.
+ACTION: JOSS REED, 26, sits on the tailgate with a telegraph key and a radio, a red flashlight held in his teeth.
+ACTION: Danny hands him a folded sheet and Joss flattens it on his knee.
+ACTION: Joss works the key in short even taps and watches the sky.
+ACTION: The ship crosses overhead for six minutes and no more.
+ACTION: Two hundred miles up, inside crate D, the message pad fills a line at a time.
+ACTION: The lines come up one at a time, RECORD AMENDED, then FLOWN STATUS, then EXEC ORDER.
+ACTION: Then the condition, HOME ON PORCH UNITY DAY, and under it the one word VISIBLE.
+ACTION: CRICKET DAWES, 79, holds on that last word a moment in the amber light.
+ACTION: He knocks twice, and twice again, around the bay.
+ACTION: He sets his hand to the key by his knee and sends short and even.
+ACTION: Back on the tailgate the radio ticks and Joss reads it off the key.
+JOSS: Tell him, you can't give back what you never had.
+ACTION: The key keeps ticking and Joss keeps his eyes on it.
+JOSS: There's more.
+JOSS: Dawes out.
+ACTION: Overhead one point of light moves across the dark, west to east, steady.
+ACTION: Danny and Joss watch it all the way down to the horizon.

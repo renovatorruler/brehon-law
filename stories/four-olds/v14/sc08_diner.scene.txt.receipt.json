@@ -1,0 +1,10 @@
+{
+  "id": "v14-08-diner",
+  "slug": "INT. ROY'S DINER - DAY",
+  "seedHash": "6b2801670d85056245e621c5ee2a060c703567fb80d92a455f2d069adf8e7044",
+  "sceneHash": "eea9e0c2e8cbd5d803d4cb868e1f6b1f9f2fc93e973f74440128feb1aedd0e7b",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

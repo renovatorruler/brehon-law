@@ -1,0 +1,39 @@
+v14-28-sendoffs — INT. DAWES BARN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc28_sendoffs.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: EARL "CRICKET" DAWES, 79, stands at the barn workbench with a canvas kit bag open and a handwritten list pinned under a wrench.
+ACTION: He reads a line off the list and sets a logbook down in the bag, then lays a slide rule alongside it.
+ACTION: DANNY DAWES, 50, stops in the barn doorway with one hand still on the frame.
+DANNY: I know what's in the barn, Dad. I've known about a year now. Figured you'd say something when it got to where it mattered.
+ACTION: Cricket doesn't stop. He sets a zippo on top of the logbook.
+DANNY: I'm not going to say any of the things. Your age, or the law, or Mom. You'd just stand there and let me get all the way through it.
+CRICKET: I would.
+ACTION: A folded photograph goes in next and he doesn't look at it.
+ACTION: Danny pushes off the door frame and turns to leave.
+DANNY: County's squared, by the way. Paid it Tuesday, so that's handled.
+ACTION: Cricket's hand stops flat on the bag.
+CRICKET: I'll pay you back.
+DANNY: I know.
+ACTION: Danny stops again with his hand on the frame.
+DANNY: You need a driver, or.
+CRICKET: Thursday. Four a.m. Dress like a farmer.
+DANNY: I am a farmer.
+ACTION: Later, in the bedroom off the barn, Cricket lifts the bag onto the quilt and keeps working down the list.
+CRICKET: You'll want the --
+ACTION: He stops with the word half out and the room stays quiet around him.
+ACTION: His thumb catches a raised seam inside the bag, old thread, three sides of small even stitches that aren't his.
+ACTION: He opens the stitches with the pocketknife.
+ACTION: Inside sits one dried orange ZINNIA, pressed flat and gone brittle.
+ACTION: He doesn't turn it over or hold it up to the bulb.
+ACTION: He folds the canvas back over the seam and packs the rest of the bag around it.
+ACTION: Across the country, in a kitchen in East Los Angeles, saints hang on the wall and a sewing machine sits dark by the window.
+ACTION: LITA ALVAREZ, 80s, takes one end of a folded flag at the table, and TITO ALVAREZ, 24, lifts the other.
+ACTION: They fold it in half down the long side, then down the long side again.
+ACTION: She starts the triangle at her end and he holds the tension while it comes across in tight, sharp turns.
+ACTION: The last corner tucks under and holds.
+ACTION: She works a small St. Christopher medal deep into the folds until it disappears.
+ACTION: She sets the triangle in his two hands.
+ACTION: Tito kisses her forehead and goes out.
+ACTION: Through the window, he lowers the triangle onto the truck seat with both hands.
+ACTION: Lita sits back down at the sewing machine and turns off the lamp.

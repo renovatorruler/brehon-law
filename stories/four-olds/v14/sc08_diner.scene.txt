@@ -1,0 +1,43 @@
+v14-08-diner — INT. ROY'S DINER - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc08_diner.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A gray COUNTY METER hangs zip-tied to the gas line behind the counter, its little numbers ticking up.
+ACTION: THE COOK, 60s, works the flat-top with his back to the room and cuts a look at the meter.
+COOK: Yeah, I see you.
+ACTION: A county letter is taped up by the register, one line on it circled in pen, WEEKLY ALLOWANCE.
+ACTION: The Cook reads it the once and goes back to the eggs without a word.
+ACTION: On the wall TV a loft full of matching UNITY DAY shirts cheers a countdown clock.
+ACTION: A crawl runs under the picture and reads 62 DAYS TO UNITY DAY, NATIONS OF HONOR ANNOUNCED FRIDAY.
+ACTION: A panelist talks over the white rendering of the flags.
+PANELIST: — this is a president finishing an argument America started losing in 1969—
+ACTION: BUCK, 70s, in a feed cap, sits over a coffee at the counter with his eyes on the screen.
+ACTION: EARLENE, 60s, works the till down the counter with the pot in her hand.
+ACTION: Buck says it into his coffee, not loud.
+BUCK: Fifty years we kept commies off the Moon. All they had to do was win a primary.
+ACTION: Earlene doesn't look up from the register.
+EARLENE: Buck.
+BUCK: I said it quiet.
+ACTION: The Cook picks up the remote and flips over to the ball game.
+ACTION: On the broadcast a public-address voice comes up over the ballpark.
+PA (RADIO): Please rise for tonight's anthem, One World Rising, performed by the Children's Harmony Choir.
+ACTION: On the screen some of the crowd stands. A lot of it doesn't.
+ACTION: The Cook turns the sound down, not off.
+ACTION: Buck starts humming into his coffee, and four notes in it's the old anthem.
+ACTION: The Cook's spatula picks up the time against the edge of the grill, small, maybe not on purpose.
+ACTION: Earlene hums the next bar while she counts a stranger's change.
+ACTION: Nobody stands up, and nobody looks at anybody else.
+ACTION: The verse ends, and the counter goes back to forks and plates.
+ACTION: Down the counter Wade sits in uniform over a plate of eggs, his hat set crown-up beside him.
+ACTION: His coffee cup has been empty a while.
+ACTION: Earlene wipes the counter three feet from the pot and doesn't reach for it.
+ACTION: Wade doesn't look at the cup again. He slides two dollars under the saucer and takes his hat.
+ACTION: The bell over the door rings behind him.
+ACTION: CRICKET, 79, comes in and takes the end stool, and Earlene sets coffee down before he's square on the seat.
+ACTION: Buck slides the sugar caddy over within his reach without looking up from his plate.
+ACTION: Cricket goes for his wallet, and Earlene is already wiping past him.
+EARLENE: It's paid.
+CRICKET: Obliged.
+ACTION: He puts his cap on, and the bell rings as he goes out.
+ACTION: Through the window the courthouse flag stands across the square.
+ACTION: The meter ticks up another number. The Cook watches it a second and turns back to the grill.

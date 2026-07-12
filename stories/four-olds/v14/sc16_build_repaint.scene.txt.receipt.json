@@ -1,0 +1,10 @@
+{
+  "id": "v14-16-build-repaint",
+  "slug": "INT. TRI-COUNTY AUCTION BARN - DAY",
+  "seedHash": "bad6174671947884433bb814ebbcf392011890097acfb86d4160231564399a5b",
+  "sceneHash": "a8641e5ddab45d5e99c76439ed2f08b16a12e005b844606cce3b9ceeb2e982c1",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

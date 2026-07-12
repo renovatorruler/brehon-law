@@ -1,0 +1,10 @@
+{
+  "id": "v14-21-conversion",
+  "slug": "INT. TRI-COUNTY AUCTION BARN - NIGHT (DAYS COMPRESSED)",
+  "seedHash": "ea943d9ba94c2f3b15d4ddcfe03d8ce3f36057fd9c473caa81833f191400ce01",
+  "sceneHash": "beabc09d09862b387b23f4c87f8b366c0faa9036b59dfb76a951ff06963e778b",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

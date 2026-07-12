@@ -1,0 +1,10 @@
+{
+  "id": "v14-37-reveal",
+  "slug": "EXT. APPROACH TO TRANQUILITY BASE - LUNAR DAY",
+  "seedHash": "8678d6a1d6c8d175a9ef36516d472e42d9de7ddbb898f50c5b613b261e9a5f24",
+  "sceneHash": "2e0308e7bd7dd021036dd46701d20005ac4ff546bc041b940703fbd59adde378",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,46 @@
+v14-16-build-repaint — INT. TRI-COUNTY AUCTION BARN - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc16_build_repaint.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The auction barn runs full. Bay Two men work their stations down the frame rail, and the cash box sits open on a stool by the door.
+ACTION: TITO ALVAREZ, 24, a welder's hood pushed up on his forehead, lays a bead down the seam of a crate clamped in the welding jig.
+ACTION: The bead runs even the whole length of the seam.
+ACTION: Purge lines run neat along the underside of the rail, tucked back where nobody will ever look.
+ACTION: GUNNY TIBBS, 71, a Navy ballcap on, moves down the row and looks at every man's work without stopping.
+ACTION: Tito sits wedged against the tank now, a wind-up watch open in his hand, waiting on the gauge.
+ACTION: He raps the steel twice. He waits. He raps it twice more.
+ACTION: Two knocks come back from inside the tank.
+ACTION: DUTCH HAAS, 76, reads the needle and writes a figure in a binder without looking up.
+TITO: Needle hasn't moved off it.
+DUTCH: Twelve hundred. Give it the four minutes and it logs.
+ACTION: ON THE SCREEN -- a helicopter holds a steady frame on the booster laid out full length on its transporter.
+ACTION: Fifty feet of painted stars and stripes runs the side of it.
+ACTION: A cherry-picker rides up alongside. Two painters roll white primer down the flag, top to bottom, one pass at a time.
+ACTION: The primer goes over the stars. The frame does not cut away.
+ACTION: The anchor has stopped talking.
+ACTION: The picture cuts to a Frontier press room, where a press row is leaning in toward a podium.
+ACTION: MIRA VESS, 40s, dark suit, no notes, steps up to the podium and settles the room with a look.
+ACTION: A reporter in the front row lifts a pen.
+REPORTER: Whose call was the paint?
+VESS: Mine. I ordered the repainting.
+VESS: The Accord specifies neutral mission livery. Paint is cheaper than a receiver. That math is my job.
+ACTION: The reporter is already halfway to the next one.
+REPORTER: Did Hale sign off on --
+VESS: The board meets Thursday. Bring it.
+ACTION: She gives the room a small even smile and steps back off the podium.
+ACTION: The picture cuts to the counter at Roy's Diner, where the same footage plays on the set bolted over the grill, the painters still rolling.
+ACTION: The COOK reaches up past the shelf and turns the set OFF.
+ACTION: The screen goes black. He turns back to the grill.
+ACTION: EARLENE, 60s, works the counter with the pot in her hand.
+ACTION: BUCK, 70s, feed cap, sits the far stool with a ball game going on the little set down at his end.
+ACTION: The door opens. EARL 'CRICKET' DAWES, 79, comes in and takes the third stool, the one that's his.
+ACTION: The sugar caddy stays where it is, by the napkins.
+ACTION: Earlene tops off a cup two stools down. She works her way back and gets to Cricket last.
+ACTION: She sets a coffee in front of him and moves off down the counter.
+ACTION: A ball cracks off a bat on Buck's set. Buck watches it carry.
+ACTION: Earlene tears a slip off her pad and lays it face down by Cricket's cup.
+ACTION: THE TICKET sits there, face down on the counter.
+ACTION: Cricket turns it over and reads it.
+ACTION: He counts coins onto the counter, one at a time, and sets them by the cup.
+ACTION: The coffee sits where she put it, gone cold.
+ACTION: He puts his cap on and goes out the door.

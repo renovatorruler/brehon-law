@@ -29,7 +29,7 @@ sc27_vess.scene.txt|calendar's clean
 sc28_sendoffs.scene.txt|zinnia
 sc29_weigh_in.scene.txt|alibration drift
 sc30_loadout.scene.txt|ALL CLEAR
-sc31_launch.scene.txt|primer
+sc31_launch.scene.txt|burning sheets
 sc32_crate_life.scene.txt|NO ANOMALY
 sc33_offer.scene.txt|never had
 sc34_tli.scene.txt|NO ABORT FROM HERE

@@ -1,0 +1,10 @@
+{
+  "id": "v14-33-offer",
+  "slug": "EXT. DAWES FARM, PORCH - DAY",
+  "seedHash": "38e4b8a41e8af1a4ed6572d95392c537150ce786c6fc12bfcbdb42c2a94e738b",
+  "sceneHash": "0be75d3a29250cc2605b3e67e1665f6e9a09506d77c93382d3f7cdfbd3000f02",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

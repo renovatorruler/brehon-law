@@ -1,0 +1,10 @@
+{
+  "id": "v14-36-empty-sites",
+  "slug": "EXT. SURVEYOR CRATER, APOLLO 12 SITE - LUNAR DAY",
+  "seedHash": "b0e84faf5bbeecc7269fd377087f2f278ec7f818c6bc06edadace29a23467df3",
+  "sceneHash": "95be7a557f7169d9bbe766536feef625e4fe52e7179db967badad11fb7878aa4",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

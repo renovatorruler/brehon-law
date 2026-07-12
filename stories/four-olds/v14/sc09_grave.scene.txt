@@ -1,0 +1,18 @@
+v14-09-grave — EXT. COUNTY CEMETERY - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc09_grave.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A small county cemetery sits off a gravel lane, a chain-link fence around mown grass gone brown at the tips.
+ACTION: CRICKET, 79, comes up a row of stones with a fist of zinnias and stops at one.
+ACTION: DUTCH, 76, follows a step behind with his cap held in both hands.
+ACTION: Cricket lowers down and brushes the grass clippings off the top of the stone with the side of his hand.
+ACTION: The stone reads PEG DAWES.
+CRICKET: Peg had these all down the fence line. Orange ones, mostly.
+ACTION: He works the stems into a canning jar and turns it so the wind won't take it over.
+ACTION: Dutch stays off the corner of the plot, turning the cap in his hands.
+DUTCH: When'd she start in on Marwani.
+CRICKET: First time the man was ever on the television. Watched him maybe a minute and said he was selling something. Never trusted him a day after. And you know she had a kind word for about everybody.
+DUTCH: Before he ever had the county, then.
+CRICKET: Long before. Made her mind up right there in the front room and never went back on it.
+ACTION: Dutch fits his cap back on and looks at the stone a while.
+ACTION: Cricket presses the jar down into the grass until it stands on its own.

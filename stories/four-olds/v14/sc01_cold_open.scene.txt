@@ -1,0 +1,42 @@
+v14-01-cold-open — INT. CABLE NEWS STUDIO - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc01_cold_open.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A wall of monitors flips the electoral board from red to blue in a single second.
+ACTION: Balloons drop onto a news desk and bounce off the anchors' shoulders.
+ACTION: In the crowd, two people hold up a bedsheet painted with block letters.
+ACTION: ON THE SHEET -- HISTORY IS HEALING.
+ACTION: A COMMENTATOR, silver hair, wet eyes, stares into the lens and lets a tear sit there.
+COMMENTATOR: It's a reconciliation. With a whole world the last administration spent years insulting, and tonight that world is watching us come back to the table.
+ACTION: The camera finds a draped platform where MARWANI, 41, stands at the podium.
+ACTION: A UN flag rises beside the fifty stars at the same height.
+MARWANI: I do not stand here to celebrate a victory. I stand here to begin a repair.
+MARWANI: On behalf of the United States, to every nation we have wronged, we are sorry.
+MARWANI: This is not retreat. This is not surrender. This is repair.
+ACTION: The crowd rises and the applause runs long under a crawling chyron.
+ACTION: ON THE CHYRON -- NOBEL COMMITTEE AWARDS PEACE PRIZE, CITING "THE ANNOUNCED AGENDA."
+ACTION: The frame cuts to the belly of a military cargo plane, where shrink-wrapped pallets of banded hundred-dollar bills run the length of the bay.
+ACTION: A manifest is zip-tied to the nearest pallet, stamped in red.
+ACTION: ON THE MANIFEST -- IRAN COMPENSATION FRAMEWORK, DISBURSEMENT 1 OF 12.
+ACTION: A young STATE DEPARTMENT AIDE, 25, lanyard, turns his back to the money and lifts his phone for a selfie.
+ACTION: He checks the shot, frowns, and takes a better one.
+ACTION: The scene moves to a bright signing room in Brussels, where the Treasury Secretary signs the last page of a document as thick as a phone book.
+ACTION: Champagne pours and a stock ticker behind him runs all red.
+ACTION: ON THE TICKER -- AMERICA COMMITS $200 BILLION TO EUROPEAN DEFENSE RENEWAL.
+ACTION: A phone screen fills the frame with a push alert.
+ACTION: ON THE SCREEN -- WHITE HOUSE UNVEILS "STEWARDSHIP ACT": PRIVATE ASSETS ABOVE $1B TO BE ADMINISTERED IN THE PUBLIC INTEREST.
+ACTION: A thumb swipes it away and another alert lands in its place.
+ACTION: The picture opens on a Senate hearing room, where MAGNUS HALE, 50s, sits alone at the witness table with one printed page in front of him.
+HALE: Frontier is proud to serve the goals of this administration, at home and beyond it.
+ACTION: A SENATOR leans into his own microphone and holds the word in his mouth.
+SENATOR: Nationalization.
+ACTION: Hale folds his page in half, then folds it in half again, and looks at the Senator without a word.
+ACTION: The last cut lands inside Roy's Diner at morning, where six regulars sit along a counter while a muted TV over the pie case cycles the same footage from the montage.
+ACTION: A radio at the end of the counter murmurs at almost no volume, and nobody reaches for it.
+RADIO (RADIO): under the carbon framework the sale, use, and private storage of consumer fireworks is prohibited nationwide effective the first of the month, with the Department directing local surrender of existing —
+ACTION: EARLENE, 60s, works the pot down the counter and tops off Buck's cup without being asked.
+ACTION: BUCK, 70s, feed cap, watches the TV for a second and turns his cup a quarter turn on the saucer.
+BUCK: Huh.
+ACTION: He drinks.
+ACTION: The screen goes to black.
+ACTION: THE FOUR OLDS.

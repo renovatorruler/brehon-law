@@ -1,0 +1,10 @@
+{
+  "id": "v14-34-tli",
+  "slug": "INT. FRONTIER MISSION CONTROL - NIGHT",
+  "seedHash": "d1f85f959c75d736799b822486b857826a4d95deed669c68cab75e4db220a5eb",
+  "sceneHash": "57b98d4af2d4d176100f21b745ccbcf68b02aa12e6cf022cb1ef5b22430d3a48",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

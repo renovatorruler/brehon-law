@@ -1,0 +1,10 @@
+{
+  "id": "v14-22a-mack-finds-out",
+  "slug": "INT. TRI-COUNTY AUCTION BARN - NIGHT",
+  "seedHash": "46e7c259241a6a4160e7d217b0db5bef415d57f774781e7e23d9f47c81086954",
+  "sceneHash": "02d245352d8c2dc2ccc6d74e1a0f4e8b228e77deb94b17e108b45cf4b75ac343",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

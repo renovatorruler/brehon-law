@@ -1,0 +1,10 @@
+{
+  "id": "v14-24-proof",
+  "slug": "INT. TRI-COUNTY AUCTION BARN - NIGHT",
+  "seedHash": "f2ed9b6fadb3a5fb919f27865bb932fc8e1c26796bdaa4656182260bae327dc3",
+  "sceneHash": "3c8dd508116946a9afc0bf829e2dfefd48556ec9597d35086cf9877d22e2806e",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

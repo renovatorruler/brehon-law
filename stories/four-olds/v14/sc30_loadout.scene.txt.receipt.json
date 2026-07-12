@@ -1,0 +1,10 @@
+{
+  "id": "v14-30-loadout",
+  "slug": "EXT. FRONTIER AEROSPACE, MAIN GATE - PRE-DAWN",
+  "seedHash": "a8aa34c5b0cecf31da113bb0ab4edcfb80cf40561f0522779b50be0f0e3ae62e",
+  "sceneHash": "c0aa9a18bb056d38007e7b8eb9059a28f0ec47c7c7d1ae9af477826893619dfa",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

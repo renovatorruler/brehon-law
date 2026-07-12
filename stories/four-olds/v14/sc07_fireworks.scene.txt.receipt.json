@@ -1,0 +1,10 @@
+{
+  "id": "v14-07-fireworks",
+  "slug": "INT. DAWES BARN - NIGHT",
+  "seedHash": "892d25256dafeb51ad58d55a656f4de19445301752265c6e8b0a5e837b0d5dfa",
+  "sceneHash": "9a21165eea6288a5c3171e61dc297b3e4386eb7b53ed867d2316da816ad2e467",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

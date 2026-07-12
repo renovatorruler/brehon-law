@@ -1,0 +1,54 @@
+v14-22-mack — INT. TRI-COUNTY AUCTION BARN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/parked_sc22_fused.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The auction barn holds one work lamp burning over a plywood table, the rest of the floor dark.
+ACTION: MACK BOONE, 55, glasses down his nose, runs a pencil down a freight booking sheet under the lamp.
+ACTION: The pencil stops. Six archival boxes ride the sheet marked empty, and the weight column beside them reads heavy.
+ACTION: He carries one of the boxes to the floor scale by the roll door and sets it down. The needle barely lifts.
+ACTION: He goes back to the sheet and taps four lines with the pencil. Each one carries thirty kilos he never loaded.
+ACTION: He looks up from the paper at the shapes standing under tarps along the wall.
+ACTION: He crosses the floor and lifts the corner of one tarp.
+ACTION: Under it a COUCH sits finished and upholstered, built the length and the heft of a man laid out flat.
+ACTION: He drops the tarp and walks to the table where the others are waiting. He sets both hands flat on the plywood.
+MACK: Nothing on this manifest breathes, gentlemen.
+ACTION: CRICKET, 79, sits at the head of the table in a feed-store jacket. He sets his coffee down before he answers.
+CRICKET: The museum's loaning out a live booster for the ceremony. We ride it up with six men in place of the crate. We come down in the Pacific. Nothing they crated up ever leaves the ground.
+ACTION: Mack looks over at the couch under its tarp, then back to Cricket.
+MACK: You understand there's no backing out once you're up there. Bad heart at four g's, your age, no doctor closer than a quarter million miles.
+ACTION: GUNNY, 71, Navy cap, works a rag over a wrench at the far end of the table and doesn't put it down.
+GUNNY: Boone, I've buried better men than me for worse reasons than this. Sit down or go home. Either's fine. Quit standing there doing arithmetic on our behalf.
+ACTION: Nobody fills the quiet. Mack pulls the chair out and sits, and takes a pen from his shirt pocket.
+MACK: From tonight, everything changes how it moves. Nothing electronic. No phones, no email, no cloud. Nothing with a battery you didn't build yourself.
+ACTION: JOSS, 26, and TITO, 24, sit on upturned crates just behind the table, close enough to hear it all. Joss leans in.
+JOSS: Then how do two hundred guys and four states coordinate a—
+ACTION: DUTCH, 76, opens a binder to a marked page and turns it around on the table.
+DUTCH: Handwritten letters. The ham net, on schedule, in code. A book cipher.
+ACTION: A swollen 1971 Reader's Digest lies at Dutch's elbow, its pages gone fat with damp. He taps the cover twice.
+JOSS: That's insane. That's — that's Revolutionary War stuff.
+ACTION: Gunny finally sets the wrench down.
+GUNNY: They've got every algorithm ever written. We've got Valley Forge.
+ACTION: Joss looks over at Tito. Tito looks back and says nothing.
+JOSS: You're all out of your minds. So what do you need me for.
+ACTION: Tito raps his knuckles twice on the crate beside him.
+ACTION: Tito lifts a film camera off the crate and frames the finished couch.
+ACTION: The shutter snaps twice.
+ACTION: He winds the film out, drops the canister into a Folgers can already half full of them, and buries the can in the bottom of his toolbox.
+ACTION: A stack of envelopes waits at the end of the table, each one addressed to TRI-COUNTY FEED COOPERATIVE, RE: PARTS.
+ACTION: Out on a gravel road at first light, hands feed the envelopes into rural mailboxes one at a time and stand the little red flags up.
+ACTION: Back at the plywood table, Dutch slides an index card across to DANNY, 50, Cricket's son, sitting in close at his father's shoulder.
+DUTCH: Fourteen. Two. Nine.
+ACTION: Danny counts down the pages and the lines in the Reader's Digest and reads the words back under his breath.
+DANNY: That's a grocery list.
+DUTCH: This week it is.
+ACTION: Cricket goes around the table. Each man says where he'll tell people he is come July.
+GUNNY: My sister's. Montgomery.
+ACTION: STITCH, 74, tips his chair back onto two legs.
+STITCH: Airplane parts. Wichita. True enough.
+DUTCH: The archival standards conference. Dayton.
+ACTION: Nobody bites. Dutch turns a page in the binder.
+DUTCH: There is one.
+ACTION: Cricket looks at his son. Danny keeps his eyes on the card.
+DANNY: Fishing.
+ACTION: Under the lamp Mack writes the first letter out longhand in block print.
+ACTION: The pen scratches in the quiet barn.

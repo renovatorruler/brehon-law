@@ -1,0 +1,10 @@
+{
+  "id": "v14-31-launch",
+  "slug": "EXT. FRONTIER LAUNCH COMPLEX, PAD 1 - NIGHT",
+  "seedHash": "09943bed734ec9e0ffce63388c32e675cf98262f43abd4b364e71957227fb79a",
+  "sceneHash": "d744fa183f10cccfa194126797c1c51e1d6fd0b1a9fcd928df425797855988f3",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

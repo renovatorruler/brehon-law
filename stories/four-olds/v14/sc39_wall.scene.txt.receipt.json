@@ -1,0 +1,10 @@
+{
+  "id": "v14-39-wall",
+  "slug": "EXT. TRANQUILITY BASE - LUNAR DAY",
+  "seedHash": "c2abb099b6029255ae4c6bda576a4f221d7bfd78615ff1f3d3c2e255596a79bb",
+  "sceneHash": "b4571192d34423bc27a9dcb1a2f074ae7b513fc7d7303b3171db529ce2a21724",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

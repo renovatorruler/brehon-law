@@ -1,0 +1,10 @@
+{
+  "id": "v14-09-grave",
+  "slug": "EXT. COUNTY CEMETERY - DAY",
+  "seedHash": "2007e242d449f29432c7b51bafb09898231e1af7f2ab0b82937c541beabe38ce",
+  "sceneHash": "a813436020977a926a085dd405d211ef798a1de7b9189f119d07e8e6af2da861",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

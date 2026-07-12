@@ -1,0 +1,10 @@
+{
+  "id": "v14-32-crate-life",
+  "slug": "INT. HARMONY ONE, CARGO BAY - SHIP'S NIGHT",
+  "seedHash": "43acdae8282123ed63ddf03b281f3532967bd678c04576c83fcedda3a1f20311",
+  "sceneHash": "a6cf65fcc5d1ffd6a49848af937e2a6dab3571e5c7a322170f56af0ee2360700",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

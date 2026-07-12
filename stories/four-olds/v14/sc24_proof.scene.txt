@@ -1,0 +1,37 @@
+v14-24-proof — INT. TRI-COUNTY AUCTION BARN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc24_proof.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Night in the barn, and MACK stands at the plywood table with a printed federal seizure inventory in front of him, 55.
+ACTION: The crew waits around the table while he runs a finger down the list.
+MACK: Before I trust that warehouse with y'all, I want to watch it lose something small.
+ACTION: He stops on the first line and turns the sheet so CRICKET can read it, 79.
+MACK: Item one. The trainer.
+ACTION: A week later a flatbed pulls up to the barn with VALLEY SALVAGE & SURPLUS painted on the door.
+ACTION: Every piece on the deck wears a fresh orange stencil that reads SCRAP LOT 44-C.
+ACTION: The DRIVER swings down with a clipboard and looks at his watch.
+DRIVER: Sign for lot 44-C. Scrap conveyance, buyer's copy. Somebody paid the freight to here, don't ask me who, I just drive. And I got a two o'clock in Ogallala.
+ACTION: On the buyer's copy a line reads SOLD TO the TRI-COUNTY FEED COOPERATIVE.
+ACTION: Cricket reads down the line items, HOMEBUILT TRAINER COMPONENTS, SOLD AS SCRAP, NON-FUNCTIONAL.
+ACTION: He looks at the gauges sitting whole and the panels turned up to the sky on the deck.
+CRICKET: Says non-functional.
+DRIVER: It does say that.
+ACTION: Cricket signs the buyer's copy and hands the clipboard back.
+CRICKET: Barn's where it was.
+ACTION: Inside, the men set the trainer down and bolt it through the same four holes in the floor.
+ACTION: One orange SCRAP stencil stays on the rail, and no one scrubs it off.
+ACTION: DUTCH throws the breakers in the order they always go, 76.
+ACTION: The amber light on the panel flickers and comes up steady.
+ACTION: Dutch keys the panel and picks the drill back up.
+DUTCH: Net's open. Tuesday.
+ACTION: STITCH settles onto a stool by the rack, 74.
+STITCH: There he is.
+ACTION: Dutch turns to Cricket at the panel.
+DUTCH: Bus B. What's it read.
+ACTION: Cricket taps the glass on the gauge with a knuckle.
+CRICKET: Twenty-eight point four. Better than it left.
+ACTION: GUNNY stands at the end of the panel, 71.
+GUNNY: Run your card, Commander.
+ACTION: Above the panel, taped where a mission patch would go, hangs the folded pink county seizure sheet.
+ACTION: Cricket puts his hand on the throttle.
+CRICKET: Guidance internal.

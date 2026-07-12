@@ -1,0 +1,38 @@
+v14-18-anthem — EXT. PIONEER FIELD, MINOR-LEAGUE BALLPARK - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc18_anthem.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Pioneer Field sits packed under the lights, nine thousand people filling a minor-league park to the top row.
+ACTION: The public address voice comes up warm over the crowd.
+PA (RADIO): Please rise now for tonight's unity performance, One World Rising, brought to you by the Tri-Cities Children's Harmony Choir.
+ACTION: Down on the grass a children's choir files into its rows, and a young director lifts her hands to them.
+ACTION: A synthesizer and a run of chimes start up under the choir.
+ACTION: The crowd gets to its feet slow, hands staying down in their pockets.
+ACTION: Along the third-base line BUCK stands in his feed cap, 70s, looking past the choir to the flag out on the center field pole.
+ACTION: Buck takes his cap off and holds it, and he opens his mouth and starts to sing.
+BUCK: Oh, say can you see...
+ACTION: He is off the note and too loud, and for four bars he is the only voice in the park.
+ACTION: The row behind him picks it up, a couple of voices, then the whole row of them.
+ACTION: The section around him comes in after that, ragged and out of time with itself.
+ACTION: It carries back to the far bleachers, thousands of them now, none together and all of them going.
+ACTION: The synthesizer and the chimes keep playing underneath it, buried and steady.
+ACTION: Up on the concourse a COMPLIANCE KID stands at the rail, 20s, a lanyard at his neck, his tablet half raised toward the stands.
+ACTION: He looks down at the tablet, then out at the crowd, then down at the tablet again.
+ACTION: He lowers it and slides it inside his jacket.
+ACTION: Down on the grass the choir director lets her hands come down.
+ACTION: She turns her back on the choir and faces the flag out in center field.
+ACTION: Over in the next section CRICKET DAWES stands with his cap down at his side, 79, watching the rows behind home plate find the words a section at a time.
+ACTION: GUNNY TIBBS holds at attention beside him, 71, his thumb laid flat down the seam of his trousers.
+ACTION: DUTCH HAAS keeps his cap flat over the center of his chest, 76, and his mouth stays closed.
+ACTION: STITCH stands on past them, 74, hat in his hand, not singing.
+ACTION: A full row of empty seats runs along both sides of them in the sold-out park.
+ACTION: DANNY DAWES stands at his father's shoulder, 50, and he is singing it, plain and steady.
+ACTION: On the scoreboard a line reads TONIGHT'S POST-GAME LIGHT SHOW BROUGHT TO YOU BY THE UNITY FUND.
+ACTION: Two rows down a boy tugs his father's sleeve and points up at the board.
+BOY: Is the light show the one with the booms?
+FATHER: Not anymore, bud.
+ACTION: The last word carries up out of the park and dies off somewhere over the parking lots.
+ACTION: The crowd sits back down in sections and the game gets going.
+ACTION: The first pitch comes in and the umpire calls a strike.
+ACTION: The four of them look down the row at each other.
+ACTION: One by one they put their caps back on.

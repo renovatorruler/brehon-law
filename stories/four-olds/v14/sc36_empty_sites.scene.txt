@@ -1,0 +1,37 @@
+v14-36-empty-sites — EXT. SURVEYOR CRATER, APOLLO 12 SITE - LUNAR DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc36_empty_sites.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The Apollo 12 descent stage stands alone on the gray, its foil skin still bright gold in the sun, the experiment packages set out around it in a row where the crew left them.
+ACTION: Lindqvist stands at the edge of the old scuffed ground with a cue card up in his glove, reading it out slow for the cameras trailing him.
+LINDQVIST: We arrive as guests of history, to relieve it of its oldest burden—
+ACTION: He stops. The card stays up in front of his visor.
+ACTION: Where the first flag should stand, there is only a SOCKET HOLE punched down into the dust.
+ACTION: Fresh bootprints cross the old faded ones, and they are not the crew's.
+ACTION: Wheel tracks run in from the northwest and back out the same way.
+ACTION: Brandt, the commander, comes up beside him and keys the loop.
+BRANDT (RADIO): Harmony, Site One. The artifact is... not present.
+ACTION: ON A STREAM --
+ACTION: A man in his thirties fills a gaming chair under a ring light, veins standing in his neck, a wall of pinned clippings and diagrams behind him.
+STREAMER: There were NEVER any flags! Fifty years of soundstage and they're up there right now hunting for PROPS! Look at them! WAKE UP!
+ACTION: The chat column blurs upward and the donation chime keeps going and does not stop.
+ACTION: The tour reaches Fra Mauro, and the site gives them the same thing. A gold descent stage stands over a row of tools, and another hole waits in the dust where the flag stood.
+ACTION: Lindqvist stands over this one with the cue card held down at his side, not reading it.
+LINDQVIST: You can shut the cameras off. There's nothing to film here either.
+ACTION: Down at Roy's Diner, a television over the counter runs the Moon feed with the sound off. Buck, seventies, in a feed cap, sits on his stool with a coffee going cold in front of him. Earlene works the pot behind the counter.
+BUCK: Somebody took 'em.
+ACTION: Earlene tops off the cup without looking up at the set.
+EARLENE: Took 'em where, Buck? It's the Moon.
+ACTION: Buck keeps his eyes on the screen. A smile starts at one corner of his mouth and comes on slow.
+ACTION: Inside the Unity Day pavilion, banners hang over the stage, and Marwani, the program's master of ceremonies in a good suit, keeps his remarks rolling to a front row of schoolchildren.
+MARWANI: ...and in just a few minutes now, these young people are going to watch us bring the very first flag back home.
+ACTION: Behind him the giant screen drops the Moon feed and holds on a single card. PLEASE STAND BY: UNITY DAY.
+ACTION: An aide slips in at his shoulder and says something low in his ear. Marwani keeps smiling down at the children.
+MARWANI: They tell me we'll have the picture back for you very shortly.
+ACTION: Back on the Moon at the first hole, Shen, the Bloc's observer, crouches over the ground near Brandt and switches to the private channel between them.
+SHEN: Commander. The possibility must be raised. If the artifacts were never — if the landings themselves were—
+BRANDT: Don't.
+ACTION: Neither of them says anything for a while.
+ACTION: Shen looks down at fifty years of undisturbed prints ringing the socket, and the new ones laid across them, still crisp at the edges.
+ACTION: Brandt straightens and turns his visor to the wheel tracks running off to the northwest, straight and even, all the way to the horizon.
+BRANDT: Whoever they are, they're not hiding their driving.

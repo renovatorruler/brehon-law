@@ -1,0 +1,10 @@
+{
+  "id": "v14-06-seizure",
+  "slug": "EXT. DAWES FARM - DAY",
+  "seedHash": "f332588846f59db3dd087f3e1a2dc0dd803c6f1faac13ef916dc10fec39a5bfd",
+  "sceneHash": "d78e002dc0f7c8fae3f9047abd604e545c9b1562b41976d27f8cfd1755a353bb",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

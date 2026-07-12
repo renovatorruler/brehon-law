@@ -1,0 +1,10 @@
+{
+  "id": "v14-02-bank",
+  "slug": "INT. FIRST PLAINS BANK, BROKEN BOW, NEBRASKA - DAY",
+  "seedHash": "bf49020206d51203c123a1d4016b53998b10462e578bafc9ee2d58dd2b40de2a",
+  "sceneHash": "bf2ae8402c385758cf8c4310e3f83dd60d905e9bcdceca93f9ff83a396fd9adf",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

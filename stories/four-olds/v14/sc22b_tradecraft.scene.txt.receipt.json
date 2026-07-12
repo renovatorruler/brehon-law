@@ -1,0 +1,10 @@
+{
+  "id": "v14-22b-tradecraft",
+  "slug": "INT. TRI-COUNTY AUCTION BARN - NIGHT (LATER)",
+  "seedHash": "700914d2fface50e8557a690f8f2e65c2d9534f8f6e74fefbf42e5f648c8e39d",
+  "sceneHash": "e4e644d63a0e867874eb917d12749c7220b02058b3a45e84fb3421c35871dbde",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

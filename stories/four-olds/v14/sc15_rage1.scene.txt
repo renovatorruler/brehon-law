@@ -1,0 +1,29 @@
+v14-15-rage1 — EXT. FIRST METHODIST CHURCH, BROKEN BOW - SUNDAY MORNING
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc15_rage1.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Morning light falls on the front of First Methodist Church in Broken Bow, and a white county van sits at the curb with its back doors standing open.
+ACTION: A WORK ORDER hangs taped to the church door, a printed decibel allowance running under the county seal.
+ACTION: Two workers lean a ladder against the steeple and climb up toward the bell.
+ACTION: One of them fits a wrench onto the bolts that hold the clapper.
+ACTION: A small brass plaque sits by the door. It reads IN MEMORY, ORGAN FUND, and the name under it is worn too smooth to make out.
+ACTION: The organ comes faint through the wall, somewhere in the middle of a hymn.
+ACTION: The clock reaches the hour and the bell stays quiet.
+ACTION: The workers wrap the bell in canvas and cinch the straps down over it.
+ACTION: The steeple stands there with nothing coming out of it.
+ACTION: Out front of American Legion Post 219, WADE HALVERSEN gets out of the cruiser, mid-40s, a county star on his chest, his hat already down in his hand.
+ACTION: Three men in ball caps sit on the concrete steps under the flagpole.
+ACTION: Wade comes up with one folded permit and holds it out to the man closest to him.
+WADE: Morning, Tom. It's the flag one, the yearly permit. They sent it back not cleared this time.
+ACTION: The stamp where the fee used to go reads DENIED, PENDING HERITAGE REVIEW.
+ACTION: The man takes the paper and looks at it and doesn't say anything back.
+WADE: I just bring 'em around. You fellas take it easy.
+ACTION: Wade walks back to the cruiser with his eyes down on his own copy of it.
+ACTION: Behind him a younger man stands up and unclips the rope from the pole.
+ACTION: Night now in Danny's kitchen outside Kearney, where DANNY DAWES stands at the counter, 50, still in his work jacket, going through a stack of school papers.
+ACTION: A glass of milk sits half drunk next to an empty chair.
+ACTION: He turns over a worksheet headed MY HERITAGE JOURNEY, ONE FAMILY TRADITION I'M READY TO RETIRE.
+ACTION: Down on the answer line, in pencil block letters, it reads THE 4TH OF JULY COOKOUT AT GRANDPAS.
+ACTION: Danny reads it. He reads it again.
+ACTION: He sets the sheet down flat on the counter and squares the edge with his thumb.
+ACTION: He looks over at the empty chair and doesn't call the boy back in.

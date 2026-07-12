@@ -1,0 +1,10 @@
+{
+  "id": "v14-18-anthem",
+  "slug": "EXT. PIONEER FIELD, MINOR-LEAGUE BALLPARK - NIGHT",
+  "seedHash": "ab112f08a0684964f2a99ca973249e64b9cf710332ebbee9790ab68c0f23fb49",
+  "sceneHash": "3a4adb20fb225cef5c0be6a413045e44fbb884ee0e8a485e806c1896923dfd62",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

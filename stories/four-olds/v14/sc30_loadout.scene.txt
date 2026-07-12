@@ -1,0 +1,47 @@
+v14-30-loadout — EXT. FRONTIER AEROSPACE, MAIN GATE - PRE-DAWN
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc30_loadout.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: DANNY DAWES, fifty, feed cap low, both hands riding high on the wheel, rolls a farm truck up to the Frontier main gate with the headlights turned down.
+ACTION: GUNNY TIBBS, seventy-one, gray coveralls, a ballcap squared dead level, sits shotgun with a laminated work order flat on his knee.
+ACTION: The order reads VALLEY SALVAGE AND SURPLUS, ARCHIVAL UNIT FINAL SERVICING, BAY 1. Four names run down the side of it.
+ACTION: A gate guard, maybe twenty, leans out of the booth and walks a flashlight across the cab.
+GUARD: Y'all know where you're going?
+ACTION: Gunny hands the order across and holds the kid's eyes without any hurry in it.
+GUNNY: Son, we were servicing this bay before your daddy made the varsity.
+ACTION: The guard clicks the light off and waves the truck on through.
+ACTION: Danny keeps his knuckles white on the wheel and his eyes straight ahead, and he drives.
+ACTION: The truck pulls into Bay 1 and stops under the work lights.
+ACTION: Six crates sit open on their cradles, a molded couch inside each one. A purge cart hums along the row.
+ACTION: One at a time the old men come off the cart and lower themselves down into the couches. Nobody rushes any of it.
+ACTION: Joss's dock crew crosses the floor on their own errands and never slows for the row.
+ACTION: CRICKET DAWES, seventy-nine, gray coveralls, settles into the LOT A couch with a canvas kit bag held between his knees.
+ACTION: JOSS REED, twenty-six, a dock badge clipped to his collar, crouches at the open panel with a torque gun leaned against his leg.
+CRICKET: Tuesday net's at nineteen hundred. Your frequency card's taped under the console. Don't improvise.
+JOSS: Copy. No improvising.
+CRICKET: And Joss. Thank your dad for the radio.
+ACTION: Joss keeps a hand on the panel and doesn't seat it yet.
+JOSS: Fly good, old man.
+ACTION: He fits the panel down and runs the torque gun along the bolts, eight of them, one and then the next.
+ACTION: The purge valve hisses and takes hold.
+ACTION: MACK BOONE, fifty-five, a clipboard under one arm, walks the sealed row and raps the flank of LOT B twice with two knuckles.
+ACTION: Two knocks come back from inside it. He works down to C, then D, then A, and every one answers him two for two.
+ACTION: TITO ALVAREZ, twenty-four, a welder's scarred hands, kneels at LOT E and settles a folded canvas triangle into a padded corner mount.
+ACTION: He presses it home and checks it with two knuckles, once, and then again.
+ACTION: A dockworker, fifties, twenty years of lanyard tape wound thick on his badge clip, comes down the row with a clipboard and stops at LOT D.
+ACTION: An amber flag stands up on the LOT D latch. The book says he opens it.
+ACTION: He lifts the panel.
+ACTION: Inside, an old man lies packed into the couch, a kit bag between his knees, his eyes open and looking straight up at him.
+ACTION: The dockworker holds still. A second passes.
+ACTION: Another passes.
+ACTION: A third passes.
+ACTION: He looks down at his clipboard. He looks at the inspection tag on the latch, stamped inspected and signed already in Pell's hand.
+ACTION: The old man does not blink.
+ACTION: The dockworker pushes the amber flag back down and seats the panel over the man.
+ACTION: He prints two words across the log in block capitals, ALL CLEAR, and walks on to LOT E without looking back.
+ACTION: A transporter noses under the row and takes all six crates up together.
+ACTION: The high door rolls open and the stack moves out into the first gray light, the stencils on the flanks catching it as they go.
+ACTION: Mack stops at the gate log and signs the contractor crew out, four names, working down them with the one pen.
+ACTION: Joss comes up beside him, pulling the badge off his collar.
+JOSS: Net's quiet. Two clicks if it stays that way.
+MACK: Go home. Sleep.

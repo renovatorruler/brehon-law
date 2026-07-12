@@ -1,0 +1,36 @@
+v14-26-inspection — INT. TRI-COUNTY AUCTION BARN - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc26_inspection.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The federal drawings lie squared on the table with the corners lined up and nothing else beside them.
+ACTION: The couches are gone from the bay and the binder is nowhere on the floor.
+ACTION: One pallet sits against the back wall under a gray tarp, roped down at all four corners.
+ACTION: The door rolls up and ADMINISTRATOR J. PELL, 50s, steps in with his lanyard and a clipboard, a photographer a pace behind him.
+ACTION: MACK BOONE, 55, meets him at the table and turns the drawings so they face the right way for Pell.
+PELL: Oh, this is good. This is the thing I keep telling the office, you drive all the way out and it just runs itself, you barely have to touch it.
+MACK: Kept the table clear for you. That's the federal set, the drawings you mailed us.
+ACTION: Pell walks the floor slow, and TITO ALVAREZ, 24, lifts his welding hood at the far bay as he passes.
+PELL: That's clean work, son. Somebody teach you or you just pick it up?
+TITO: Little of both, I guess.
+ACTION: The photographer raises the camera and Pell steps back to the crate line and lays a hand on the nearest box.
+PELL: Get the crates in behind me. Heritage labor, that's the phrase they want upstairs, the old hands retiring the gear and preserving it themselves on the way out.
+PELL: Small crew for a Thursday.
+MACK: Dawes runs the co-op errands Thursdays, so it's just this handful today.
+ACTION: Pell stops at a row of valves plumbed into the ends of the boxes and taps one with his pen.
+PELL: Now what's a box want with plumbing.
+ACTION: DUTCH HAAS, 76, looks up from a fitting he's checking and keeps the wrench in his hand.
+DUTCH: The fabric sat fifty years. Forty-eight on the early lot. You pull the air out so it lays flat instead of cracking, then you put nitrogen back in so the color doesn't turn on you.
+ACTION: Pell writes in the visit log and reads it off as the pen moves.
+PELL: Exceeds requirement. They're going to love that in the report.
+ACTION: JOSS REED, 26, stands against the back wall a step off the tarped pallet with his hands in his jacket.
+ACTION: Pell comes down the wall and his pen knocks the tarp once without stopping.
+PELL: And this one.
+JOSS: Floor absorbent.
+ACTION: Pell nods and keeps walking toward the door.
+ACTION: Joss watches the back of the lanyard and does not move off the wall.
+ACTION: Pell signs the bottom of the log and hands Mack the yellow copy.
+PELL: Send me the crate count by Friday and we're closed out for the quarter.
+MACK: You'll have it Friday morning, count and the weights both.
+ACTION: The SUV pulls out through the gate and the dust drifts down over the lot.
+ACTION: Nobody in the shop moves for three full seconds.
+ACTION: Joss lets his breath go and turns his head to the tarp.

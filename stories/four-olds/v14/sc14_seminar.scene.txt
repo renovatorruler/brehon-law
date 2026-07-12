@@ -1,0 +1,36 @@
+v14-14-seminar — INT. FRONTIER AEROSPACE, TRAINING ROOM B - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc14_seminar.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: FACILITATOR is 30s, all teeth, a clicker in her hand. She thumbs the lights down to half.
+ACTION: The projector throws a slide on the wall. It reads 1966, A BOLD QUESTION, WHAT DO WE OWE THE PAST.
+FACILITATOR: Okay, so, Module Seven. This one's more of a conversation than the other ones, so bear with me.
+ACTION: She clicks. Four categories load on a soft harmony-blue background.
+ACTION: MACK is 55, with a freight man's hands. He copies the four names onto a legal pad in slow block letters.
+ACTION: BAY TWO MAN is 60s, in a clean shirt he ironed. He raises his hand about halfway.
+BAY TWO MAN: So one of these here. What actually counts as one of them. What's one of them look like.
+FACILITATOR: Great question. Honestly, great, and it's the one everybody kind of gets hung up on the first time.
+FACILITATOR: So the thing is you already know a bunch of them. The team names, the mascots, a lot of those came down a few years back and, honestly, the sky didn't fall.
+ACTION: Mack keeps printing the fourth name, not looking up.
+FACILITATOR: The schools that got renamed, that was a big one. Some of the holidays too. The statues, a lot of towns took those down and life just kind of went on.
+FACILITATOR: The Pledge, even. District by district, we've mostly moved past that one and nobody really made a thing of it.
+FACILITATOR: You had the whole beef conversation a while back. The appliance conversation. You lived through both of those.
+FACILITATOR: Cursive's a good one, actually. Schools just quit teaching it. Nobody voted on it or anything, and then one day the grandkids can't read a letter their grandmother wrote them.
+FACILITATOR: And that fireworks thing back in January, that's this exact framework, just applied at national scale. And it went fine.
+FACILITATOR: So nobody's gonna hand you a list. That's kind of the whole point. You already know what yours are, everybody in this room does, and the reflection piece just walks you through deciding what counts, for you.
+ACTION: Bay Two Man's hand comes down. He looks at the blank pad in front of him and doesn't write anything.
+FACILITATOR: And you can feel everybody kind of going inward with it right now. That's the work happening.
+ACTION: JOSS is 26, back row, in a dock hand's jacket, his chair tipped onto two legs. He watches the slide.
+JOSS: What happened to the people who liked the old stuff.
+FACILITATOR: So there were some implementation errors, in that era. Which is honestly why the frameworks now, they really center on dialogue.
+ACTION: The door opens. PELL steps in, 50s, a lanyard and a visitor badge. He stands at the back and beams at the wall.
+PELL: Centuries of ancient Chinese wisdom in that slide.
+FACILITATOR: Oh, it's from 1966—
+PELL: Wonderful.
+ACTION: Pell folds his hands and stays where he is.
+ACTION: She clicks. The new slide reads YOUR REFLECTION HOMEWORK, IDENTIFY ONE OLD HABIT YOU'RE READY TO RETIRE.
+ACTION: A clipboard starts down the front row, a pen chained to it, the sign-in sheet already half full of names.
+ACTION: Joss lets his chair down, takes the clipboard, and signs under the last name.
+ACTION: Joss and Mack come out into the corridor with the rest of the crowd.
+JOSS (WHISPER): My grandpa's old habit was getting shot at over Hanoi.
+MACK: Write coffee. Everybody writes coffee.

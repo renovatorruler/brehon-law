@@ -1,0 +1,10 @@
+{
+  "id": "v14-10-legion",
+  "slug": "INT. AMERICAN LEGION POST 219, BACK ROOM - NIGHT",
+  "seedHash": "f3586f85de759dd62240d7ed6eead2025e0d1dc3e451cb057e80ccd3f76c53f5",
+  "sceneHash": "7924f80433512ad845a31d5d5cac4016e9d2aa6afe9670210685e31503b95d93",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "v14-42-look-up",
+  "slug": "INT. FRONTIER AEROSPACE, HALE'S OFFICE - NIGHT",
+  "seedHash": "be7f2e5c7ec7830a64fc68ff512ac5349cd01b045d334b8bb41569809d3c3ae1",
+  "sceneHash": "885238aa777b568a22ae7627806b821d24e997c46b86a93db4d0dbd061cadff1",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

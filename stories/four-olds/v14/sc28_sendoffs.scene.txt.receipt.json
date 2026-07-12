@@ -1,0 +1,10 @@
+{
+  "id": "v14-28-sendoffs",
+  "slug": "INT. DAWES BARN - NIGHT",
+  "seedHash": "2c1a0f4077f4a494bac75d86a23d723e3ff350cec0abdb811fd2165d45ce6e58",
+  "sceneHash": "b14cc0bf953e4ef6f588195cd8e0ccc83f920229198bbd8d1f95f6053a9eabda",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

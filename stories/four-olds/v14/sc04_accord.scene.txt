@@ -1,0 +1,46 @@
+v14-04-accord — INT. DAWES FARMHOUSE, KITCHEN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc04_accord.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: CRICKET, 79, sits alone at the kitchen table under one bulb, a pencil working down the margin of the county letter.
+ACTION: One plate stands in the dish rack. No second chair is pulled out from the table.
+ACTION: Through the doorway the front-room television plays with the sound off.
+ACTION: He carries a column of long division down the margin and writes the answer under a line.
+ACTION: The wall phone RINGS.
+ACTION: He sets the pencil down, crosses to it, and lifts the receiver off the hook.
+CRICKET: Dawes.
+ACTION: His son Danny is on the line, a kitchen going somewhere behind him.
+DANNY: It's me. You eat something?
+CRICKET: I did.
+DANNY: We finally got the beans in. Ground was still too wet down by the creek, but we got around it.
+CRICKET: Good.
+DANNY: They ran the fall calves through the sale barn Thursday. Did all right, better than last year anyhow. ...Rachel says hi. She keeps meaning to call you and then it gets to be nine o'clock.
+CRICKET: Tell her hello.
+ACTION: The line goes quiet a second. Behind Danny a chair scrapes and a door bumps shut.
+DANNY: Dad. Listen. Maybe don't watch the news tonight.
+CRICKET: Thank you for calling.
+ACTION: He hangs the receiver on the hook and stands there a moment.
+ACTION: He goes into the front room, sits in the armchair, and turns the sound up.
+ACTION: On the screen, President Marwani stands at a lectern in front of a pale blue flag.
+MARWANI: Tonight I am signing the Lunar Heritage Neutralization Accord.
+MARWANI: Fifty-seven years ago, one nation planted its banner on ground that belongs to all mankind. It stayed there through every apology we owed and never gave.
+ACTION: The picture cuts to the old photograph of an astronaut saluting the flag, next to a white shape with no color left in it.
+ACTION: A caption sits under the white one and reads ARTIST'S RENDERING, CURRENT CONDITION.
+MARWANI: Our own scientists tell us fifty years of sun have bleached all six of them to white. There is no color left in them at all.
+MARWANI: Some call those flags of surrender. I call them flags of peace.
+MARWANI: This coming July fourth, we will bring all six of them home, live, with one world watching. Not Independence Day. This year, the first Unity Day.
+MARWANI: And then we give them away. One flag to each nation this country has wronged. The first, to the people of Iran.
+MARWANI: In their place, our crew will plant the Harmony Banner, designed for us by a committee of forty-four nations.
+ACTION: The picture returns to the anchor desk, where two anchors nod along.
+ANCHOR: — being called the most generous act in the history of spaceflight.
+ACTION: Cricket sits still, the pencil turning slow between two fingers.
+ACTION: The pencil breaks in his hand with a small SNAP.
+ACTION: One half drops to the rug. He does not look down for it.
+ACTION: He turns the television off and sets the remote down square on the arm cover.
+ACTION: He goes to the kitchen phone, lifts the receiver, and dials seven numbers, then four more, without looking at his hand.
+ACTION: The line picks up. Dutch is there.
+CRICKET: You watching this?
+DUTCH: Both channels. They're running that white mock-up every ten minutes.
+ACTION: Neither man says anything for a moment.
+CRICKET: Tuesday. Early.
+ACTION: He sets the receiver back on the cradle, gently.

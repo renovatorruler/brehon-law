@@ -1,0 +1,41 @@
+v14-34-tli — INT. FRONTIER MISSION CONTROL - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc34_tli.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The main screen throws a pale track across a dark room of consoles, and MIRA VESS, 40s, stands at the back rail with both hands on it.
+ACTION: A few feet off, ADMINISTRATOR PELL, 50s, runs a highlighter down a checklist on a clipboard, his lanyard swinging.
+ACTION: The flight director stands at the front console in a headset and quiets the room with one hand.
+FLIGHT: All right. Let's poll it. I want a go or no-go for the burn.
+ACTION: One after another the consoles call back that they are go.
+FLIGHT: Harmony One, you are go for trans-lunar injection.
+ACTION: Far above, inside the cargo bay of Harmony One, the lights are down.
+ACTION: Four crates sit strapped in rows in the dark. Amber lights glow on their faces.
+ACTION: A low push comes up through the floor and builds. The straps pull tight and the crate frames creak.
+ACTION: The engine catches and settles into a long roar.
+ACTION: Inside crate A, DUTCH, 76, holds a penlight in his teeth and runs a pencil down the margin of a binder.
+ACTION: He pencils a figure, checks it against the clock, and boxes the last line twice.
+ACTION: ON THE PAGE -- BURN NOMINAL. COAST 62 HRS. NO ABORT FROM HERE.
+ACTION: He keeps the penlight on the boxed line a moment, then clicks it off.
+ACTION: Back down in mission control, the room holds on the main screen.
+ACTION: On the main screen the track bends away from Earth and keeps going, out past the ring of the orbit and clear of it.
+ACTION: The flight director pulls the headset down around his neck.
+FLIGHT: Sixty-two hours to lunar orbit, gentlemen. Get some sleep.
+ACTION: Vess takes her hands off the rail, one finger at a time, and lets it go.
+ACTION: Pell caps his highlighter and clips it to the board.
+PELL: Well. Nothing stopping it now.
+ACTION: Vess doesn't answer him. She keeps her eyes on the screen.
+ACTION: Up in the ship again, the cargo bay sits quiet in the coasting dark.
+ACTION: Inside crate A, Dutch raps the wall twice, waits, then raps twice more.
+ACTION: From crate D two knocks come back, then two from crate B, then two from crate C.
+ACTION: WITH CRICKET -- inside crate D, CRICKET, 79, lies in the straps with his hands folded on his chest.
+ACTION: In crate B, STITCH, 74, lies with his eyes shut.
+STITCH: We've had the mic the whole trip, you know. You don't have to keep tapping at me.
+CRICKET: Yeah. Old habit. Fifty years of it, it's hard to shake.
+ACTION: Cricket picks at the strap across his chest with one finger.
+CRICKET: Can I ask you something about Sky King.
+STITCH: Go ahead.
+CRICKET: Did he ever get to fly it again?
+ACTION: Stitch takes a second. His voice comes back easy, a smile in it.
+STITCH: He flew it. The rest of his life.
+ACTION: One corner of Cricket's mouth pulls up. He works his thumb slow along one knuckle.
+ACTION: END OF ACT TWO.

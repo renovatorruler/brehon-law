@@ -1,0 +1,10 @@
+{
+  "id": "v14-01-cold-open",
+  "slug": "INT. CABLE NEWS STUDIO - NIGHT",
+  "seedHash": "d839cf5f18a26eb2858394bd3798eedc67551f7b220c2f2dd77517f6a98f3934",
+  "sceneHash": "295b54d4521685a93e2d2c5cd1836a9bdf587242c4e03d118fc50259a9bfb1d3",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

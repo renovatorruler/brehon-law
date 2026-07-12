@@ -1,0 +1,27 @@
+v14-21-conversion — INT. TRI-COUNTY AUCTION BARN - NIGHT (DAYS COMPRESSED)
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc21_conversion.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The barn runs loud with grinders and the crew works late under the lamps.
+ACTION: DUTCH sits at the plywood table, 76, with two sets of drawings laid out in front of him.
+ACTION: On the table lies the federal completion sheet, stamped and squared at the corner.
+ACTION: In his binder, on the next page over, the same box shows a couch built in and a rack of cartridges, with four spares penciled per unit.
+ACTION: He closes the binder and sets the federal sheet square on top of it.
+ACTION: At a veterinary supply counter across the county, GUNNY sets two drums of white granules up by the register, 71, and counts out cash.
+ACTION: The clerk rings it up and looks at the drums.
+CLERK: Y'all got surgery coming up?
+GUNNY: Something like it.
+ACTION: Back at the shop Gunny runs a grease pencil across the plywood with Tito standing next to him.
+GUNNY: This lime here soaks up what you breathe back out. Fella asleep don't burn much, so one can runs him most of a day.
+GUNNY: You swap it every fifteen hours or so and keep a stack of 'em ready.
+ACTION: He points the pencil at the welding bottles standing along the wall.
+GUNNY: The oxygen we already buy by the bottle. It's on the invoices with the welding.
+ACTION: He marks the shelf edge off in ranks of four and numbers each rank.
+ACTION: A forklift sets a pallet of welding bottles inside the roll-up door and a driver hands Dutch an invoice.
+ACTION: Dutch signs it and lays it on the stack with the other slips.
+ACTION: TITO stands at the lathe turning a canister down to size, 24, the binder page clipped up in front of him.
+ACTION: He lifts a finished canister, taps it twice with two knuckles, and taps it twice again.
+ACTION: Across the floor JOSS feeds a couch cushion through the upholstery station, 26, and he keeps his mouth shut and works.
+ACTION: STITCH lays the last of the foam into a couch and presses it down until it holds the shape of a man's back, 74.
+ACTION: Along the frame rail the copper purge lines run down where no inspector will ever look.
+ACTION: CRICKET walks the row of open crates, 79, and looks in at the couches one at a time.

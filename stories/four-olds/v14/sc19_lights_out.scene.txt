@@ -1,0 +1,42 @@
+v14-19-lights-out — INT. ROY'S DINER - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc19_lights_out.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The frontier shop sits quiet in the TV corner, day light coming gray through the roll door.
+ACTION: A phone lies face-down on the workbench. JOSS, 26, dock gloves shoved in a back pocket, puts his thumb on it and slides it under a shop rag.
+JOSS: You don't have to look at it.
+ACTION: TITO, 24, welder's beanie, a cold coffee gone skin on top, keeps sorting torch tips and doesn't look up.
+TITO: Already did.
+JOSS: When.
+TITO: Lita sent it. Like five in the morning. She thought it was real nice, everybody singing.
+ACTION: The shop TV bolted over the parts shelf runs the morning show with the sound turned low.
+ACTION: On the screen a smiling ANCHOR sits over a still of the diner counter mid-song.
+ANCHOR: A whole room of them, singing right along. A charming, if off-key, moment out of, where's that, Deb, Nebraska someplace.
+ACTION: The clip goes to a split screen. A young couple lip-syncs a bit over the top of the old voices, mugging at the beat where the men go flat.
+ACTION: STITCH, 74, easy in a folding chair with a rag over his knee, watches it all the way through. DUTCH, 76, stands beside him with a binder shut under his arm.
+ACTION: The clip ends and loops. Nobody says anything to it.
+ACTION: Dutch turns and clicks the bench light back on over his work. Stitch picks his rag up off his knee.
+STITCH: Tips are the eight-fifties, if you're hunting.
+ACTION: Joss looks at the phone under the rag and leaves it there.
+ACTION: Roy's Diner runs its slow mid-morning down the length of the counter.
+ACTION: EARLENE, 60s, the coffee pot in one hand, works the stools. GUNNY, 71, Navy ball cap, runs the grill behind her. BUCK, 70s, feed cap, sits the third stool with his cup down.
+ACTION: A KID, early twenties, holds his phone out at arm's length in booth three and pans it slow across the room.
+KID: Booth three, real ones only, boomer diner check. Rent's up two hundred bucks this month and these guys are in here worked up about a song.
+ACTION: A COURIER pushes in with an insulated bag, crosses straight to booth three, and sets a foil burrito on the kid's table.
+ACTION: The kid takes the burrito without looking up and keeps the phone panning.
+ACTION: Earlene watches the courier go back out the door. She steps down the counter and fills Buck's cup to the line, and says nothing.
+BUCK: Weather's supposed to turn Thursday.
+ACTION: The TV over the pie case cuts to the same anchor, and Gunny reaches up and thumbs the volume.
+ANCHOR: More on the goodwill program this morning. The Accord's adding to it, they'll be sending a museum suit along with every flag now, one for one.
+ACTION: On the screen a graphic builds. An Apollo pressure suit stands on a mannequin with a small flag set at its boot.
+ANCHOR: The first one, flag and all, goes to the people of Iran.
+ACTION: Gunny sets the spatula down flat on the grill and leaves it. Buck's cup stays on the counter. Earlene holds the pot where she's standing and doesn't pour.
+ACTION: Night fills the barn, and the radio rig glows on the bench.
+ACTION: CRICKET, 79, feed-store jacket zipped to the throat, drags a stool up square to it and sits.
+ACTION: He keys the mic.
+CRICKET: Net's open. Tuesday, nineteen-oh-two local.
+ACTION: Static comes up out of the speaker and holds.
+ACTION: He waits. Nobody answers.
+ACTION: He waits longer. The static runs on by itself.
+CRICKET: Same time Tuesday.
+ACTION: He reaches up over his head and pulls the LIGHT CORD, and the barn goes black.

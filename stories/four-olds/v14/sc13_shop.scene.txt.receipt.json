@@ -1,0 +1,10 @@
+{
+  "id": "v14-13-shop",
+  "slug": "EXT. TRI-COUNTY AUCTION BARN - DAY",
+  "seedHash": "b4555e33a4890e145ebf0da54279c1c0e2c6b743522635012c0a7dcdc3932679",
+  "sceneHash": "3989131fe1ee5e4369c4e8b908a6803d37288b72703c03171bac7f05eec745ad",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

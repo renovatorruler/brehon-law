@@ -1,0 +1,10 @@
+{
+  "id": "v14-03-barn-net",
+  "slug": "INT. DAWES BARN - NIGHT",
+  "seedHash": "3a52dde64f3adb6a3eb8c6a2c4927a921d1854c65fc078c07402f84e4f196b07",
+  "sceneHash": "bc22a23eab600bffa54441c832d861b37d9f4bb7ab3bd0ac0feaea9fe35b1a53",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

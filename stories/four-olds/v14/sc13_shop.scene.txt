@@ -1,0 +1,47 @@
+v14-13-shop — EXT. TRI-COUNTY AUCTION BARN - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc13_shop.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A bank of sodium lamps BANGS on over an empty auction floor, then a second bank, then the last one down at the far end.
+ACTION: A gantry crane runs the length of the ceiling on a worn rail.
+ACTION: A scale pit sits sunk into the middle of the floor, and two loading docks stand open to the daylight at the far end.
+ACTION: MACK Boone, 55, freight hauler, walks the crew in through a roll-up door with a cardboard tube of drawings under his arm.
+MACK: Client's a federal contract and a county landlord. Cheaper than a real shop.
+ACTION: Stitch, the Texan, turns a slow circle in the middle of the floor with his hands on his hips.
+STITCH: Smells like about forty years of hog auction in here.
+ACTION: Cricket walks to the edge of the scale pit, looks down into it, and looks up at the crane rail.
+CRICKET: Crane still swings. Pit's dry.
+ACTION: Gunny sets an empty coffee can down on the first workbench and holds it out as each man comes past.
+GUNNY: Son. Phones.
+ACTION: JOSS Reed, 26, still in his Frontier dock vest, stops with his hands down in his pockets.
+JOSS: It's a WATCH.
+GUNNY: Can, son.
+ACTION: Joss unclasps the watch and drops it in with the rest.
+ACTION: TITO Alvarez, 24, a welder's cap pushed back off his face, drops his own phone in the can before Gunny gets to him.
+ACTION: Dutch, the oldest man there, unrolls a set of drawings across two sawhorses and weights the corners down with sockets.
+ACTION: ON THE TITLE BLOCK -- LUNAR HERITAGE NEUTRALIZATION ACCORD, CONTRACT NO. HRT-2049-6.
+DUTCH: Six of them, all the same. The flag rides flat inside. We pull the air out, bake the moisture off the fabric, then put nitrogen in so the dye doesn't rot on the way up.
+ACTION: Tito leans over the drawing and sets one finger on a corner of the interior frame.
+TITO: You called this weld out full through, all the way. That much heat's going to cook the fitting and pull it out of true.
+TITO: Move it here. Come in under the frame rail. Nobody ever sees it.
+ACTION: Dutch picks the pencil up off the paper, looks at the spot under Tito's finger, and holds the pencil out to him.
+ACTION: Tito takes it and walks the line two inches over on the drawing.
+ACTION: Joss drags a stack of steel sheet off a pallet at the back and talks without looking up from it.
+JOSS: So we build fake ones and switch them, right. The flags never come down.
+ACTION: Mack keeps dealing contract packets out along the bench and doesn't turn around.
+MACK: The play is we build six containment units to federal spec and deliver them on time. It's a job, son.
+ACTION: Joss goes back to the steel.
+ACTION: Dutch runs a tape down the inside of the first frame and writes the length in his binder, then stops with the pen on the page.
+DUTCH: Interior's awful generous for cloth.
+ACTION: Tito keeps his tape on the frame and does not look up.
+TITO: Man could about fit in there.
+ACTION: Joss looks over from the steel at the back.
+JOSS: How would a person even ride in a box.
+ACTION: Gunny checks the needle on a pressure gauge at the next bench and answers without turning around.
+GUNNY: Most of it's already there. Air in, breath scrubbed back out. I kept ninety men breathing under the ice for two years.
+ACTION: Mack looks up from the packets and points Stitch and Cricket toward the far bay.
+MACK: Cutting table's in Bay Two. Let's get the first frame tacked before lunch.
+ACTION: Tito carries the frame across to Bay Two and snaps a chalk line, then draws the outline of the crate on the bare concrete.
+ACTION: By the end of the day the first frame stands tacked together on the chalk marks.
+ACTION: The sodium lamps bang off row by row down the ceiling, and the last one leaves the chalk outline of the crate on the floor.
+ACTION: Mack tugs the roll-up door down with the coffee can of phones under his arm.

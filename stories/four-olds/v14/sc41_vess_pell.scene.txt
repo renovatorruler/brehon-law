@@ -1,0 +1,27 @@
+v14-41-vess-pell — INT. FRONTIER AEROSPACE, VESS'S OFFICE - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc41_vess_pell.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Mira Vess, forties, Frontier's COO, sits behind a clean desk in a glass office with her jacket still on and a closed folder squared in front of her. She does not get up.
+ACTION: Administrator J. Pell, fifties, lanyard and an easy smile, comes in ahead of two federal marshals and leaves them at the door.
+PELL: Mira. Thanks for staying, I know it's late and everyone's worn out.
+PELL: Walk me down to the room, we'll send the recall up together, and this turns into a good night for everybody.
+ACTION: Vess folds her hands on the folder and looks up at him.
+VESS: There is no override. The ship answers its crew.
+PELL: Everybody comes home tonight. That's the whole idea here.
+VESS: You built the compliance regime, Administrator. Nothing at this company moves without a signature. You know that better than anyone.
+ACTION: She opens the folder, turns the top page around to face him, and slides it across.
+ACTION: The page shows a cargo weighed a second time and signed off, with a correction added in the margin.
+ACTION: She lays the next one down. It is a site inspection log, it reads exceeds requirement, and his signature is at the bottom.
+ACTION: She lays the last one down. It is a yellow inspection tag, a carbon copy, stamped INSPECTED and signed J. PELL, with a photograph clipped to the corner.
+ACTION: His name is at the bottom of the first page and the log, his initials sit beside the correction, his signature is on the tag, and all four are in his own hand.
+ACTION: Pell sets one finger on the tag and turns the photograph toward himself.
+PELL: You scheduled—
+ACTION: He stops with the word half out of his mouth. His finger stays on the tag.
+ACTION: Vess watches his hand a moment, then keeps her eyes on him.
+VESS: Take it public, Administrator. All of it. Walk them through the program you ran, the cargo you certified, the shop you praised. Somebody's name ends up in the story. Count the signatures and tell me whose.
+ACTION: She stands, comes around the desk, and crosses behind him to the door.
+VESS: You wanted the company to cooperate. The company cooperated. The country didn't.
+ACTION: She walks out through the marshals at the door, unhurried, and no one stops her.
+ACTION: Pell stays where he is. The pages lie in a row on the desk, all of them turned to face her empty chair.
+ACTION: After a moment he draws the visitor's chair out, sits down in front of them, and does not touch anything.

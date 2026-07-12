@@ -1,0 +1,10 @@
+{
+  "id": "v14-15-rage1",
+  "slug": "EXT. FIRST METHODIST CHURCH, BROKEN BOW - SUNDAY MORNING",
+  "seedHash": "5d0cd04f7039b0557161c8c11032db0916e26bc4f218b706f574326ab1bc87a4",
+  "sceneHash": "877b9011c7fbbcee96d6357c55f5309d37f739aefd92b4d03227136d26f38c5f",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

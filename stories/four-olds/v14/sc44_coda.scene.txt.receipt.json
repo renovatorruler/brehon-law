@@ -1,0 +1,10 @@
+{
+  "id": "v14-44-coda",
+  "slug": "EXT. TRANQUILITY BASE - LUNAR DAY (DAYS LATER)",
+  "seedHash": "c5e38f4e8013be366c87f2b1edd90e1ca34131092c657515e305dd474e8f4ab0",
+  "sceneHash": "5cd2e5ddf8c6bb25027bfcbb32bfe06f4fd4f5cda67d1b88bbc02376c75b123a",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

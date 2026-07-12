@@ -1,0 +1,44 @@
+v14-23-physicals — INT. TRI-COUNTY AUCTION BARN - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc23_physicals.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The barn is swept clean down the middle. Morning light drops through the high windows onto a long open lane of bare concrete.
+ACTION: DUTCH HAAS, 76, engineer, stands at a card table with a thick black binder open to a tabbed page. A stack of fresh carbon forms sits squared beside it.
+ACTION: He lifts the top form and turns it so the others can read the header. It reads FLIGHT CREW MEDICAL EXAMINATION, STANDARDS OF 1968.
+DUTCH: NASA wrote a physical in 1968. It is the last standard that ever mattered, and it is the one in this binder. We do all of it or none of it.
+ACTION: A hundred feet down the barn, an eye chart hangs off a nail in the far wall. Stitch stands on a strip of tape at the near end and reads down it.
+STITCH: Bottom line's got a print date on it. You want that too?
+ACTION: Dutch writes without raising his head.
+DUTCH: Line eleven. Nobody reads line eleven.
+ACTION: A wooden step box sits in the middle of the lane. STITCH McGREW, 74, steps up onto it and down, up and down, holding a slow count under his breath.
+ACTION: On the fourth step his knee cracks, loud enough to carry across the concrete. His count doesn't change. Nobody looks over.
+ACTION: Dutch flips back to a dog-eared page and runs a finger down the margin.
+DUTCH: There were waivers in '68 too. Compensating technique, documented.
+ACTION: Stitch steps off. CRICKET DAWES, 79, takes the box next and steps it the full two minutes, then stops with his hands loose at his sides.
+ACTION: JOSS REED, 26, kneels and puts two fingers on Cricket's wrist, his eyes on the smartwatch on his own arm.
+JOSS: Two minutes after all that stepping. Fifty-four. Sitting still he's down to fifty-one.
+ACTION: Joss glances at his own wrist, then back at Cricket.
+JOSS: Mine's higher than that right now, just kneeling here. Four hundred dollars, this thing.
+ACTION: Not one of the old men reacts. Dutch looks up at Cricket.
+DUTCH: Anything to note.
+CRICKET: There's a knothole in this bench. I'll have it plugged before you're done.
+ACTION: Cricket sits down on an overturned bucket, opens a pocketknife, and starts cutting a pine peg down to size.
+ACTION: Joss unbuckles the watch, carries it to the coffee can by the door, and lets it drop in.
+ACTION: A plywood crate stands open on the floor. Inside it a wind-up kitchen timer sits next to four twenty-dollar bills, held flat under a socket wrench.
+ACTION: GUNNY TIBBS, 71, Navy retired, climbs into the crate and folds himself down onto his back.
+GUNNY: Set it for the hour. Don't lift the lid early on my account.
+ACTION: TITO ALVAREZ, 24, welder, winds the timer, sets it in beside Gunny, and lowers the lid down over him.
+ACTION: The timer ticks inside the box. Nobody says anything.
+ACTION: Cricket works the peg into the knothole. It stands proud and won't seat. He pulls it and shaves it again.
+ACTION: The timer rings. Tito lifts the lid off.
+ACTION: Gunny sits up in no hurry and looks down at the money under the wrench.
+GUNNY: Whose twenty is on top?
+ACTION: Joss lifts a hand from the back.
+JOSS: Mine.
+GUNNY: It's mine now, son.
+ACTION: Dutch takes the four carbon forms off the table and files them into the rings one at a time.
+DUTCH: Same result as 1968. All four.
+ACTION: He thumbs the binder open again and adds a line at the bottom.
+DUTCH: Slower on the step box. All four of you. I wrote it down.
+ACTION: Cricket taps the peg flush into the knothole with the butt of the knife. It sits level with the bench.
+STITCH: Best year there ever was.

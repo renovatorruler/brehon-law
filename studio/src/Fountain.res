@@ -143,12 +143,12 @@ body { font-family: "Courier New", Courier, monospace; font-size: 12pt; line-hei
 .titlepage { height: 9in; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; page-break-after: always; }
 .titlepage .title { font-size: 14pt; font-weight: bold; text-transform: uppercase; margin-bottom: 0.3in; }
 .titlepage .field { margin: 0.05in 0; }
-.slug { font-weight: bold; text-transform: uppercase; margin: 1em 0 0.3em 0; }
-.action { margin: 0 0 0.3em 0; white-space: normal; }
+.slug { font-weight: bold; text-transform: uppercase; margin: 1.6em 0 1em 0; }
+.action { margin: 0 0 1em 0; white-space: normal; }
 .cue { margin: 1em 0 0 3.0in; }
 .paren { margin: 0 0 0 2.5in; max-width: 2in; }
-.dialogue { margin: 0 0 0.3em 2.0in; max-width: 3.3in; }
-.trans { text-align: right; text-transform: uppercase; margin: 1em 0 0.3em 0; }
+.dialogue { margin: 0 0 1em 2.0in; max-width: 3.3in; }
+.trans { text-align: right; text-transform: uppercase; margin: 1em 0 1em 0; }
 .centered { text-align: center; margin: 1em 0; }
 .pagebreak { page-break-after: always; }
 `

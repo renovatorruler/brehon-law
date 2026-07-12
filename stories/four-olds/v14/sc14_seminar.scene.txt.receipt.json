@@ -1,0 +1,10 @@
+{
+  "id": "v14-14-seminar",
+  "slug": "INT. FRONTIER AEROSPACE, TRAINING ROOM B - DAY",
+  "seedHash": "7932c04db1404fc98081409666c7364bb4c65f216495ad61837d31d680fc662c",
+  "sceneHash": "8fd044a8c9e6197ec7ad92cb8ee34f173e416e133389076ddb755b2766a81cc4",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "v14-27-vess",
+  "slug": "INT. SENATE HEARING ROOM - DAY",
+  "seedHash": "053bd28e2a4abded21d7d17b9b3bf7b1f9007b5e77463a8bc4f893134021084c",
+  "sceneHash": "47edf4890524c9e95f4a7942cdd717bd6e01e0c9e112a1d9cc914c5dddf7e13f",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

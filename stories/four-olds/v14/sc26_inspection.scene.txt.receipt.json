@@ -1,0 +1,10 @@
+{
+  "id": "v14-26-inspection",
+  "slug": "INT. TRI-COUNTY AUCTION BARN - DAY",
+  "seedHash": "3bc3ffd220bcd760f3deddd94a588898fb1b97940b4966c7b5f7091427233ca4",
+  "sceneHash": "06461c7ec6419fb96b300fcf96cd7f36efbf8ea2e988c675bed30c6ded0160f5",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

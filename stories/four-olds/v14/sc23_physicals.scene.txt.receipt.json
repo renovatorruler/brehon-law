@@ -1,0 +1,10 @@
+{
+  "id": "v14-23-physicals",
+  "slug": "INT. TRI-COUNTY AUCTION BARN - DAY",
+  "seedHash": "7286e8e92a7c7b361b2c681ec15ff9213ef2ea45dc7d7008507037c07f1f22c1",
+  "sceneHash": "e8e2aeabf921f0bd2f936f477db24b50e8bfa2746803330f87bb22b02d59dc9e",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

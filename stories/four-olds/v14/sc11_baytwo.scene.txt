@@ -1,0 +1,30 @@
+v14-11-baytwo — INT. FRONTIER AEROSPACE, FABRICATION BAY 2 - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc11_baytwo.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: MIRA VESS, 40s, in a dark suit, stands on the bay floor in front of the whole shift in company blues.
+ACTION: The ranks stand with their welding hoods pushed up and their gloves off.
+ACTION: PELL, 50s, waits off to one side with a tablet and a lanyard, thumbing at notes.
+VESS: Bay Two closes today. Every one of you is paid twelve months at full rate, and your medical stays on the whole time.
+ACTION: A woman starts down the rows handing a printed card to each man.
+VESS: There's a card coming to you. It puts you first in line if this floor ever runs again.
+VESS: I don't expect you to believe that means anything. Keep the card anyway.
+ACTION: A WORKER near the front steps out of his row.
+WORKER: My father cut the first nozzle ring in this bay!
+VESS: I know he did. His name is on the wall of the visitor center.
+VESS: The tooling gets declared surplus and sold at public auction. An outside outfit comes in to pallet it up and count it.
+ACTION: At the back wall, MACK BOONE, 55, unfolds his arms at that.
+VESS: Whatever you need to think about today, put it on me.
+ACTION: Pell steps in at her shoulder with the tablet up.
+PELL: The Monitorship views this as a — a meaningful posture of alignment. I'll be noting the, ah, expedited timeline favorably.
+VESS: Note whatever you like.
+ACTION: She walks out, and her heels on the concrete are the only sound in the bay.
+ACTION: Later, the bay doors stand open to the lot, and men carry toolboxes and milk crates out past a news crew at the fence.
+ACTION: On a bench sits a practice weld, two steel plates joined by one bead so even there's no start or stop you can find in it.
+ACTION: TITO, 24, in a welder's jacket, latches his toolbox and picks up his hood.
+ACTION: Mack stops at the bench, looks at the weld a moment, then at Tito.
+MACK: Keep your tools.
+TITO: I just got fired, Mr. Boone.
+MACK: I know what happened. Keep your tools.
+ACTION: Tito lifts his box and goes.
+ACTION: Mack takes a small notebook from his shirt pocket and writes one line in it.

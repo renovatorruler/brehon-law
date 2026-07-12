@@ -1,0 +1,25 @@
+v14-20-decision — INT. TRI-COUNTY AUCTION BARN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc20_decision.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The auction barn runs quiet under the sodium lamps, and the crew stands close around a last steel crate clamped in the jig.
+ACTION: JOSS raps the crate wall twice, waits, and raps it twice more, 26, his ear laid against the steel.
+ACTION: From inside the crate two knocks answer him.
+ACTION: The gauge on the frame climbs up to its mark and sits there without a drift.
+ACTION: TITO lifts the lid from the inside and climbs out with the wind-up watch still running in his hand, 24.
+ACTION: DUTCH stands at the workbench over the federal completion sheet, 76, and signs the bottom line.
+ACTION: He squares the paper to the edge of the bench with two fingers.
+ACTION: On the chalkboard by the door somebody has already put up TRUCKS 7 AM.
+ACTION: Dutch looks down the row of crates with the pencil still in his hand and doesn't set it down anywhere.
+ACTION: Six finished crates stand in a row under the lamps and nobody moves for a while.
+ACTION: CRICKET crosses to the fourth crate down, 79, and sits on the open edge of it.
+ACTION: He leans down and starts working his bootlaces loose.
+CRICKET: Somebody time me getting in. We'll want a number.
+ACTION: Tito steps over and knocks the crate wall twice with a knuckle.
+TITO: She'll hold.
+ACTION: GUNNY goes to the parts shelf, 71, and counts the air cartridges off it into rows of four.
+ACTION: He marks the shelf edge under each row with a grease pencil.
+ACTION: STITCH climbs up into the next crate over, 74, lies back in it, and sets his hat down on his chest.
+STITCH: Snug.
+ACTION: Dutch opens the binder to a clean page and clicks the pencil down.
+ACTION: MACK stands back in the dark by the door, 55, and writes one line in a pocket notebook.

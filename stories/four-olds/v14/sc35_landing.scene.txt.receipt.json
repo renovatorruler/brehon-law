@@ -1,0 +1,10 @@
+{
+  "id": "v14-35-landing",
+  "slug": "INT. FRONTIER MISSION CONTROL - DAY",
+  "seedHash": "53dbf71f803e95f465152a9f87cc301fffe8f44836ea6b5bdbf8e7fc85b5708e",
+  "sceneHash": "5007a0a38f89d393911ac410652034a1d7d6befa0d069134ce09be22a19b0087",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

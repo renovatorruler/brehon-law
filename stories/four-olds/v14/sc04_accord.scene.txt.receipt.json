@@ -1,0 +1,10 @@
+{
+  "id": "v14-04-accord",
+  "slug": "INT. DAWES FARMHOUSE, KITCHEN - NIGHT",
+  "seedHash": "441ed2d2326d6bd76971d70345a5c64a9f8b13730ad8b0633c0388bf4516a650",
+  "sceneHash": "05eab2feb940fde21f1fc1bacf64bb64e3707c3151a3f36afc8ff90dfc01ab17",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

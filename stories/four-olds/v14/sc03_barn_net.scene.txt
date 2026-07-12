@@ -1,0 +1,53 @@
+v14-03-barn-net — INT. DAWES BARN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc03_barn_net.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A hand finds the pull-cord in the dark and the light comes on with a CLICK.
+ACTION: The bulb swings over an APOLLO PROCEDURES TRAINER built into the far end of the barn.
+ACTION: Hand-machined gauges crowd the panel, each dial cut and numbered by hand.
+ACTION: A crew couch sits bolted into a welded steel cradle in front of the panel.
+ACTION: A triangular window faces a Moon painted on the barn boards, gray and flat.
+ACTION: ALONG THE BACK WALL -- spiral notebooks stand floor to roof, every spine dated in the same block hand.
+ACTION: The bottom shelf starts in 1972.
+ACTION: CRICKET, 79, in a barn coat, lowers himself onto the couch and lifts a hand microphone off its hook.
+ACTION: He keys the mic.
+CRICKET: Net's open. Tuesday, nineteen-oh-two local.
+ACTION: The speaker answers first in a flat, dry voice.
+DUTCH (RADIO): Dutch is up. Got you loud.
+ACTION: A slow Texas drawl comes on behind him.
+STITCH (RADIO): Stitch is here. Settled in, coffee's hot, y'all take your time.
+ACTION: The last voice is clipped and Navy.
+GUNNY (RADIO): Tibbs, up and on time. Which is better than Texas managed.
+GUNNY (RADIO): It's nineteen-oh-three, gentlemen. Commander, run your checklist.
+ACTION: Cricket props a plastic card against the panel and works down it with one finger.
+CRICKET: Starting down.
+ACTION: He throws a row of toggles and the panel lights shift.
+ACTION: A needle on the panel drifts off its mark.
+ACTION: The buzz behind the panel stutters, drops, catches again.
+CRICKET: Needle's walking. Low left.
+DUTCH (RADIO): Steady, or does it stutter?
+CRICKET: Stutters.
+DUTCH (RADIO): That's Bus B. Same relay I put in in eighty-four.
+STITCH (RADIO): Here he goes.
+DUTCH (RADIO): I'm allowed to say it. Kick it, low left corner.
+ACTION: Cricket lifts his boot and raps the lower left corner of the panel with his heel.
+ACTION: The needle climbs back onto its mark and the buzz behind the panel smooths out.
+ACTION: He eases a lever down a notch and watches the altimeter unwind.
+ACTION: A blue lamp lights on the panel.
+CRICKET: Contact light. Engine stop.
+ACTION: He flips two switches and the buzz dies out.
+ACTION: For a moment nobody keys a mic and the barn holds still.
+STITCH (RADIO): Hair late on the throttle there at the end.
+GUNNY (RADIO): The man is on the ground, Colonel.
+CRICKET: Net closed. Same time Tuesday.
+GUNNY (RADIO): God willing.
+ACTION: Cricket presses the key twice, two short clicks.
+ACTION: Two clicks come back over the speaker. Then two more behind them.
+ACTION: He hangs the microphone on its hook and opens a fresh spiral notebook.
+ACTION: He writes in ballpoint block letters, and the page reads T+2,806. BUS B CORRECTED. CONTACT 19:41. CREW PRESENT BY RADIO.
+ACTION: He runs a thumb down the dated spines, from 1972 up to the shelf by his head.
+ACTION: He pulls the cord and the barn goes dark, then slides the door shut behind him.
+ACTION: He sets a padlock through the hasp and tests it with one pull.
+ACTION: Across the yard the farmhouse porch light burns over the steps.
+ACTION: Cricket crosses to it. No lights are on inside the house.
+ACTION: He climbs the steps and lets himself in.

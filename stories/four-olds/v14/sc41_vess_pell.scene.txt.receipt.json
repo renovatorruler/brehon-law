@@ -1,0 +1,10 @@
+{
+  "id": "v14-41-vess-pell",
+  "slug": "INT. FRONTIER AEROSPACE, VESS'S OFFICE - NIGHT",
+  "seedHash": "f90d81184efea432424720ad0d0d31adb9e26c049b79ae65971f324d5a235307",
+  "sceneHash": "0d15790d31770d1f3ec494df13497ff77efdddb81e896eedb84751f68c9a713f",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

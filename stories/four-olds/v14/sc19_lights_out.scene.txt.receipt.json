@@ -1,0 +1,10 @@
+{
+  "id": "v14-19-lights-out",
+  "slug": "INT. ROY'S DINER - DAY",
+  "seedHash": "7009a2c9a749d9c7697b9278ab4983ef7a8342d4a6bdef626dc35058f8ba82a8",
+  "sceneHash": "7c00df54d90399ae5774e35880cf468ae7e1cdf32a38df099d68658245cf4622",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

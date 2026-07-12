@@ -1,0 +1,29 @@
+v14-22a-mack-finds-out — INT. TRI-COUNTY AUCTION BARN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc22a_mack.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A desk lamp burns over a plywood table. Mack Boone, 55, freight-and-salvage, sits alone with a freight booking sheet squared in front of him and a floor scale dragged up against his boot.
+ACTION: He lifts an archival box onto the scale. The board is empty, flaps hanging open.
+ACTION: The needle swings up and settles. He watches it, then pencils the number onto the sheet.
+ACTION: He sets the box off and lifts the next one. Same swing. Same heavy number.
+ACTION: Four numbers run down the sheet now, each circled hard enough to dent the paper.
+ACTION: He runs the pencil down the shipping weight printed on the manifest and holds it beside his own column. Each of his four numbers sits thirty kilos above the printed weight.
+ACTION: He circles the gap and sets the pencil down. He sits there a while.
+ACTION: He stands. He walks the dark shop floor past the welding bays and the crates stacked up into the rafters.
+ACTION: He stops at a low shape under a tarp by Bay Two. He takes a corner of the canvas and lifts it.
+ACTION: Under it sits a couch. Strapped down to the cushions, a packed form the size and shape of a MAN.
+ACTION: He looks at it a long moment. He lets the tarp fall and carries the sheet back to the table where the others sit in the lamp light.
+MACK: Nothing on this manifest breathes, gentlemen.
+ACTION: Earl "Cricket" Dawes, 79, sets his coffee down on the plywood and answers without getting up.
+CRICKET: Tuesday the truck carries six boxes out on your paper. Six of us are in them. The load reads right because that dummy already weighs what a man weighs. They wave it through the gate and nobody counts us at the yard.
+ACTION: Mack stays on his feet. He looks down at Cricket.
+MACK: You understand there's no backing out once you're up there. Bad heart at four g's, your age, no doctor closer than a quarter million miles.
+ACTION: Gunny Tibbs, 71, Navy retired, leans back against the bench and looks up at him. Not unkindly.
+GUNNY: Boone, I've buried better men than me for worse reasons than this. Sit down or go home. Either's fine. Quit standing there doing arithmetic on our behalf.
+ACTION: Joss Reed, 26, dock hand, watches from the dark past the last crate.
+JOSS: You're all insane. What do you need from me?
+ACTION: Tito Alvarez, 24, the welder, brings his knuckles twice against the crate wall.
+ACTION: Two knocks on plywood carry across the shop.
+ACTION: Nobody at the table says anything.
+ACTION: Mack pulls the bench out and sits down.
+ACTION: He reaches into his coat and takes out his pen.

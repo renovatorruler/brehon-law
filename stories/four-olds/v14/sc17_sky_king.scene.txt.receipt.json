@@ -1,0 +1,10 @@
+{
+  "id": "v14-17-sky-king",
+  "slug": "INT. TRI-COUNTY AUCTION BARN, LOADING DOCK - DAY",
+  "seedHash": "abf3c4f4dbc827e84cd8f4bcdca79aad6bc548d43d568ca87ffa486310867211",
+  "sceneHash": "34c485bf377c497d8091ee0c3683e58dee7beb4c0e2d9574db5fb5d853c06160",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

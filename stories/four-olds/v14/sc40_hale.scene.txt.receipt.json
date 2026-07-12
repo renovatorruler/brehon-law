@@ -1,0 +1,10 @@
+{
+  "id": "v14-40-hale",
+  "slug": "INT. FRONTIER AEROSPACE, HALE'S OFFICE - DAY",
+  "seedHash": "12ba519fa9e7fd6922533696a8e7e82355d1a6eb69d70d2bbed9a39048dd50dc",
+  "sceneHash": "b5d2769f429532f6d5332fe0a866da6b52fd00b5d3a7b7b6a945b731354455a6",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "v14-25-suits",
+  "slug": "INT. FEDERAL SURPLUS HOLDING, OUTSIDE LINCOLN - DAY",
+  "seedHash": "5b623290aed8de3684403a3dabaf3c67cd29c4c319aeb9c2db44eb0c22dabec5",
+  "sceneHash": "5ac6b0f19d2e60d913206973216929052068ca64a11e202b20a39f2ca872ed41",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

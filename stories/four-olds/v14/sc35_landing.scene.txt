@@ -1,0 +1,50 @@
+v14-35-landing — INT. FRONTIER MISSION CONTROL - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc35_landing.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: On the flight deck of Harmony One, the ESA commander Brandt keeps both gloved hands flat on the descent panel and reads the crosshair down toward the center of the screen. He is gray and careful at fifty, a year from his last flight.
+ACTION: Lindqvist works the throttle at the second seat, and behind them Observer Shen, the Bloc's man on the crew, stands at the hatch with his hands folded and watches the board instead of the window.
+ACTION: A green light trips on the panel under Brandt's thumb.
+BRANDT: Contact light. Engine stop.
+ACTION: The engine quits and the lander drops the last of the height and hits the surface.
+ACTION: Down in the cargo bay, four old men ride the slam out strapped along the wall in worn white suits.
+ACTION: The rack slams down against its stops and the straps snap taut out of order.
+ACTION: In Crate B a tarped case tears loose, slides half a foot along the deck, and stops hard against the man folded into the far corner.
+ACTION: On the cargo door a hinge takes the blow and sets a hair out of true.
+ACTION: Outside on the Sea of Tranquility, the dust the landing kicked up hangs a moment and then settles, and across every screen in America the picture goes clean.
+ACTION: HARMONY ONE stands on the gray flat, white in the sun, no flag on her flank.
+ACTION: Back on the flight deck, Lindqvist lets out a breath and reaches up to safe the switches over his head.
+LINDQVIST: Well. That's us down, then.
+ACTION: Shen has not moved from the hatch, and he watches the little broadcast light hold steady on the panel.
+SHEN: Both networks have you.
+ACTION: Brandt takes his hands off the panel and flexes them once.
+ACTION: Down in the bay, Cricket, Earl Dawes of Nebraska, 79 and a widower a year, thumbs the mic on his cuff and counts the men down the wall.
+CRICKET: Sound off.
+ACTION: Dutch lifts two fingers off his strap, a service binder clipped at his thigh.
+DUTCH: Here.
+ACTION: Gunny is already working his harness buckle and keys the mic without looking up.
+GUNNY: Tibbs, up.
+ACTION: The net goes quiet, and nothing comes back from the far corner of the bay.
+CRICKET: Stitch.
+ACTION: Still nothing off the far corner.
+CRICKET: Elmore.
+ACTION: A wet, ugly cough comes over the net.
+ACTION: Stitch is folded down over his own side against the far straps, and it takes him two tries to key the mic.
+STITCH: …M'fine. Caught the rack with my side is all.
+GUNNY: Don't you go quiet on this net again, Colonel.
+CRICKET: Copy.
+ACTION: Cricket makes a mark on the cuff card and moves his thumb to the next line.
+ACTION: Outside behind the lander, a camera boom swings out from its high shoulder and pans slow across the site for the people back home.
+ACTION: The boom sweeps the near landing leg, drifts on across the black sky, and never once turns to look behind the lander.
+ACTION: In the lander's shadow, four crates stand open on the deck.
+ACTION: Four suited figures pass tarped bundles and latched cases down the line and lash them onto the backup rover, the museum tags turning on their wrist cuffs.
+ACTION: The last man climbs aboard, reaches down, and raps the fender twice and twice again.
+ACTION: THE BACKUP ROVER rolls out of the shadow into the sun, its tracks laying fresh line across ground no boot has crossed in fifty years.
+ACTION: The dust the rover throws comes down all at once, in one place, too neat for the ground it fell on.
+ACTION: Out at the solar array, Brandt straightens up from the half-unfolded panels and turns north out of long habit.
+ACTION: A thin haze stands low over the flat to the north, out where nothing on the site should be moving.
+ACTION: He holds on it, three seconds, maybe four.
+ACTION: Lindqvist calls up from below the array, out of frame.
+LINDQVIST: Commander, panel four's ready for your sign-off.
+ACTION: Brandt turns back to the array and crouches down to the panel.
+BRANDT: Base station nominal. Harmony One, beginning retrieval operations at first light tomorrow, per the program.

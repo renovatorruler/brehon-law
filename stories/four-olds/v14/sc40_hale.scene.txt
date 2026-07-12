@@ -1,0 +1,25 @@
+v14-40-hale — INT. FRONTIER AEROSPACE, HALE'S OFFICE - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc40_hale.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: MAGNUS HALE, the man who built Frontier's rockets, sits alone in a dark office with the wall screen the only light on his face.
+ACTION: On the screen the helmet-cam clears the rise, and the ring of flags fills the wall.
+ACTION: Hale comes up out of the chair, slow.
+ACTION: He lets out one bark of a laugh.
+ACTION: Then he laughs for real, both hands going up on his head, and he walks a full circle around the dark office.
+ACTION: He stops with his hands still on his head and his shoulders going.
+ACTION: In the Frontier press room, Hale steps up to a crowded podium with a printed page in his hand.
+ACTION: He folds the page in half, folds it in half again, and sets it down squared to the edge of the podium.
+HALE: I can't read this one.
+ACTION: He looks straight into the cameras.
+HALE: Somebody used my rocket to do the finest thing an American's done in fifty years. You want somebody to punish for that? You want to nationalize me? Go. Fuck. Yourself.
+ACTION: He walks off the side of the stage and passes a reporter without turning his head.
+HALE: Tell the commie he can eat shit.
+ACTION: Behind him the room breaks open with camera flashes, and the aides wave at the booth to cut the feed.
+ACTION: The feed stays up, because the feed is his.
+ACTION: In the wings VESS, the woman who runs Frontier day to day, stands against the wall with her arms crossed and watches him come.
+ACTION: He passes her, and they look at each other for one beat, then two.
+ACTION: He keeps walking, and the corner of her mouth moves.
+ACTION: At Roy's Diner the whole room sits frozen at the counter with the television still going.
+ACTION: BUCK, the regular in the feed cap, lets out one hard laugh and slaps the counter.
+ACTION: Behind the counter the COOK checks the little meter on the gas line, then turns the flat-top burners up, every one of them, all the way.

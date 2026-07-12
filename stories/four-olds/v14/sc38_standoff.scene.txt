@@ -1,0 +1,44 @@
+v14-38-standoff — EXT. TRANQUILITY BASE - LUNAR DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc38_standoff.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Brandt stands at the top of the rise, Lindqvist on his shoulder and Shen a pace back, the three Harmony suits looking down into the camp.
+ACTION: Off to the side the tripod camera holds its red light on all of it.
+ACTION: Brandt keys his loop and turns his shoulder toward the camp.
+BRANDT: Switching to channel two. Let's talk this over privately, gentlemen.
+ACTION: Down in the dust CRICKET, Earl Dawes, seventy-nine, works a wired handset in the glove of an Apollo suit gone yellow. He presses the transmit key on the open channel.
+CRICKET: We'll talk right here. Whole world's listening anyway.
+ACTION: Brandt comes back around to face them and keys the open loop, slow, for the record.
+BRANDT: All right. On the record, then. Who are you, and who sent you up here.
+ACTION: Cricket sets a hand on the chair arm and comes up out of it to his full height.
+CRICKET: We're the backup crew. NASA never processed us out. We're still on the roster, son. This is our mission.
+ACTION: Lindqvist takes a step down the slope before he catches himself.
+LINDQVIST: Where did you even COME from?
+ACTION: STITCH, Elmore McGrew, seventy-four, sits with one hand flat against his side. He answers without turning his head.
+STITCH: We came in the mail.
+ACTION: Stitch puts his weight on the chair arm, gets partway up, and lets himself back down into the chair.
+ACTION: He looks up the rise at the three of them.
+STITCH: This here's our camp. Pack the fuck off.
+ACTION: In the White House counsel's office four lawyers sit around a speakerphone on a long table, the feed muted on a wall screen behind them.
+ACTION: LAWYER #1, senior, jacket off, sleeves pushed back, keeps both hands flat on the table.
+ACTION: LAWYER #1: I just want the one piece of paper that takes them off the Moon. Somebody go find me that.
+ACTION: LAWYER #2, the one who read the file, slides a printout across the table to him.
+ACTION: LAWYER #2: It's been signed off every quarter since 1972, by career staff, under four statutes. He's not a trespasser. As far as the United States government is concerned, that man is federal personnel standing on his duty station.
+ACTION: ON THE SCREEN -- a personnel record reads DAWES, E., ASTRONAUT (ACTIVE), and under it a column of $0.00 entries running back fifty years.
+ACTION: LAWYER #1: Then send somebody up there and remove them.
+ACTION: LAWYER #2: Who? The only Americans on the Moon are the ones you want removed.
+ACTION: Nobody around the speakerphone says anything for a moment.
+ACTION: Lawyer #2 turns the page over and finds the next one.
+ACTION: LAWYER #2: And sir, the President offered him the wings on a recorded line Tuesday. We can't call him a fraud without calling the President one.
+ACTION: Back on the rise, Shen, the observer who stayed quiet the whole way down, steps off the lip and starts toward the nearest flag.
+ACTION: The seated men come up out of their chairs, all but Stitch.
+ACTION: They move in between Shen and the flags, and not one of them says anything.
+ACTION: GUNNY, Tibbs, seventy-one, the tallest of them, steps to the front of them with a long grill spatula in one glove and looks down at Shen through the visor glass.
+ACTION: He holds there a long moment.
+ACTION: Gunny raises the spatula and points it once, back up the rise at the Harmony rover.
+ACTION: The loop stays quiet. Nobody moves.
+ACTION: Shen looks at the flags, then at the men, and steps back up onto the lip.
+ACTION: One at a time the old men lower themselves back into their chairs.
+ACTION: Gunny turns back to the grill and flips what's on it.
+ACTION: Brandt keys the loop.
+BRANDT: Harmony copies. Control, Harmony requests instructions.

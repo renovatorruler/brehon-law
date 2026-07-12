@@ -1,0 +1,10 @@
+{
+  "id": "v14-11-baytwo",
+  "slug": "INT. FRONTIER AEROSPACE, FABRICATION BAY 2 - DAY",
+  "seedHash": "740476f9ebc8ee7e7e5760c8394ccc45db718ce617e36d55210fe0f84d29c0a0",
+  "sceneHash": "557eff4a296650cff7efe996b1c6ce12c89e6b49653f036125b8d114b69466e8",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
