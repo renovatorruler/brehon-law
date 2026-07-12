@@ -277,3 +277,15 @@ something you'd overhear and forget you heard, keep it.
   the evocative image; the trade-as-symbol; the tidy exchange.
 - **KEEP:** the mundane; the redundant; the half-finished; the plainly true; the
   awkward; the small nice thing; the boring real.
+
+## Parentheticals (added 2026-07-12, user ruling off the 1883 read)
+
+Wrylies are a primary tool. Four sanctioned uses: (to X) when the addressee
+shifts in a multi-party scene; (then)/(beat) when a speech turns mid-thought
+— one speech is ONE cue block continued by wrylies, never two bare
+consecutive cues from the same mouth; (off the gauge)/(off his look) for
+reacting-to; delivery color — (dry), (reading), (not looking up) — only when
+not inferable from context. A few per page, never every line, never stage
+directions that belong in action. On the lift pass: where a speech was
+split into bare consecutive same-name cues, continue it with a wryly
+instead.

@@ -71,6 +71,16 @@ sells the picture.
 13. **Sluglines carry place and date with double-dash separators** when it
     matters: `EXT. DAWES FARM -- BROKEN BOW, NEBRASKA -- MARCH.`
 
+14. **Parentheticals are a primary tool, not an ornament** (user ruling,
+    2026-07-12, off the 1883 read: "Sheridan uses them a lot... that could
+    be very helpful"). Four sanctioned uses: **(to X)** whenever the
+    addressee shifts in a multi-party scene; **(then)** / **(beat)** when a
+    speech turns mid-thought — one speech is ONE cue block continued by
+    wrylies, never two bare consecutive cues; **(off the gauge)** /
+    **(off his look)** for reacting-to; delivery color — (dry), (reading),
+    (not looking up) — only when the delivery is not inferable. A few per
+    page. Never stage directions that belong in action lines.
+
 ## Reconciliation with the clear-pane / plainness laws
 
 These do not conflict; they divide territory:
