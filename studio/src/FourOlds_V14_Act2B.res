@@ -320,7 +320,8 @@ let jobs: array<job> = [
       },
     ],
     [
-      "Gunny's window beat is REQUIRED before he seals back in: both hands on the frame, the Moon filling a third of the glass, a long look, then back into crate A, panel shut, four amber lights in the dark.",
+      "CRATE ASSIGNMENTS, BINDING (the title mapping — every letter mentioned must comply): DUTCH rides crate A (OLD IDEAS); STITCH rides crate B (OLD CULTURE); GUNNY rides crate C (OLD CUSTOMS); CRICKET rides crate D (OLD HABITS). Gunny is the service-rotation man: he exits from and returns to crate C.",
+      "Gunny's window beat is REQUIRED before he seals back in: both hands on the frame, the Moon filling a third of the glass, a long look, then back into crate C, panel shut, four amber lights in the dark.",
       "Shen's interiority is FORBIDDEN — no expression described beyond stillness; the eight seconds are counted in action lines; his tablet entry is the scene's only verdict.",
     ],
   ),
@@ -375,7 +376,7 @@ let jobs: array<job> = [
         who: "DUTCH",
         want: "the burn nominal and the arithmetic honest",
         wall: "the arithmetic says there is no way home but forward",
-        turn: "pencil in the margin — velocity, a time, an arc — the result boxed twice — INSERT: BURN NOMINAL. COAST 62 HRS. NO ABORT FROM HERE. — he looks at the boxed line a moment, then knocks two-two; answered from D, then B, then A",
+        turn: "pencil in the margin — velocity, a time, an arc — the result boxed twice — INSERT: BURN NOMINAL. COAST 62 HRS. NO ABORT FROM HERE. — he looks at the boxed line a moment, then knocks two-two; answered from D, then B, then C",
         subtext: "the engineer files the doorway behind them",
       },
       {
@@ -387,6 +388,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "CRATE ASSIGNMENTS, BINDING (every letter mentioned must comply): DUTCH is in crate A (OLD IDEAS); STITCH in crate B (OLD CULTURE); GUNNY in crate C (OLD CUSTOMS); CRICKET in crate D (OLD HABITS).",
       "REQUIRED control-room texture: the go/no-go poll brief; 'Harmony One, you are go for trans-lunar injection.' with the plain anchor 'Sixty-two hours to lunar orbit, gentlemen. Get some sleep.'; the track on the main screen bending out of Earth's neighborhood for good; Vess letting go of the rail one finger at a time; Pell capping his highlighter: 'Well. Nothing stopping it now.' — Vess doesn't answer him.",
       "End the scene, and the act, on Cricket's knuckle beat. Centered: END OF ACT TWO.",
     ],
