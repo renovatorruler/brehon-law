@@ -78,6 +78,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "FULL PLAYING — this scene carries many required beats: give it two and a half to three screenplay pages. Every required beat gets its own staging and its air; per-line style stays terse; do NOT pad with invented business — length comes from playing each listed beat fully, never from filler.",
       "REQUIRED: the touchdown INSIDE the bay played hard — the rack slams, straps take the load wrong, something in Crate B slides half a foot and stops hard (the injury), and a hinge on the cargo door takes a blow nobody clocks (ONE action line, no emphasis — it pays at the departure); the sound-off as beat 2; the rover theft as beat 3; BRANDT straightening from the solar array, turning out of pure habit, and staring north at a thin haze where nothing should move — three seconds, four — LINDQVIST (O.S.): 'Commander, panel four's ready for your sign-off.' — and Brandt turns back to the array: 'Base station nominal. Harmony One, beginning retrieval operations at first light tomorrow, per the program.'",
       "Stitch's injury register: old-man stoic, one cough, one line, cadence unchanged. FORBIDDEN: any character naming the injury's seriousness.",
     ],
@@ -237,6 +238,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "FULL PLAYING — this scene carries many required beats: give it two and a half to three screenplay pages. Every required beat gets its own staging and its air; per-line style stays terse; do NOT pad with invented business — length comes from playing each listed beat fully, never from filler.",
       "REQUIRED: the Geneva voice ('Harmony One, this is Accord Coordination, Geneva. You are directed to proceed with retrieval of all six artifacts. Immediately, please.'); the Flight Director taking his headset all the way off rather than relay Washington's ACKNOWLEDGE; Gunny dealing four hands of cards onto the card table during the long static after Brandt's request for guidance.",
       "Marwani's stand-down must include the words 'Commander in Chief' so Cricket's answer lands as law, not attitude. Cricket's line is FIXED as written in the logline — no additions, nothing after 'the whole point of it.'",
       "The USA-USA montage: diner, fairgrounds (the county fair mid-swing, the restored carousel turning, every grown-up on their feet chanting at a phone), overpass, loft. Fast, four beats, done.",
@@ -335,6 +337,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "FULL PLAYING — this scene carries many required beats: give it two and a half to three screenplay pages. Every required beat gets its own staging and its air; per-line style stays terse; do NOT pad with invented business — length comes from playing each listed beat fully, never from filler.",
       "REQUIRED beats: Roy's register phone buzzing (Earlene reads it, shows the Cook); the ballpark groundskeeper throwing whole banks of tower lights on-off; the aerial — suburb grids pulsing, highways bright with flashers, the dark country filling porch by porch; the grid-control room — load curves spiking off the chart, the operator into his headset, disbelieving: 'That's more draw than the whole state used to pull on the Fourth. Where's this even coming from?'; Buck watching his own porch light blink through the diner window: 'Good.'",
       "The lights use the two-two rhythm — never explained, never sourced, never commented on.",
     ],

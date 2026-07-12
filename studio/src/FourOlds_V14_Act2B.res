@@ -207,6 +207,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "FULL PLAYING — this scene carries many required beats: give it two and a half to three screenplay pages. Every required beat gets its own staging and its air; per-line style stays terse; do NOT pad with invented business — length comes from playing each listed beat fully, never from filler.",
       "REQUIRED: the six crates on cradles, stencils huge on the flanks — LOT A — OLD IDEAS. LOT B — OLD CULTURE. LOT C — OLD CUSTOMS. LOT D — OLD HABITS. LOT E — SUPPLEMENTARY CONTAINMENT. LOT F — SUPPLEMENTARY CONTAINMENT.; Pell's photographer; 'Random re-weigh. Compliance is a rhythm, folks. Random means random.'; the declared-vs-actual reads spoken flat; Mack's one offered explanation ('Could be the couch upgrade. Archival spec revision come through in March—') cut off by 'Re-run it. Cell check first.'; the hall gone quiet enough to hear the air handlers.",
       "NOBODY arranged the tech. No look passes between him and Mack — the absence of the look is the point. Play his decision entirely in the pause before the pen moves.",
       "END on the tag in the holder — INSPECTED — J. PELL — and the shutter clicking.",
@@ -245,6 +246,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "FULL PLAYING — this scene carries many required beats: give it two and a half to three screenplay pages. Every required beat gets its own staging and its air; per-line style stays terse; do NOT pad with invented business — length comes from playing each listed beat fully, never from filler.",
       "REQUIRED: the laminated order (VALLEY SALVAGE & SURPLUS — ARCHIVAL UNIT FINAL SERVICING, BAY 1); the climb-ins one by one off a purge cart, unhurried, Joss's dock crew moving around them seeing nothing; the knock checks down the line (two-two answered from B, C, D, A); Tito at LOT E setting the canvas triangle into a padded corner mount and checking it twice with two knuckles; the transporter taking the six out the high door, stencils catching the light; Mack signing the contractor crew OUT, four names, one pen; JOSS: 'Net's quiet. Two clicks if it stays that way.' / MACK: 'Go home. Sleep.'",
       "The dockworker beat is the scene's center: play it exactly as specified, no interiority, no music, the three seconds counted in action lines.",
     ],

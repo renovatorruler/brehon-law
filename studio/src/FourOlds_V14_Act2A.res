@@ -241,6 +241,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "FULL PLAYING — this scene carries many required beats: give it two and a half to three screenplay pages. Every required beat gets its own staging and its air; per-line style stays terse; do NOT pad with invented business — length comes from playing each listed beat fully, never from filler.",
       "REQUIRED TV beat, placed mid-scene: the gift list GROWS — an anchor over a graphic of a suit on a mannequin: the Accord adds the Apollo suits to the gift program, one museum suit to accompany each flag; the first, with its flag, to the people of Iran. The olds hear this one standing still.",
       "The burrito-courier beat exactly as staged in the Earlene turn — no adult comments on it; the comedy must be dry and awful. The kid never notices anyone.",
       "The net beat is the scene's last: barn, rig glow, the shortest net ever, the light cord. NOBODY says anything resembling 'the country's gone.' The audience assembles it.",
