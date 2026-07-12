@@ -118,7 +118,8 @@ let buildPrompt = (s: Seed.sceneSeed) => {
   "NAME: dialogue\n" ++
   "NAME (RADIO): dialogue heard over the radio\n" ++
   "NAME (WHISPER): dialogue spoken low / under the breath — a private aside to someone in the room\n" ++
-  "No scene headings, no blank lines, no parentheticals except (RADIO) and (WHISPER), no commentary."
+  "NAME: (wryly) dialogue — an optional LOWERCASE parenthetical may OPEN the dialogue text, four uses only: (to X) when the addressee shifts in a multi-party scene; (then) or (beat) when a speech turns mid-thought — write the continuation as a fresh NAME: line whose text opens with its wryly; (off the gauge) / (off his look) for reacting-to; a delivery word ONLY when it is not inferable from context — (dry), (reading). A few per page, never every line.\n" ++
+  "No scene headings, no blank lines, no other parentheticals, no commentary."
 }
 
 /* ---- parse the model's output into typed lines --------------------------- */
@@ -394,6 +395,7 @@ let extendScene = async (~path, ~afterLine: int, ~brief: string, ~maxTries: int)
     "NAME: dialogue\n" ++
     "NAME (RADIO): dialogue heard over the radio\n" ++
     "NAME (WHISPER): dialogue spoken low, a private aside\n" ++
+    "NAME: (wryly) dialogue — a LOWERCASE parenthetical may open the text: (to X) on an addressee shift, (then)/(beat) at a mid-speech turn, (off something), or an uninferable delivery. Sparingly.\n" ++
     "No numbering, no blank lines, no commentary. The beat must read seamlessly against the lines around it and obey the doctrine below.\n\n" ++
     "=== DOCTRINE ===\n" ++
     doctrine() ++ "\n=== END DOCTRINE ==="
