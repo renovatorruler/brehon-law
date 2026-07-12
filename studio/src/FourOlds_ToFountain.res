@@ -12,7 +12,7 @@ open Cinema_Backends
    describes an off-screen/on-screen presence (a video call, a radio) without
    being explicit enough that it still needs full dialogue treatment. Recover
    it here rather than re-spend a generation on a formatting-only fix. */
-let embeddedCue = Js.Re.fromString("^([A-Z][A-Z0-9 .']{1,30}(?:\\s*\\([A-Z. ]+\\))?): (.+)$")
+let embeddedCue = Js.Re.fromString("^([A-Z][A-Z0-9 #.']{1,30}(?:\\s*\\([A-Z. ]+\\))?): (.+)$")
 
 let fountainOf = sp =>
   switch sp {
