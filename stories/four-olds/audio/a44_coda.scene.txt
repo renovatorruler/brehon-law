@@ -1,0 +1,68 @@
+audio-sc44_coda — SCENE 45. EXT. TRANQUILITY BASE - LUNAR DAY (DAYS LATER)
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a44_coda.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: At first light over Tranquility the loop carries a thin hiss and the breathing of men working, and a warning tone holds steady off the lander's open cargo door.
+ACTION: Dutch Haas, seventy-six, sets a pry bar into the crimped gap and leans his weight onto it, the door grinds up an inch and settles back, and the hinge that took the landing gives its one dry complaint.
+ACTION: The tone off the frame does not change, and Brandt stands at the hatch with a checklist board while it holds.
+BRANDT: We can't fly with it standing open. If it doesn't seat, we don't go home.
+ACTION: Lindqvist leans out past him toward the empty sky where the other ship went, his servo whirring.
+LINDQVIST: And the one we ride home only comes over once every couple hours. We make this next pass, or we sit here on the air that's in the tanks, and there is not much of it.
+ACTION: Stitch stands in the hatch, turning a roll of tape over in one glove.
+STITCH: Ah, it'll close up. They always do, once you quit staring at it.
+ACTION: Dutch sets the bar again and puts his shoulder into it, and the latches start to run and stop halfway.
+ACTION: The tone holds, and Dutch steps back off the bar.
+DUTCH: The latches won't catch while it stands off the frame. So somebody holds it down from outside, by hand, until they run.
+DUTCH: (then) And whoever's holding it isn't aboard when it fires.
+ACTION: A servo whirs as Cricket takes the bar out of Dutch's hands and steps down onto the surface.
+CRICKET: Don't worry. We'll get home.
+ACTION: Cricket wedges the bar under the door edge and puts his whole weight down on it, and the door presses flush.
+ACTION: One latch drives home, and then the next, walking shut under him.
+BRANDT: Dawes—
+CRICKET: Go.
+ACTION: The last latch runs shut, and the tone clears to one clean chime.
+ACTION: The ascent engine lights with no sound at all, and the lift of it comes up through Cricket's boots as the lander leaves the legs.
+ACTION: The push under his boots thins out and thins out, and then there is nothing there but the ground.
+ACTION: Cricket's servo brings his arm up and holds it, and his breath runs slow on the loop.
+ACTION: For a while the loop carries only his breathing.
+ACTION: His arm comes down, and his boots carry him back toward the flags, falling into prints already worn deep.
+ACTION: Up in the climbing cabin the air carries the hum of the fans, and Stitch leans to the window.
+ACTION: Stitch raps a knuckle on the glass, two taps, a pause, two more.
+ACTION: Down on the surface Cricket sits on the rover fender and raps the metal with his glove, twice, a pause, then twice again.
+ACTION: In the cabin the foil-wrapped burgers go hand to hand, and the foil crackles cold.
+ACTION: Lindqvist holds one out to Shen, wedged in beside him, and Shen peels the foil back and eats, and nobody says a word about it.
+ACTION: Dutch smooths his own foil flat on his knee and starts a column of figures down it with a grease pencil, the point dragging soft on the foil.
+ACTION: Months on, the television over the counter at Roy's is turned up on the floor vote, the gavel and the roll call coming off the set.
+ACTION: The clerk on the screen calls it, ninety-eight to two, and the anchor reads the crawl, the backup crews of the Apollo program entered into the rolls.
+ACTION: Buck, in his feed cap, watches it over the top of his coffee.
+BUCK: Who were the two?
+ACTION: Earlene comes down the counter with the pot and fills him without stopping.
+EARLENE: Does it matter?
+BUCK: I'd like to know their addresses is all.
+ACTION: The set cuts to a man with a lanyard on a courthouse step, and the anchor says the enforcement inquiry has named its special administrator, the administration cooperating fully.
+ACTION: By the back door the gas line runs bare, and where the carbon meter used to tick a screwdriver backs four screws out of the wall, one after another.
+ACTION: At the Dawes barn in the evening the wind works the boards and a radio rig hums warm, and Danny Dawes, fifties, sits at it with a headset and a fresh notebook.
+ACTION: Danny keys the mic.
+DANNY: Net's open. Tuesday, nineteen-oh-two local.
+ACTION: The voices come back onto the net one at a time.
+GUNNY (RADIO): Copy.
+DUTCH (RADIO): Here.
+STITCH (RADIO): On time for once, son.
+ACTION: A longer pause runs on the net, three seconds of the signal going up and coming back down.
+CRICKET (RADIO): Tranquility. Reading you loud and clear.
+STITCH (RADIO): Boy believes we went now, mind. He just don't believe the flags kept their color. Says y'all swapped 'em.
+ACTION: Three seconds go by on the net again.
+CRICKET (RADIO): Hm.
+ACTION: Danny huffs a laugh and scratches the time down in the log.
+ACTION: In the farmhouse kitchen Danny turns a government pay stub over under the light and reads it half to himself.
+DANNY: (half to himself) Dawes, E. Ranger, first. ... Four thousand two hundred seventeen dollars. And sixty cents.
+ACTION: He sets it under a magnet on the fridge and squares it up with one finger.
+ACTION: On the Moon the six flags stand in their ring, and a suit's servos whir as Cricket walks the line of them.
+ACTION: At each staff his glove closes and gives it one firm pull, staff after staff down the ring.
+ACTION: He stops at the oldest one, the flag from sixty-nine, and his breath holds.
+ACTION: Cricket's glove comes up all the way, and he thumbs two clicks into the open channel, and then two more.
+ACTION: Three seconds pass, the signal going down to the Earth and back.
+ACTION: Then it comes back, one far station keying the same two and two, and then another, and it rolls west across the dark until the whole noise floor of the Earth is that one knock.
+ACTION: Cricket holds his glove up, and the Earth keeps knocking back at him.
+ACTION: The knocking settles and runs together, and it comes down at last to one steady carrier tone, holding on and on.
+ACTION: The tone holds, and then it is gone.

@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc39_wall",
+  "slug": "SCENE 40. EXT. TRANQUILITY BASE - LUNAR DAY",
+  "seedHash": "8b6411cd730081107e336d0e2322ce404286d75a76582ae499217e42b55e9d84",
+  "sceneHash": "942288ace738aa21a2eb506c4272265694aaae9f9edca08c48ffccf8d3a8c74b",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

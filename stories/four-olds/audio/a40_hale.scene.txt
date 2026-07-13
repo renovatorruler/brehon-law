@@ -1,0 +1,28 @@
+audio-sc40_hale — SCENE 41. INT. FRONTIER AEROSPACE, HALE'S OFFICE - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a40_hale.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: In a dark office the only sound is the wall screen playing the Moon feed low, a thin crowd roar running under it.
+ACTION: Magnus Hale, the man who built Frontier's rockets, sits alone in front of it, breathing slow.
+ACTION: On the feed the crowd noise swells as the picture clears the rise.
+ACTION: Hale's chair creaks as he comes up out of it, slow.
+ACTION: He lets out one bark of a laugh.
+ACTION: Then the laugh comes for real, and his footsteps go all the way around the dark office once.
+ACTION: He stops, and the laughing runs down low until it is just his breath.
+ACTION: A press room comes up loud, a crowd of reporters and a mic humming open at a podium.
+ACTION: Hale's footsteps reach the podium, and a printed page rustles in his hand.
+ACTION: Right up on the mic he folds the page in half, folds it again, and sets it down on the podium.
+HALE: (close) I can't read this one.
+ACTION: The mic thumps as he leans in.
+HALE: Somebody used my rocket to do the finest thing an American's done in fifty years. You want somebody to punish for that? You want to nationalize me? Go. Fuck. Yourself.
+ACTION: His footsteps come off the side of the stage without slowing.
+HALE: (to a reporter) Tell the commie he can eat shit.
+ACTION: The room breaks open behind him in a storm of camera shutters, and an aide starts calling the booth to cut the feed.
+ACTION: The aide's call goes nowhere, and the feed keeps going out live.
+ACTION: Off in the wings Vess, who runs Frontier day to day, waits against the wall, and her heel scuffs the floor as he comes past.
+VESS: (dry) You left the feed up.
+ACTION: Hale's footsteps go straight past her, and a short breath goes out of her, almost a laugh.
+ACTION: At Roy's Diner the whole counter has gone quiet, with the television still going up over the pie case.
+ACTION: Buck, the regular in the feed cap, lets out one hard laugh and slaps the counter.
+BUCK: (low) Son of a bitch.
+ACTION: Behind the counter the cook taps the gauge on the gas line, and the burners down the flat-top light one after another, click, click, click, until every one of them is up and roaring.

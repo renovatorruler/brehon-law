@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc35_landing",
+  "slug": "SCENE 36. INT. FRONTIER MISSION CONTROL - DAY",
+  "seedHash": "d1ff555b03c85417c254e818fd76b0620110a2bf80200c566e65258633b9c7a3",
+  "sceneHash": "3dffb474948dc8571430dff94f01eafea63f5e74462568d4b0ac14a6757db441",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

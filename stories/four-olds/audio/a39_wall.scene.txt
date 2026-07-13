@@ -1,0 +1,38 @@
+audio-sc39_wall — SCENE 40. EXT. TRANQUILITY BASE - LUNAR DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a39_wall.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Two suits come up over the near rise and stop, and on the loop Brandt's breathing settles while Shen's holds quiet behind him.
+ACTION: A wrist card crackles as Brandt reads the plaque numbers off it.
+BRANDT: (into the loop) Geneva, Harmony One. We're on the surface. I have all six in front of me.
+GENEVA (RADIO): Harmony One, this is Accord Coordination, Geneva. You are directed to proceed with retrieval of all six artifacts. Immediately, please.
+BRANDT: (into the loop) Copy, Geneva. Proceeding.
+ACTION: Brandt's servos whir as he steps to the first flag staff, and his glove creaks reaching for the wire.
+ACTION: One servo whirs, then a second, then a third and a fourth, as four men plant themselves down into the dust in a line, and their breathing stacks up on the loop.
+ACTION: Brandt's glove stops a foot short of the wire.
+ACTION: The loop holds on their breathing, and nobody keys a word.
+ACTION: Gunny Tibbs keys his loop, slow and even, and his voice goes out to every living room on Earth.
+GUNNY: (into the loop) You want 'em? Come through us.
+ACTION: Brandt's servo whirs as he lowers his arm and takes a step back.
+BRANDT: (into the loop) Geneva, Harmony One. The site is... occupied by personnel asserting jurisdiction. Requesting political guidance.
+ACTION: Down in Accord Mission Control in Geneva the room runs on console hum, and a controller sets a slip of paper down by the Flight Director's hand.
+CONTROLLER: (low) Washington wants one word sent up. Says just acknowledge.
+ACTION: The Flight Director's chair pushes back, and his headset clicks as he lifts it off and sets it on the desk.
+ACTION: Back on the surface the loop hisses and nothing comes down it.
+ACTION: Cricket settles back down at a card table, and Gunny starts dealing four hands onto it, one card at a time, in the quiet.
+CRICKET: (off the table) Deal 'em face down. Wind'll take 'em.
+GUNNY: There's no wind up here.
+CRICKET: Force of habit.
+ACTION: The loop clicks, and a new voice comes on warm and unhurried.
+MARWANI (RADIO): Gentlemen. It's Zoran. The whole planet is standing still for you right now, and every one of them wants the same thing, which is a whole day, a good day, a day we can all share. So let me help you get there.
+MARWANI (RADIO): (then) As your Commander in Chief, I am ordering you to stand down, Commander.
+ACTION: A beat of static runs on the loop.
+CRICKET: (into the loop) You're not my commander, sir. NASA's civilian. Always was. That was the whole point of it.
+ACTION: The loop hangs open, and nothing answers, not from the Moon, not from Geneva.
+ACTION: Inside Roy's Diner the TV plays over the pie case, and Buck, in his feed cap, sits at the counter with his coffee and says nothing for a while.
+ACTION: Buck's fist comes down on the counter, once.
+BUCK: U-S-A!
+ACTION: The whole diner takes it up, and the coffee cups rattle on their saucers.
+ACTION: Out at the county fairgrounds the carousel organ keeps pumping its tune, and the grown-ups quit the rides to chant it at a phone held up over the crowd.
+ACTION: On a highway overpass a bedsheet flag hangs off the railing, and a hundred horns cut loose under it all at once.
+ACTION: Inside a Brooklyn loft half the Unity Day shirts catch themselves chanting it too, and some of them stop and some of them keep going.

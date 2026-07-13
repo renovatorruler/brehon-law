@@ -1,0 +1,40 @@
+audio-sc37_reveal — SCENE 38. EXT. APPROACH TO TRANQUILITY BASE - LUNAR DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a37_reveal.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Three sets of boots crunch up a long grade, slow and uneven, and three men's breathing runs heavy over the tour loop.
+BRANDT (RADIO): Control, Harmony. We're at the bottom of the last rise. Can't see over it yet, give us a minute here.
+ACTION: A glove drags across rock, and Brandt's breath catches as he takes his weight on it.
+LINDQVIST (RADIO): Bet you it's more rocks. That's about all this whole box has been so far.
+BRANDT (RADIO): Could be.
+ACTION: The three of them push up the last of the grade together, and Shen's breathing comes a beat behind the others.
+ACTION: The boot-crunch reaches the top and stops, and the loop stays open on their breathing while nobody says a word.
+ACTION: That same loop plays into mission control over the hum of the consoles, where a young controller is halfway through a callout.
+CONTROLLER: Copy your crest, Harmony, and we're standing by for your—
+ACTION: The controller's chair rolls back hard, his headset cord snaps taut, and the callout quits where it is.
+ACTION: Down both rows the keyboards stop, and at the back a phone hangs open with its dial tone going into the quiet.
+ACTION: Back on the loop the three of them are still breathing hard at the top of the rise.
+LINDQVIST (RADIO): Anders. Those are lawn chairs.
+BRANDT (RADIO): Control, Harmony. We have the site. There's... give me a second here.
+SHEN (RADIO): Do not touch anything.
+BRANDT (RADIO): Nobody touches anything. Control, you getting this down there, or is it just us.
+ACTION: In Roy's Diner the feed plays up in the corner over the pie case, and the coffee pot stops mid-pour in Earlene's hand.
+EARLENE: Where's Earl and them at? They're missing the damnedest thing that ever happened.
+ACTION: On his stool Buck sets his coffee cup down on the counter.
+BUCK: There they are.
+ACTION: The counter holds quiet for one beat, and then the stools scrape back all together and the room breaks into noise.
+ACTION: Across town the Unity Day pavilion runs under a PA, and Marwani, the emcee, is in the middle of a sentence at the lectern.
+MARWANI: — so if you'll bear with us one more minute here while they get the picture back up for us—
+ACTION: The children in the front rows quit listening and start yelling at the big screen, and the noise rolls back over the whole floor.
+ACTION: On a news set the feed runs on the monitor, and the panelist presses her earpiece and keeps talking over it.
+PANELIST: — I'm being told those suits are the museum pieces. From the gift program. They're wearing the gifts.
+ACTION: In a Frontier training room the watch party has gone quiet over paper plates and a sheet cake, the feed up on the pull-down screen, and a plate slips out of the Module 7 facilitator's hand and hits the carpet.
+ACTION: Back on the open loop Brandt's breath steadies, and he reads what is stenciled down the four empty crates behind the chairs, one after another.
+BRANDT (RADIO): (reading) Old ideas. Old culture. Old customs. Old habits.
+ACTION: At a Warsaw tram stop the feed plays off one phone somebody holds up over the crowd, and one man starts to clap.
+ACTION: In a few seconds the whole tram stop is clapping around the phone.
+ACTION: In a room under a ring light the streamer has the feed going in the corner of his monitor, and his voice cuts back in over the chat alerts.
+STREAMER: Those flags are NEW, people. Look at the COLORS. They SWAPPED them—
+ACTION: Back at the site a spatula scrapes across the grill grate on the open loop, and then it goes still.
+ACTION: Gunny Tibbs, seventy-one and Navy retired, keys the loop from the grill.
+GUNNY (RADIO): Harmony. Took you boys long enough getting up here. Burgers are about done, come on and get one.

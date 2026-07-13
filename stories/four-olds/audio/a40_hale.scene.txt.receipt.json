@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc40_hale",
+  "slug": "SCENE 41. INT. FRONTIER AEROSPACE, HALE'S OFFICE - DAY",
+  "seedHash": "0806731fa88a39614c9d6c1577db5e122a4532ffa595f8e1b4818c7c32bb0b29",
+  "sceneHash": "db5c1cc4399435d21ff613115f4af29351fda3e2ea88ad950a15bf0f3cbe7c99",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

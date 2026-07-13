@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc41_vess_pell",
+  "slug": "SCENE 42. INT. FRONTIER AEROSPACE, VESS'S OFFICE - NIGHT",
+  "seedHash": "7a204532b9446bd7b1ee743d320a326dd77486a799101a3d406c3dd722c6b340",
+  "sceneHash": "3ca6b155c5c3ff57163acec709308c8313a959af5ea650777b441c5f29090055",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

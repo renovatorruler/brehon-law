@@ -1,0 +1,28 @@
+audio-sc41_vess_pell — SCENE 42. INT. FRONTIER AEROSPACE, VESS'S OFFICE - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a41_vess_pell.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Vess's office runs on the low hum of the night HVAC, and a folder sits squared on the desk under Mira Vess's hands.
+ACTION: The door opens and Administrator J. Pell, fifties, comes in on quick shoes ahead of two federal marshals and leaves them at the door.
+PELL: Mira. Thanks for staying, I know it's late and everyone's worn out.
+PELL: (then) Walk me down to the room, we'll send the recall up together, and this turns into a good night for everybody.
+ACTION: Vess's hands fold on the folder, and her chair does not move.
+VESS: There is no override. The ship answers its crew.
+PELL: Everybody comes home tonight. That's the whole idea here.
+VESS: You built the compliance regime, Administrator. Nothing at this company moves without a signature. You know that better than anyone.
+ACTION: The folder opens, and Vess turns the top page around and slides it across the blotter to him.
+VESS: That's the cargo. Somebody weighed it over a second time and signed off, and the note in the margin there is your hand.
+ACTION: She lays the next page down on the blotter.
+VESS: Site inspection log. Reads exceeds requirement, and that's your signature under it.
+ACTION: She lays the last page down beside the other two.
+VESS: And the tag off the crate itself. Stamped inspected, signed J. Pell, with a photo still clipped to the corner.
+ACTION: Pell's finger comes down on the tag, and the photo slides as he turns it toward himself.
+PELL: You scheduled—
+ACTION: The word stops half out of him, and his finger stays down on the tag.
+ACTION: The room holds on the HVAC for a moment.
+VESS: Take it public, Administrator. All of it. Walk them through the program you ran, the cargo you certified, the shop you praised. Somebody's name ends up in the story. Count the signatures and tell me whose.
+ACTION: Her chair pushes back, and her heels come around the desk and cross behind him toward the door.
+VESS: You wanted the company to cooperate. The company cooperated. The country didn't.
+ACTION: Her heels go out through the two marshals at the door, even and unhurried, and nobody stops her.
+ACTION: The door settles shut, and the office goes down to nothing but the HVAC.
+ACTION: Pell draws the visitor's chair out and sits down in front of the pages, and he does not touch a one of them.

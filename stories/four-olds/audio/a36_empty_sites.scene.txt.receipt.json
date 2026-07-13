@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc36_empty_sites",
+  "slug": "SCENE 37. EXT. SURVEYOR CRATER, APOLLO 12 SITE - LUNAR DAY",
+  "seedHash": "60b3077f4db1d0dc42642da832362fb3d892458066c3e2aefd82aa88e8161593",
+  "sceneHash": "51ff6b7575137987ad3136696885abcc2b4ac87aea8ffe6f71bde1d4cc43b98c",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

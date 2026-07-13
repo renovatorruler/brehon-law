@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc44_coda",
+  "slug": "SCENE 45. EXT. TRANQUILITY BASE - LUNAR DAY (DAYS LATER)",
+  "seedHash": "8019b4ce99dff9c0578613e639b0ba4cb26c654cd3b35ac7e2737774faa3bfaa",
+  "sceneHash": "d0b7facc3f0afe9cf0febd624e8e8e2dfd80c8af19e68ed6f48749f3efc691f6",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

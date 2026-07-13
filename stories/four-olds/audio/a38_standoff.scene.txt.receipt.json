@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc38_standoff",
+  "slug": "SCENE 39. EXT. TRANQUILITY BASE - LUNAR DAY",
+  "seedHash": "e84f181c1987ff2d496a53e6ea3d49b3fbc2e899e62688d0cb911d9e808280f1",
+  "sceneHash": "7f5fcb6dcb1368342fce765b48a768541d470a2d54d25cd4d0ed0bf52af75213",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

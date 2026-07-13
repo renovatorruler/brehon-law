@@ -1,0 +1,52 @@
+audio-sc35_landing — SCENE 36. INT. FRONTIER MISSION CONTROL - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a35_landing.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: On the flight deck of Harmony One a low panel hum runs under the hiss of the descent loop, and Brandt's breath comes slow across his own mic.
+ACTION: At the second seat Lindqvist works the throttle, and behind them Observer Shen, the Bloc's man on the crew, shifts his weight and the deck plate creaks under him.
+BRANDT: Crosshair's tracking center.
+ACTION: A tone chirps under Brandt's thumb on the descent panel.
+BRANDT: Contact light. Engine stop.
+ACTION: The engine noise dies off the deck, and the lander drops the last of the height and settles hard onto the surface.
+ACTION: Down in the cargo bay four old men ride it out strapped along the wall, Earl Dawes of Nebraska and three more in worn white suits, breathing into their helmet mics.
+ACTION: The touchdown arrives through the deck plating, one hard jolt up into four sets of boots.
+ACTION: The equipment rack drives down against its stops with a long metal groan, and the harness straps snap taut one after another.
+ACTION: In Crate B a tarped case tears off its lashing, scrapes half a foot across the deck, and thumps against something soft in the far corner.
+ACTION: One hinge on the cargo door takes the blow and gives a single complaining creak.
+ACTION: Up on the flight deck the overhead switches click off one at a time under Lindqvist's hand.
+LINDQVIST: Well. That's us down, then.
+ACTION: The broadcast tone holds steady on the panel.
+SHEN: Both networks have you.
+ACTION: Brandt lets his hands off the panel and lets out a long breath.
+ACTION: Down in the bay, on the crew's own private loop, Cricket keys the mic at his cuff, and his breath comes first.
+CRICKET (RADIO): Sound off.
+ACTION: A binder clip taps against Dutch's thigh as he keys in.
+DUTCH (RADIO): Here.
+ACTION: Gunny's harness buckle rattles loose, and he keys in without stopping.
+GUNNY (RADIO): Tibbs, up.
+ACTION: The loop goes quiet, and nothing comes back from the far corner.
+CRICKET (RADIO): Stitch.
+ACTION: The far corner stays quiet.
+CRICKET (RADIO): Elmore.
+ACTION: A wet, ugly cough breaks over the loop.
+STITCH (RADIO): M'fine. Caught the rack with my side is all.
+GUNNY (RADIO): Don't you go quiet on this net again, Colonel.
+CRICKET (RADIO): Copy.
+ACTION: Cricket's pen scratches a mark across the cuff card.
+ACTION: Outside on the mission loop the traffic runs plain and open, Brandt and Lindqvist working the solar array in the sun.
+BRANDT (RADIO): Array's half out. Give me the next panel.
+LINDQVIST (RADIO): Coming out now.
+ACTION: Under it, on the private loop, latches pop back and a tarp drags across the deck.
+DUTCH (RADIO): That's the last case clear of Crate B. Cinch it onto the rover.
+GUNNY (RADIO): Port rail. Pull it down tight.
+ACTION: A ratchet strap clicks up hard, tooth by tooth, on the private loop.
+BRANDT (RADIO): Base station's coming up nominal down here. Nothing on the boards.
+ACTION: On the private loop a gloved hand raps the rover fender, twice, then twice again.
+CRICKET (RADIO): That's all of it. Roll her out.
+ACTION: The drive whines up through the rover frame on the loop, and the tracks bite into the ground.
+STITCH (RADIO): She's moving and there's not a sound to her.
+GUNNY (RADIO): No air out here to carry it, Stitch. You feel it up through the seat.
+ACTION: Out at the array Brandt's work stops, and for three seconds, four, there is only his breath on the mission loop.
+LINDQVIST (RADIO): (off) Commander. Panel four's ready for your sign-off.
+ACTION: Brandt's boots crunch back down to the panel, and his tools take it up again.
+BRANDT (RADIO): Base station nominal. Harmony One, beginning retrieval operations at first light tomorrow, per the program.

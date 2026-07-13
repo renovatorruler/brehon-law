@@ -1,2 +1,3 @@
 a30_loadout.scene.txt|All... clear|ALL CLEAR
 a31_launch.scene.txt|color under the white|burning sheets
+a44_coda.scene.txt|then it is gone|THE END

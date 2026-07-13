@@ -1,0 +1,30 @@
+audio-sc42_look_up — SCENE 43. INT. FRONTIER AEROSPACE, HALE'S OFFICE - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a42_look_up.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: In his dark office Magnus Hale, still in his coat over rolled sleeves, taps two words into the phone and stops with his thumb over the send.
+ACTION: His thumb comes down, the post chimes away, and he lays the phone face down on the desk and leaves his hand on it.
+ACTION: At Roy's the griddle is ticking down for the night when the phone by the register buzzes and walks itself an inch across the counter.
+ACTION: Earlene, sixties, picks it up and reads the screen.
+EARLENE: Two words. Look up.
+ACTION: She holds the phone up over the pass, and the cook drops his rag and crosses to the front window.
+ACTION: Out at the Dawes place near Kearney the night is all crickets and the hum of a radio set warming up in the barn.
+ACTION: Danny Dawes, fifties, Cricket's boy, thumbs the key on the set, two clicks, a pause, then two clicks again.
+ACTION: The static holds a second, and then one far station keys back the same, two and two.
+ACTION: Danny's handheld crackles on the bench, and Joss Reed, the young hand from the night shop, comes on from his truck out on the section road.
+JOSS (RADIO): That you on the key, Danny, or'd your mic stick again.
+DANNY: It's me.
+ACTION: Out on the road Joss thumbs his own set back, two and two, and leaves the truck radio open.
+ACTION: Down the valley another set answers, and then one past it, some keying it clean and some just thumping the carrier, two and two, two and two.
+ACTION: Inside a minute ten stations are on it, and then the whole band blooms, one keying in from Lincoln, another from Grand Island, one from clear out past Cheyenne, every one of them throwing a call sign and a town.
+ACTION: The static goes thick with that same two-and-two on every frequency Danny can turn to, until the noise floor itself is knocking.
+ACTION: In a monitoring station somewhere an operator has every band on his rack lit at once, and he leans into his headset.
+OPERATOR: Every channel I've got is stacked up with the same thing. Where's this even coming from?
+ACTION: Back at the diner window Buck, in his feed cap, holds a little scanner up to his ear, and it is doing the same two and two as all the rest.
+BUCK: Good.
+ACTION: On the Moon the seven of them sit around the card table on the gray flat, and Stitch has the next hand half dealt out in his glove.
+ACTION: Somebody has the Earth band patched into the loop, and it comes through thin in one earpiece, the two-and-two knock riding under a thousand far-off call signs.
+ACTION: Stitch stops with a card still pinched in his glove.
+STITCH: Y'all.
+ACTION: Seven men go quiet on the loop, and for a long while the only thing on it is that far knocking and seven men breathing.
+ACTION: At the grill Gunny reaches over and turns the burner down, and the valve knocks and the flame hiss drops to a smaller one.

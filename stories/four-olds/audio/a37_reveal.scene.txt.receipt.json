@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc37_reveal",
+  "slug": "SCENE 38. EXT. APPROACH TO TRANQUILITY BASE - LUNAR DAY",
+  "seedHash": "231a68a0257d6392cca8f1543bae3effcc3389c1c412bc5a9960f14d02f58373",
+  "sceneHash": "5735a6f57318b5558adf5aec5c79bbecb60713bcf28d17df4d1c0d573b8a79b7",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

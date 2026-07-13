@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc42_look_up",
+  "slug": "SCENE 43. INT. FRONTIER AEROSPACE, HALE'S OFFICE - NIGHT",
+  "seedHash": "4138a51be249f19b7fa2a09845ee6a6289a69944b58c05b6aa66631ccb9aa12c",
+  "sceneHash": "2da72f59a91a1422742803e308b46a198453905b8bdb885a854c9c1b15ecb975",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
