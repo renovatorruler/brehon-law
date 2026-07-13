@@ -42,7 +42,9 @@ let voiceOf = who =>
   | "DANNY" => Some("BgKhVteUTnSGoNk6fizV")
   | "HOLLOWAY" => Some("VkL7Dlo4mlO2YXRw09M7") /* Wesley */
   | "MARWANI" => Some("ZF7Ng6hYSXU5QiOXbbSZ") /* Clinton */
-  | "ANCHOR" => Some("QyCGbzzEtSqHWJ8rNRMK") /* Alexandria */
+  | "ANCHOR" => Some("QyCGbzzEtSqHWJ8rNRMK") /* Alexandria — desk anchor (f) */
+  | "COANCHOR" => Some("cWo9xRzWIidua0ZsVaGx") /* Elijah — desk co-anchor (m) */
+  | "ANNOUNCER" => Some("QTn7zgOqA9G2UKp3tNJb") /* Keith Hinton — arena PA */
   | "OFFICER" => Some("bO5h0vChrZCBN2GYUhC5") /* Ryan */
   | "BUCK" => Some("pqHfZKP75CvOlQylNhV4") /* Bill */
   | "HALE" => Some("onwK4e9ZLuTAKqWW03F9") /* Daniel */
@@ -247,11 +249,23 @@ let renderScene = async (base: string): bool => {
               | None => ()
               }
             | None => {
-                let isBed =
-                  bedCount.contents < 2 &&
-                  actionIdx.contents < 3 &&
-                  Js.Re.test_(bedRe, t)
-                actionIdx := actionIdx.contents + 1
+                /* DME cue prefixes (see AUDIO_MIX.md): ATMOS = a continuous
+                   bed, FX/CUT/MUSIC = spots; the description after "|" is what
+                   we resolve to a sound. A bare ACTION is a spot. */
+                let bar = Js.String2.indexOf(t, "|")
+                let (isBed, desc) =
+                  if Js.String2.startsWith(t, "ATMOS ") {
+                    (true, bar >= 0 ? Js.String2.trim(Js.String2.sliceToEnd(t, ~from=bar + 1)) : t)
+                  } else if (
+                    Js.String2.startsWith(t, "FX ") ||
+                    Js.String2.startsWith(t, "CUT ") ||
+                    Js.String2.startsWith(t, "MUSIC ")
+                  ) {
+                    (false, bar >= 0 ? Js.String2.trim(Js.String2.sliceToEnd(t, ~from=bar + 1)) : t)
+                  } else {
+                    (Js.Re.test_(bedRe, t) && bedCount.contents < 2, t)
+                  }
+                ignore(actionIdx)
                 let wav = renderDir ++ pad(i) ++ ".wav"
                 /* PSE-first: a real recording when one fits, else generate.
                    an override may force "GEN" or a specific file. */
@@ -259,7 +273,7 @@ let renderScene = async (base: string): bool => {
                   switch Js.Dict.get(overrides, Belt.Int.toString(i)) {
                   | Some("GEN") => None
                   | Some(f) => Some(f)
-                  | None => PseIndex.match(t)
+                  | None => PseIndex.match(desc)
                   }->Belt.Option.flatMap(f => existsSync(f) ? Some(f) : None)
                 switch pick {
                 | Some(file) => {
@@ -279,7 +293,7 @@ let renderScene = async (base: string): bool => {
                   }
                 | None => {
                     let mp3 = renderDir ++ pad(i) ++ "_sfx.mp3"
-                    let ok = await sfx(t, isBed ? 20.0 : 4.0, mp3)
+                    let ok = await sfx(desc, isBed ? 20.0 : 4.0, mp3)
                     if ok {
                       if !existsSync(wav) {
                         plainWav(mp3, wav)
