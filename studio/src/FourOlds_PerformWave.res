@@ -26,14 +26,25 @@ let main = async () => {
       switch Perf.load(~perfPath, ~scenePath) {
       | Ok(_) => Js.log("SKIP " ++ base ++ " (performed)")
       | Error(_) =>
-        switch await Perform.run(~scenePath, ~outPath=perfPath) {
-        | Ok(lines) => {
-            ok := ok.contents + 1
-            Js.log("OK   " ++ base ++ " (" ++ Belt.Int.toString(lines) ++ " lines)")
+        try {
+          switch await Perform.run(~scenePath, ~outPath=perfPath) {
+          | Ok(lines) => {
+              ok := ok.contents + 1
+              Js.log("OK   " ++ base ++ " (" ++ Belt.Int.toString(lines) ++ " lines)")
+            }
+          | Error(m) => {
+              bad := bad.contents + 1
+              Js.log("GATE " ++ base ++ " — " ++ m)
+            }
           }
-        | Error(m) => {
+        } catch {
+        | Session.SessionError(m) => {
             bad := bad.contents + 1
-            Js.log("GATE " ++ base ++ " — " ++ m)
+            Js.log("FAIL " ++ base ++ " (session): " ++ m)
+          }
+        | _ => {
+            bad := bad.contents + 1
+            Js.log("FAIL " ++ base ++ " (unexpected)")
           }
         }
       }
