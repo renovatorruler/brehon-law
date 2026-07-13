@@ -39,7 +39,11 @@ let contentType = (name: string): string =>
     "audio/mpeg"
   } else if Js.String2.endsWith(name, ".pdf") {
     "application/pdf"
-  } else if Js.String2.endsWith(name, ".txt") || Js.String2.endsWith(name, ".fountain") {
+  } else if (
+    Js.String2.endsWith(name, ".txt") ||
+    Js.String2.endsWith(name, ".fountain") ||
+    Js.String2.endsWith(name, ".md")
+  ) {
     "text/plain; charset=utf-8"
   } else if Js.String2.endsWith(name, ".json") {
     "application/json"
