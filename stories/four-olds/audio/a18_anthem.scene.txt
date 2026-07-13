@@ -1,0 +1,38 @@
+audio-sc18_anthem — SCENE 18. EXT. PIONEER FIELD, MINOR-LEAGUE BALLPARK - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a18_anthem.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Pioneer Field runs packed under the lights, nine thousand people up to the top row, and the crowd noise rolls around the bowl of it.
+ACTION: The public address voice comes up warm over all of it.
+PA (RADIO): Please rise now for tonight's unity performance, One World Rising, brought to you by the Tri-Cities Children's Harmony Choir.
+ACTION: Down on the grass the children's choir shuffles into its rows.
+ACTION: A synthesizer comes in with a run of chimes under them.
+ACTION: The crowd gets to its feet in a long slow rustle, and no voice comes up out of it to meet the track.
+ACTION: Along the third-base line Buck, 70s, pulls the feed cap off his head.
+ACTION: He takes a breath and starts in singing, off the note and too loud.
+BUCK: Oh, say can you see...
+ACTION: For four bars his is the only voice in the whole park, out ahead of the synthesizer.
+ACTION: The row behind him picks it up, a couple of voices first, then all of them.
+ACTION: The section around him comes in after that, ragged and never once together.
+ACTION: It rolls back to the far bleachers, thousands of them going now, none of them in time with the next.
+ACTION: The synthesizer and the chimes keep on underneath, all but gone under the voices.
+ACTION: Up on the concourse a compliance kid, 20s, a lanyard at his neck, holds his tablet half up toward the stands.
+ACTION: He holds it there, then snaps the case shut on it and slides it away inside his jacket.
+ACTION: Down on the grass the choir director brings her hands down, and the children's voices cut off under her.
+ACTION: Out past her the flag rope clanks once against the center-field pole.
+ACTION: Over in the next section Cricket Dawes, 79, stands with his cap already down at his side.
+ACTION: Gunny Tibbs, 71, brings his heels together beside him and holds there.
+ACTION: Dutch Haas, 76, takes his cap off and lays it flat over his chest, and he doesn't sing a word of it.
+ACTION: Stitch stands on past them, 74, the hat down in his hand and his mouth shut.
+ACTION: The park is sold out, but the row to either side of them stays empty, and nobody comes down into it.
+ACTION: At his father's shoulder Danny Dawes, 50, sings it low and steady, straight on through.
+DANNY: (singing, low) ...and the rockets' red glare...
+ACTION: The public address voice comes back up between the singing and the first pitch.
+PA (RADIO): Stick around after the last out for tonight's post-game light show, brought to you by the Unity Fund.
+ACTION: Two rows down a boy tugs at his father's sleeve.
+BOY: Is the light show the one with the booms?
+FATHER: Not anymore, bud.
+ACTION: The last word carries up out of the park and dies off somewhere over the parking lots.
+ACTION: The crowd settles back down into its seats a section at a time.
+ACTION: The first pitch comes in and the umpire calls the strike.
+ACTION: One by one, on down the row, the four of them put their caps back on.

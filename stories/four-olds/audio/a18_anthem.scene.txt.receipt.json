@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc18_anthem",
+  "slug": "SCENE 18. EXT. PIONEER FIELD, MINOR-LEAGUE BALLPARK - NIGHT",
+  "seedHash": "e51c71443a22552749f6f142eb443d20267e2a5e1f41b03c103aa5bf36e6c3e0",
+  "sceneHash": "ac63d64cb9193836d6b1524e4d8aa39691ed3df796c1b3c92ef202b4b39dc3b4",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

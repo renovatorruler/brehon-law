@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc17_sky_king",
+  "slug": "SCENE 17. INT. TRI-COUNTY AUCTION BARN, LOADING DOCK - DAY",
+  "seedHash": "506263b456ca143a8344148875b514a5967332358e9948eacffaeea0cc32c7f6",
+  "sceneHash": "f4a3f9e702d711e6576d069524835ed321c172113d69b54452aced4924452ae7",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

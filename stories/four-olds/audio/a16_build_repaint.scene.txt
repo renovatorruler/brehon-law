@@ -1,0 +1,46 @@
+audio-sc16_build_repaint — SCENE 16. INT. TRI-COUNTY AUCTION BARN - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a16_build_repaint.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The auction barn runs full, a welder's arc crackling down the frame rail and a cutoff wheel screaming somewhere past it.
+ACTION: By the door a man drops a fold of bills and some coins into the open cash box on its stool.
+ACTION: Tito Alvarez, 24, drops his welding hood and lays a bead down the seam of a crate clamped in the jig, the arc hissing steady the whole length of it.
+ACTION: Gunny Tibbs, 71, a Navy ballcap on, comes down the row and looks over every station without breaking stride.
+GUNNY: Nobody's ever gonna crawl under there and look, Tito, and you still laid them purge lines in like somebody would.
+ACTION: The arc cuts out, and Tito wedges in against the tank with a wind-up watch ticking open in his hand.
+ACTION: He raps the steel twice, waits, and raps it twice more.
+ACTION: Two knocks come back from inside the tank.
+ACTION: Dutch Haas, 76, runs a thumb down the gauge and writes a figure into his binder.
+TITO: Needle hasn't moved off it.
+DUTCH: Twelve hundred. Give it the four minutes and it logs.
+ACTION: Up on a bracket a shop TV runs the midday news over the work, and the anchor comes up over the arc.
+ACTION: ANCHOR (TV): They've got it out on the transporter now, the whole booster, and you can see the flag painted down the side of it there, has to be fifty feet.
+ACTION: ANCHOR (TV): (then) There's a lift going up alongside, and they're, looks like they're rolling primer over it. White, right down over the stars.
+ACTION: The anchor doesn't say anything after that, and the TV just runs the sound off the yard.
+ACTION: The arc lights back up down the rail and the men keep working.
+ACTION: The picture cuts to a Frontier press room, where camera shutters rattle as Mira Vess, 40s, a dark suit and no notes, steps up to the podium.
+ACTION: The shutters ease off and the room settles as a reporter in the front row gets in first.
+REPORTER: Whose call was the paint?
+VESS: Mine. I ordered the repainting.
+VESS: (then) The Accord specifies neutral mission livery. Paint is cheaper than a receiver. That math is my job.
+ACTION: The reporter is already onto the next one.
+REPORTER: Did Hale sign off on—
+VESS: The board meets Thursday. Bring it.
+ACTION: The shutters flare up again and Vess steps back off the podium without another word.
+ACTION: The picture cuts to the counter at Roy's Diner, where the griddle is going and the same repaint footage runs on the set bolted over the grill.
+ACTION: The cook reaches up past the shelf and turns the set off with a click, and the counter goes quiet under the griddle.
+ACTION: He turns back to the grill, and the eggs keep going.
+ACTION: Earlene, 60s, works the counter with the coffee pot in her hand.
+ACTION: Down at the far end, Buck, 70s, in a feed cap, has a ball game running on the little set at his stool.
+ACTION: The door opens and Earl Dawes, 79, comes in and takes the third stool, the one that's his.
+CRICKET: Morning.
+ACTION: Nobody answers him, and the ball game plays on down at Buck's end.
+BUCK: (at the set) Ah, he had that one. Had it the whole way.
+ACTION: The pot glugs into a cup two stools down, and Earlene works her way back and gets to Cricket last.
+ACTION: She sets a cup down in front of him, but the pot stays up in her hand, and she moves off down the counter.
+ACTION: A ball cracks off a bat on Buck's set, and he leans in without a look this way.
+ACTION: Earlene tears a slip off her pad and lays it face down next to Cricket's cup.
+ACTION: The ticket sits there, face down on the counter.
+ACTION: Cricket turns it over and reads it.
+ACTION: He counts coins onto the counter one at a time and sets them by the cup.
+ACTION: He leaves the coffee sitting full, puts his cap back on, and goes out, and the door swings shut behind him.

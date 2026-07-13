@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc24_proof",
+  "slug": "SCENE 25. INT. TRI-COUNTY AUCTION BARN - NIGHT",
+  "seedHash": "9f6d0abf4b0b291e149502d69038d2534fd70414e19b484bcbe502928e2cabde",
+  "sceneHash": "eb43813e99fc1e52146442e1b84ba46b942ea98f809f868a8e55543ceeb33eb6",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

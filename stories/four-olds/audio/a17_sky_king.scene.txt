@@ -1,0 +1,26 @@
+audio-sc17_sky_king — SCENE 17. INT. TRI-COUNTY AUCTION BARN, LOADING DOCK - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a17_sky_king.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A water cooler glugs in the corner of the loading dock, and out past the open door a truck idles somewhere in the yard, low and far off.
+ACTION: Elmore 'Stitch' McGrew, 74, fills a paper cup off the cooler, the grease worked down into the creases of his hands.
+ACTION: Cricket takes a swallow off his own cup and says nothing while a forklift parks itself two lots over and shuts down.
+STITCH: You ever heard of Sky King?
+CRICKET: Can't say I have.
+ACTION: Stitch turns the cup slow in his hand and drinks off the top of it before he goes on.
+STITCH: Fella up in Washington. Worked the airport, loaded the bags on and off the planes, that was the whole of his job. Never flew a one of 'em. Wasn't a pilot, wasn't studyin' to be, none of that.
+ACTION: A forklift beeps somewhere down the row, backing up, and quits.
+STITCH: Had one of them computer things at his kitchen table. The flyin' game, you know the kind. And he'd sit there of an evening and fly it. Years, I heard. Just at the table, after the kids or whoever, I don't know his whole business.
+ACTION: Cricket tips the cup back and drains off the last of the water in it.
+CRICKET: Then what happened.
+STITCH: Well, one mornin' he just walked on out there. Weren't nobody on the plane, mind, empty, a big ol' airliner. And he got in it and he took it up.
+STITCH: (then) Got her up over the mountains and rolled her clean around. The whole way over. Like you'd do a little one, and this a airliner, and him never flew a day.
+ACTION: Cricket doesn't drink now, and the only sound is that truck idling off across the lots.
+STITCH: They sent the fighter jets up after him, quick as they could, to box him in and get him down. Two of 'em, I think, come up alongside.
+ACTION: Stitch drinks off his cup.
+STITCH: He just waved at 'em.
+ACTION: Neither man says anything, and over in the corner the cooler glugs once.
+CRICKET: What happened to him.
+STITCH: Never flew again, of course.
+ACTION: Stitch drains the cup, crushes the paper in his fist, and pushes off the door.
+STITCH: All right. Let's get them chairs on the truck.

@@ -1,0 +1,26 @@
+audio-sc20_decision — SCENE 20. INT. TRI-COUNTY AUCTION BARN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a20_decision.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The auction barn runs quiet under the lamps, a low hum off the sodium lights and the jig ticking as the steel cools.
+ACTION: Joss lays his ear against the last crate in the jig, raps the wall twice, waits, and raps it twice more, 26.
+ACTION: From inside the crate, two knocks come back.
+ACTION: A pressure line hisses up under the crate, and the hiss climbs to its mark and holds steady with no give in it.
+ACTION: Tito knocks the lid loose from the inside and climbs up out of the crate, a wind-up watch still ticking in his hand, 24.
+ACTION: At the workbench Dutch signs the bottom of the federal completion sheet, 76, and squares it to the edge of the bench with two fingers.
+ACTION: Over by the door Joss reads off the board.
+JOSS: (dry) Somebody already put the trucks up there. Seven a.m.
+ACTION: Nobody says anything back, and for a while nobody moves.
+ACTION: Down the row the six finished crates sit quiet under the lamps.
+ACTION: Cricket walks down to the fourth crate and sits on the open edge of it, 79.
+ACTION: He leans down close and works his bootlaces loose, the one and then the other.
+CRICKET: Somebody time me getting in. We'll want a number.
+ACTION: Tito comes over and raps the crate wall twice with a knuckle.
+TITO: She'll hold.
+ACTION: Gunny goes to the parts shelf, 71, and sets the air cartridges off it into rows of four, counting them under his breath.
+ACTION: He drags a grease pencil along the shelf edge under each row.
+ACTION: Stitch climbs up into the next crate over, 74, and lies back down into it.
+ACTION: He takes his hat off and sets it down on his chest.
+STITCH: Snug.
+ACTION: Dutch opens the binder to a clean page and clicks the pencil down onto it.
+ACTION: Back in the dark by the door, Mack writes one line in a pocket notebook, 55.

@@ -1,0 +1,41 @@
+audio-sc15_rage1 — SCENE 15. EXT. FIRST METHODIST CHURCH, BROKEN BOW - SUNDAY MORNING
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a15_rage1.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The church bell rings the hour out over First Methodist in Broken Bow, slow and even on a Sunday morning.
+ACTION: A county van door rolls open at the curb, and a roll of tape rips as the work order goes up on the church door.
+WORKER: (reading) Forty decibels after nine in the morning, it says here. County stamped it, so up she comes.
+WORKER: (then) Organ fund, this little plaque. In memory of somebody, worn down so you can't read who anymore.
+ACTION: Through the wall the organ starts up somewhere in the middle of a hymn.
+ACTION: A ladder scrapes up the stone of the steeple and a pair of boots go up the rungs toward the bell.
+WORKER: (up high) Hand me the big one. It's the two bolts holding the clapper.
+ACTION: A wrench sets onto the bolts and they back off a turn at a time.
+ACTION: Below, the hymn keeps on, and the tower clock ticks up to the hour and clicks over, and no bell rings.
+WORKER: (quiet) There's the hour, then. Wrap her up.
+ACTION: Canvas goes around the bell and the straps ratchet down tight over it.
+ACTION: The organ plays on inside, and nothing at all comes off the steeple.
+ACTION: Across town a county cruiser pulls up and stops at American Legion Post 219, and a flag halyard slaps and rings on the metal pole.
+ACTION: Wade Halversen gets out, mid-40s, a county star on his chest, and his hat comes off into his hand before he reaches the steps.
+ACTION: Three men in ball caps go quiet on the concrete steps under the flagpole.
+ACTION: Wade holds a folded permit out to the man nearest him.
+WADE: Morning, Tom. It's the flag one, the yearly permit. They sent it back not cleared this time.
+WADE: (then) Got a stamp on it, some heritage review, so the fee wouldn't go through. Wasn't anything I did.
+ACTION: Tom takes the paper and doesn't say anything back.
+WADE: I just bring 'em around. You fellas take it easy now.
+ACTION: Wade folds his own copy over and walks back to the cruiser, and the door shuts.
+ACTION: Behind him a younger man gets up off the steps and unclips the halyard, and the rope runs down through the pulley with a tick.
+ACTION: That steady tick carries on into night, into a kitchen outside Kearney, where a wall clock ticks over the hum of the refrigerator.
+ACTION: Danny Dawes comes in still in his work jacket, 50, and sets a stack of school papers down on the counter.
+ACTION: At the table his boy Cole, eight or nine, works a pencil across a worksheet with a half-glass of milk at his elbow.
+DANNY: You get through all that yet, Cole? It's late.
+BOY: Almost. How do you spell cookout.
+DANNY: (not looking up) One word. C-o-o-k, and then out, how it sounds.
+ACTION: The pencil scratches the letters in and the boy takes a swallow of the milk.
+DANNY: What's it even for.
+BOY: We gotta pick a family thing we're done doing. I put grandpa's cookout, the fourth of July one.
+ACTION: Danny picks the top sheet up off the table.
+DANNY: (reading, low) One family tradition I'm ready to retire.
+ACTION: The pencil goes quiet on the table, waiting.
+BOY: Dad? Did I get it right.
+ACTION: Danny runs his thumb down the edge of the sheet to square it and sets it back down flat, and he doesn't answer the boy.
+ACTION: The clock keeps ticking in the kitchen.

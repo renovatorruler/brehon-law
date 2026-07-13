@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc16_build_repaint",
+  "slug": "SCENE 16. INT. TRI-COUNTY AUCTION BARN - DAY",
+  "seedHash": "2f3d41d422203756f445771af9ba7abee224ea20acfe52198aeb358a639d20fc",
+  "sceneHash": "d8a50850fe1772bc05d423ea59597b2f16d26e401b26a2608a2d2a4ef04dae70",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc14_seminar",
+  "slug": "SCENE 14. INT. FRONTIER AEROSPACE, TRAINING ROOM B - DAY",
+  "seedHash": "41045d33fa6c2569fe26fae1501c452a61f1cdce0bb7f801de6da39b899f9f91",
+  "sceneHash": "3485125a29ac2cfefd248e5c327b71859f532139fce7764c76fdf1ddc35ac6e6",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

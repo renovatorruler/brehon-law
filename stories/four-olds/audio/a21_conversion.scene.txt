@@ -1,0 +1,32 @@
+audio-sc21_conversion — SCENE 21. INT. TRI-COUNTY AUCTION BARN - NIGHT (DAYS COMPRESSED)
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a21_conversion.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The barn runs loud with grinders and the crew works on late under the lamps.
+ACTION: Dutch sits at the plywood table, 76, two sets of drawings out in front of him and a grinder screaming off behind him.
+ACTION: One of them is the federal completion sheet, stamped and squared off at the corner.
+ACTION: Dutch turns to the next page over in the binder and runs a finger down it.
+DUTCH: (reading) Couch built in, and a rack for the cans. Four spares to the unit.
+ACTION: He closes the binder and sets the federal sheet square on top of it.
+ACTION: Across the county a bell jingles over a veterinary supply counter.
+ACTION: Gunny sets two drums of white granules up on the counter by the register, 71, and counts cash out of a fold.
+ACTION: The clerk rings it up.
+CLERK: Y'all got surgery coming up?
+GUNNY: Something like it.
+ACTION: Out at the curb Gunny rolls the two drums up onto the truck bed, and they boom hollow as they settle.
+ACTION: Back at the shop Gunny drags a grease pencil across the plywood with Tito standing in next to him.
+GUNNY: This lime here soaks up what you breathe back out. Fella asleep don't burn much, so one can runs him most of a day.
+GUNNY: (then) You swap it every fifteen hours or so and keep a stack of 'em ready.
+ACTION: He raps a knuckle on the welding bottles standing along the wall.
+GUNNY: The oxygen we already buy by the bottle. It's on the invoices with the welding.
+ACTION: He marks the shelf edge off in ranks of four and numbers each rank with the grease pencil.
+ACTION: A forklift sets a pallet of welding bottles down inside the roll-up door, and the bottles clink against each other as it lands.
+ACTION: The driver hands Dutch an invoice, and Dutch signs it and lays it on the stack with the other slips.
+ACTION: Over at the lathe Tito turns a canister down to size, 24, the binder page clipped up in front of him and the tool biting a long curl off the metal.
+ACTION: He lifts a finished canister off the lathe, taps it twice with two knuckles, then taps it twice again.
+ACTION: Across the floor Joss runs a couch cushion through the upholstery gun, 26, and he keeps his mouth shut and works.
+ACTION: Stitch presses the last of the foam down into a couch until it stays put, 74.
+STITCH: There. That'll hold a fella all right.
+ACTION: Down along the frame rail a torch tucks the last copper purge line up under where no inspector will ever run a hand.
+ACTION: Cricket walks the row of open crates, 79, his boots slow on the concrete, and he stops at each one.
+CRICKET: (quiet) That's all six.

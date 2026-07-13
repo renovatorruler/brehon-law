@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc23_physicals",
+  "slug": "SCENE 24. INT. TRI-COUNTY AUCTION BARN - DAY",
+  "seedHash": "1dbb82936e0069b7f72e4a24db0f0968d25efd279b5a066ca6a8999e8451ebd6",
+  "sceneHash": "e744228c0125f78852717dceb68190863df3a94a927c83c982e94f9bafc7e1c2",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

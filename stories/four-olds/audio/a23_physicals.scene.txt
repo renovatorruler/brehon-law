@@ -1,0 +1,44 @@
+audio-sc23_physicals — SCENE 24. INT. TRI-COUNTY AUCTION BARN - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a23_physicals.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The barn stands swept clean down the middle, and footsteps carry flat across the bare concrete in the morning quiet.
+ACTION: Dutch Haas sets a thick black binder open on a card table, 76, a stack of fresh carbon forms squared beside it.
+ACTION: He lifts the top form off the stack and taps it.
+DUTCH: (reading) Flight Crew Medical Examination. Standards of 1968.
+DUTCH: (then) NASA wrote a physical in 1968. It is the last standard that ever mattered, and it is the one in this binder. We do all of it or none of it.
+ACTION: A hundred feet down the barn, Stitch stands on a strip of tape and reads off an eye chart nailed to the far wall, 74.
+STITCH: (far off) Bottom line's got a print date on it. You want that too?
+ACTION: Dutch writes without raising his head, the pencil scratching.
+DUTCH: Line eleven. Nobody reads line eleven.
+ACTION: In the middle of the lane a wooden step box thumps under Stitch's boots, up and down, while he holds a slow count under his breath.
+ACTION: On the fourth step his knee lets off one dry pop that carries the length of the concrete, and the count never breaks.
+ACTION: Dutch flips back to a dog-eared page in the binder.
+DUTCH: There were waivers in '68 too. Compensating technique, documented.
+ACTION: Stitch steps off, and Cricket takes the box next, 79, stepping it out the full two minutes before he stops.
+ACTION: Joss kneels down and lays two fingers on Cricket's wrist, 26, counting off a smartwatch on his own arm.
+JOSS: Two minutes after all that stepping. Fifty-four. Sitting still he's down to fifty-one.
+JOSS: (then) Mine's higher than that right now, just kneeling here. Four hundred dollars, this thing.
+ACTION: Not one of the old men makes a sound, and Dutch turns to Cricket.
+DUTCH: Anything to note.
+CRICKET: There's a knothole in this bench. I'll have it plugged before you're done.
+ACTION: Cricket sits down on an overturned bucket, and a pocketknife clicks open and starts shaving at a pine peg.
+ACTION: Joss unbuckles the smartwatch, carries it to the coffee can by the door, and drops it in with a clunk.
+ACTION: Gunny climbs into a plywood crate on the floor and folds himself down onto his back, 71.
+GUNNY: Set it for the hour. Don't lift the lid early on my account.
+ACTION: Tito winds a kitchen timer and sets it in the crate beside Gunny, next to four twenties pinned flat under a socket wrench, 24.
+ACTION: He lowers the lid down over Gunny.
+ACTION: The timer ticks away inside the box, and nobody says anything.
+ACTION: Over on the bucket Cricket works the peg into the knothole, but it stands proud and won't seat, so he pulls it and shaves it down again.
+ACTION: The timer rings, and Tito lifts the lid off the crate.
+ACTION: Gunny sits up out of the crate in no hurry.
+GUNNY: Whose twenty is on top?
+ACTION: From back by the wall, Joss speaks up.
+JOSS: Mine.
+GUNNY: It's mine now, son.
+ACTION: Dutch takes the four carbon forms off the table and clicks them into the binder rings one at a time.
+DUTCH: Same result as 1968. All four.
+ACTION: He thumbs the binder open again and pencils a line at the bottom.
+DUTCH: Slower on the step box. All four of you. I wrote it down.
+ACTION: Cricket taps the peg flush into the knothole with the butt of the knife, and it seats level with the bench.
+STITCH: Best year there ever was.

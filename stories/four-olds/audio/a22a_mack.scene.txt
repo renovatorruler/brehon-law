@@ -1,0 +1,31 @@
+audio-sc22a_mack — SCENE 22. INT. TRI-COUNTY AUCTION BARN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a22a_mack.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A desk lamp buzzes over a plywood table, and Mack Boone sits alone at it, 55, a freight booking sheet squared in front of him and a floor scale pushed up against his boot.
+ACTION: He lifts an archival box up onto the scale, its flaps hanging open and empty.
+ACTION: The scale creaks up and settles, and Mack leans in to read it.
+MACK: (low, to himself) That's an empty box, and it's reading fifty-one.
+ACTION: He pencils the number, sets the box off, and swings the next one up, and it settles at the same weight.
+MACK: (low) This one too, right about the same.
+ACTION: Mack flips the freight sheet over and runs the pencil down the weight printed on the manifest.
+MACK: (low) Thirty kilos over the paper, on all four.
+ACTION: He circles the gap, sets the pencil down, and sits with it a while.
+ACTION: Then he stands and walks off across the dark shop floor, past the welding bays and the crates stacked up into the rafters.
+ACTION: At a low shape under a tarp by Bay Two, he takes a corner of the canvas and drags it off in one pull.
+ACTION: Under it a couch sits strapped down, and when he presses a hand into the cushions the straps creak and the thing buckled into them gives back the dead weight of a man.
+ACTION: He lets the tarp fall back over it and carries the sheet back to the table where the others sit under the lamp.
+MACK: Nothing on this manifest breathes, gentlemen.
+ACTION: Cricket sets his coffee down on the plywood and answers without getting up, 79.
+CRICKET: Tuesday the truck carries six boxes out on your paper. Six of us are in them. The load reads right because that dummy already weighs what a man weighs. They wave it through the gate and nobody counts us at the yard.
+ACTION: Mack stays up on his feet.
+MACK: You understand there's no backing out once you're up there. Bad heart at four g's, your age, no doctor closer than a quarter million miles.
+ACTION: Gunny leans back against the bench and it creaks under him, 71.
+GUNNY: Boone, I've buried better men than me for worse reasons than this. Sit down or go home. Either's fine. Quit standing there doing arithmetic on our behalf.
+ACTION: From back in the dark past the last crate, Joss speaks up, 26.
+JOSS: You're all insane. What do you need from me?
+ACTION: Tito raps his knuckles twice against the crate wall, 24.
+ACTION: The two knocks carry all the way across the shop.
+ACTION: Nobody at the table says anything back.
+ACTION: Mack pulls the bench out and sits down.
+ACTION: He reaches into his coat and takes out his pen.

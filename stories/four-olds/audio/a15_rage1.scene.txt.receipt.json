@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc15_rage1",
+  "slug": "SCENE 15. EXT. FIRST METHODIST CHURCH, BROKEN BOW - SUNDAY MORNING",
+  "seedHash": "30b2fc46c1b48b17aa758fce7710ac9927da72e841bf9872a524af72d50bd4e1",
+  "sceneHash": "eb6624ae621481d7fbe35df7ca427fede8f58cd8579592e5b089f50fe5aba624",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

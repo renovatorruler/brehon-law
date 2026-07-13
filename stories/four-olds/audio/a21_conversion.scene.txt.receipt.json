@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc21_conversion",
+  "slug": "SCENE 21. INT. TRI-COUNTY AUCTION BARN - NIGHT (DAYS COMPRESSED)",
+  "seedHash": "ae81df5262fb8715b0d0a407f128e8cd9c80df252b2a39a66e49aa3fd2e24fcf",
+  "sceneHash": "52c2483feff4d99794e9fe51269671325ce494a11416c86818accc2b33fdf584",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

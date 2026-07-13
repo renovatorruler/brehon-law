@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc22a_mack",
+  "slug": "SCENE 22. INT. TRI-COUNTY AUCTION BARN - NIGHT",
+  "seedHash": "38521036bd3d7faaa9fb92b09af7c6dc659df0c8ca132faacec7f15490f06a2f",
+  "sceneHash": "d2a33ba98e1dec024648c66688865f70af7b0ecced148e68837cefd5a8e3c002",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

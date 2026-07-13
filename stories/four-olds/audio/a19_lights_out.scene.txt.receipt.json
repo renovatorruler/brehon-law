@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc19_lights_out",
+  "slug": "SCENE 19. INT. ROY'S DINER - DAY",
+  "seedHash": "3355baf2e3ac979425563083fe8c7fb9fb193268cb147e5ea7e24196ce2015ea",
+  "sceneHash": "b4eb162a6d384bf739666aa02b27ed7c918fcfd3395b7f9358b05286d287d99f",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

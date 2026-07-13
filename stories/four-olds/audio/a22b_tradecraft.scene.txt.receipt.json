@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc22b_tradecraft",
+  "slug": "SCENE 23. INT. TRI-COUNTY AUCTION BARN - NIGHT (LATER)",
+  "seedHash": "4e5025085f8e58b853a09f77b64a6feab215d20a56ad40047a6436e6ec7c753c",
+  "sceneHash": "35788b5201f1e201fd30c647695860cd259d92fe3c544cdf472a8d69cf4c1f12",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
