@@ -97,24 +97,8 @@ let post = async (url: string, body: Js.Json.t): option<'buf> => {
   }
 }
 
-let tts = async (voiceId: string, text: string, out: string): bool =>
-  if existsSync(out) {
-    true
-  } else {
-    let body = Js.Dict.empty()
-    Js.Dict.set(body, "text", Js.Json.string(text))
-    Js.Dict.set(body, "model_id", Js.Json.string("eleven_v3"))
-    switch await post(
-      "https://api.elevenlabs.io/v1/text-to-speech/" ++ voiceId ++ "?output_format=mp3_44100_128",
-      Js.Json.object_(body),
-    ) {
-    | Some(buf) => {
-        writeFileSync(out, buf)
-        true
-      }
-    | None => false
-    }
-  }
+/* dialogue TTS lives ONLY in Perf.tts — the performance law (see Perf.resi).
+   this module keeps sound-generation, which the law does not cover. */
 
 let sfx = async (text: string, seconds: float, out: string): bool =>
   if existsSync(out) {
@@ -147,10 +131,6 @@ let bedRe = %re(
   "/(hum|wind |room tone|walla|murmur|applause climbs|stand quiet|rain|griddle hisses|stove ticks|fan hums|fluorescent)/i"
 )
 
-/* dialogue the engine embedded inside an ACTION line, e.g.
-   "ACTION: VESS (PA): Bay Two closes today..." — rescue it as radio-class speech */
-let embeddedRe = %re("/^([A-Z][A-Z .'#-]+?)\s*\((PA|RADIO|TV|ON TV)\):\s*(.+)$/")
-
 let radioFilter = (src: string, dst: string): unit =>
   sh(
     ffmpeg ++
@@ -178,12 +158,18 @@ let renderScene = async (base: string): bool => {
   /* a03's approved assets live in render_sc03 — reuse, never respend */
   let renderDir = base == "a03_barn_net" ? audioDir ++ "render_sc03/" : audioDir ++ "render_" ++ Js.String2.slice(base, ~from=0, ~to_=3) ++ "/"
   mkdirSync(renderDir, {"recursive": true})
-  switch Write.read(Cinema_Backends.Path(scenePath)) {
-  | Error(m) => {
+  /* THE PERFORMANCE LAW: no performance artifact, no render */
+  let perfPath = audioDir ++ "perf/" ++ base ++ ".perf.json"
+  switch (Perf.load(~perfPath, ~scenePath), Write.read(Cinema_Backends.Path(scenePath))) {
+  | (Error(m), _) | (_, Error(m)) => {
       Js.log("REFUSED " ++ base ++ " — " ++ m)
       false
     }
-  | Ok(lns) => {
+  | (Ok(plines), Ok(lns)) => {
+      let perfByIdx = Js.Dict.empty()
+      plines->Belt.Array.forEach(pd =>
+        Js.Dict.set(perfByIdx, Belt.Int.toString(Perf.indexOf(pd)), pd)
+      )
       let entries = [] /* (kind, wavPath); kind: "dlg" | "sfx" | "bed" */
       let perf = []
       let castUsed = Js.Dict.empty()
@@ -191,29 +177,28 @@ let renderScene = async (base: string): bool => {
       let actionIdx = ref(0)
       let failed = ref(0)
       let n = Belt.Array.length(lns)
-      let doDlg = async (i, who, radioClass, whisper, text) =>
+      let doDlg = async (i, pd, radioClass) => {
+        let who = Perf.roleOf(pd)
         switch voiceOf(who) {
         | None => Js.log("UNCAST " ++ pad(i) ++ " " ++ who ++ " — line dropped")
         | Some(v) => {
             Js.Dict.set(castUsed, who, Js.Json.string(v))
             let mp3 = renderDir ++ pad(i) ++ "_dlg.mp3"
-            let speak = (whisper ? "[whispers] " : "") ++ text
-            let ok = await tts(v, speak, mp3)
+            let ok = await Perf.tts(pd, ~voiceId=v, ~outMp3=mp3)
             if ok {
               let wav = renderDir ++ pad(i) ++ ".wav"
-              if !existsSync(wav) {
-                if who == "CROWD" {
-                  crowdWav(mp3, wav)
-                } else if radioClass {
-                  radioFilter(mp3, wav)
-                } else {
-                  plainWav(mp3, wav)
-                }
+              /* wav always rebuilt — a re-directed line means a new take */
+              if who == "CROWD" {
+                crowdWav(mp3, wav)
+              } else if radioClass {
+                radioFilter(mp3, wav)
+              } else {
+                plainWav(mp3, wav)
               }
               Js.Array2.push(entries, ("dlg", wav))->ignore
               Js.Array2.push(
                 perf,
-                `{"i":${Belt.Int.toString(i)},"role":"${who}","radio":${radioClass ? "true" : "false"},"text":${Js.Json.stringify(Js.Json.string(speak))}}`,
+                `{"i":${Belt.Int.toString(i)},"role":"${who}","radio":${radioClass ? "true" : "false"}}`,
               )->ignore
               Js.log("dlg  " ++ pad(i) ++ " " ++ who)
             } else {
@@ -222,18 +207,22 @@ let renderScene = async (base: string): bool => {
             }
           }
         }
+      }
       let rec go = async i =>
         if i < n {
           switch Belt.Array.getExn(lns, i) {
-          | Write.Dialogue({who, radio, whisper, text}) => await doDlg(i, who, radio, whisper, text)
+          | Write.Dialogue({radio}) =>
+            switch Js.Dict.get(perfByIdx, Belt.Int.toString(i)) {
+            | Some(pd) => await doDlg(i, pd, radio)
+            | None => () /* unreachable — Perf.load enforces coverage */
+            }
           | Write.Action(t) =>
-            switch Js.Re.exec_(embeddedRe, t) {
-            | Some(r) => {
-                /* dialogue hiding in an ACTION line */
-                let g = Js.Re.captures(r)
-                let who = Js.Nullable.toOption(Belt.Array.getExn(g, 1))->Belt.Option.getWithDefault("")
-                let text = Js.Nullable.toOption(Belt.Array.getExn(g, 3))->Belt.Option.getWithDefault("")
-                await doDlg(i, Js.String2.trim(who), true, false, text)
+            switch Perform.embeddedOf(t) {
+            | Some(_) =>
+              /* dialogue hiding in an ACTION line — radio-class by nature */
+              switch Js.Dict.get(perfByIdx, Belt.Int.toString(i)) {
+              | Some(pd) => await doDlg(i, pd, true)
+              | None => ()
               }
             | None => {
                 let isBed =
