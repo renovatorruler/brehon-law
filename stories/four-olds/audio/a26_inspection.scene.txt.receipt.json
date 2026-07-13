@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc26_inspection",
+  "slug": "SCENE 27. INT. TRI-COUNTY AUCTION BARN - DAY",
+  "seedHash": "ca666d9b1cd14abab34964c2b7a4fda6ad14515f295997563158490f4b281755",
+  "sceneHash": "11b66aefc05367cb10934c5da4496cf23b3d8d761c2400facdddc068e6e9e985",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

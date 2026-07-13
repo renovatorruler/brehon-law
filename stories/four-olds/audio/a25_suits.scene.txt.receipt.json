@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc25_suits",
+  "slug": "SCENE 26. INT. FEDERAL SURPLUS HOLDING, OUTSIDE LINCOLN - DAY",
+  "seedHash": "487737b1c09e04964bb0ded71ebeb804ca50c5b2496fdbea00a3aff6c3760f15",
+  "sceneHash": "426807a7d3601f37de8a4396b39e01012b6a23c83d814586971dac5c445abda6",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

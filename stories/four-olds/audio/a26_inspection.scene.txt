@@ -1,0 +1,41 @@
+audio-sc26_inspection — SCENE 27. INT. TRI-COUNTY AUCTION BARN - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a26_inspection.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A box fan drones up in the rafters and a welder crackles down in the far bay.
+ACTION: MACK BOONE, 55, the freight man who landed them the box contract, squares the federal drawings against the table edge until they sit even.
+MACK: (calling off) Anybody left a binder or a coffee cup sitting out, grab it now. The table's about all he's gonna look at.
+ACTION: Over against the back wall a rope creaks as somebody snugs a tarp down tight over a pallet.
+ACTION: The roll-up door rattles up its track and locks at the top.
+ACTION: ADMINISTRATOR J. PELL, 50s, the compliance man who came home from Brussels a believer, walks in on his lanyard with a clipboard, and a photographer's shoes come in a step behind him.
+ACTION: Pell sips from a little cup and clicks it back down on its saucer.
+PELL: Oh, this is good. This is the thing I keep telling the office, you drive all the way out here and it just runs itself, you barely have to touch it.
+PELL: (then) You can't get a proper cup made anywhere out this far, I just bring my own now.
+MACK: Kept the table clear for you. That's the federal set, the drawings you mailed us.
+ACTION: Pell's shoes scuff slow across the concrete, and down the far bay the welder cuts out and a hood scrapes up.
+ACTION: TITO ALVAREZ, 24, the best bead in the county, pushes his welding hood back as Pell comes even with him.
+PELL: That's clean work, son. Somebody teach you, or you just pick it up?
+TITO: Little of both, I guess.
+ACTION: A camera shutter clacks twice behind Pell as he steps back to the crate line and pats a hand on the nearest box.
+PELL: Get the crates in behind me. Heritage labor, that's the phrase they want upstairs, the old hands retiring the gear and preserving it themselves on the way out.
+PELL: (then) Small crew for a Thursday.
+MACK: Dawes runs the co-op errands on Thursdays, so it's just this handful of us today.
+ACTION: Pell stops at a row of valves plumbed into the ends of the boxes and taps one with his pen.
+PELL: Now what's a box want with plumbing.
+ACTION: DUTCH HAAS, 76, the man who wrote standards nobody reads anymore, looks up from a fitting and keeps the wrench in his hand.
+DUTCH: The fabric sat fifty years. Forty-eight on the early lot. You pull the air out so it lays flat instead of cracking, then you put nitrogen back in so the color doesn't turn on you.
+ACTION: Pell's pen scratches across the visit log as he reads it back to the room.
+PELL: (reading) Exceeds requirement. They're going to love that in the report.
+ACTION: JOSS REED, 26, the youngest set of hands in the shop, stands against the back wall a step off the tarped pallet with his hands down in his jacket.
+ACTION: Pell comes along the wall, and his pen knocks the tarp once as he passes and he doesn't slow down.
+PELL: And this one.
+JOSS: Floor absorbent.
+ACTION: Pell's shoes carry on toward the door without a hitch, and Joss stays put where he is.
+ACTION: Pell signs the bottom of the log, and the yellow copy tears loose as he hands it across to Mack.
+PELL: Send me the crate count by Friday and we're closed out for the quarter.
+MACK: You'll have it Friday morning, count and the weights both.
+ACTION: The roll-up door rattles back down, and out in the lot the SUV starts up and pulls out over the gravel.
+ACTION: The engine thins out down the road until the barn is just the fan again.
+ACTION: For a few seconds nobody in the shop makes a sound.
+ACTION: Then three long breaths let go across the bay, one after another, and a wrench slips off a bench and rings on the concrete.
+JOSS: Somebody want to go make sure he's actually down the road.

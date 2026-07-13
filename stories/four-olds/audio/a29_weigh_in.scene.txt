@@ -1,0 +1,52 @@
+audio-sc29_weigh_in — SCENE 30. INT. FRONTIER AEROSPACE, CARGO INTEGRATION HALL - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a29_weigh_in.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Air handlers push a low roar across the integration hall, and down on the floor the weigh scale's servo hums idle.
+ACTION: A crane idles up in the ceiling over a row of six tall crates on their cradles.
+ACTION: PELL, 50s, the compliance administrator just back from a year in Brussels, walks the row with a paper cup no bigger than a shot glass, and a photographer's shoes shuffle backward ahead of him.
+PELL: (reading) Old Ideas. Old Culture. Old Customs. Old Habits.
+ACTION: His shoes carry on down to the last two crates.
+PELL: These last two match. Both of them just say supplementary containment.
+ACTION: He turns back toward the floor and lifts his voice for the room.
+PELL: Random re-weigh this morning, folks. Compliance is a rhythm. Random means random.
+ACTION: MACK BOONE, 55, the freight man who wrote the manifest, stands off the first cradle with the paper folded down small in one hand.
+ACTION: At the floor scale a SCALE TECH, 40s, cracks the lid on a thermos and watches his readout.
+ACTION: Pell lifts the little cup toward the crane cab overhead.
+PELL: (calling up) Morning up there. Nice smooth lifts today, thank you.
+ACTION: Up in the cab, JOSS REED, 26, keys the comm.
+JOSS (RADIO): Copy.
+ACTION: The first crate settles onto the scale, and the servo drops as the number climbs and holds.
+SCALE TECH: (reading) Lot A. Declared three-eighty. Reads four hundred eleven and two.
+PELL: (savoring) Four hundred and eleven. Kilograms.
+PELL: (then) People here still weigh in pounds. I did a year over in Rotterdam, you don't go back from that.
+ACTION: Three more crates ride across the scale one after another, the servo dropping under each.
+SCALE TECH: (reading) B, declared three-ninety, reads four twenty-one.
+SCALE TECH: (then) C, three-seventy, reads four-oh-one.
+SCALE TECH: (then) D, three-eighty, four eleven again.
+ACTION: Pell's shoes stop on the concrete.
+PELL: Thirty kilos over. Times the four of them.
+PELL: (then) That's a hundred and twenty kilos of something, Mr. Boone.
+ACTION: The hall goes quiet enough to hear the air handlers.
+MACK: Could be the couch upgrade. Archival spec revision came through in March, they put mass into the—
+PELL: Re-run it. Cell check first.
+ACTION: The tech comes off his stool and raps the scale housing twice with two knuckles.
+ACTION: The servo hunts up and down and won't settle.
+SCALE TECH: (reading) Four eleven nine. Four-oh-eight two. Four thirteen five.
+ACTION: Up in the cab the crane holds where it is, and Joss makes no sound at all.
+ACTION: The tech stands over the scale a long moment, and his thermos ticks and steams on the console beside his hand.
+ACTION: He clicks the pen out and starts writing, reading it off low as he goes.
+SCALE TECH: (reading) Calibration drift, cell three. All four reads invalidated. Corrected tare applied. Within tolerance after correction.
+ACTION: He initials the bottom, tears the copy loose, and holds it up over his shoulder.
+ACTION: Mack takes it, and the tech is already back on his stool with the thermos.
+ACTION: In the cab the crane's hum shifts as Joss eases the levers back under his hands, one finger at a time.
+ACTION: Pell takes the sheet from Mack, and the paper crackles as he reads it, then reads it again.
+PELL: (reading) Hm.
+ACTION: He squares the sheet to his clipboard and snaps it under the clip.
+PELL: (to Mack) Eleven years I've closed these clean.
+PELL: (then) You keep a tidy load, Mr. Boone. They'd like you over there.
+MACK: Long as the paperwork's square.
+ACTION: The photographer steps in close and the camera comes up.
+PELL: (to the photographer) Get the D crate behind me. Light's better on the D.
+ACTION: Pell uncaps his pen and signs the inspection tag wired to the D crate, then drops it into the holder on the flank.
+ACTION: One camera shutter clicks.

@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc30_loadout",
+  "slug": "SCENE 31. EXT. FRONTIER AEROSPACE, MAIN GATE - PRE-DAWN",
+  "seedHash": "6b66a4848c7caa8740dceff838fc80d1b6a72bb69b9353cfaf1b6398138a37cb",
+  "sceneHash": "817609bb9fc77ea41a08dcf810825ce791b869738b0708b99db3248791d7c04a",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

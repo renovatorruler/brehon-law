@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc27_vess",
+  "slug": "SCENE 28. INT. SENATE HEARING ROOM - DAY",
+  "seedHash": "54c97bcfa7e3a3dc61dca564e34d7708c38e47d0cbc24383b698dd63ebf285a4",
+  "sceneHash": "b8ef56072eb733e4cc8a667c8d5f8b85923715c2241c03c787250d65b7721f7f",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc33_offer",
+  "slug": "SCENE 34. EXT. DAWES FARM, PORCH - DAY",
+  "seedHash": "6f0af9bd30792f488fee529cee33955be2dbb5bbd57db08a055ed0b35ff2b5e1",
+  "sceneHash": "776a5f2dca49be4ff9d75ffbe2aad7e312370604a0a816d4a387e65c1e39dd90",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

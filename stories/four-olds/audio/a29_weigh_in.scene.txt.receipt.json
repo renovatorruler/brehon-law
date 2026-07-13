@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc29_weigh_in",
+  "slug": "SCENE 30. INT. FRONTIER AEROSPACE, CARGO INTEGRATION HALL - DAY",
+  "seedHash": "84903ad05873f7cfd3973ad50dcd526a4f61594594a8834ccec8585add9730d7",
+  "sceneHash": "231fbf1a9f30f17589f9011f8f7ac9887c9657b125393d84706e9a220b43b2a4",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

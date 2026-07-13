@@ -1,0 +1,43 @@
+audio-sc34_tli — SCENE 35. INT. FRONTIER MISSION CONTROL - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a34_tli.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: In Frontier mission control the consoles hum low in the dark, and a pale track slides across the big screen at the front.
+ACTION: MIRA VESS, 40s, stands at the back rail with both hands set on it.
+ACTION: A few feet off, ADMINISTRATOR PELL, 50s, drags a highlighter down a checklist on a clipboard, and his lanyard swings and taps the board.
+ACTION: At the front console the flight director keys his headset and calls the room down.
+FLIGHT: All right. Let's poll it. I want a go or a no-go for the burn.
+ACTION: One console after another calls back down the room.
+CONTROLLER (RADIO): Guidance is go.
+CONTROLLER (RADIO): Propulsion's go, flight.
+FLIGHT: Harmony One, you are go for trans-lunar injection.
+ACTION: Far above, the cargo bay of Harmony One sits dark, and four crates ride strapped down in rows with amber lights on their faces.
+ACTION: A low push comes up through the floor and keeps building, and the straps pull tight and the crate frames creak under it.
+ACTION: The engine catches and settles into one long roar.
+ACTION: Inside crate A, DUTCH HAAS, 76, holds a penlight in his teeth and runs a pencil down the margin of a binder.
+ACTION: He pencils a figure, checks it against the clock, and boxes the last line twice, saying it under his breath as he draws the box.
+DUTCH: (low) Burn nominal. Coast, sixty-two hours. No abort from here.
+ACTION: He holds the penlight on the boxed line a moment, then clicks it off.
+ACTION: Back down in mission control the room holds on the screen.
+CONTROLLER (RADIO): Trajectory's good, flight. She's away and clear.
+ACTION: The flight director pulls the headset down around his neck.
+FLIGHT: Sixty-two hours to lunar orbit, gentlemen. Get some sleep.
+ACTION: Vess lifts her hands off the rail, one finger at a time, and lets out a slow breath.
+ACTION: Pell caps his highlighter and clips it to the board.
+PELL: Well. Nothing stopping it now.
+ACTION: Vess doesn't answer him.
+ACTION: Up in the ship the roar cuts out, and the cargo bay goes quiet in the coasting dark.
+ACTION: Inside crate A, Dutch raps the wall twice, waits, and raps twice more.
+ACTION: From crate D two knocks come back. Two more answer from crate B, and then two from crate C.
+ACTION: Inside crate D, CRICKET DAWES, 79, lies back in the straps with his hands folded on his chest.
+ACTION: Over in crate B, STITCH McGREW, 74, lies with his eyes shut.
+STITCH: We've had the mic the whole trip, you know. You don't have to keep tapping at me, Cricket.
+CRICKET: Yeah. Old habit. Fifty years of it, it's hard to shake.
+ACTION: Cricket picks at the strap across his chest with one finger.
+CRICKET: Can I ask you something about Sky King.
+STITCH: Go ahead.
+CRICKET: Did he ever get to fly it again?
+ACTION: Stitch takes a second, and his voice comes back easy with a smile in it.
+STITCH: He flew it. The rest of his life.
+ACTION: Cricket's thumb moves slow along one knuckle, once, and then again.
+ACTION: The low hum of the ship holds in the dark and does not stop.

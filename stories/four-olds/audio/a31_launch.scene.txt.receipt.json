@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc31_launch",
+  "slug": "SCENE 32. EXT. FRONTIER LAUNCH COMPLEX, PAD 1 - NIGHT",
+  "seedHash": "3d55bd2fd5c55285e4dbe9b202e4a21b1f4428e2906a9287e786756418fd507c",
+  "sceneHash": "2584beb3d45deb5538a5cb7744c62611e7a98b08848b48a171d13ee8506d9138",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

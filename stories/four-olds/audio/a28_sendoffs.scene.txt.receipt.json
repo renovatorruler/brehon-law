@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc28_sendoffs",
+  "slug": "SCENE 29. INT. DAWES BARN - NIGHT",
+  "seedHash": "c46045f54a12e56a77f4e2d0382bed9e532fdec1932b17910a6d14d638e05a80",
+  "sceneHash": "e3fbfb22a83101f8fd5e3344f88833bb356365b65cd06d20b861d3b75a731bbc",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

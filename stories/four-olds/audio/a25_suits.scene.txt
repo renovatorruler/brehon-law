@@ -1,0 +1,42 @@
+audio-sc25_suits — SCENE 26. INT. FEDERAL SURPLUS HOLDING, OUTSIDE LINCOLN - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a25_suits.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A roll-up door rattles up its track and thuds against the stop at the top.
+ACTION: Somewhere down the shelving a forklift ticks over at a low idle.
+ACTION: Boots cross the concrete at a steady clip and don't slow for any of it.
+ACTION: His knuckles rap the nose of a cockpit trainer up on blocks, and it answers hollow.
+ACTION: A display case latch rattles loose as he passes it.
+MACK: (reading) Rotary banners, a ball trophy. Tagged, lot one twelve.
+ACTION: Four rolling racks stand loaded at the end of the aisle, and the tags turn on their wires where they hang off the suit wrists.
+ACTION: Paper slides and a clipboard clip snaps back against the board.
+MACK: (reading) Lot one fourteen. Degraded textile artifacts, non-flight-rated, sold as scrap.
+MACK: (then) That's the whole thing, one line. Hundred and forty for all four, and I had to take the chairs and a dishwasher along with it to get 'em.
+ACTION: The forklift revs and its mast clatters as it lifts the first rack clear.
+ACTION: It backs off, then swings around and sets a pallet of office chairs down beside it with a hollow bang.
+ACTION: Out at the lot gate a flatbed sits idling, the straps creaking where the racks ride between the chairs and a dishwasher laid on its side.
+ACTION: A stool scrapes and the lot sheet crackles as a hand takes it.
+GUARD: (off) Yeah. Yeah, that's your scrap lot, go on ahead.
+MACK: 'Preciate it.
+ACTION: A pen scratches the sheet, the paper crackles back, and the flatbed pulls out slow onto gravel.
+ACTION: The engine drops away under the buzz of a work lamp and the wind working at a hangar's tin siding.
+ACTION: A length of hose uncoils off a shoulder, and a clamp ratchets down tight over a fitting.
+STITCH: (to Gunny) There, that's the new line clamped in her, Gunny.
+ACTION: A glove settles onto a folded towel, and a rag whisks slow over the leather.
+ACTION: A brush swishes in a bucket of soapy water and drags along a seam across the chest.
+ACTION: The seam answers back with a thin, wet fizz.
+STITCH: (close) Hear that? Get your ear down close. That little fizz, that's air sneaking out where it don't belong. That's a leak.
+ACTION: A sealing iron hisses down the length of the seam and holds there, ticking as it cools.
+ACTION: The brush drags the soap back across, and the seam sits quiet under it.
+STITCH: (dry) …And that's none. She quit on us. That one's holding now.
+ACTION: Scissors bite through a square of patch material.
+STITCH: This one's got a worn spot down on the knee here. Cut the patch a little big and work it down flat.
+ACTION: His thumb presses the patch and rubs it down hard against the fabric.
+ACTION: The wire creaks as he twists a museum tag back upright onto the cuff, and the tag settles with a small metallic tick.
+GUNNY: (to Stitch) Gloves go on last. Nobody sets a coffee cup on this bench till these are back in the box, you hear.
+STITCH: (not looking up) You've wiped that same glove down what, four times now, Gunny.
+GUNNY: I'll do it again anyway.
+ACTION: A side door bangs open and boots come in off the gravel.
+MACK: Paper says four textile artifacts, non-flight-rated. That's all that's on it.
+STITCH: Fifty years old, every one of 'em, Mack, and they'll hold air by Sunday.
+ACTION: Down the far wall the racks creak as the filled suits settle upright, and the tags whisper on their wires in the draft off the door.

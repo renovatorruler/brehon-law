@@ -1,0 +1,45 @@
+audio-sc33_offer — SCENE 34. EXT. DAWES FARM, PORCH - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a33_offer.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Wind moves through the shelterbelt along the yard, and a washed black SUV sits idling in the farm lane.
+ACTION: DANNY DAWES, 50, stands just inside the screen door with one hand on the frame.
+ACTION: An aide in a pressed suit waits on the bottom step and holds a phone out flat on his palm.
+ACTION: The phone's small speaker carries a warm voice up to the door, President ZORAN MARWANI, 41.
+MARWANI (RADIO): I won't take your whole morning. I wanted to bring this one myself. We're amending the record. Apollo Eighteen goes back in the rolls, your father's name on the crew, where it should have been the whole time.
+ACTION: A breeze moves the wash hanging on the line at the side of the house.
+MARWANI (RADIO): (then) Flown status, by my own order. The wings. The whole history, put right.
+MARWANI (RADIO): (then) One small thing back. On the Fourth he stays home, sits out on his porch, lets the day go by where folks can see him. That's all of it. A good man at peace with all of us.
+DANNY: He's out.
+ACTION: The voice on the phone stays warm and easy.
+MARWANI (RADIO): Of course. When he's back, would you tell him the President drove all this way to ask him himself?
+DANNY: I'll pass it along if he calls.
+MARWANI (RADIO): Mr. Dawes—
+DANNY: You have a good day now.
+ACTION: The screen door claps shut in its frame.
+ACTION: On the step the aide still holds the phone out to the shut door, and the little speaker keeps talking, thin and warm, to nobody.
+ACTION: The SUV pulls out of the lane, and its engine thins away down the road.
+ACTION: That night out on Ridge Road the crickets are up, and a pickup sits pulled off in the grass with its engine ticking as it cools.
+ACTION: JOSS REED, 26, sits on the tailgate with a telegraph key and a radio going soft with static.
+ACTION: Danny hands him a folded sheet, and Joss flattens it out on his knee.
+ACTION: Joss works the key in short even taps under the night sounds and keeps his eyes up on the sky.
+ACTION: Two hundred miles up, inside crate D, a pencil scratches across a message pad in the amber light.
+ACTION: EARL "CRICKET" DAWES, 79, copies the taps down one word at a time as they come in.
+CRICKET: (low) Record amended. Flown status.
+ACTION: The pencil follows the key, a line at a time.
+CRICKET: (low) Exec order. Home on porch, Unity Day.
+ACTION: One more short word ticks in, and the pencil stops on it.
+CRICKET: (low) ...Visible.
+ACTION: Cricket holds on that last word a moment in the amber light.
+ACTION: He knocks twice, and twice again, around the bay.
+ACTION: He sets his hand to the key by his knee and sends it back short and even.
+ACTION: Back on the tailgate the radio ticks, and Joss reads it off the key as it comes.
+JOSS: Tell him, you can't give back what you never had.
+ACTION: The key keeps ticking, and Joss stays down on it.
+JOSS: There's more.
+ACTION: The key ticks a last time and quits.
+JOSS: Dawes out.
+ACTION: Danny and Joss both look up.
+DANNY: (low) There. The one that's moving.
+JOSS: (low) That's him.
+ACTION: Nobody says anything else, and the wind keeps working through the shelterbelt.

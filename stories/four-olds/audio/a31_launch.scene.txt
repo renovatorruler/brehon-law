@@ -1,0 +1,58 @@
+audio-sc31_launch — SCENE 32. EXT. FRONTIER LAUNCH COMPLEX, PAD 1 - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a31_launch.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: On Pad 1 the floodlights buzz over the rocket, and cryogenic vapor hisses off the cold hull and pours down across the concrete.
+ACTION: Inside the gala hall the sound softens to warm murmur, cutlery, and a quartet working low in the corner.
+ACTION: PRESIDENT ZORAN MARWANI, 41, moves down the long tables with a glass in one hand and a word for every shoulder he passes.
+ACTION: He crouches down beside a seated guest near the front.
+MARWANI: There you are. No, don't get up, please, you came all this way for us.
+MARWANI: (then) How's the boy. He still building the little ones out of soup cans?
+ACTION: He laughs at the answer, pats the man twice on the arm, and stands.
+ACTION: A ring taps the side of a glass and rings out across the room, and the murmur settles under it.
+MARWANI: Thank you. Everybody, sit down, please. I'll keep it short. I always say that and I never do it, so.
+MARWANI: (then) Tonight a rocket rises with no flag on its side. Think of that. Not conquest. Not pride. Repair.
+ACTION: In mission control the room drops to the hum of the consoles and the air pushing through the vents.
+ACTION: MIRA VESS, 40s, stands at the back glass and lets a slow breath out through her nose, her eyes up on the count clock.
+ACTION: A few feet down the glass, ADMINISTRATOR J. PELL, 50s, opens a folder against his chest, and the pages crackle as he thumbs one line and shuts it again.
+ACTION: At the front console a flight director keys his mic.
+FLIGHT DIRECTOR: All stations, we're inside two minutes. Give me a go or a no-go for launch.
+CONTROLLER (RADIO): Fuel's good here, we're go.
+CONTROLLER (RADIO): Guidance is go.
+CONTROLLER (RADIO): Range is go, you're clear.
+ACTION: That same hum carries over into the padded dark of a sealed crate, close around a man on his back.
+ACTION: EARL "CRICKET" DAWES, 79, lies back with a checklist card clipped to the front of his suit and his breathing slow and even.
+ACTION: A low hum comes up through the walls of the crate and climbs, and grit ticks off the seam of the lid.
+CRICKET: Straps tight. Card's set.
+CRICKET: (then) Hum's up. Right on the minute.
+ACTION: Down on the pad the fire tears out under the rocket and the roar goes flat and huge across the complex.
+ACTION: In the gala hall the roar arrives a second late and rattles the glasses on every table.
+ACTION: The rocket climbs up off the pad and drags the sound out long behind it.
+MARWANI: (into mic) Look at her. Years from now you'll tell them you stood here the night we sent one up clean, nothing painted on her, nothing to—
+ACTION: On the big screen behind him a broadcast anchor's voice carries out over the room.
+ANCHOR (RADIO): Good climb, straight up the range, everything looking nominal on the ascent.
+ANCHOR (RADIO): (then) We're seeing something come off the vehicle now, the outer skin is peeling back along the whole body, stand by.
+ANCHOR (RADIO): (then) There's color under the white now. Red, white and blue. That's... folks, that's our flag on the side of her.
+ACTION: On the live mic Marwani's next word doesn't come.
+ACTION: Across the hall the raised glasses hang in the air and nobody drinks.
+ACTION: Over at Roy's Diner the griddle ticks and the late crowd fills the counter under the TV bolted above the pie case.
+ACTION: BUCK, 70s, sits at the counter in his feed cap with his eyes up on the set.
+BUCK: There she goes here in a minute. Ours. Whatever it is they got riding her.
+ACTION: On the diner TV the same color breaks up through the white.
+ACTION: The whole counter comes up off its stools at once, one long scrape, and not one man says a word.
+ACTION: Up in the crate the weight comes down hard and drives Cricket back into the molding.
+ACTION: He works a flat hand up onto the underside of the lid and holds it there against the push.
+CRICKET: (strained) There's the weight. Holding good.
+ACTION: On the screens the lower half of the stack drops away, and the top lights off and pulls out ahead of it.
+ACTION: At the diner counter the men watch the bottom piece fall off, and one by one they sit back down.
+ACTION: Back on the pad, in the gray first light, the booster comes down and settles onto its legs, and steam hisses off the scorched, burned-back colors of it.
+ACTION: The ground crew stand in close at the base with their heads tipped all the way back.
+GROUND CREW (RADIO): Booster's down and safe on the legs, pad one.
+ACTION: Nobody keys the loop again, and the steam keeps hissing off the metal.
+ACTION: Far up above, four sealed crates ride in their straps in the dark of the cargo bay.
+ACTION: The engine cuts, and the shove and the roar drop away all at once into dead quiet.
+ACTION: Cricket's kit bag drifts up off his chest and fetches up soft at the end of its lanyard.
+CRICKET: (low) Engine's out. We're floating now. That's orbit.
+ACTION: Cricket raps the lid twice with two knuckles.
+ACTION: A pause, and two knocks come back through the frame from a crate across the bay.
+CRICKET: (low) Earth's out the window.

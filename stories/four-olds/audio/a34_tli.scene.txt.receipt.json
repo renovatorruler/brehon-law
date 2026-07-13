@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc34_tli",
+  "slug": "SCENE 35. INT. FRONTIER MISSION CONTROL - NIGHT",
+  "seedHash": "e68104074e52708481b6b6f150a2b28c810a0f3ccac5d899fe706fd85083f7bb",
+  "sceneHash": "2848b75163ae4659c5f543779549b16f61f517b8f66ed1aa3319b873c569ffaf",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc32_crate_life",
+  "slug": "SCENE 33. INT. HARMONY ONE, CARGO BAY - SHIP'S NIGHT",
+  "seedHash": "fa11f3a6a79d94765c479fa256315d7ce2a831ee13da70bd5c7d08ae0c2c79fa",
+  "sceneHash": "b34e6e079d2a6e0b99c565a8da9ea891f797548ca0c8ff8af104238f0fa9200e",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,51 @@
+audio-sc30_loadout — SCENE 31. EXT. FRONTIER AEROSPACE, MAIN GATE - PRE-DAWN
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a30_loadout.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A farm truck idles up to the Frontier main gate in the dark, its tires crunching slow onto the apron.
+ACTION: DANNY DAWES, 50, feed cap low, drives it in with both hands high on the wheel and the headlights turned down.
+ACTION: GUNNY TIBBS, 71, rides shotgun in gray coveralls with a laminated work order flat on his knee.
+DANNY: (low) New kid on the gate tonight.
+GUNNY: (low) Let me talk.
+ACTION: A booth window slides back and a flashlight clicks on across the cab, held by a GATE GUARD barely twenty.
+GUARD: Y'all know where you're going?
+ACTION: Gunny passes the work order across the cab and holds there, in no hurry at all about it.
+GUNNY: Son, we were servicing this bay before your daddy made the varsity.
+ACTION: The flashlight clicks off and the gate arm rattles up.
+GUARD: (off) Go on through.
+ACTION: Danny puts it in gear and rolls through slow and even, and lets a long breath out through his nose.
+ACTION: The truck rolls in under the Bay 1 work lights and the engine dies.
+ACTION: A purge cart hums down a row of six crates cracked open on their cradles.
+ACTION: One at a time the old men climb down off the cart and lower themselves into the couches, and nobody hurries any of it.
+ACTION: A dock crew crosses the floor on their own errands and never slows for the row.
+ACTION: CRICKET DAWES, 79, in gray coveralls, settles into the LOT A couch with a canvas kit bag held between his knees.
+ACTION: JOSS REED, 26, a dock badge clipped to his collar, crouches at the open panel with a torque gun leaned against his leg.
+CRICKET: Tuesday net's at nineteen hundred. Your frequency card's taped under the console. Don't improvise.
+JOSS: Copy. No improvising.
+CRICKET: And Joss. Thank your dad for the radio.
+ACTION: Joss keeps a hand flat on the panel and doesn't seat it down yet.
+JOSS: Fly good, old man.
+ACTION: He fits the panel down and runs the torque gun along the bolts, one and then the next, eight of them.
+ACTION: The purge valve hisses and catches.
+ACTION: MACK BOONE, 55, a clipboard under one arm, comes down the sealed row and raps the flank of LOT B twice with two knuckles.
+ACTION: Two knocks come back from inside it.
+ACTION: He raps LOT C, and two come back the same way, then works on down to D and around to A, and every one answers him two for two.
+ACTION: TITO ALVAREZ, 24, kneels at LOT E and settles a folded canvas triangle down into a padded corner mount.
+ACTION: He presses it home and raps it twice with two knuckles to check it.
+ACTION: A DOCKWORKER, 50s, twenty years of lanyard tape wound thick on his badge clip, comes down the row with a clipboard and stops at LOT D.
+DOCKWORKER: (low) D's flagged. Book says I open it.
+ACTION: He throws the latch and lifts the panel, and the bay noise falls off under it.
+ACTION: For a second nothing moves, and the dockworker holds his breath.
+ACTION: A second second goes by with only the purge cart humming two crates down.
+ACTION: A third goes by, and still nobody breathes.
+ACTION: Paper rustles as he checks the clipboard against the inspection tag on the latch, stamped and signed already in Pell's own hand.
+ACTION: Not a sound comes up out of the crate.
+ACTION: He thumbs the amber tab back down and seats the panel down over the man.
+DOCKWORKER: (low) All... clear.
+ACTION: His pen scratches the two words across the log, and he moves on down to LOT E.
+ACTION: A transporter noses in under the row and lifts all six crates up together.
+ACTION: The high bay door rolls up on its chain, and the stack rides out under it into the morning, with cold birds starting up somewhere past the fence.
+ACTION: At the gate log Mack signs the contractor crew out, four names, working down them with the one pen.
+ACTION: Joss comes up beside him and pulls the badge off his collar.
+JOSS: Net's quiet. Two clicks if it stays that way.
+MACK: Go home. Sleep.
