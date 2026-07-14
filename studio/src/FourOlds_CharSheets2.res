@@ -15,13 +15,13 @@ let sheets = [
   (
     "marwani",
     sheetOf(
-      "an American president in his early 40s, of South Asian descent, trim athletic build, short black hair neatly parted, clean-shaven, a warm confident smile that never fully leaves his face even at rest, immaculate slim-cut navy suit, crisp white shirt, plain dark tie, small plain flag-less lapel pin removed — bare lapel, polished black shoes, the easy upright posture of a man who has never been interrupted.",
+      "an American president in his early 40s of Afghan-Iranian descent, VERY light skin — pale olive-fair complexion, striking pale green eyes, a sharp aquiline nose, strong dark brows, black hair silvering early at the temples despite his age, neat short beard-shadow kept clean at the jaw, trim build, immaculate slim-cut navy suit, crisp white shirt, plain dark tie, bare lapel, polished black shoes, the easy upright posture and warm confident smile of a man who has never been interrupted. An original face — not resembling any real public figure.",
     ),
   ),
   (
     "hale",
     sheetOf(
-      "a rocket-company founder in his mid 50s, broad-shouldered and heavyset like a former wrestler, a full round face, thick bull neck, very short cropped steel-gray hair, clean-shaven, pale gray-blue eyes under heavy brows, an expensive charcoal blazer worn open over a plain black crew-neck t-shirt, dark jeans, plain leather boots, a heavy watch, planted stance — a man built like a foreman who happens to own the fleet.",
+      "a rocket-company founder in his mid 50s with an off-type face for a billionaire: completely shaved bald head, a dense short white beard, a boxer's flattened nose broken twice, small sharp dark eyes, sun-weathered skin like a man off a drilling rig, stocky barrel-chested build, thick forearms, an expensive charcoal blazer worn open over a plain black crew-neck t-shirt, dark jeans, scarred leather boots, a heavy steel watch — heavy industry in a boardroom's clothes. An original face — not resembling any actor or real public figure.",
     ),
   ),
   (
