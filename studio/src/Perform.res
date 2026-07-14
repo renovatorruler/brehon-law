@@ -14,9 +14,11 @@ let stripTags = (s: string): string =>
   ->Js.String2.replaceByRe(%re("/\s+/g"), " ")
   ->Js.String2.trim
 
-/* dialogue the engine embedded inside an ACTION line ("VESS (PA): ...") —
-   dialogue in every sense, so the performance law covers it too */
-let embeddedRe = %re("/^([A-Z][A-Z .'#-]+?)\s*\((PA|RADIO|TV|ON TV)\):\s*(.+)$/")
+/* dialogue the engine embedded inside an ACTION line ("VESS (PA): ..." or a
+   bare "LAWYER #2: ...") — dialogue in every sense, so the performance law
+   covers it too. The placement parenthetical is optional; the name must look
+   like a cue (all-caps words, optional #N) so ordinary prose never matches. */
+let embeddedRe = %re("/^([A-Z][A-Z .'-]*?(?:#\d+)?)\s*(?:\((PA|RADIO|TV|ON TV)\))?:\s*(.+)$/")
 let embeddedOf = (t: string): option<(string, string)> =>
   switch Js.Re.exec_(embeddedRe, t) {
   | Some(m) => {
@@ -26,7 +28,8 @@ let embeddedOf = (t: string): option<(string, string)> =>
         ->Belt.Option.getWithDefault("")
         ->Js.String2.trim
       let text = Js.Nullable.toOption(Belt.Array.getExn(g, 3))->Belt.Option.getWithDefault("")
-      Some((who, text))
+      /* guard: cue-like names are short; prose sentences are not */
+      Js.String2.length(who) <= 24 && text != "" ? Some((who, text)) : None
     }
   | None => None
   }

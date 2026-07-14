@@ -1,0 +1,9 @@
+audio-45-trailer-button — TRAILER BUTTON. TRANQUILITY BASE - SUIT RADIO
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a45_trailer_button.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The suit loop opens on a thin hiss, two men breathing inside their helmets.
+BRANDT (RADIO): Where did you come from?
+STITCH (RADIO): Left us up here in sixty-seven. Somebody had to see to the sites.
+DUTCH (RADIO): Seventy-two.
+STITCH (RADIO): Rounding.
