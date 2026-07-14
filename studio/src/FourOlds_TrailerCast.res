@@ -11,6 +11,7 @@ let voice = who =>
   | "VESS" => Some("lVpo6IOLjDX4LxkYRZyj")
   | "BUCK" => Some("pqHfZKP75CvOlQylNhV4")
   | "RADIO" => Some("XrExE9yKIg1WjnnlVkGX")
+  | "ANCHOR" => Some("QyCGbzzEtSqHWJ8rNRMK")
   | "TITO" => Some("LxsCEphJBnRAyXU02gTG")
   | "BRANDT" => Some("JcwFVpR60FiOW4cPEqI2")
   | "DOCKWORKER" => Some("iP95p4xoKVk53GoZ742B")

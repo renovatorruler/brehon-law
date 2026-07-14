@@ -26,6 +26,7 @@ let wanted = [
   ("a03_barn_net", "eight hundred and six", "gunny_rollcall", false),
   ("a03_barn_net", "the box already had finished", "stitch_case", false),
   ("a03_barn_net", "Three hundred and eighty", "dutch_380", false),
+  ("a04_accord", "boiled white", "anchor_accord", true),
   ("a06_seizure", "You'll have to move me", "cricket_moveme", false),
   ("a13_shop", "generous for cloth", "dutch_generous", false),
   ("a13_shop", "about fit in there", "tito_fit", false),
